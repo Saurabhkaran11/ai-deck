@@ -7,6 +7,7 @@ import { PATH_IDS, nameOf } from "@/lib/paths";
 import { useStore } from "@/lib/store";
 import { Icon } from "./Bits";
 import { PROJECTS } from "@/lib/projects";
+import { TRACKS } from "@/lib/careers";
 
 type Props = { toolCount: number; freeCertCount: number };
 
@@ -102,6 +103,25 @@ export default function Home({ toolCount, freeCertCount }: Props) {
           <li><b>Learn from the best free resources</b><span>Step-by-step plan, free courses and videos, all in one place.</span></li>
           <li><b>Earn a certificate and track progress</b><span>Mark topics complete and save notes as you go. Everything stays on your device.</span></li>
         </ol>
+      </section>
+
+      <section className="block">
+        <div className="block-head">
+          <h2>Aim for a specific AI job</h2>
+          <Link href="/careers" className="textlink">See all {TRACKS.length} job tracks {Icon.arrow}</Link>
+        </div>
+        <div className="featured-proj">
+          {["ai-engineer", "mlops-engineer", "ai-literacy"].map((id, i) => {
+            const t = TRACKS.find((x) => x.id === id)!;
+            return (
+              <Link key={id} href={`/careers#${id}`} className="fp" style={{ "--i": i } as CSSProperties}>
+                <span className="fp-cat">{t.group}</span>
+                <b>{t.role}</b>
+                <span className="fp-rev">{t.steps.length} steps · {t.steps.filter((x) => /^free/i.test(x[3])).length} free</span>
+              </Link>
+            );
+          })}
+        </div>
       </section>
 
       <section className="block">

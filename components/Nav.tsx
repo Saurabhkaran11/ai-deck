@@ -7,6 +7,7 @@ const ITEMS = [
   { href: "/", label: "Home", icon: Icon.home },
   { href: "/learn", label: "Learn", icon: Icon.learn },
   { href: "/projects", label: "Projects", icon: Icon.projects },
+  { href: "/careers", label: "Careers", icon: Icon.careers },
   { href: "/tools", label: "AI Tools", icon: Icon.tools },
   { href: "/certificates", label: "Certificates", icon: Icon.cert },
   { href: "/notes", label: "My Notes", icon: Icon.notes },
@@ -34,7 +35,7 @@ export default function Nav() {
         </div>
       </header>
       <nav className="tabbar" aria-label="Main">
-        {ITEMS.map((it) => (
+        {ITEMS.filter((it) => it.href !== "/").map((it) => (
           <Link key={it.href} href={it.href} className={active(it.href) ? "on" : ""} aria-current={active(it.href) ? "page" : undefined}>
             {it.icon}
             <span>{it.label}</span>

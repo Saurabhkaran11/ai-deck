@@ -9,9 +9,10 @@ A glass-design learning deck built on the **AI Engineering Metro Map**. The left
 
 ## Pages
 - **Home** (`/`): what AI Deck is, where to start, how it works, AI words explained
-- **Learn** (`/learn`): 38 topics in 7 levels (Foundations → Deep dive) with progress tracking
+- **Learn** (`/learn`): 60 topics in 9 levels (Foundations → AI in your industry → Specialist topics → Deep dive) with progress tracking
 - **Topic** (`/learn/[id]`): plain-English explanation, then tabs for plan, free courses, certificates, videos, projects, earning ideas and your notes
 - **Projects** (`/projects`): 32 AI business project ideas in collapsible cards, filterable by category and difficulty
+- **Careers** (`/careers`): 16 job tracks with ordered courses, certifications, salaries and portfolio projects; certification status board; interview and job-board guide
 - **AI Tools** (`/tools`): 150+ tools with search and price filters
 - **Certificates** (`/certificates`): every free certificate and paid exam, by provider
 - **My Notes** (`/notes`): your notes, links and own topics
@@ -26,6 +27,8 @@ lib/
   data.ts            topics: learning steps, courses, videos, business ideas
   extra.ts           AWS / Microsoft / OpenAI badges, open-source repos, AI tools
   catalog.ts         builds the certificate list
+  more2.ts           industry and specialist topics
+  careers.ts         job tracks, certification status board, career guide
   projects.ts        business project ideas (problem, build steps, tools, revenue, launch)
   store.tsx          progress, notes and own topics (saved in the browser)
 ```

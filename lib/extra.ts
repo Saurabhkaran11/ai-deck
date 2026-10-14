@@ -1,4 +1,5 @@
 import { MORE_BADGES, MORE_NOTICES, MORE_REPOS } from "./more";
+import { MORE2_BADGES, MORE2_NOTICES, MORE2_REPOS } from "./more2";
 /* Vendor badges, open-source projects and the AI Tools catalogue.
    Verified October 2026. Re-check prices and links each quarter. */
 
@@ -176,6 +177,7 @@ export const BADGES: Record<string, Badge[]> = {
     ["ms", "AI-103: Azure AI Apps and Agents Developer", AI103, "~US$165 exam: capstone for Foundry", true],
   ],
   ...MORE_BADGES,
+  ...MORE2_BADGES,
 };
 
 export const REPOS: Record<string, Repo[]> = {
@@ -200,14 +202,16 @@ export const REPOS: Record<string, Repo[]> = {
   "agentic-eng": [["anthropics/claude-code", "https://github.com/anthropics/claude-code", "Claude Code · ~150k★"], ["openai/codex", "https://github.com/openai/codex", "Codex CLI · ~129k★"], ["google-gemini/gemini-cli", "https://github.com/google-gemini/gemini-cli", "Gemini CLI · ~107k★"]],
   certs: [["microsoft/generative-ai-for-beginners", "https://github.com/microsoft/generative-ai-for-beginners", "Free curriculum"], ["microsoft/ai-agents-for-beginners", "https://github.com/microsoft/ai-agents-for-beginners", "Free curriculum"]],
   ...MORE_REPOS,
+  ...MORE2_REPOS,
 };
 
 export const NOTICES: Record<string, string> = {
-  certs: "Retired, so skip these: AWS ML Specialty (MLS-C01), AWS MLA-C01 (now MLA-C02), Microsoft AI-102 (now AI-103), AI-900 (now AI-901), Applied Skills APL-3031 and APL-3022. OpenAI Certified is invite-only (Enterprise/Edu pilots); OpenAI Academy certificates are completion certificates, not certifications.",
+  certs: "Retired, so skip these: AWS ML Specialty (MLS-C01, retired Mar 2026) and MLA-C01 (ended Sept 28, 2026; MLA-C02 now in beta); Microsoft AI-102 (now AI-103), AI-900 (now AI-901) and DP-100 (now AI-300); Applied Skills APL-3031 and APL-3022. OpenAI Certified is invite-only for ChatGPT Enterprise and Edu workspaces; OpenAI Academy badges are free but are not formal certifications. Google Cloud Skills Boost is now called Google Skills.",
   rag: "The Applied Skill “Implement knowledge mining with Azure AI Search” (APL-3022) is retired.",
   multiagent: "AutoGen and Semantic Kernel are in maintenance mode. Microsoft Agent Framework 1.0 (GA April 2026) replaces them.",
   "agentic-eng": "Google moved consumer Gemini CLI users to Antigravity CLI on June 18, 2026.",
   ...MORE_NOTICES,
+  ...MORE2_NOTICES,
 };
 
 /* ---------------- AI Tools catalogue ---------------- */

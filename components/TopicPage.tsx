@@ -69,12 +69,12 @@ export default function TopicPage({ id }: { id: string }) {
         )}
       </>
     ) },
-    { id: "certs", label: "Certificates", count: badges.length, body: (
+    ...(badges.length === 0 ? [] : [{ id: "certs", label: "Certificates", count: badges.length, body: (
       <>
         <p className="tab-intro">Free certificates and badges come first. Paid exams are optional and best taken after the free courses.</p>
         <BadgeList items={badges} />
       </>
-    ) },
+    ) }]),
     { id: "videos", label: "Videos", count: t.yt.length, body: (
       <>
         <LinkList items={t.yt} yt />

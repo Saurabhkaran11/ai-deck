@@ -22,16 +22,24 @@ export const LEVELS: Level[] = [
   { n: 6, name: "Responsible AI & business", tag: "Everyone", color: "var(--violet)",
     desc: "Use AI fairly, safely and legally, and turn it into real business value.",
     topics: ["ethics", "safety", "ai-law", "ai-business", "ai-product"] },
-  { n: 7, name: "Deep dive", tag: "Advanced", color: "var(--pink)",
+  { n: 7, name: "AI in your industry", tag: "By sector", color: "var(--teal)",
+    desc: "How AI is used in healthcare, finance, law, education, retail, factories, farming, marketing, HR and government, and the rules for each.",
+    topics: ["ind-health", "ind-finance", "ind-legal", "ind-education", "ind-retail", "ind-manufacturing", "ind-agriculture", "ind-marketing", "ind-hr", "ind-gov"] },
+  { n: 8, name: "Specialist topics", tag: "Intermediate to advanced", color: "#2f8f8a",
+    desc: "MLOps, data engineering, NLP, explainable AI, knowledge graphs, graph networks, synthetic data, privacy, edge AI, chips, quantum and reading papers.",
+    topics: ["mlops", "data-eng", "nlp", "xai", "kg", "gnn", "synthetic", "privacy-ml", "edge-ai", "ai-chips", "quantum-ml", "papers"] },
+  { n: 9, name: "Deep dive", tag: "Advanced", color: "var(--pink)",
     desc: "How AI is trained, served and used to write software.",
     topics: ["rl", "hnsw", "infra", "agentic-eng"] },
 ];
 
 export type Plain = { title: string; simple: string; why: string; time: string };
 import { MORE_PLAIN } from "./more";
+import { MORE2_PLAIN } from "./more2";
 
 export const PLAIN: Record<string, Plain> = {
   ...MORE_PLAIN,
+  ...MORE2_PLAIN,
   chat: { title: "How AI chatbots work", time: "1 hour",
     simple: "A chatbot like ChatGPT or Claude writes its reply a few words at a time, predicting what should come next based on patterns it learned from reading huge amounts of text.",
     why: "Knowing how it works helps you trust it where it's strong and double-check it where it can be wrong." },

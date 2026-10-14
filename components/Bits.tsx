@@ -102,6 +102,7 @@ export const Icon = {
   cert: <svg width="20" height="20" viewBox="0 0 24 24" {...P} aria-hidden="true"><circle cx="12" cy="9" r="5" /><path d="m9 13-2 8 5-3 5 3-2-8" /></svg>,
   notes: <svg width="20" height="20" viewBox="0 0 24 24" {...P} aria-hidden="true"><path d="M5 3h10l4 4v14H5z" /><path d="M9 11h6M9 15h4" /></svg>,
   projects: <svg width="20" height="20" viewBox="0 0 24 24" {...P} aria-hidden="true"><path d="M9 18h6M10 21h4" /><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z" /></svg>,
+  careers: <svg width="20" height="20" viewBox="0 0 24 24" {...P} aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18" /></svg>,
   check: <svg width="16" height="16" viewBox="0 0 24 24" {...P} strokeWidth={3} aria-hidden="true"><path d="m5 12 5 5 9-10" /></svg>,
   clock: <svg width="15" height="15" viewBox="0 0 24 24" {...P} aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>,
   arrow: <svg width="16" height="16" viewBox="0 0 24 24" {...P} aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>,
