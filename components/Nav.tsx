@@ -6,6 +6,7 @@ import { Icon } from "./Bits";
 const ITEMS = [
   { href: "/", label: "Home", icon: Icon.home },
   { href: "/learn", label: "Learn", icon: Icon.learn },
+  { href: "/projects", label: "Projects", icon: Icon.projects },
   { href: "/tools", label: "AI Tools", icon: Icon.tools },
   { href: "/certificates", label: "Certificates", icon: Icon.cert },
   { href: "/notes", label: "My Notes", icon: Icon.notes },

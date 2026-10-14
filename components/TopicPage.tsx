@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { CSSProperties, ReactNode, useEffect, useState } from "react";
 import { TOPICS, YT } from "@/lib/data";
 import { BADGES, Badge, NOTICES, REPOS } from "@/lib/extra";
+import { projectsFor } from "@/lib/projects";
 import { guessIssuer } from "@/lib/catalog";
 import { PLAIN } from "@/lib/plain";
 import { PATH_IDS, levelOf, nameOf, techName } from "@/lib/paths";
@@ -93,6 +94,18 @@ export default function TopicPage({ id }: { id: string }) {
           <a className="btn" href={t.biz[1]} target="_blank" rel="noopener noreferrer">{t.biz[2]} ↗</a>
           <a className="btn ghost" href={YT(`${t.key} make money`)} target="_blank" rel="noopener noreferrer">Ideas on YouTube ↗</a>
         </div>
+        {projectsFor(t.id).length > 0 && (
+          <div className="subsection">
+            <h3>Business projects that use this topic</h3>
+            <ul className="links">
+              {projectsFor(t.id).map((p, i) => (
+                <li key={p.id} style={{ "--i": i } as CSSProperties}>
+                  <Link href={`/projects#${p.id}`}><b className="nolink-arrow">{p.title}</b><span>{p.cat} · {p.level} · {p.revenue.split(";")[0]}</span></Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     ) },
     { id: "notes", label: "My notes", count: store.ready ? notes.length : 0, body: notesBody },

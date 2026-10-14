@@ -6,6 +6,7 @@ import { GLOSSARY, LEVELS } from "@/lib/plain";
 import { PATH_IDS, nameOf } from "@/lib/paths";
 import { useStore } from "@/lib/store";
 import { Icon } from "./Bits";
+import { PROJECTS } from "@/lib/projects";
 
 type Props = { toolCount: number; freeCertCount: number };
 
@@ -101,6 +102,25 @@ export default function Home({ toolCount, freeCertCount }: Props) {
           <li><b>Learn from the best free resources</b><span>Step-by-step plan, free courses and videos, all in one place.</span></li>
           <li><b>Earn a certificate and track progress</b><span>Mark topics complete and save notes as you go. Everything stays on your device.</span></li>
         </ol>
+      </section>
+
+      <section className="block">
+        <div className="block-head">
+          <h2>Turn what you learn into income</h2>
+          <Link href="/projects" className="textlink">See all {PROJECTS.length} project ideas {Icon.arrow}</Link>
+        </div>
+        <div className="featured-proj">
+          {["speed-to-lead", "summariser-ext", "repurposer"].map((id, i) => {
+            const p = PROJECTS.find((x) => x.id === id)!;
+            return (
+              <Link key={id} href={`/projects#${id}`} className="fp" style={{ "--i": i } as CSSProperties}>
+                <span className="fp-cat">{p.cat}</span>
+                <b>{p.title}</b>
+                <span className="fp-rev">{p.revenue.split(";")[0]}</span>
+              </Link>
+            );
+          })}
+        </div>
       </section>
 
       <section className="block">
