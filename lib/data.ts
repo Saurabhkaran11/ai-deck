@@ -1,4 +1,5 @@
 import { TOOL_GROUPS, Tool } from "./extra";
+import { MORE_TOPICS } from "./more";
 export type Line = { id: string; name: string; c: string };
 export type Res = [string, string, string?];
 export type Topic = {
@@ -218,4 +219,4 @@ const toolTopics: Topic[] = TOOL_GROUPS.map((g) => ({
   concepts: [], path: [], free: [], paid: [], certs: [], yt: [], biz: ["", "", ""], tools: g.tools,
 }));
 
-export const TOPICS: Topic[] = BASE.filter((t) => t.id !== "tools").concat(toolTopics);
+export const TOPICS: Topic[] = BASE.filter((t) => t.id !== "tools").concat(toolTopics, MORE_TOPICS);

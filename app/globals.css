@@ -133,7 +133,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;text-wrap:balance;marg
 .stats b{font:800 30px/1.1 var(--display);font-variant-numeric:tabular-nums}
 .stats span{color:var(--fg-3);font-size:14px}
 .stats.small{grid-template-columns:repeat(3,1fr);margin-top:0}
-.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.paths{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .path-card{position:relative;display:flex;flex-direction:column;gap:8px;padding:22px;border-radius:20px;text-decoration:none;background:linear-gradient(160deg,color-mix(in srgb,var(--c) 11%,#fff),rgba(255,255,255,.75));border:1px solid color-mix(in srgb,var(--c) 28%,transparent);box-shadow:var(--shadow);transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
 .path-card::before{content:"";position:absolute;left:22px;top:0;width:44px;height:5px;border-radius:0 0 4px 4px;background:var(--c)}
 .path-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lift)}
@@ -316,7 +316,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;text-wrap:balance;marg
 /* ---------- responsive ---------- */
 @media (max-width:960px){
   .hero-home{grid-template-columns:1fr}
-  .paths{grid-template-columns:1fr}
+  .paths{grid-template-columns:1fr 1fr}
   .how{grid-template-columns:1fr 1fr}
   .gloss-grid{grid-template-columns:1fr 1fr}
   .explain{grid-template-columns:1fr}
@@ -335,7 +335,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;text-wrap:balance;marg
   .stats{grid-template-columns:1fr 1fr}
   .stats.small{grid-template-columns:1fr 1fr 1fr}
   .stats.small b{font-size:24px}
-  .how,.gloss-grid{grid-template-columns:1fr}
+  .how,.gloss-grid,.paths{grid-template-columns:1fr}
   .level-head{grid-template-columns:1fr;gap:8px}
   .level-badge{justify-self:start}
   .pager{grid-template-columns:1fr}
@@ -358,7 +358,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;text-wrap:balance;marg
   .stats div,.path-card,.how li,.gloss-grid div{animation:rise .5s var(--ease) both}
   .stats div:nth-child(2),.path-card:nth-child(2),.how li:nth-child(2){animation-delay:.06s}
   .stats div:nth-child(3),.path-card:nth-child(3),.how li:nth-child(3){animation-delay:.12s}
-  .stats div:nth-child(4),.how li:nth-child(4){animation-delay:.18s}
+  .stats div:nth-child(4),.path-card:nth-child(4),.how li:nth-child(4){animation-delay:.18s}
   .gloss-grid div{animation-delay:calc(var(--i,0) * 40ms)}
   .level{animation:rise .55s var(--ease) both;animation-delay:calc(var(--li,0) * 70ms)}
   .stations li{animation:arrive .45s var(--ease) both;animation-delay:calc(var(--li,0) * 70ms + var(--i,0) * 50ms + .1s)}

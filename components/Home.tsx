@@ -30,7 +30,7 @@ export default function Home({ toolCount, freeCertCount }: Props) {
             {started && next ? (
               <Link href={`/learn/${next.id}`} className="btn solid lg">Continue: {nameOf(next)} {Icon.arrow}</Link>
             ) : (
-              <Link href="/learn/chat" className="btn solid lg">Start with lesson 1 {Icon.arrow}</Link>
+              <Link href="/learn/ai-intro" className="btn solid lg">Start with lesson 1 {Icon.arrow}</Link>
             )}
             <Link href="/learn" className="btn lg">See the full path</Link>
           </div>
@@ -57,7 +57,7 @@ export default function Home({ toolCount, freeCertCount }: Props) {
       </section>
 
       <section className="stats" aria-label="What's inside">
-        <div><b>{PATH_IDS.length}</b><span>topics in 4 levels</span></div>
+        <div><b>{PATH_IDS.length}</b><span>topics in {LEVELS.length} levels</span></div>
         <div><b>{freeCertCount}+</b><span>free certificates</span></div>
         <div><b>{toolCount}+</b><span>AI tools compared</span></div>
         <div><b>$0</b><span>to get started</span></div>
@@ -66,10 +66,10 @@ export default function Home({ toolCount, freeCertCount }: Props) {
       <section className="block">
         <h2>Where would you like to start?</h2>
         <div className="paths">
-          <Link href="/learn#level-1" className="path-card" style={{ "--c": "var(--red)" } as CSSProperties}>
-            <span className="path-kicker">I'm curious about AI</span>
-            <b>Understand the basics</b>
-            <p>What AI is, how chatbots work, and how to get better answers. Takes about a weekend.</p>
+          <Link href="/learn#level-1" className="path-card" style={{ "--c": "var(--green)" } as CSSProperties}>
+            <span className="path-kicker">I'm new to AI</span>
+            <b>Start from zero</b>
+            <p>What AI is and how it learns, explained simply, then how chatbots work and how to ask them well.</p>
             <span className="go">Go to Level 1 {Icon.arrow}</span>
           </Link>
           <Link href="/tools" className="path-card" style={{ "--c": "var(--orange)" } as CSSProperties}>
@@ -78,11 +78,17 @@ export default function Home({ toolCount, freeCertCount }: Props) {
             <p>Compare {toolCount}+ tools for writing, images, coding and automation, with free options first.</p>
             <span className="go">Browse AI tools {Icon.arrow}</span>
           </Link>
-          <Link href="/learn#level-3" className="path-card" style={{ "--c": "var(--blue)" } as CSSProperties}>
+          <Link href="/learn#level-4" className="path-card" style={{ "--c": "var(--blue)" } as CSSProperties}>
             <span className="path-kicker">I want to build with AI</span>
             <b>Make your own AI apps</b>
             <p>Agents, document search, testing and custom models, with hands-on courses and code.</p>
-            <span className="go">Go to Level 3 {Icon.arrow}</span>
+            <span className="go">Go to Level 4 {Icon.arrow}</span>
+          </Link>
+          <Link href="/learn#level-6" className="path-card" style={{ "--c": "var(--violet)" } as CSSProperties}>
+            <span className="path-kicker">I lead a team or business</span>
+            <b>Use AI safely and profitably</b>
+            <p>Responsible AI, security, the law, and how to find AI projects that pay off.</p>
+            <span className="go">Go to Level 6 {Icon.arrow}</span>
           </Link>
         </div>
       </section>

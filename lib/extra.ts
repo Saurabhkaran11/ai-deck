@@ -1,3 +1,4 @@
+import { MORE_BADGES, MORE_NOTICES, MORE_REPOS } from "./more";
 /* Vendor badges, open-source projects and the AI Tools catalogue.
    Verified October 2026. Re-check prices and links each quarter. */
 
@@ -174,6 +175,7 @@ export const BADGES: Record<string, Badge[]> = {
     ["aws", "AWS Certified Generative AI Developer – Professional (AIP-C01)", AIP, "$300 exam: capstone for Bedrock", true],
     ["ms", "AI-103: Azure AI Apps and Agents Developer", AI103, "~US$165 exam: capstone for Foundry", true],
   ],
+  ...MORE_BADGES,
 };
 
 export const REPOS: Record<string, Repo[]> = {
@@ -197,6 +199,7 @@ export const REPOS: Record<string, Repo[]> = {
   infra: [["vllm-project/vllm", "https://github.com/vllm-project/vllm", "Serving · ~94k★"], ["sgl-project/sglang", "https://github.com/sgl-project/sglang", "RadixAttention serving · ~37k★"], ["ggml-org/llama.cpp", "https://github.com/ggml-org/llama.cpp", "Local inference · ~131k★"], ["kserve/kserve", "https://github.com/kserve/kserve", "Kubernetes serving"]],
   "agentic-eng": [["anthropics/claude-code", "https://github.com/anthropics/claude-code", "Claude Code · ~150k★"], ["openai/codex", "https://github.com/openai/codex", "Codex CLI · ~129k★"], ["google-gemini/gemini-cli", "https://github.com/google-gemini/gemini-cli", "Gemini CLI · ~107k★"]],
   certs: [["microsoft/generative-ai-for-beginners", "https://github.com/microsoft/generative-ai-for-beginners", "Free curriculum"], ["microsoft/ai-agents-for-beginners", "https://github.com/microsoft/ai-agents-for-beginners", "Free curriculum"]],
+  ...MORE_REPOS,
 };
 
 export const NOTICES: Record<string, string> = {
@@ -204,6 +207,7 @@ export const NOTICES: Record<string, string> = {
   rag: "The Applied Skill “Implement knowledge mining with Azure AI Search” (APL-3022) is retired.",
   multiagent: "AutoGen and Semantic Kernel are in maintenance mode. Microsoft Agent Framework 1.0 (GA April 2026) replaces them.",
   "agentic-eng": "Google moved consumer Gemini CLI users to Antigravity CLI on June 18, 2026.",
+  ...MORE_NOTICES,
 };
 
 /* ---------------- AI Tools catalogue ---------------- */

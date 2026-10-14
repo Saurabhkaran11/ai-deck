@@ -4,23 +4,34 @@
 export type Level = { n: number; name: string; tag: string; desc: string; color: string; topics: string[] };
 
 export const LEVELS: Level[] = [
-  { n: 1, name: "AI basics", tag: "Beginner", color: "var(--red)",
-    desc: "Understand what AI is, how chatbots work and how to get good answers.",
-    topics: ["chat", "llm", "context", "agents"] },
-  { n: 2, name: "Make AI work for you", tag: "Beginner to intermediate", color: "var(--yellow)",
+  { n: 1, name: "Foundations", tag: "Start from zero", color: "var(--green)",
+    desc: "What AI is, plus the Python, maths, data and machine-learning basics underneath it.",
+    topics: ["ai-intro", "python", "math", "data", "ml-basics", "neural-nets"] },
+  { n: 2, name: "AI basics", tag: "Beginner", color: "var(--red)",
+    desc: "How chatbots and AI models work, and how to get good answers from them.",
+    topics: ["chat", "prompting", "llm", "context", "agents"] },
+  { n: 3, name: "Make AI work for you", tag: "Beginner to intermediate", color: "var(--yellow)",
     desc: "Connect AI to your documents, apps and memory so it does real work.",
     topics: ["rag", "memory", "mcp", "patterns", "design"] },
-  { n: 3, name: "Build AI apps", tag: "Intermediate", color: "var(--blue)",
+  { n: 4, name: "Build AI apps", tag: "Intermediate", color: "var(--blue)",
     desc: "Search, testing, custom models and teams of agents.",
     topics: ["vectordb", "evals", "finetune", "multiagent", "a2a", "scale"] },
-  { n: 4, name: "Deep dive", tag: "Advanced", color: "var(--pink)",
+  { n: 5, name: "More AI fields", tag: "Explore", color: "var(--orange)",
+    desc: "AI beyond text: vision, voice, image and video generation, recommendations, forecasting and robots.",
+    topics: ["vision", "speech", "genmedia", "multimodal", "recsys", "timeseries", "robotics"] },
+  { n: 6, name: "Responsible AI & business", tag: "Everyone", color: "var(--violet)",
+    desc: "Use AI fairly, safely and legally, and turn it into real business value.",
+    topics: ["ethics", "safety", "ai-law", "ai-business", "ai-product"] },
+  { n: 7, name: "Deep dive", tag: "Advanced", color: "var(--pink)",
     desc: "How AI is trained, served and used to write software.",
     topics: ["rl", "hnsw", "infra", "agentic-eng"] },
 ];
 
 export type Plain = { title: string; simple: string; why: string; time: string };
+import { MORE_PLAIN } from "./more";
 
 export const PLAIN: Record<string, Plain> = {
+  ...MORE_PLAIN,
   chat: { title: "How AI chatbots work", time: "1 hour",
     simple: "A chatbot like ChatGPT or Claude writes its reply a few words at a time, predicting what should come next based on patterns it learned from reading huge amounts of text.",
     why: "Knowing how it works helps you trust it where it's strong and double-check it where it can be wrong." },
@@ -99,6 +110,14 @@ export const GLOSSARY: [string, string][] = [
   ["GPU", "A powerful chip that does the heavy maths needed to train and run AI models."],
   ["Eval", "A test that checks how well an AI performs on a set of example questions."],
   ["Open-weight model", "An AI model you can download and run yourself, such as Llama or Gemma."],
+  ["Machine learning", "Teaching computers to make predictions by learning from examples instead of fixed rules."],
+  ["Neural network", "Layers of simple maths units that together learn patterns, loosely inspired by the brain."],
+  ["Training data", "The examples a model learns from. Its quality decides how good the model is."],
+  ["Bias", "When an AI treats some people or cases unfairly, usually because of skewed training data."],
+  ["Prompt injection", "Hidden instructions in a web page or file that trick an AI into doing something it shouldn't."],
+  ["Diffusion model", "The kind of AI behind most image and video generators. It turns random noise into a picture step by step."],
+  ["Computer vision", "AI that understands images and video."],
+  ["Multimodal", "An AI that works with more than one kind of input, like text plus images or audio."],
 ];
 
 export const KIND_PLAIN = { oss: "Free · open-source", free: "Free", freemium: "Free to start", paid: "Paid" } as const;

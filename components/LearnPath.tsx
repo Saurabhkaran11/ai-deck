@@ -17,8 +17,8 @@ export default function LearnPath() {
     <div className="learn">
       <header className="page-head">
         <span className="eyebrow"><i style={{ "--c": "var(--blue)" } as CSSProperties} />Your learning path</span>
-        <h1>Four levels, {PATH_IDS.length} topics</h1>
-        <p className="lede">Start at Level 1 and work down, or jump straight to what you need. Each topic takes about 1 to 5 hours.</p>
+        <h1>{LEVELS.length} levels, {PATH_IDS.length} topics</h1>
+        <p className="lede">New to AI? Start at Level 1 and work down. Already comfortable? Jump straight to what you need. Most topics take a few hours.</p>
         <div className="progress-card pane">
           <div className="progress-top">
             <b>{doneCount === 0 ? "Not started yet" : doneCount === PATH_IDS.length ? "Path complete. Well done!" : `${doneCount} of ${PATH_IDS.length} topics complete`}</b>

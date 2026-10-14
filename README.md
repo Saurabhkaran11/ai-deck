@@ -9,7 +9,7 @@ A glass-design learning deck built on the **AI Engineering Metro Map**. The left
 
 ## Pages
 - **Home** (`/`): what AI Deck is, where to start, how it works, AI words explained
-- **Learn** (`/learn`): 19 topics in 4 levels with progress tracking
+- **Learn** (`/learn`): 38 topics in 7 levels (Foundations → Deep dive) with progress tracking
 - **Topic** (`/learn/[id]`): plain-English explanation, then tabs for plan, free courses, certificates, videos, projects, earning ideas and your notes
 - **AI Tools** (`/tools`): 150+ tools with search and price filters
 - **Certificates** (`/certificates`): every free certificate and paid exam, by provider
