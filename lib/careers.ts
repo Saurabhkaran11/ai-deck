@@ -1,3 +1,4 @@
+import { ADDITIONS, appendUnique } from "./agent-merge";
 /* AI careers: 16 job tracks, a certification status board and career guidance.
    Prices are US list prices as of October 2026; some come from third-party trackers and are marked "verify". */
 
@@ -15,7 +16,7 @@ const HF = "https://huggingface.co/learn";
 const DLAI = "https://www.deeplearning.ai/short-courses/";
 const KAG = "https://www.kaggle.com/learn";
 
-export const TRACKS: Track[] = [
+const TRACKS_SITE: Track[] = [
   { id: "ai-engineer", role: "AI Engineer (LLM / GenAI apps)", group: "Build",
     summary: "Builds products on top of AI models: chatbots, document search (RAG), agents and copilots. Owns prompts, retrieval, tool use, testing, cost and safety.",
     day: ["Build and improve RAG pipelines", "Version and test prompts", "Connect agents to tools with MCP", "Run evals to catch regressions", "Tune speed and cost", "Add guardrails"],
@@ -294,6 +295,8 @@ export const TRACKS: Track[] = [
     projects: ["LeRobot imitation-learning policy on a low-cost arm", "Sim-to-real experiment in Isaac Sim", "ROS 2 navigation stack"],
     topics: ["robotics", "rl", "vision", "edge-ai"] },
 ];
+
+export const TRACKS: Track[] = TRACKS_SITE.map((t) => ({ ...t, steps: appendUnique(t.steps, ADDITIONS.steps[t.id], (s) => s[2] + "|" + s[0]) }));
 
 /** [name, code, status, price, url, note] */
 export type CertRow = [string, string, "Live" | "Beta" | "Retired" | "Invite-only", string, string, string];

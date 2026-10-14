@@ -1,0 +1,913 @@
+{
+ "agent": "level-5",
+ "name": "Level 5 · More AI fields agent",
+ "updatedAt": "2026-10-14T02:59:29.780Z",
+ "total": 57,
+ "byStatus": {
+  "site": 51,
+  "added": 6
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "vision",
+   "title": "Kaggle Learn: Computer Vision",
+   "url": "https://www.kaggle.com/learn/computer-vision",
+   "note": "Free, certificate",
+   "uid": "60cdd2e8aed1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.226Z"
+  },
+  {
+   "kind": "course",
+   "target": "vision",
+   "title": "Hugging Face Computer Vision Course",
+   "url": "https://huggingface.co/learn/computer-vision-course",
+   "note": "Free",
+   "uid": "bfb71404063f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.133Z",
+   "finalUrl": "https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome"
+  },
+  {
+   "kind": "course",
+   "target": "vision",
+   "title": "Stanford CS231n notes",
+   "url": "https://cs231n.github.io/",
+   "note": "Free, classic",
+   "uid": "580f61268804",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.014Z"
+  },
+  {
+   "kind": "course",
+   "target": "vision",
+   "title": "OpenCV tutorials",
+   "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+   "note": "Free docs",
+   "uid": "6371f31c5b79",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.208Z",
+   "finalUrl": "https://docs.opencv.org/4.13.0/d9/df8/tutorial_root.html"
+  },
+  {
+   "kind": "paid",
+   "target": "vision",
+   "title": "OpenCV University",
+   "url": "https://opencv.org/university/",
+   "note": "Paid courses + certificates",
+   "uid": "5ddfab982bc9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.109Z"
+  },
+  {
+   "kind": "video",
+   "target": "vision",
+   "title": "Computer vision for beginners",
+   "url": "https://www.youtube.com/results?search_query=computer%20vision%20full%20course%20beginners",
+   "extra": {
+    "search": "computer vision full course beginners"
+   },
+   "uid": "62257e56cd54",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "speech",
+   "title": "Hugging Face Audio Course",
+   "url": "https://huggingface.co/learn/audio-course",
+   "note": "Free, certificate",
+   "uid": "7ad89665c0c5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.119Z",
+   "finalUrl": "https://huggingface.co/learn/audio-course/chapter0/introduction"
+  },
+  {
+   "kind": "course",
+   "target": "speech",
+   "title": "OpenAI: Speech to text guide",
+   "url": "https://platform.openai.com/docs/guides/speech-to-text",
+   "note": "Free docs",
+   "uid": "8644319150f4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.100Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/speech-to-text"
+  },
+  {
+   "kind": "course",
+   "target": "speech",
+   "title": "DeepLearning.AI: Building AI Voice Agents for Production",
+   "url": "https://www.deeplearning.ai/short-courses/building-ai-voice-agents-for-production/",
+   "note": "Free short course",
+   "uid": "13bc47fc8d91",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.224Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/building-ai-voice-agents-for-production"
+  },
+  {
+   "kind": "paid",
+   "target": "speech",
+   "title": "ElevenLabs",
+   "url": "https://elevenlabs.io/pricing",
+   "note": "Paid plans for high-quality voices",
+   "uid": "5c6111e1e1f6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:50.920Z"
+  },
+  {
+   "kind": "video",
+   "target": "speech",
+   "title": "Whisper tutorial",
+   "url": "https://www.youtube.com/results?search_query=openai%20whisper%20transcription%20tutorial",
+   "extra": {
+    "search": "openai whisper transcription tutorial"
+   },
+   "uid": "552ff60c6f6c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "genmedia",
+   "title": "DeepLearning.AI: How Diffusion Models Work",
+   "url": "https://www.deeplearning.ai/short-courses/how-diffusion-models-work/",
+   "note": "Free short course",
+   "uid": "52bdaf696850",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.216Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/diffusion-models"
+  },
+  {
+   "kind": "course",
+   "target": "genmedia",
+   "title": "Hugging Face Diffusion Models Course",
+   "url": "https://huggingface.co/learn/diffusion-course",
+   "note": "Free",
+   "uid": "d5f28daf9487",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.297Z",
+   "finalUrl": "https://huggingface.co/learn/diffusion-course/unit0/1"
+  },
+  {
+   "kind": "course",
+   "target": "genmedia",
+   "title": "fast.ai Part 2: Stable Diffusion from scratch",
+   "url": "https://course.fast.ai/Lessons/part2.html",
+   "note": "Free, advanced",
+   "uid": "6c8b67769655",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.187Z"
+  },
+  {
+   "kind": "paid",
+   "target": "genmedia",
+   "title": "Midjourney",
+   "url": "https://www.midjourney.com/",
+   "note": "From ~$10/month, great for practice",
+   "uid": "6758ba85a0bd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.064Z"
+  },
+  {
+   "kind": "video",
+   "target": "genmedia",
+   "title": "How diffusion models work",
+   "url": "https://www.youtube.com/results?search_query=how%20diffusion%20models%20work%20explained",
+   "extra": {
+    "search": "how diffusion models work explained"
+   },
+   "uid": "a6faeb7eb202",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "multimodal",
+   "title": "DeepLearning.AI: Large Multimodal Model Prompting with Gemini",
+   "url": "https://www.deeplearning.ai/short-courses/large-multimodal-model-prompting-with-gemini/",
+   "note": "Free short course",
+   "uid": "9e9bff43c0b7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.302Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/large-multimodal-model-prompting-with-gemini"
+  },
+  {
+   "kind": "course",
+   "target": "multimodal",
+   "title": "Claude docs: Vision",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/vision",
+   "note": "Free guide",
+   "uid": "0cdc39767e77",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.096Z",
+   "finalUrl": "https://platform.claude.com/docs/en/build-with-claude/vision"
+  },
+  {
+   "kind": "course",
+   "target": "multimodal",
+   "title": "OpenAI docs: Images and vision",
+   "url": "https://platform.openai.com/docs/guides/images-vision",
+   "note": "Free guide",
+   "uid": "f947201a9187",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.142Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/images-vision"
+  },
+  {
+   "kind": "paid",
+   "target": "multimodal",
+   "title": "Coursera: multimodal AI courses",
+   "url": "https://www.coursera.org/search?query=multimodal%20AI",
+   "note": "Paid certificates",
+   "uid": "a6616f640fae",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.642Z"
+  },
+  {
+   "kind": "video",
+   "target": "multimodal",
+   "title": "Multimodal AI explained",
+   "url": "https://www.youtube.com/results?search_query=multimodal%20AI%20explained",
+   "extra": {
+    "search": "multimodal AI explained"
+   },
+   "uid": "0f46c33a72f5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "recsys",
+   "title": "Google: Recommendation Systems course",
+   "url": "https://developers.google.com/machine-learning/recommendation",
+   "note": "Free",
+   "uid": "f17b0bc9cde1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.484Z",
+   "finalUrl": "https://developers.google.com/machine-learning/recommendation?hl=pt-br"
+  },
+  {
+   "kind": "course",
+   "target": "recsys",
+   "title": "Microsoft Recommenders (examples)",
+   "url": "https://github.com/recommenders-team/recommenders",
+   "note": "Free notebooks",
+   "uid": "087067c30eac",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.468Z"
+  },
+  {
+   "kind": "paid",
+   "target": "recsys",
+   "title": "Recommender Systems Specialization (Univ. of Minnesota)",
+   "url": "https://www.coursera.org/specializations/recommender-systems",
+   "note": "Coursera certificate",
+   "uid": "a09bc08cef78",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.788Z"
+  },
+  {
+   "kind": "video",
+   "target": "recsys",
+   "title": "Recommender systems explained",
+   "url": "https://www.youtube.com/results?search_query=recommender%20systems%20explained",
+   "extra": {
+    "search": "recommender systems explained"
+   },
+   "uid": "47e00c59be48",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "timeseries",
+   "title": "Kaggle Learn: Time Series",
+   "url": "https://www.kaggle.com/learn/time-series",
+   "note": "Free, certificate",
+   "uid": "5e906226cacc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.348Z"
+  },
+  {
+   "kind": "course",
+   "target": "timeseries",
+   "title": "Forecasting: Principles and Practice (free book)",
+   "url": "https://otexts.com/fpp3/",
+   "note": "Free",
+   "uid": "de730c4d3508",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 202,
+   "checkedAt": "2026-10-14T02:50:51.442Z"
+  },
+  {
+   "kind": "course",
+   "target": "timeseries",
+   "title": "Prophet",
+   "url": "https://facebook.github.io/prophet/",
+   "note": "Free library",
+   "uid": "379e970db033",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.375Z"
+  },
+  {
+   "kind": "paid",
+   "target": "timeseries",
+   "title": "Sequences, Time Series and Prediction (DeepLearning.AI)",
+   "url": "https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction",
+   "note": "Coursera certificate",
+   "uid": "9db5361c3298",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.076Z"
+  },
+  {
+   "kind": "video",
+   "target": "timeseries",
+   "title": "Time series forecasting tutorial",
+   "url": "https://www.youtube.com/results?search_query=time%20series%20forecasting%20python%20tutorial",
+   "extra": {
+    "search": "time series forecasting python tutorial"
+   },
+   "uid": "c19d4f93dfeb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "robotics",
+   "title": "Hugging Face LeRobot",
+   "url": "https://github.com/huggingface/lerobot",
+   "note": "Free, open-source",
+   "uid": "129ef9bfa150",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.479Z"
+  },
+  {
+   "kind": "course",
+   "target": "robotics",
+   "title": "ROS 2 documentation & tutorials",
+   "url": "https://docs.ros.org/",
+   "note": "Free",
+   "uid": "ca757caa05b6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.549Z"
+  },
+  {
+   "kind": "course",
+   "target": "robotics",
+   "title": "MIT Underactuated Robotics",
+   "url": "https://underactuated.mit.edu/",
+   "note": "Free course notes",
+   "uid": "1c85c08b5e3e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.548Z"
+  },
+  {
+   "kind": "paid",
+   "target": "robotics",
+   "title": "Coursera: Modern Robotics (Northwestern)",
+   "url": "https://www.coursera.org/specializations/modernrobotics",
+   "note": "Coursera certificate",
+   "uid": "e0cc378d0403",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.877Z"
+  },
+  {
+   "kind": "video",
+   "target": "robotics",
+   "title": "AI robotics explained",
+   "url": "https://www.youtube.com/results?search_query=AI%20robotics%20explained",
+   "extra": {
+    "search": "AI robotics explained"
+   },
+   "uid": "6785417b7ceb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "vision",
+   "title": "ultralytics/ultralytics",
+   "url": "https://github.com/ultralytics/ultralytics",
+   "note": "YOLO object detection",
+   "uid": "67ca7b958362",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.669Z"
+  },
+  {
+   "kind": "repo",
+   "target": "vision",
+   "title": "opencv/opencv",
+   "url": "https://github.com/opencv/opencv",
+   "note": "Computer vision library",
+   "uid": "5c046515f324",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.558Z"
+  },
+  {
+   "kind": "repo",
+   "target": "vision",
+   "title": "facebookresearch/segment-anything",
+   "url": "https://github.com/facebookresearch/segment-anything",
+   "note": "Segment Anything",
+   "uid": "56f2c049743b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.742Z"
+  },
+  {
+   "kind": "repo",
+   "target": "speech",
+   "title": "openai/whisper",
+   "url": "https://github.com/openai/whisper",
+   "note": "Speech recognition",
+   "uid": "045480a66da2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.616Z"
+  },
+  {
+   "kind": "repo",
+   "target": "speech",
+   "title": "pipecat-ai/pipecat",
+   "url": "https://github.com/pipecat-ai/pipecat",
+   "note": "Voice agent framework",
+   "uid": "afe60a8cff95",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.743Z"
+  },
+  {
+   "kind": "repo",
+   "target": "genmedia",
+   "title": "huggingface/diffusers",
+   "url": "https://github.com/huggingface/diffusers",
+   "note": "Diffusion models library",
+   "uid": "c819ecb41037",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.705Z"
+  },
+  {
+   "kind": "repo",
+   "target": "genmedia",
+   "title": "comfyanonymous/ComfyUI",
+   "url": "https://github.com/comfyanonymous/ComfyUI",
+   "note": "Visual image-generation workflows",
+   "uid": "e33c91913812",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.999Z",
+   "finalUrl": "https://github.com/Comfy-Org/ComfyUI"
+  },
+  {
+   "kind": "repo",
+   "target": "multimodal",
+   "title": "openai/CLIP",
+   "url": "https://github.com/openai/CLIP",
+   "note": "Text-image embeddings",
+   "uid": "9ac1178935e2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.807Z"
+  },
+  {
+   "kind": "repo",
+   "target": "multimodal",
+   "title": "haotian-liu/LLaVA",
+   "url": "https://github.com/haotian-liu/LLaVA",
+   "note": "Open vision-language model",
+   "uid": "ddf5a73386d6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.957Z"
+  },
+  {
+   "kind": "repo",
+   "target": "recsys",
+   "title": "recommenders-team/recommenders",
+   "url": "https://github.com/recommenders-team/recommenders",
+   "note": "Best-practice examples",
+   "uid": "5c7aa8fbfd2f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.825Z"
+  },
+  {
+   "kind": "repo",
+   "target": "recsys",
+   "title": "NVIDIA-Merlin/Merlin",
+   "url": "https://github.com/NVIDIA-Merlin/Merlin",
+   "note": "GPU recommender framework",
+   "uid": "33a9ff5f80d9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.042Z"
+  },
+  {
+   "kind": "repo",
+   "target": "timeseries",
+   "title": "Nixtla/statsforecast",
+   "url": "https://github.com/Nixtla/statsforecast",
+   "note": "Fast classic forecasting",
+   "uid": "c4015a144264",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.996Z"
+  },
+  {
+   "kind": "repo",
+   "target": "timeseries",
+   "title": "amazon-science/chronos-forecasting",
+   "url": "https://github.com/amazon-science/chronos-forecasting",
+   "note": "Pretrained forecasting models",
+   "uid": "f1e4022ecdc2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.028Z"
+  },
+  {
+   "kind": "repo",
+   "target": "timeseries",
+   "title": "facebook/prophet",
+   "url": "https://github.com/facebook/prophet",
+   "note": "Prophet",
+   "uid": "b3e9d8f26fe9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:51.994Z"
+  },
+  {
+   "kind": "repo",
+   "target": "robotics",
+   "title": "huggingface/lerobot",
+   "url": "https://github.com/huggingface/lerobot",
+   "note": "AI for real-world robots",
+   "uid": "4f4bfc628763",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.037Z"
+  },
+  {
+   "kind": "repo",
+   "target": "robotics",
+   "title": "ros2/ros2",
+   "url": "https://github.com/ros2/ros2",
+   "note": "Robot Operating System 2",
+   "uid": "698e9c5e5182",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.052Z"
+  },
+  {
+   "uid": "eab05996a308",
+   "kind": "repo",
+   "target": "vision",
+   "title": "roboflow/supervision",
+   "url": "https://github.com/roboflow/supervision",
+   "note": "Reusable computer-vision tools",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.714Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.714Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.652Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.303Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.999Z",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "uid": "d753a6008bdc",
+   "kind": "repo",
+   "target": "speech",
+   "title": "SYSTRAN/faster-whisper",
+   "url": "https://github.com/SYSTRAN/faster-whisper",
+   "note": "Fast Whisper transcription",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.714Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.714Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.652Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.303Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.860Z",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "uid": "789f3027d7a3",
+   "kind": "course",
+   "target": "genmedia",
+   "title": "The Illustrated Stable Diffusion",
+   "url": "https://jalammar.github.io/illustrated-stable-diffusion/",
+   "note": "Jay Alammar · Free visual explainer",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.714Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.714Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.652Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.303Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.790Z",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "uid": "9caf594a1d0b",
+   "kind": "course",
+   "target": "multimodal",
+   "title": "Multimodal RAG: Chat with Videos",
+   "url": "https://www.deeplearning.ai/short-courses/multimodal-rag-chat-with-videos/",
+   "note": "DeepLearning.AI · Free short course",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.714Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.714Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.652Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.303Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:58.064Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/multimodal-rag-chat-with-videos",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "uid": "6c86fcdb2f61",
+   "kind": "course",
+   "target": "multimodal",
+   "title": "Gemini API: image understanding",
+   "url": "https://ai.google.dev/gemini-api/docs/image-understanding",
+   "note": "Google · Free docs",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.714Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.714Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.652Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.303Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 310,
+   "checkedAt": "2026-10-14T02:57:59.526Z",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "uid": "cd1faa8bf9bc",
+   "kind": "course",
+   "target": "robotics",
+   "title": "ROS 2 tutorials",
+   "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+   "note": "Open Robotics · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.714Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.714Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.652Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.303Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.798Z",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  }
+ ]
+}

@@ -1,0 +1,3596 @@
+{
+ "agent": "tools",
+ "name": "AI Tools agent",
+ "updatedAt": "2026-10-14T02:59:29.784Z",
+ "total": 168,
+ "byStatus": {
+  "site": 145,
+  "added": 23
+ },
+ "resources": [
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Claude",
+   "url": "https://claude.ai",
+   "note": "Anthropic assistant; Claude Code on paid plans",
+   "extra": {
+    "price": "Free · Pro $20 · Max $100/$200",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "730a1c5b2ed5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:04.688Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "ChatGPT",
+   "url": "https://chatgpt.com",
+   "note": "OpenAI assistant with agent mode and Codex",
+   "extra": {
+    "price": "Free · Go ~$8 · Plus $20 · Pro $200",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "e206dc42ca8e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:04.705Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Gemini",
+   "url": "https://gemini.google.com",
+   "note": "Google assistant with Workspace",
+   "extra": {
+    "price": "Free · AI Pro $19.99",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "5610ae477360",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 299,
+   "checkedAt": "2026-10-14T02:59:08.711Z",
+   "history": [
+    {
+     "at": "2026-10-14T02:59:08.711Z",
+     "change": "link broken → ok (HTTP 299)"
+    }
+   ]
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Grok",
+   "url": "https://grok.com",
+   "note": "xAI assistant with X data",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "0d17d730e456",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.830Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Mistral Le Chat",
+   "url": "https://chat.mistral.ai",
+   "note": "European assistant",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "ee5807364855",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:05.359Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "DeepSeek",
+   "url": "https://chat.deepseek.com",
+   "note": "Open reasoning models",
+   "extra": {
+    "price": "Free app · low-cost API",
+    "toolKind": "free",
+    "isNew": true
+   },
+   "uid": "15d1d37c45b6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 202,
+   "checkedAt": "2026-10-14T02:51:04.926Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Meta AI",
+   "url": "https://www.meta.ai",
+   "note": "Llama-powered assistant",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": false
+   },
+   "uid": "28a0b7e28adb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:04.793Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai",
+   "note": "Cited search answers",
+   "extra": {
+    "price": "Free · Pro $20",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "05a37690101b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:04.814Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Microsoft Copilot",
+   "url": "https://copilot.microsoft.com",
+   "note": "Windows and M365 assistant",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "eb878493464a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.231Z",
+   "finalUrl": "https://copilot.com/?fromcode=cmmlf487uwy&sessionId=174b15fe-9ef7-4b50-893a-58090b607462&"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "OpenAI API",
+   "url": "https://platform.openai.com",
+   "note": "Responses API, Agents SDK, Realtime",
+   "extra": {
+    "price": "Pay per token",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "f1d2e97b15c2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:04.763Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Anthropic API",
+   "url": "https://www.anthropic.com/api",
+   "note": "Claude models with tool use",
+   "extra": {
+    "price": "Pay per token",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "bf60aba7abab",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.087Z",
+   "finalUrl": "https://claude.com/platform/api"
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Google AI Studio",
+   "url": "https://aistudio.google.com",
+   "note": "Gemini API prototyping",
+   "extra": {
+    "price": "Free tier + usage",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "0b599bae68c5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.821Z",
+   "finalUrl": "https://aistudio.google.com/welcome"
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Hugging Face Hub",
+   "url": "https://huggingface.co",
+   "note": "Models, datasets, Spaces",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "bfc7294831b3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.646Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Llama",
+   "url": "https://www.llama.com",
+   "note": "Meta open-weight LLMs",
+   "extra": {
+    "price": "Free (Llama license)",
+    "toolKind": "free",
+    "isNew": false
+   },
+   "uid": "f6950fb01716",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.303Z",
+   "finalUrl": "https://dev.meta.ai/"
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Qwen",
+   "url": "https://github.com/QwenLM",
+   "note": "Alibaba multilingual and coding models",
+   "extra": {
+    "price": "Open (mostly Apache 2.0)",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "bc197337abd0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.912Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "DeepSeek",
+   "url": "https://github.com/deepseek-ai",
+   "note": "R1 reasoning, V3 MoE",
+   "extra": {
+    "price": "Open (MIT)",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "a67e51da6e9e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.933Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Mistral",
+   "url": "https://mistral.ai",
+   "note": "Efficient open models",
+   "extra": {
+    "price": "Open + commercial",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "0692c4aa1cc1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.872Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Gemma",
+   "url": "https://ai.google.dev/gemma",
+   "note": "Google lightweight open models",
+   "extra": {
+    "price": "Free (Gemma terms)",
+    "toolKind": "free",
+    "isNew": false
+   },
+   "uid": "829616257394",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 310,
+   "checkedAt": "2026-10-14T02:55:19.292Z",
+   "history": [
+    {
+     "at": "2026-10-14T02:55:19.292Z",
+     "change": "link broken → ok (HTTP 310)"
+    }
+   ]
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "gpt-oss",
+   "url": "https://openai.com/open-models",
+   "note": "OpenAI open-weight reasoning models",
+   "extra": {
+    "price": "Open (Apache 2.0)",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "52f7448bf459",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:04.863Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Claude Code",
+   "url": "https://www.anthropic.com/claude-code",
+   "note": "Terminal agent with subagents, skills, hooks",
+   "extra": {
+    "price": "Pro $20 · Max $100/$200 · API",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "8e4059722db4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.176Z",
+   "finalUrl": "https://claude.com/product/claude-code"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Cursor",
+   "url": "https://cursor.com",
+   "note": "AI-native editor with agents",
+   "extra": {
+    "price": "Free · Pro $20 · Ultra $200",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "3672f2ab9bfe",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.930Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "GitHub Copilot",
+   "url": "https://github.com/features/copilot",
+   "note": "Completions, agent mode, cloud agent",
+   "extra": {
+    "price": "Free · Pro $10",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "4c9e9e85e775",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.905Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Windsurf",
+   "url": "https://windsurf.com",
+   "note": "Agentic IDE (Cascade)",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "948fa23980a4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.373Z",
+   "finalUrl": "https://devin.ai/desktop"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "OpenAI Codex",
+   "url": "https://developers.openai.com/codex",
+   "note": "Parallel cloud tasks, PR review",
+   "extra": {
+    "price": "OSS CLI · in ChatGPT Plus",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "79ab89f82a62",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.332Z",
+   "finalUrl": "https://learn.chatgpt.com/docs"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Antigravity",
+   "url": "https://antigravity.google",
+   "note": "Google multi-agent IDE and CLI",
+   "extra": {
+    "price": "Free tier · AI Pro $19.99",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "5051fdacdf04",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.969Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Kiro",
+   "url": "https://kiro.dev",
+   "note": "AWS spec-driven agentic IDE",
+   "extra": {
+    "price": "50 free credits · Pro $20",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "460d0b52f4de",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.081Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Cline",
+   "url": "https://cline.bot",
+   "note": "Autonomous VS Code agent",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "b4b7a11cad6e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.234Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Aider",
+   "url": "https://aider.chat",
+   "note": "Git-aware pair programmer",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "bb5a25d8101b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.253Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "OpenCode",
+   "url": "https://opencode.ai",
+   "note": "Provider-agnostic terminal agent",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "2c0f396c3e2e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.187Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Zed",
+   "url": "https://zed.dev",
+   "note": "Rust editor with agent panel",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "a886283367f9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.377Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Replit",
+   "url": "https://replit.com",
+   "note": "Prompt to deployed apps",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "e7d1aa5f8c29",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.181Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Lovable",
+   "url": "https://lovable.dev",
+   "note": "Prompt to full-stack apps",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "1ac427878d5d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:05.284Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Bolt.new",
+   "url": "https://bolt.new",
+   "note": "In-browser full-stack generation",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "723aba758cca",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.438Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "v0",
+   "url": "https://v0.app",
+   "note": "React/Next.js UI generation",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "00d336583ed8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.276Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Devin",
+   "url": "https://devin.ai",
+   "note": "Autonomous cloud engineer",
+   "extra": {
+    "price": "Paid (~$20 start)",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "5f603249ea2c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.375Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Jules",
+   "url": "https://jules.google",
+   "note": "Google async GitHub agent",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "82751ff2efe2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.286Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "LangChain",
+   "url": "https://github.com/langchain-ai/langchain",
+   "note": "LLM app components",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "e13e18f1b287",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.573Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "LangGraph",
+   "url": "https://github.com/langchain-ai/langgraph",
+   "note": "Stateful graph agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "fdee9cd6fe97",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.557Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "LlamaIndex",
+   "url": "https://github.com/run-llama/llama_index",
+   "note": "Data-centric agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "322f3b806c33",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.642Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "CrewAI",
+   "url": "https://github.com/crewAIInc/crewAI",
+   "note": "Role-based multi-agent crews",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "ca79fe47fc8f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.622Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Microsoft Agent Framework",
+   "url": "https://learn.microsoft.com/en-us/agent-framework/",
+   "note": "AutoGen + Semantic Kernel successor",
+   "extra": {
+    "price": "Open-source (MIT)",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "eb3db943207b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.444Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "OpenAI Agents SDK",
+   "url": "https://github.com/openai/openai-agents-python",
+   "note": "Handoffs, guardrails, tracing",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "d44a7a716de2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.685Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Claude Agent SDK",
+   "url": "https://docs.claude.com/en/docs/agent-sdk/overview",
+   "note": "Claude Code harness as a library",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "562cce6cdb4f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.635Z",
+   "finalUrl": "https://code.claude.com/docs/en/agent-sdk/overview"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Google ADK",
+   "url": "https://github.com/google/adk-python",
+   "note": "Agent Development Kit with A2A",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "2f98f1c92f93",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.641Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "smolagents",
+   "url": "https://github.com/huggingface/smolagents",
+   "note": "Minimal code agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "6407f5fb1769",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.725Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "PydanticAI",
+   "url": "https://github.com/pydantic/pydantic-ai",
+   "note": "Type-safe agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "d0a20f2423ca",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.742Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Mastra",
+   "url": "https://github.com/mastra-ai/mastra",
+   "note": "TypeScript agents and workflows",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "52bb0f435765",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.782Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Agno",
+   "url": "https://github.com/agno-agi/agno",
+   "note": "Fast multi-agent runtime",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "e8fbd9ee0bbb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.750Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "DSPy",
+   "url": "https://github.com/stanfordnlp/dspy",
+   "note": "Prompt/program optimisation",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "071d70aefb81",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.711Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Haystack",
+   "url": "https://github.com/deepset-ai/haystack",
+   "note": "Production pipelines",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "18717ee8575c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.863Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Strands Agents",
+   "url": "https://github.com/strands-agents/sdk-python",
+   "note": "AWS model-driven agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "f475672695b7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.919Z",
+   "finalUrl": "https://github.com/strands-agents/harness-sdk"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Bedrock AgentCore",
+   "url": "https://aws.amazon.com/bedrock/agentcore/",
+   "note": "Runtime, memory, identity, gateway",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "77d9b4ddf47f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.769Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "AutoGen / Semantic Kernel",
+   "url": "https://github.com/microsoft/autogen",
+   "note": "Maintenance mode: migrate",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "cdf22cfc3b01",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.931Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "MCP",
+   "url": "https://modelcontextprotocol.io",
+   "note": "Agent ↔ tools and data (spec 2026-07-28)",
+   "extra": {
+    "price": "Open standard",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "45a99de8c761",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.951Z",
+   "finalUrl": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro"
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "Official MCP Registry",
+   "url": "https://registry.modelcontextprotocol.io",
+   "note": "Canonical server directory",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": true
+   },
+   "uid": "2707e4c9943a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.754Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "A2A",
+   "url": "https://a2a-protocol.org",
+   "note": "Agent ↔ agent, v1.0",
+   "extra": {
+    "price": "Open (Apache 2.0)",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "7869fbcb886c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.726Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "AG-UI",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "note": "Agent ↔ frontend events",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "b9d06cc5e0af",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.129Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "Smithery",
+   "url": "https://smithery.ai",
+   "note": "Hosted MCP servers",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "622e0da1fa5d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.981Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "Agentic AI Foundation",
+   "url": "https://aaif.io",
+   "note": "Hosts MCP and A2A",
+   "extra": {
+    "price": "Governance body",
+    "toolKind": "free",
+    "isNew": true
+   },
+   "uid": "267feff54e95",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.916Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "n8n",
+   "url": "https://n8n.io",
+   "note": "Node workflows with AI agents",
+   "extra": {
+    "price": "Self-host free · Cloud paid",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "7cd6a5b5d49b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.035Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Zapier",
+   "url": "https://zapier.com",
+   "note": "App integrations + Zapier Agents",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "af205d791bf7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:05.987Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Make",
+   "url": "https://www.make.com",
+   "note": "Visual scenarios",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "cf10e1e2c4c6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.257Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Dify",
+   "url": "https://dify.ai",
+   "note": "RAG and agent builder",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "5c842c1985d9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.021Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Flowise",
+   "url": "https://flowiseai.com",
+   "note": "Drag-and-drop LLM flows",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "7db949789002",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.087Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Langflow",
+   "url": "https://www.langflow.org",
+   "note": "Visual agent builder",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "7831560e7ab7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.231Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Gumloop",
+   "url": "https://www.gumloop.com",
+   "note": "AI-native workflows",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "8a1c04420533",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.128Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Relevance AI",
+   "url": "https://relevanceai.com",
+   "note": "No-code agent teams",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "b44d62c6dcfb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.135Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Copilot Studio",
+   "url": "https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio",
+   "note": "Low-code M365 agents",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "96d3f3c3bdd2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:13.971Z",
+   "finalUrl": "https://www.microsoft.com/en-us/copilot/products/copilot-studio"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Pinecone",
+   "url": "https://www.pinecone.io",
+   "note": "Serverless vector search",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "6490ae144cfc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.095Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Weaviate",
+   "url": "https://weaviate.io",
+   "note": "Hybrid search",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "d6fd91186596",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.144Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Qdrant",
+   "url": "https://qdrant.tech",
+   "note": "Rust vector engine",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "3ce489e3400c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.159Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Milvus / Zilliz",
+   "url": "https://milvus.io",
+   "note": "Billion-scale vectors",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "4625d4b9dd2b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 310,
+   "checkedAt": "2026-10-14T02:55:19.341Z",
+   "history": [
+    {
+     "at": "2026-10-14T02:55:19.341Z",
+     "change": "link broken → ok (HTTP 310)"
+    }
+   ]
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Chroma",
+   "url": "https://www.trychroma.com",
+   "note": "Developer-friendly store",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "42b0986a00d4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.295Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "pgvector",
+   "url": "https://github.com/pgvector/pgvector",
+   "note": "Vectors + HNSW in Postgres",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "b6136f0e1b12",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.473Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "LanceDB",
+   "url": "https://lancedb.com",
+   "note": "Multimodal columnar",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "e4f4fe9b0849",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.960Z",
+   "finalUrl": "https://www.lancedb.com/"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "FAISS",
+   "url": "https://github.com/facebookresearch/faiss",
+   "note": "Meta similarity search",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "3aef840700e5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.447Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Elasticsearch",
+   "url": "https://www.elastic.co/elasticsearch",
+   "note": "Hybrid lexical + vector",
+   "extra": {
+    "price": "Open + Cloud",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "7b9859362f82",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.874Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Turbopuffer",
+   "url": "https://turbopuffer.com",
+   "note": "Object-storage vector search",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "0d186d972fc5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.375Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Amazon S3 Vectors",
+   "url": "https://aws.amazon.com/s3/features/vectors/",
+   "note": "Vector buckets in S3",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "4b606f75381a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.286Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "LangSmith",
+   "url": "https://smith.langchain.com",
+   "note": "LangChain observability",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "db49333a1341",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.212Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Langfuse",
+   "url": "https://langfuse.com",
+   "note": "OSS LLM engineering platform",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "0788c045798c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.330Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Arize Phoenix",
+   "url": "https://phoenix.arize.com",
+   "note": "OTel-native observability",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "21c752e0e301",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.998Z",
+   "finalUrl": "https://arize.com/phoenix/"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Braintrust",
+   "url": "https://www.braintrust.dev",
+   "note": "Eval-driven development",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "8f1daa5790a6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.614Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Promptfoo",
+   "url": "https://www.promptfoo.dev",
+   "note": "CLI testing and red-teaming",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "d18c65373fd4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.452Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "DeepEval",
+   "url": "https://github.com/confident-ai/deepeval",
+   "note": "Pytest-style metrics",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "bc35b33b6c1e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.943Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Ragas",
+   "url": "https://github.com/explodinggradients/ragas",
+   "note": "RAG metrics",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "c12f330c23df",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.899Z",
+   "finalUrl": "https://github.com/vibrantlabsai/ragas"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "W&B Weave",
+   "url": "https://wandb.ai/site/weave",
+   "note": "W&B LLM toolkit",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "071b02ba6ede",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.576Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Helicone",
+   "url": "https://www.helicone.ai",
+   "note": "Proxy logging and caching",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "c1373f0c2d12",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.631Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "OpenAI Evals",
+   "url": "https://github.com/openai/evals",
+   "note": "Eval framework",
+   "extra": {
+    "price": "Open-source + API",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "328e51fb212d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.741Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Inspect",
+   "url": "https://inspect.aisi.org.uk",
+   "note": "UK AISI eval framework",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "58f461b86a15",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.697Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "Unsloth",
+   "url": "https://unsloth.ai",
+   "note": "Fast low-VRAM LoRA/QLoRA/GRPO",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "f63f4b0fb31c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.449Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "Axolotl",
+   "url": "https://github.com/axolotl-ai-cloud/axolotl",
+   "note": "YAML-config training",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "2eb51b6252e3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.922Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "TRL",
+   "url": "https://github.com/huggingface/trl",
+   "note": "SFT / DPO / GRPO",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "8139b0913d31",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.949Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "LLaMA-Factory",
+   "url": "https://github.com/hiyouga/LLaMA-Factory",
+   "note": "Unified UI/CLI",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "6f348003ca43",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.389Z",
+   "finalUrl": "https://github.com/hiyouga/LlamaFactory"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "torchtune",
+   "url": "https://github.com/pytorch/torchtune",
+   "note": "PyTorch recipes",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "b2145f8c184b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.186Z",
+   "finalUrl": "https://github.com/meta-pytorch/torchtune"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "OpenAI fine-tuning",
+   "url": "https://platform.openai.com/docs/guides/fine-tuning",
+   "note": "SFT, DPO, RFT",
+   "extra": {
+    "price": "Paid (per token)",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "1da887b09197",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.969Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/model-optimization"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "Together AI",
+   "url": "https://www.together.ai",
+   "note": "Fine-tune and serve open models",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "0d5001915e6d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.046Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "Fireworks AI",
+   "url": "https://fireworks.ai",
+   "note": "Fast serving + LoRA",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "24de0d4719d3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.214Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "Modal",
+   "url": "https://modal.com",
+   "note": "Serverless Python GPUs",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "d17056073b21",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.448Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "Tinker",
+   "url": "https://thinkingmachines.ai/tinker",
+   "note": "Thinking Machines fine-tuning API",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "0acc9613f2de",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.521Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "vLLM",
+   "url": "https://github.com/vllm-project/vllm",
+   "note": "PagedAttention serving",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "cf116fe69e92",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.289Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "SGLang",
+   "url": "https://github.com/sgl-project/sglang",
+   "note": "RadixAttention serving",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "8e0b088f39b2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:06.991Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "TGI",
+   "url": "https://github.com/huggingface/text-generation-inference",
+   "note": "Hugging Face serving",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "aed1fca67d83",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.339Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "Ollama",
+   "url": "https://ollama.com",
+   "note": "Run models locally",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": false
+   },
+   "uid": "da5335fe3dac",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.054Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "LM Studio",
+   "url": "https://lmstudio.ai",
+   "note": "GUI for local models",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": false
+   },
+   "uid": "69ecea4c9412",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.358Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "note": "C/C++ inference",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "fe1c87d6581e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.086Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "TensorRT-LLM",
+   "url": "https://github.com/NVIDIA/TensorRT-LLM",
+   "note": "NVIDIA-optimised inference",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "f6fa0541f47c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.443Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "Groq",
+   "url": "https://groq.com",
+   "note": "LPU low-latency",
+   "extra": {
+    "price": "Freemium API",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "d5efb27702bb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.484Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "Cerebras",
+   "url": "https://www.cerebras.ai",
+   "note": "Wafer-scale inference",
+   "extra": {
+    "price": "Freemium API",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "2ec1ca605ea4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.564Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "OpenRouter",
+   "url": "https://openrouter.ai",
+   "note": "One API, many models",
+   "extra": {
+    "price": "Pay per token",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "aed3f8c20f97",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.334Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "LiteLLM",
+   "url": "https://github.com/BerriAI/litellm",
+   "note": "OpenAI-compatible proxy",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "a075ccae6f32",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.676Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "Portkey",
+   "url": "https://portkey.ai",
+   "note": "Gateway + guardrails",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "e01c7874fb70",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.690Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "Amazon Bedrock",
+   "url": "https://aws.amazon.com/bedrock/",
+   "note": "Models, Agents, Knowledge Bases, Guardrails",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "e985d97bafcc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.451Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "Amazon SageMaker AI",
+   "url": "https://aws.amazon.com/sagemaker/",
+   "note": "Train, tune, deploy",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "368ef6cb37e2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.495Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "Microsoft Foundry",
+   "url": "https://ai.azure.com",
+   "note": "Ex-Azure AI Foundry: models, Agent Service, evals",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "cba52c452601",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.537Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "Google Vertex AI",
+   "url": "https://cloud.google.com/vertex-ai",
+   "note": "Gemini, Model Garden",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "a2ef748370a1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.662Z",
+   "finalUrl": "https://cloud.google.com/products/gemini-enterprise-agent-platform"
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "Databricks Mosaic AI",
+   "url": "https://www.databricks.com/product/artificial-intelligence",
+   "note": "Agents and evals on the lakehouse",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "d1f40fa3beeb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.558Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "NVIDIA NIM",
+   "url": "https://build.nvidia.com",
+   "note": "Optimised model containers",
+   "extra": {
+    "price": "Free dev tier",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "e0e3ae724239",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.668Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Midjourney",
+   "url": "https://www.midjourney.com",
+   "note": "Aesthetic images, now video",
+   "extra": {
+    "price": "Paid (~$10/mo)",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "9da413f26d30",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.579Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "GPT Image",
+   "url": "https://platform.openai.com/docs/guides/image-generation",
+   "note": "Native GPT image generation",
+   "extra": {
+    "price": "Freemium / API",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "dfdcc0a6e7ff",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.704Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/image-generation"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "FLUX",
+   "url": "https://bfl.ai",
+   "note": "Black Forest Labs models",
+   "extra": {
+    "price": "Open-weight + API",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "3a23939bc3ed",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.754Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Stable Diffusion",
+   "url": "https://stability.ai",
+   "note": "Open diffusion",
+   "extra": {
+    "price": "Open-weight",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "uid": "5de8235cf463",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.711Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Ideogram",
+   "url": "https://ideogram.ai",
+   "note": "Text in images",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "4778ba6e5b32",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:07.763Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Runway",
+   "url": "https://runwayml.com",
+   "note": "Video generation and editing",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "c12dccfe01e5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.016Z",
+   "finalUrl": "https://runway.com/"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Sora",
+   "url": "https://openai.com/sora",
+   "note": "Video with audio (Sora 2)",
+   "extra": {
+    "price": "ChatGPT plans / app",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "669b30bf3d9a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:07.680Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Veo",
+   "url": "https://deepmind.google/models/veo/",
+   "note": "Video with native audio (Veo 3)",
+   "extra": {
+    "price": "Via Gemini / Vertex",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "746f2c6b8942",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.112Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Kling",
+   "url": "https://klingai.com",
+   "note": "Kuaishou video",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "bf0f4c0e2afb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.635Z",
+   "finalUrl": "https://kling.ai/"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Pika",
+   "url": "https://pika.art",
+   "note": "Short-form effects",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "965733b10b57",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.907Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "ElevenLabs",
+   "url": "https://elevenlabs.io",
+   "note": "TTS, cloning, voice agents",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "70ddd9ab0524",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.745Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Suno",
+   "url": "https://suno.com",
+   "note": "Text to song",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "ffe6d0abf68d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.047Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Udio",
+   "url": "https://www.udio.com",
+   "note": "Text to music",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "bc3a82eb33fe",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.137Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "NotebookLM",
+   "url": "https://notebooklm.google",
+   "note": "Source-grounded notes, Video Overviews",
+   "extra": {
+    "price": "Free (+Plus)",
+    "toolKind": "free",
+    "isNew": true
+   },
+   "uid": "7c593589e2cb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:07.992Z",
+   "finalUrl": "https://notebook.google/"
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Perplexity",
+   "url": "https://www.perplexity.ai",
+   "note": "Deep Research",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "47cb0d9a28c7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:07.838Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Notion AI",
+   "url": "https://www.notion.com/product/ai",
+   "note": "AI in docs and meetings",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "uid": "1bf34a87ffab",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.027Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Gamma",
+   "url": "https://gamma.app",
+   "note": "Prompt to deck",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "5df3e3281337",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:08.048Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Otter.ai",
+   "url": "https://otter.ai",
+   "note": "Transcription",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "6952a7538afa",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.114Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Granola",
+   "url": "https://www.granola.ai",
+   "note": "Bot-free meeting notepad",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "f3b930ad4498",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.179Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Napkin AI",
+   "url": "https://www.napkin.ai",
+   "note": "Text to diagram",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "uid": "a06fa8771920",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.160Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Claude in Chrome",
+   "url": "https://claude.ai",
+   "note": "Claude acting in Chrome",
+   "extra": {
+    "price": "Paid Claude plans",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "dca72a24ad9e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:08.005Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "ChatGPT Agent",
+   "url": "https://chatgpt.com",
+   "note": "Tasks on a virtual computer",
+   "extra": {
+    "price": "Paid plans",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "2b039c02c2bf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:08.129Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "ChatGPT Atlas",
+   "url": "https://chatgpt.com/atlas",
+   "note": "OpenAI browser",
+   "extra": {
+    "price": "Free (agent paid)",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "uid": "f4403d7fbbfa",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:08.129Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Perplexity Comet",
+   "url": "https://www.perplexity.ai/comet",
+   "note": "Agentic browser",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": true
+   },
+   "uid": "f122ac9c48c0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:08.101Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Browser Use",
+   "url": "https://github.com/browser-use/browser-use",
+   "note": "LLM-driven browsing",
+   "extra": {
+    "price": "Open-source + Cloud",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "3a14900ac929",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.463Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Playwright MCP",
+   "url": "https://github.com/microsoft/playwright-mcp",
+   "note": "Browser tools for agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "uid": "30c3e1b78065",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.408Z"
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "AgentCore Browser",
+   "url": "https://aws.amazon.com/bedrock/agentcore/",
+   "note": "Sandboxed agent browser",
+   "extra": {
+    "price": "Paid (usage)",
+    "toolKind": "paid",
+    "isNew": true
+   },
+   "uid": "cbffea8be3c3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:08.164Z"
+  },
+  {
+   "uid": "84a8e499e2f8",
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Kimi",
+   "url": "https://www.kimi.com",
+   "note": "Moonshot AI assistant with long context",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": true
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.661Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.735Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "d695d6ec5223",
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Poe",
+   "url": "https://poe.com",
+   "note": "Many models in one app",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "blocked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.661Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 403,
+   "checkedAt": "2026-10-14T02:58:03.412Z",
+   "finalUrl": "https://poe.com/login?redirect_url=%2F",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "b3e40f8b91f5",
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Phi",
+   "url": "https://azure.microsoft.com/en-us/products/phi",
+   "note": "Microsoft small language models",
+   "extra": {
+    "price": "Open (MIT)",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.661Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.386Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "25a7fa4170ea",
+   "kind": "tool",
+   "target": "t-models",
+   "title": "OLMo",
+   "url": "https://allenai.org/olmo",
+   "note": "Fully open models, data and code from Ai2",
+   "extra": {
+    "price": "Open (Apache 2.0)",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.661Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.245Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "03ae80ff2fd8",
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Kimi K2",
+   "url": "https://github.com/MoonshotAI/Kimi-K2",
+   "note": "Large open MoE model for agents",
+   "extra": {
+    "price": "Open weights",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.661Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.318Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "7fa01f6ddef4",
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Continue",
+   "url": "https://www.continue.dev",
+   "note": "Open AI coding assistant for VS Code and JetBrains",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.471Z",
+   "finalUrl": "https://continue.dev/",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "fe506fcc96e7",
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Tabnine",
+   "url": "https://www.tabnine.com",
+   "note": "Private, enterprise code assistant",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:09.198Z",
+     "change": "link broken → ok (HTTP 299)"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 299,
+   "checkedAt": "2026-10-14T02:59:09.198Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "721a7e24ccd9",
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Vercel AI SDK",
+   "url": "https://ai-sdk.dev",
+   "note": "TypeScript toolkit for AI apps and agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.352Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "7f9c63ceba05",
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "MCP Inspector",
+   "url": "https://github.com/modelcontextprotocol/inspector",
+   "note": "Test and debug MCP servers",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.624Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "f923d0f59154",
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "Glama MCP directory",
+   "url": "https://glama.ai/mcp/servers",
+   "note": "Searchable directory of MCP servers",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.550Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "13d0599e937b",
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Activepieces",
+   "url": "https://www.activepieces.com",
+   "note": "Open-source Zapier alternative with AI steps",
+   "extra": {
+    "price": "Open-source · Cloud from free",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:03.680Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "8918e92e794c",
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Lindy",
+   "url": "https://www.lindy.ai",
+   "note": "No-code AI assistants for email, calls and CRM",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.033Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "5fe6be10bddc",
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Vespa",
+   "url": "https://vespa.ai",
+   "note": "Search and vector engine at scale",
+   "extra": {
+    "price": "Open-source + cloud",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.221Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "f54afdbc6f4b",
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Opik",
+   "url": "https://github.com/comet-ml/opik",
+   "note": "LLM tracing and evaluation by Comet",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.001Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "f6074479698c",
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "OpenPipe",
+   "url": "https://openpipe.ai",
+   "note": "Fine-tune smaller models from your logs",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.059Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "4cfa30f8e2ef",
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "Jan",
+   "url": "https://jan.ai",
+   "note": "Offline ChatGPT-style desktop app",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.292Z",
+   "finalUrl": "https://www.jan.ai/",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "08f0b27f7cf5",
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "Replicate",
+   "url": "https://replicate.com",
+   "note": "Run open models with an API",
+   "extra": {
+    "price": "Pay per use",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.223Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "94498ddbaced",
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "RunPod",
+   "url": "https://www.runpod.io",
+   "note": "On-demand GPUs and serverless",
+   "extra": {
+    "price": "Pay per use",
+    "toolKind": "paid",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.260Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "6d01e379ddd2",
+   "kind": "tool",
+   "target": "t-media",
+   "title": "HeyGen",
+   "url": "https://www.heygen.com",
+   "note": "AI avatar videos and translation",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.285Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "6472e2ccffc0",
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Krea",
+   "url": "https://www.krea.ai",
+   "note": "Real-time image and video generation",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.337Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "81592a24e6e2",
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Fathom",
+   "url": "https://www.fathom.ai",
+   "note": "Free AI meeting recorder and notes",
+   "extra": {
+    "price": "Free · paid teams",
+    "toolKind": "freemium",
+    "isNew": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.544Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "7f4ac566a9c4",
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Stagehand",
+   "url": "https://www.stagehand.dev",
+   "note": "AI browser automation SDK by Browserbase",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.494Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "uid": "e770d821613f",
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Dia",
+   "url": "https://www.diabrowser.com",
+   "note": "AI-first browser from The Browser Company",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": true
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.750Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.750Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.662Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.309Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:04.556Z",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  }
+ ]
+}

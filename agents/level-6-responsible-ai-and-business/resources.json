@@ -1,0 +1,612 @@
+{
+ "agent": "level-6",
+ "name": "Level 6 · Responsible AI & business agent",
+ "updatedAt": "2026-10-14T02:59:29.781Z",
+ "total": 37,
+ "byStatus": {
+  "site": 32,
+  "added": 5
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "ethics",
+   "title": "Ethics of AI (University of Helsinki)",
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "note": "Free, certificate",
+   "uid": "2b26e1e323e8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.107Z"
+  },
+  {
+   "kind": "course",
+   "target": "ethics",
+   "title": "Google Cloud: Introduction to Responsible AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/554",
+   "note": "Free, badge",
+   "uid": "2c435d9e32b6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:54.692Z",
+   "finalUrl": "https://www.skills.google/"
+  },
+  {
+   "kind": "course",
+   "target": "ethics",
+   "title": "Microsoft Responsible AI",
+   "url": "https://www.microsoft.com/en-us/ai/responsible-ai",
+   "note": "Principles and tools",
+   "uid": "30cfe5b036a8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.129Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ethics",
+   "title": "Coursera: AI ethics courses",
+   "url": "https://www.coursera.org/search?query=AI%20ethics",
+   "note": "Paid certificates",
+   "uid": "371a2c1ffda4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.317Z"
+  },
+  {
+   "kind": "video",
+   "target": "ethics",
+   "title": "AI ethics explained",
+   "url": "https://www.youtube.com/results?search_query=AI%20ethics%20explained",
+   "extra": {
+    "search": "AI ethics explained"
+   },
+   "uid": "d560c0e0079b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "safety",
+   "title": "OWASP Top 10 for LLM Applications",
+   "url": "https://genai.owasp.org/llm-top-10/",
+   "note": "Free",
+   "uid": "957e046099d4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.948Z"
+  },
+  {
+   "kind": "course",
+   "target": "safety",
+   "title": "Lakera Gandalf (prompt injection game)",
+   "url": "https://gandalf.lakera.ai/",
+   "note": "Free",
+   "uid": "42f05ea987a3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.315Z",
+   "finalUrl": "https://play.lakera.ai/agent-breaker"
+  },
+  {
+   "kind": "course",
+   "target": "safety",
+   "title": "BlueDot Impact: AI Safety courses",
+   "url": "https://bluedot.org/",
+   "note": "Free cohorts",
+   "uid": "68f70baaa4c9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.318Z"
+  },
+  {
+   "kind": "course",
+   "target": "safety",
+   "title": "MITRE ATLAS",
+   "url": "https://atlas.mitre.org/",
+   "note": "Free attack knowledge base",
+   "uid": "072734efc201",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.181Z"
+  },
+  {
+   "kind": "paid",
+   "target": "safety",
+   "title": "Coursera: AI security courses",
+   "url": "https://www.coursera.org/search?query=AI%20security",
+   "note": "Paid certificates",
+   "uid": "76ef772b7dbd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.436Z"
+  },
+  {
+   "kind": "video",
+   "target": "safety",
+   "title": "Prompt injection explained",
+   "url": "https://www.youtube.com/results?search_query=prompt%20injection%20explained",
+   "extra": {
+    "search": "prompt injection explained"
+   },
+   "uid": "2c5015f11b59",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ai-law",
+   "title": "EU AI Act explorer",
+   "url": "https://artificialintelligenceact.eu/",
+   "note": "Free, plain summaries",
+   "uid": "bc6ac2cb0708",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.099Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-law",
+   "title": "NIST AI Risk Management Framework",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "note": "Free",
+   "uid": "a7a407f9a9a7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:52.963Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-law",
+   "title": "OECD AI Principles",
+   "url": "https://oecd.ai/en/ai-principles",
+   "note": "Free",
+   "uid": "e4c61c504bd4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.404Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ai-law",
+   "title": "IAPP Artificial Intelligence Governance Professional (AIGP)",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "Paid certification",
+   "uid": "4554cac961ca",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.433Z"
+  },
+  {
+   "kind": "video",
+   "target": "ai-law",
+   "title": "EU AI Act explained",
+   "url": "https://www.youtube.com/results?search_query=EU%20AI%20Act%20explained",
+   "extra": {
+    "search": "EU AI Act explained"
+   },
+   "uid": "cfa9a2e31261",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ai-business",
+   "title": "AI For Everyone (Andrew Ng)",
+   "url": "https://www.coursera.org/learn/ai-for-everyone",
+   "note": "Free to audit",
+   "uid": "a0f269f0687d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.610Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-business",
+   "title": "AWS Skill Builder: Generative AI for executives",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free",
+   "uid": "e55e28f0c4c9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.210Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-business",
+   "title": "Microsoft Learn: AI for business leaders",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=AI%20business%20leaders",
+   "note": "Free modules",
+   "uid": "0680cf96f375",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.049Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-business",
+   "title": "OpenAI Academy",
+   "url": "https://academy.openai.com/",
+   "note": "Free courses",
+   "uid": "c0fec31d4a49",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.090Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ai-business",
+   "title": "Coursera: AI for business courses",
+   "url": "https://www.coursera.org/search?query=AI%20for%20business",
+   "note": "Paid certificates",
+   "uid": "6dbefd47c402",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.950Z"
+  },
+  {
+   "kind": "video",
+   "target": "ai-business",
+   "title": "AI strategy for small business",
+   "url": "https://www.youtube.com/results?search_query=AI%20strategy%20for%20small%20business",
+   "extra": {
+    "search": "AI strategy for small business"
+   },
+   "uid": "9b2442fc101d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ai-product",
+   "title": "Google People + AI Guidebook",
+   "url": "https://pair.withgoogle.com/guidebook/",
+   "note": "Free",
+   "uid": "0e9e191224dc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.158Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-product",
+   "title": "Microsoft HAX Toolkit",
+   "url": "https://www.microsoft.com/en-us/haxtoolkit/",
+   "note": "Free guidelines",
+   "uid": "2b340cfd0497",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.264Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-product",
+   "title": "Your AI product needs evals (Hamel Husain)",
+   "url": "https://hamel.dev/blog/posts/evals/",
+   "note": "Free article",
+   "uid": "bdc0f9496013",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.186Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ai-product",
+   "title": "AI Product Management Specialization (Duke)",
+   "url": "https://www.coursera.org/specializations/ai-product-management-duke",
+   "note": "Coursera certificate",
+   "uid": "e3e2786744d2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.556Z"
+  },
+  {
+   "kind": "video",
+   "target": "ai-product",
+   "title": "AI product management",
+   "url": "https://www.youtube.com/results?search_query=AI%20product%20management%20explained",
+   "extra": {
+    "search": "AI product management explained"
+   },
+   "uid": "8f6eae8b7321",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "ethics",
+   "title": "fairlearn/fairlearn",
+   "url": "https://github.com/fairlearn/fairlearn",
+   "note": "Measure and reduce unfairness",
+   "uid": "e4bd7d572341",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.551Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ethics",
+   "title": "Trusted-AI/AIF360",
+   "url": "https://github.com/Trusted-AI/AIF360",
+   "note": "IBM AI Fairness 360",
+   "uid": "f5112477c29c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.567Z"
+  },
+  {
+   "kind": "repo",
+   "target": "safety",
+   "title": "NVIDIA/garak",
+   "url": "https://github.com/NVIDIA/garak",
+   "note": "LLM vulnerability scanner",
+   "uid": "93f23f71a53c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.560Z"
+  },
+  {
+   "kind": "repo",
+   "target": "safety",
+   "title": "promptfoo/promptfoo",
+   "url": "https://github.com/promptfoo/promptfoo",
+   "note": "Red-teaming and evals",
+   "uid": "967b5478c4d1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.588Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ai-product",
+   "title": "PAIR-code/what-if-tool",
+   "url": "https://github.com/PAIR-code/what-if-tool",
+   "note": "Explore model behaviour",
+   "uid": "17302c19e9f7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:53.831Z"
+  },
+  {
+   "uid": "00bf793d394d",
+   "kind": "course",
+   "target": "ethics",
+   "title": "Practical Data Ethics",
+   "url": "https://ethics.fast.ai/",
+   "note": "fast.ai · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.720Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.720Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.653Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.304Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:59.796Z",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "uid": "ece395e6e795",
+   "kind": "course",
+   "target": "ai-law",
+   "title": "OECD.AI Policy Observatory",
+   "url": "https://oecd.ai/",
+   "note": "OECD · Free policy tracker",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.721Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.721Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.653Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.304Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:00.699Z",
+   "finalUrl": "https://oecd.ai/en/",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "uid": "dcc266c09a17",
+   "kind": "course",
+   "target": "ai-business",
+   "title": "AI Index Report",
+   "url": "https://hai.stanford.edu/ai-index",
+   "note": "Stanford HAI · Free annual data",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.721Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.721Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.653Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.304Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:59.866Z",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "uid": "e475629491a7",
+   "kind": "course",
+   "target": "ai-business",
+   "title": "The state of AI",
+   "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+   "note": "McKinsey · Free survey",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.721Z",
+   "linkState": "blocked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.721Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:58:42.180Z",
+     "change": "link broken → blocked (HTTP 503)"
+    },
+    {
+     "at": "2026-10-14T02:59:17.653Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.304Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 503,
+   "checkedAt": "2026-10-14T02:58:42.180Z",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "uid": "b622aec98e8b",
+   "kind": "course",
+   "target": "ai-product",
+   "title": "Guidelines for Human-AI Interaction",
+   "url": "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
+   "note": "Microsoft Research · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.721Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.721Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.653Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.304Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.025Z",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  }
+ ]
+}

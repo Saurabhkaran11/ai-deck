@@ -1,0 +1,4786 @@
+{
+ "agent": "certificates",
+ "name": "Certificates agent",
+ "updatedAt": "2026-10-14T02:59:29.785Z",
+ "total": 268,
+ "byStatus": {
+  "site": 258,
+  "added": 9,
+  "rejected": 1
+ },
+ "resources": [
+  {
+   "kind": "badge",
+   "target": "mcp",
+   "title": "Anthropic Academy · Intro to MCP",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free, certificate of completion",
+   "uid": "7bf6137d0df8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.383Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mcp",
+   "title": "Hugging Face MCP Course certificate",
+   "url": "https://huggingface.co/learn/mcp-course",
+   "note": "Free certificate",
+   "uid": "a6f2c987a919",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.422Z",
+   "finalUrl": "https://huggingface.co/learn/mcp-course/unit0/introduction"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "Hugging Face Agents Course certificate",
+   "url": "https://huggingface.co/learn/agents-course",
+   "note": "Free certificate",
+   "uid": "b3bb8a555cc5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.192Z",
+   "finalUrl": "https://huggingface.co/learn/agents-course/unit0/introduction"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "LangChain Academy",
+   "url": "https://academy.langchain.com/",
+   "note": "Free courses",
+   "uid": "7b6e091674e7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.325Z"
+  },
+  {
+   "kind": "badge",
+   "target": "context",
+   "title": "Anthropic Academy courses",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificates",
+   "uid": "9484641d96c1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.398Z"
+  },
+  {
+   "kind": "badge",
+   "target": "patterns",
+   "title": "LangChain Academy · Intro to LangGraph",
+   "url": "https://academy.langchain.com/courses/intro-to-langgraph",
+   "note": "Free",
+   "uid": "b27b4429f74f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.290Z"
+  },
+  {
+   "kind": "badge",
+   "target": "scale",
+   "title": "Google Cloud Skills Boost",
+   "url": "https://www.cloudskillsboost.google/",
+   "note": "Free skill badges",
+   "uid": "7020cc2a4e1f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.319Z",
+   "finalUrl": "https://www.skills.google/"
+  },
+  {
+   "kind": "badge",
+   "target": "rag",
+   "title": "NVIDIA DLI catalog (RAG agents)",
+   "url": "https://www.nvidia.com/en-us/training/",
+   "note": "Some free courses with certificates",
+   "uid": "66a5d5325189",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.138Z"
+  },
+  {
+   "kind": "badge",
+   "target": "evals",
+   "title": "DeepLearning.AI short courses",
+   "url": "https://www.deeplearning.ai/short-courses/",
+   "note": "Free short courses",
+   "uid": "bc52022f3d49",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.613Z",
+   "finalUrl": "https://www.deeplearning.ai/courses"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Hugging Face LLM Course",
+   "url": "https://huggingface.co/learn/llm-course",
+   "note": "Free certificate",
+   "uid": "bbcdfed17f92",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.473Z",
+   "finalUrl": "https://huggingface.co/learn/llm-course/chapter1/1"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free certificates",
+   "uid": "047ffa0a6a9d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.329Z"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Elements of AI",
+   "url": "https://www.elementsofai.com/",
+   "note": "Free certificate",
+   "uid": "bbff88c22e9a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.372Z"
+  },
+  {
+   "kind": "badge",
+   "target": "memory",
+   "title": "LangChain Academy",
+   "url": "https://academy.langchain.com/",
+   "note": "Free",
+   "uid": "b1b343cb6575",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.399Z"
+  },
+  {
+   "kind": "badge",
+   "target": "finetune",
+   "title": "Hugging Face LLM Course",
+   "url": "https://huggingface.co/learn/llm-course",
+   "note": "Free certificate",
+   "uid": "8f4ab18fd6a2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.217Z",
+   "finalUrl": "https://huggingface.co/learn/llm-course/chapter1/1"
+  },
+  {
+   "kind": "badge",
+   "target": "multiagent",
+   "title": "Hugging Face Agents Course",
+   "url": "https://huggingface.co/learn/agents-course",
+   "note": "Free certificate",
+   "uid": "68d73d0c2943",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.222Z",
+   "finalUrl": "https://huggingface.co/learn/agents-course/unit0/introduction"
+  },
+  {
+   "kind": "badge",
+   "target": "vectordb",
+   "title": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free certificates",
+   "uid": "b21e3214b515",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.318Z"
+  },
+  {
+   "kind": "badge",
+   "target": "design",
+   "title": "Anthropic Academy",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificates",
+   "uid": "c47a7cf36829",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.479Z"
+  },
+  {
+   "kind": "badge",
+   "target": "chat",
+   "title": "Google Cloud · Intro to Generative AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/536",
+   "note": "Free badge",
+   "uid": "1eaa013d1437",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.184Z",
+   "finalUrl": "https://www.skills.google/course_templates/536"
+  },
+  {
+   "kind": "badge",
+   "target": "rl",
+   "title": "Hugging Face Deep RL Course",
+   "url": "https://huggingface.co/learn/deep-rl-course",
+   "note": "Free certificate",
+   "uid": "fc9e060353ca",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.535Z",
+   "finalUrl": "https://huggingface.co/learn/deep-rl-course/unit0/introduction"
+  },
+  {
+   "kind": "badge",
+   "target": "hnsw",
+   "title": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free certificates",
+   "uid": "ead5c517825b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.487Z"
+  },
+  {
+   "kind": "badge",
+   "target": "a2a",
+   "title": "Google Cloud Skills Boost",
+   "url": "https://www.cloudskillsboost.google/",
+   "note": "Free badges",
+   "uid": "ea07af09fb5c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.469Z",
+   "finalUrl": "https://www.skills.google/"
+  },
+  {
+   "kind": "badge",
+   "target": "infra",
+   "title": "Microsoft Learn badges",
+   "url": "https://learn.microsoft.com/en-us/training/",
+   "note": "Free achievements",
+   "uid": "e9dc5941b00d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.410Z"
+  },
+  {
+   "kind": "badge",
+   "target": "infra",
+   "title": "IBM SkillsBuild",
+   "url": "https://skillsbuild.org/",
+   "note": "Free credentials",
+   "uid": "e29290480384",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.637Z"
+  },
+  {
+   "kind": "badge",
+   "target": "agentic-eng",
+   "title": "Anthropic Academy · Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "uid": "f57e701ca99c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.502Z"
+  },
+  {
+   "kind": "course",
+   "target": "certs",
+   "title": "Hugging Face Learn (all courses)",
+   "url": "https://huggingface.co/learn",
+   "note": "Free certificates",
+   "uid": "c56c0fa4f79b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.424Z"
+  },
+  {
+   "kind": "course",
+   "target": "certs",
+   "title": "Anthropic Academy",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificates",
+   "uid": "5e0584aaab4f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.555Z"
+  },
+  {
+   "kind": "course",
+   "target": "certs",
+   "title": "Google Cloud · Intro to Generative AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/536",
+   "note": "Free badge",
+   "uid": "54e551275151",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.174Z",
+   "finalUrl": "https://www.skills.google/course_templates/536"
+  },
+  {
+   "kind": "course",
+   "target": "certs",
+   "title": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free certificates",
+   "uid": "a8ce21dc2eac",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.656Z"
+  },
+  {
+   "kind": "course",
+   "target": "certs",
+   "title": "IBM SkillsBuild",
+   "url": "https://skillsbuild.org/",
+   "note": "Free credentials",
+   "uid": "151f0d09b68b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.630Z"
+  },
+  {
+   "kind": "course",
+   "target": "certs",
+   "title": "Elements of AI",
+   "url": "https://www.elementsofai.com/",
+   "note": "Free certificate",
+   "uid": "bb150c8403ff",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.801Z"
+  },
+  {
+   "kind": "course",
+   "target": "certs",
+   "title": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/",
+   "note": "Free badges",
+   "uid": "030ab14717a1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.527Z"
+  },
+  {
+   "kind": "paid",
+   "target": "certs",
+   "title": "DeepLearning.AI · Agentic AI",
+   "url": "https://www.deeplearning.ai/courses/agentic-ai/",
+   "note": "Best paid course",
+   "uid": "299604ae2529",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.664Z"
+  },
+  {
+   "kind": "paid",
+   "target": "certs",
+   "title": "Microsoft AI-103: AI Apps and Agents Developer",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "~US$165 exam (replaced AI-102)",
+   "uid": "111ff26d7966",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.570Z"
+  },
+  {
+   "kind": "paid",
+   "target": "certs",
+   "title": "Google Cloud ML Engineer",
+   "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+   "note": "Industry exam",
+   "uid": "4a0b0fc68939",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.011Z"
+  },
+  {
+   "kind": "video",
+   "target": "certs",
+   "title": "Free AI certificates",
+   "url": "https://www.youtube.com/results?search_query=free%20AI%20certification%20courses",
+   "extra": {
+    "search": "free AI certification courses"
+   },
+   "uid": "b243146d6250",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "Elements of AI certificate",
+   "url": "https://www.elementsofai.com/",
+   "note": "Free certificate",
+   "uid": "209c71df9ca6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.877Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "IBM SkillsBuild: AI Fundamentals",
+   "url": "https://skillsbuild.org/students/course-catalog/artificial-intelligence",
+   "note": "Free digital credential",
+   "uid": "15086e0a756e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.840Z",
+   "finalUrl": "https://skillsbuild.org/high-school"
+  },
+  {
+   "kind": "badge",
+   "target": "python",
+   "title": "Kaggle Python certificate",
+   "url": "https://www.kaggle.com/learn/python",
+   "note": "Free certificate",
+   "uid": "dbc919d91d7f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.808Z"
+  },
+  {
+   "kind": "badge",
+   "target": "python",
+   "title": "freeCodeCamp: Scientific Computing with Python",
+   "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+   "note": "Free certification",
+   "uid": "cf33e066c5d2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.871Z"
+  },
+  {
+   "kind": "badge",
+   "target": "python",
+   "title": "CS50P certificate",
+   "url": "https://cs50.harvard.edu/python/",
+   "note": "Free certificate",
+   "uid": "7e67cc7a9844",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.794Z"
+  },
+  {
+   "kind": "badge",
+   "target": "math",
+   "title": "Khan Academy course mastery",
+   "url": "https://www.khanacademy.org/math/linear-algebra",
+   "note": "Free progress tracking",
+   "uid": "d77dfde66f93",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.851Z"
+  },
+  {
+   "kind": "badge",
+   "target": "data",
+   "title": "Kaggle Pandas, Data Cleaning, SQL certificates",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free certificates",
+   "uid": "3d6d984334ad",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.903Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "Kaggle Intro to ML + Intermediate ML",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free certificates",
+   "uid": "1c9b1ee9f648",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.919Z"
+  },
+  {
+   "kind": "badge",
+   "target": "neural-nets",
+   "title": "Kaggle Intro to Deep Learning",
+   "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+   "note": "Free certificate",
+   "uid": "16449d3057c0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.896Z"
+  },
+  {
+   "kind": "badge",
+   "target": "vision",
+   "title": "Kaggle Computer Vision certificate",
+   "url": "https://www.kaggle.com/learn/computer-vision",
+   "note": "Free certificate",
+   "uid": "8d4d2449769e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.898Z"
+  },
+  {
+   "kind": "badge",
+   "target": "speech",
+   "title": "Hugging Face Audio Course certificate",
+   "url": "https://huggingface.co/learn/audio-course",
+   "note": "Free certificate",
+   "uid": "692a8b3f1f2b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:14.953Z",
+   "finalUrl": "https://huggingface.co/learn/audio-course/chapter0/introduction"
+  },
+  {
+   "kind": "badge",
+   "target": "genmedia",
+   "title": "Hugging Face Diffusion Course",
+   "url": "https://huggingface.co/learn/diffusion-course",
+   "note": "Free course",
+   "uid": "2ebc259415cb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.045Z",
+   "finalUrl": "https://huggingface.co/learn/diffusion-course/unit0/1"
+  },
+  {
+   "kind": "badge",
+   "target": "timeseries",
+   "title": "Kaggle Time Series certificate",
+   "url": "https://www.kaggle.com/learn/time-series",
+   "note": "Free certificate",
+   "uid": "f49af33a096a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.077Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Ethics of AI certificate",
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "note": "Free certificate",
+   "uid": "5190da3e92e1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.053Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Google Cloud Responsible AI badge",
+   "url": "https://www.cloudskillsboost.google/course_templates/554",
+   "note": "Free badge",
+   "uid": "6344ab56af54",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.471Z",
+   "finalUrl": "https://www.skills.google/"
+  },
+  {
+   "kind": "badge",
+   "target": "safety",
+   "title": "BlueDot course completion",
+   "url": "https://bluedot.org/",
+   "note": "Free certificate",
+   "uid": "9922eefb7b53",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.269Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-marketing",
+   "title": "Google Skillshop certifications",
+   "url": "https://skillshop.withgoogle.com/",
+   "note": "Free certificates",
+   "uid": "4ee28bb88c21",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.168Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-marketing",
+   "title": "HubSpot Academy certificates",
+   "url": "https://academy.hubspot.com/",
+   "note": "Free certificates",
+   "uid": "f1036f6bb9a0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.061Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-gov",
+   "title": "Elements of AI certificate",
+   "url": "https://www.elementsofai.com/",
+   "note": "Free certificate",
+   "uid": "3c8acaec182e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.245Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mlops",
+   "title": "MLOps Zoomcamp certificate",
+   "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+   "note": "Free certificate",
+   "uid": "b1563bec12b6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.267Z"
+  },
+  {
+   "kind": "badge",
+   "target": "data-eng",
+   "title": "Databricks Fundamentals accreditation",
+   "url": "https://www.databricks.com/learn/training",
+   "note": "Free badge",
+   "uid": "594dab46bc3d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.117Z",
+   "finalUrl": "https://www.databricks.com/learn/training/home"
+  },
+  {
+   "kind": "badge",
+   "target": "nlp",
+   "title": "Hugging Face LLM Course",
+   "url": "https://huggingface.co/learn/llm-course",
+   "note": "Free certificate",
+   "uid": "9313e049b4ac",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.074Z",
+   "finalUrl": "https://huggingface.co/learn/llm-course/chapter1/1"
+  },
+  {
+   "kind": "badge",
+   "target": "xai",
+   "title": "Kaggle ML Explainability",
+   "url": "https://www.kaggle.com/learn/machine-learning-explainability",
+   "note": "Free certificate",
+   "uid": "7860fea973f1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.279Z"
+  },
+  {
+   "kind": "badge",
+   "target": "kg",
+   "title": "Neo4j Certified Professional",
+   "url": "https://graphacademy.neo4j.com/certification/",
+   "note": "Free certification",
+   "uid": "853c8612f470",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.452Z",
+   "finalUrl": "https://graphacademy.neo4j.com/certifications"
+  },
+  {
+   "kind": "badge",
+   "target": "edge-ai",
+   "title": "NVIDIA DLI: Getting Started with AI on Jetson Nano",
+   "url": "https://www.nvidia.com/en-us/training/",
+   "note": "Free certificate",
+   "uid": "c1082ece1bdb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.283Z"
+  },
+  {
+   "kind": "badge",
+   "target": "quantum-ml",
+   "title": "IBM Quantum Learning badges",
+   "url": "https://learning.quantum.ibm.com/",
+   "note": "Free badges",
+   "uid": "0c22230b0e14",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.483Z",
+   "finalUrl": "https://quantum.cloud.ibm.com/learning/en"
+  },
+  {
+   "kind": "badge",
+   "target": "mcp",
+   "title": "Applied Skills: Integrate MCP tools with agents in Microsoft Foundry",
+   "url": "https://learn.microsoft.com/en-us/credentials/applied-skills/integrate-model-context-protocol-tools-with-agents-in-microsoft-foundry/",
+   "note": "Free credential",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "7b7e7a19356f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.290Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mcp",
+   "title": "AWS Agentic AI Demonstrated",
+   "url": "https://skillbuilder.aws/learn/32Y249P272/aws-agentic-ai-demonstrated/TTAJ5WKYTS",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "fd73c0b9a1e7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.395Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mcp",
+   "title": "Docs: Connectors and MCP servers",
+   "url": "https://platform.openai.com/docs/guides/tools-connectors-mcp",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "1306209ef958",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.342Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/tools-connectors-mcp"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "AWS Agentic AI Demonstrated",
+   "url": "https://skillbuilder.aws/learn/32Y249P272/aws-agentic-ai-demonstrated/TTAJ5WKYTS",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "8ab5d570efed",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.324Z"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "Building Generative AI Applications Using Amazon Bedrock",
+   "url": "https://skillbuilder.aws/category/domain/generative-ai",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "108d1193bd56",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.488Z"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "Learning path: Develop AI agents on Azure",
+   "url": "https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/",
+   "note": "Free path",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "fff385635b6a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.421Z"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "Applied Skills: Get started developing agents in Microsoft Foundry",
+   "url": "https://learn.microsoft.com/credentials/applied-skills/",
+   "note": "Free credential",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "147b5935371d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.530Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "OpenAI Academy: Agents and Workflows",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "3775de31714a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.750Z"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "OpenAI Agents SDK docs",
+   "url": "https://openai.github.io/openai-agents-python/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "5cc391e21b6e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.437Z"
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "AWS Certified Generative AI Developer – Professional (AIP-C01)",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "$300 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "3dbc81b2b6be",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.361Z"
+  },
+  {
+   "kind": "badge",
+   "target": "context",
+   "title": "Foundations of Prompt Engineering",
+   "url": "https://skillbuilder.aws/category/domain/generative-ai",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "7365d9b086f6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.642Z"
+  },
+  {
+   "kind": "badge",
+   "target": "context",
+   "title": "Build production-grade multi-agent capabilities with Microsoft Foundry",
+   "url": "https://learn.microsoft.com/en-us/training/paths/aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry/",
+   "note": "Free path: prompting, MCP, RAG, memory",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "107adf2632ed",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.513Z"
+  },
+  {
+   "kind": "badge",
+   "target": "context",
+   "title": "OpenAI Academy: AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "7a87f39b4573",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.021Z"
+  },
+  {
+   "kind": "badge",
+   "target": "context",
+   "title": "Docs: Prompt engineering",
+   "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "50e9bf6fd3b0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.574Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/prompt-engineering"
+  },
+  {
+   "kind": "badge",
+   "target": "context",
+   "title": "AWS Certified AI Practitioner (AIF-C01)",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "$100 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "95e0ec84fc23",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.502Z"
+  },
+  {
+   "kind": "badge",
+   "target": "patterns",
+   "title": "AWS Agentic AI Demonstrated",
+   "url": "https://skillbuilder.aws/learn/32Y249P272/aws-agentic-ai-demonstrated/TTAJ5WKYTS",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "0cd29c57ba02",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.744Z"
+  },
+  {
+   "kind": "badge",
+   "target": "patterns",
+   "title": "Applied Skills: Create agentic workflows by using Microsoft Foundry",
+   "url": "https://learn.microsoft.com/credentials/applied-skills/",
+   "note": "Free credential",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "b04f1a218609",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.697Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/"
+  },
+  {
+   "kind": "badge",
+   "target": "patterns",
+   "title": "Module: Orchestrate a multi-agent solution with Microsoft Agent Framework",
+   "url": "https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/",
+   "note": "Free module",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "0512734b6a0a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.562Z"
+  },
+  {
+   "kind": "badge",
+   "target": "patterns",
+   "title": "OpenAI Academy: Applied AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "37e3925f20c9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.077Z"
+  },
+  {
+   "kind": "badge",
+   "target": "patterns",
+   "title": "OpenAI Cookbook: agent orchestration",
+   "url": "https://cookbook.openai.com/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "4b1097bab083",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.835Z",
+   "finalUrl": "https://developers.openai.com/cookbook"
+  },
+  {
+   "kind": "badge",
+   "target": "scale",
+   "title": "AWS MLOps Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/microcredentials-from-aws-are-now-free-heres-why-that-matters/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "1bfed502e7d5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.632Z"
+  },
+  {
+   "kind": "badge",
+   "target": "scale",
+   "title": "Deploy and govern enterprise agentic AI solutions on Azure",
+   "url": "https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/",
+   "note": "Free path",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "ea228636be4a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.691Z"
+  },
+  {
+   "kind": "badge",
+   "target": "scale",
+   "title": "Docs: Production best practices",
+   "url": "https://platform.openai.com/docs/guides/production-best-practices",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "e6af903b1d57",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.815Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/production-best-practices"
+  },
+  {
+   "kind": "badge",
+   "target": "scale",
+   "title": "AWS AIP-C01 (operational efficiency domain)",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "$300 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "9aa8a15b72ca",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.643Z"
+  },
+  {
+   "kind": "badge",
+   "target": "scale",
+   "title": "AI-103: Azure AI Apps and Agents Developer",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "~US$165 exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "e8611a42732f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.669Z"
+  },
+  {
+   "kind": "badge",
+   "target": "rag",
+   "title": "Building GenAI Apps with Amazon Bedrock (Knowledge Bases lab)",
+   "url": "https://skillbuilder.aws/category/domain/generative-ai",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "2d1fffabe383",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.950Z"
+  },
+  {
+   "kind": "badge",
+   "target": "rag",
+   "title": "AWS Databases for Agentic AI Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "cc11f8329a5a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.722Z"
+  },
+  {
+   "kind": "badge",
+   "target": "rag",
+   "title": "Applied Skills: Build a generative AI chat app",
+   "url": "https://learn.microsoft.com/credentials/applied-skills/",
+   "note": "Free credential",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "6a5d5a739308",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.989Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/"
+  },
+  {
+   "kind": "badge",
+   "target": "rag",
+   "title": "Docs: File search",
+   "url": "https://platform.openai.com/docs/guides/tools-file-search",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "af1571bcd6b9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.947Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/tools-file-search"
+  },
+  {
+   "kind": "badge",
+   "target": "rag",
+   "title": "AWS AIP-C01 (RAG, Knowledge Bases, Guardrails)",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "$300 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "a96315753bcf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.747Z"
+  },
+  {
+   "kind": "badge",
+   "target": "rag",
+   "title": "AI-103 (RAG on Azure AI Search)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "~US$165 exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "6b257a62aaa7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.732Z"
+  },
+  {
+   "kind": "badge",
+   "target": "evals",
+   "title": "AI-103 study guide: evaluate models and apps",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "7fe1d5d7b63b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.859Z"
+  },
+  {
+   "kind": "badge",
+   "target": "evals",
+   "title": "Docs: Evals",
+   "url": "https://platform.openai.com/docs/guides/evals",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "44bedab30e40",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.958Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/evals"
+  },
+  {
+   "kind": "badge",
+   "target": "evals",
+   "title": "AWS AIP-C01 (testing & evaluating FM outputs)",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "$300 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "74fb461f35f7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.817Z"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Generative AI Essentials on AWS",
+   "url": "https://skillbuilder.aws/category/domain/generative-ai",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "3017998bddde",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.036Z"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Fundamentals of Generative AI",
+   "url": "https://learn.microsoft.com/training/",
+   "note": "Free module",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "7550ad9a626c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.056Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/training/"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "OpenAI Academy: AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "b47902c6585b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.161Z"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "AWS Certified AI Practitioner (AIF-C01)",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "$100 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "fdd99e6d1623",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.893Z"
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "AI-901: Azure AI Fundamentals",
+   "url": "https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals/",
+   "note": "~US$99 exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "170425881f39",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.134Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+   "kind": "badge",
+   "target": "memory",
+   "title": "AWS Databases for Agentic AI Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "6585b5d280fe",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:15.926Z"
+  },
+  {
+   "kind": "badge",
+   "target": "memory",
+   "title": "Multi-agent capabilities with Foundry (agent memory with Cosmos DB)",
+   "url": "https://learn.microsoft.com/en-us/training/paths/aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry/",
+   "note": "Free path",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "ffca13095fd5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.070Z"
+  },
+  {
+   "kind": "badge",
+   "target": "memory",
+   "title": "Agent Framework docs: Memory & Persistence",
+   "url": "https://learn.microsoft.com/en-us/agent-framework/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "3d62258a51bd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.015Z"
+  },
+  {
+   "kind": "badge",
+   "target": "memory",
+   "title": "Agents SDK: Sessions",
+   "url": "https://openai.github.io/openai-agents-python/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "2329cbf85395",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.023Z"
+  },
+  {
+   "kind": "badge",
+   "target": "finetune",
+   "title": "Skill Builder: Bedrock model customisation courses",
+   "url": "https://skillbuilder.aws/category/domain/generative-ai",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "3524b1a07455",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.241Z"
+  },
+  {
+   "kind": "badge",
+   "target": "finetune",
+   "title": "Docs: Fine-tuning (SFT, DPO, RFT)",
+   "url": "https://platform.openai.com/docs/guides/fine-tuning",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "75f6e6b0eb15",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.190Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/model-optimization"
+  },
+  {
+   "kind": "badge",
+   "target": "finetune",
+   "title": "Hugging Face smol course",
+   "url": "https://huggingface.co/learn",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "hf",
+    "paid": false
+   },
+   "uid": "04e4a42773c2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.046Z"
+  },
+  {
+   "kind": "badge",
+   "target": "finetune",
+   "title": "AWS Certified ML Engineer – Associate (MLA-C02)",
+   "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+   "note": "$150 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "fa61b8ec8800",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.075Z"
+  },
+  {
+   "kind": "badge",
+   "target": "finetune",
+   "title": "AI-300: MLOps Engineer Associate",
+   "url": "https://learn.microsoft.com/credentials/",
+   "note": "Paid exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "e11ec096d39e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.246Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/"
+  },
+  {
+   "kind": "badge",
+   "target": "multiagent",
+   "title": "AWS Agentic AI Demonstrated",
+   "url": "https://skillbuilder.aws/learn/32Y249P272/aws-agentic-ai-demonstrated/TTAJ5WKYTS",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "da4746bb2321",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.188Z"
+  },
+  {
+   "kind": "badge",
+   "target": "multiagent",
+   "title": "Architect production-grade multi-agent AI solutions in Azure",
+   "url": "https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/",
+   "note": "Free path (includes A2A)",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "b84e9f260cfb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.155Z"
+  },
+  {
+   "kind": "badge",
+   "target": "multiagent",
+   "title": "Agents SDK: Handoffs",
+   "url": "https://openai.github.io/openai-agents-python/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "b4bad0cc299c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.093Z"
+  },
+  {
+   "kind": "badge",
+   "target": "multiagent",
+   "title": "AI-500: Multi-Agent AI Solutions Expert (beta)",
+   "url": "https://learn.microsoft.com/credentials/",
+   "note": "Paid exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "e371f8c894ee",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.248Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/"
+  },
+  {
+   "kind": "badge",
+   "target": "vectordb",
+   "title": "AWS Databases for Agentic AI Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "3db5f4682337",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.176Z"
+  },
+  {
+   "kind": "badge",
+   "target": "vectordb",
+   "title": "Azure AI Search: vector search overview",
+   "url": "https://learn.microsoft.com/azure/search/vector-search-overview",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "763d0d8350a0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.366Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/azure/search/vector-search-overview"
+  },
+  {
+   "kind": "badge",
+   "target": "vectordb",
+   "title": "Docs: Embeddings",
+   "url": "https://platform.openai.com/docs/guides/embeddings",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "31e161db1e94",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.348Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/embeddings"
+  },
+  {
+   "kind": "badge",
+   "target": "design",
+   "title": "AWS Agentic AI Demonstrated",
+   "url": "https://skillbuilder.aws/learn/32Y249P272/aws-agentic-ai-demonstrated/TTAJ5WKYTS",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "df84056960e8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.403Z"
+  },
+  {
+   "kind": "badge",
+   "target": "design",
+   "title": "Module: Develop an AI agent with Microsoft Agent Framework",
+   "url": "https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/",
+   "note": "Free module",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "37b71f7deba4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.303Z"
+  },
+  {
+   "kind": "badge",
+   "target": "design",
+   "title": "Docs: Agents guide",
+   "url": "https://platform.openai.com/docs/guides/agents",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "6dd43b3b8b93",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.316Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/agents"
+  },
+  {
+   "kind": "badge",
+   "target": "design",
+   "title": "AWS AIP-C01 (Bedrock Agents, action groups)",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "$300 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "79b9f227616b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.267Z"
+  },
+  {
+   "kind": "badge",
+   "target": "design",
+   "title": "AI-103: Azure AI Apps and Agents Developer",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "~US$165 exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "ade28413ade5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.219Z"
+  },
+  {
+   "kind": "badge",
+   "target": "chat",
+   "title": "AWS Cloud Quest: Generative AI Practitioner",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/learn-generative-ai-with-aws-cloud-quest-generative-ai-practitioner/",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "1bc80a49ee1f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.266Z"
+  },
+  {
+   "kind": "badge",
+   "target": "chat",
+   "title": "AWS SimuLearn: AI Practitioner",
+   "url": "https://skillbuilder.aws/category/domain/generative-ai",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "b8cde5162018",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.476Z"
+  },
+  {
+   "kind": "badge",
+   "target": "chat",
+   "title": "Applied Skills: Build a generative AI chat app",
+   "url": "https://learn.microsoft.com/credentials/applied-skills/",
+   "note": "Free credential",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "a27d903a4088",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.394Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/"
+  },
+  {
+   "kind": "badge",
+   "target": "chat",
+   "title": "OpenAI Academy: AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "441069677d06",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.765Z"
+  },
+  {
+   "kind": "badge",
+   "target": "chat",
+   "title": "Docs: Realtime API",
+   "url": "https://platform.openai.com/docs/guides/realtime",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "7a4c2b841faf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.483Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/realtime"
+  },
+  {
+   "kind": "badge",
+   "target": "chat",
+   "title": "Anthropic Academy: Claude 101",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "uid": "d770ecfe8aad",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.422Z"
+  },
+  {
+   "kind": "badge",
+   "target": "rl",
+   "title": "AWS DeepRacer / RL courses",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "fae868874225",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.575Z"
+  },
+  {
+   "kind": "badge",
+   "target": "rl",
+   "title": "Spinning Up in Deep RL",
+   "url": "https://spinningup.openai.com/",
+   "note": "Free course",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "d2cee198818a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.488Z",
+   "finalUrl": "https://spinningup.openai.com/en/latest/"
+  },
+  {
+   "kind": "badge",
+   "target": "rl",
+   "title": "Docs: Reinforcement fine-tuning",
+   "url": "https://platform.openai.com/docs/guides/reinforcement-fine-tuning",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "ecf276240e85",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.478Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/reinforcement-fine-tuning"
+  },
+  {
+   "kind": "badge",
+   "target": "rl",
+   "title": "AWS MLA-C02",
+   "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+   "note": "$150 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "6830882d1d4c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.455Z"
+  },
+  {
+   "kind": "badge",
+   "target": "hnsw",
+   "title": "AWS Databases for Agentic AI Demonstrated (pgvector)",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "4e0b1f141cb9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.411Z"
+  },
+  {
+   "kind": "badge",
+   "target": "hnsw",
+   "title": "Amazon OpenSearch k-NN docs (HNSW parameters)",
+   "url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/knn.html",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "f017afc20fd0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.610Z"
+  },
+  {
+   "kind": "badge",
+   "target": "hnsw",
+   "title": "Azure AI Search: vector ranking (HNSW vs KNN)",
+   "url": "https://learn.microsoft.com/azure/search/vector-search-ranking",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "479c36265ef7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.743Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/azure/search/vector-search-ranking"
+  },
+  {
+   "kind": "badge",
+   "target": "a2a",
+   "title": "AWS Securing Agent Identities Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "5f8ca5a335e4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.511Z"
+  },
+  {
+   "kind": "badge",
+   "target": "a2a",
+   "title": "Architect multi-agent AI solutions in Azure (A2A integration)",
+   "url": "https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/",
+   "note": "Free path",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "212d5069316e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.509Z"
+  },
+  {
+   "kind": "badge",
+   "target": "a2a",
+   "title": "AI-500 (beta)",
+   "url": "https://learn.microsoft.com/credentials/",
+   "note": "Paid exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "5990b840830f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.665Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/"
+  },
+  {
+   "kind": "badge",
+   "target": "infra",
+   "title": "AWS MLOps Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/microcredentials-from-aws-are-now-free-heres-why-that-matters/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "e53d2c1fe167",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.513Z"
+  },
+  {
+   "kind": "badge",
+   "target": "infra",
+   "title": "Docs: Latency optimisation",
+   "url": "https://platform.openai.com/docs/guides/latency-optimization",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "5119ba3a019a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.679Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/latency-optimization"
+  },
+  {
+   "kind": "badge",
+   "target": "infra",
+   "title": "AWS MLA-C02",
+   "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+   "note": "$150 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "4cbd1abe670a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.532Z"
+  },
+  {
+   "kind": "badge",
+   "target": "infra",
+   "title": "AI-200 AI Cloud Developer (beta) / AI-300 MLOps",
+   "url": "https://learn.microsoft.com/credentials/",
+   "note": "Paid exams",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "46af51c97b5e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.747Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/"
+  },
+  {
+   "kind": "badge",
+   "target": "agentic-eng",
+   "title": "AWS SimuLearn: AI Practitioner (Amazon Q Developer, Kiro)",
+   "url": "https://skillbuilder.aws/category/domain/generative-ai",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "cfa892800f6e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.790Z"
+  },
+  {
+   "kind": "badge",
+   "target": "agentic-eng",
+   "title": "GitHub Copilot learning paths",
+   "url": "https://learn.microsoft.com/training/github/",
+   "note": "Free paths",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "66a9b14e7a68",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.763Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/training/github/"
+  },
+  {
+   "kind": "badge",
+   "target": "agentic-eng",
+   "title": "OpenAI Codex docs",
+   "url": "https://developers.openai.com/codex",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "e84ac34bdbcd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.724Z",
+   "finalUrl": "https://learn.chatgpt.com/docs"
+  },
+  {
+   "kind": "badge",
+   "target": "agentic-eng",
+   "title": "GH-600 GitHub Certified: Agentic AI Developer (beta)",
+   "url": "https://learn.microsoft.com/credentials/",
+   "note": "Paid exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "9a97f8974e9b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.802Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "AWS Agentic AI Demonstrated",
+   "url": "https://skillbuilder.aws/learn/32Y249P272/aws-agentic-ai-demonstrated/TTAJ5WKYTS",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "9c42e7a7bd54",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.650Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "AWS Securing Agent Identities / Databases for Agentic AI Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/",
+   "note": "Free microcredential badges",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "854f88fff485",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.601Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "AWS MLOps Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/microcredentials-from-aws-are-now-free-heres-why-that-matters/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "3c0e9d4a4467",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.639Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "AWS Cloud Quest: Generative AI Practitioner",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/learn-generative-ai-with-aws-cloud-quest-generative-ai-practitioner/",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "dfe621d2e76d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.672Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "Microsoft Foundry Applied Skills (agents, MCP tools, workflows, chat app)",
+   "url": "https://learn.microsoft.com/credentials/applied-skills/",
+   "note": "Free credentials",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "4bfd7a08c8b0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.856Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/applied-skills/"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "OpenAI Academy (3 courses)",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "73e79ac40c98",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.069Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "Hugging Face Agents, MCP, LLM and Deep RL courses",
+   "url": "https://huggingface.co/learn",
+   "note": "Free certificates",
+   "extra": {
+    "issuer": "hf",
+    "paid": false
+   },
+   "uid": "1eb28ef154eb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.726Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "Anthropic Academy",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificates",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "uid": "bf5637a02123",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.792Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "AWS Certified AI Practitioner (AIF-C01)",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "$100 exam: beginner pick",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "4fa9511a30bd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.722Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "AWS Certified Generative AI Developer – Professional (AIP-C01)",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "$300 exam: capstone for Bedrock",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "0ba9c0949792",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.752Z"
+  },
+  {
+   "kind": "badge",
+   "target": "certs",
+   "title": "AI-103: Azure AI Apps and Agents Developer",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "~US$165 exam: capstone for Foundry",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "15faa9b583f9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.780Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "AWS Skill Builder: Introduction to Artificial Intelligence",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "0cd92c445edf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.084Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "Microsoft Learn: Introduction to AI concepts",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=introduction%20to%20AI%20concepts",
+   "note": "Free modules with achievements",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "2a6b1aa1c750",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.869Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "OpenAI Academy: AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "8367639ea40f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.555Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "Google: Introduction to Generative AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/536",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "06bf3215d2f1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:18.300Z",
+   "finalUrl": "https://www.skills.google/course_templates/536"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "Anthropic Academy: AI Fluency",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "uid": "a62f4f852bb5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.907Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "AWS Certified AI Practitioner (AIF-C01)",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "$100 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "4d28bfd47cf2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.835Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "AI-901: Azure AI Fundamentals",
+   "url": "https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals/",
+   "note": "~US$99 exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "f2459a7a09b0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.013Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+  },
+  {
+   "kind": "badge",
+   "target": "python",
+   "title": "Microsoft Learn: Python for beginners",
+   "url": "https://learn.microsoft.com/en-us/training/paths/beginner-python/",
+   "note": "Free path with achievements",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "69ea179c9b2e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.905Z"
+  },
+  {
+   "kind": "badge",
+   "target": "data",
+   "title": "AWS Skill Builder: Data Analytics Fundamentals",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "10d6c074dddb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.943Z"
+  },
+  {
+   "kind": "badge",
+   "target": "data",
+   "title": "Microsoft Learn: Explore and analyse data with Python",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=explore%20data%20with%20python",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "882badc1415f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.949Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "AWS Skill Builder: Machine Learning Essentials",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "a6fd53e95d53",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.942Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "Microsoft Learn: Fundamentals of machine learning",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=fundamentals%20of%20machine%20learning",
+   "note": "Free module",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "a0b21ccc46e8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.493Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.992Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "Google Machine Learning Crash Course",
+   "url": "https://developers.google.com/machine-learning/crash-course",
+   "note": "Free course",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "335be08a7022",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.341Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "Kaggle Intro to Machine Learning",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   },
+   "uid": "61a00815c577",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.136Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "AWS Certified ML Engineer – Associate (MLA-C02)",
+   "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+   "note": "$150 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "050517204e90",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:16.952Z"
+  },
+  {
+   "kind": "badge",
+   "target": "neural-nets",
+   "title": "Microsoft Learn: deep learning modules",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=deep%20learning",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "48655e9a12b4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.162Z"
+  },
+  {
+   "kind": "badge",
+   "target": "prompting",
+   "title": "AWS Skill Builder: Foundations of Prompt Engineering",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "6b2e7ce7b78f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.244Z"
+  },
+  {
+   "kind": "badge",
+   "target": "prompting",
+   "title": "OpenAI Academy: AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "0cb8b55c9588",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.527Z"
+  },
+  {
+   "kind": "badge",
+   "target": "prompting",
+   "title": "Anthropic Academy: AI Fluency",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "uid": "207d466bacd5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.118Z"
+  },
+  {
+   "kind": "badge",
+   "target": "prompting",
+   "title": "Microsoft Learn: Copilot prompting",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=copilot%20prompts",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "9eab7d0c2e17",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.100Z"
+  },
+  {
+   "kind": "badge",
+   "target": "prompting",
+   "title": "Google Prompting Essentials",
+   "url": "https://grow.google/prompting-essentials/",
+   "note": "Paid certificate (Coursera)",
+   "extra": {
+    "issuer": "google",
+    "paid": true
+   },
+   "uid": "1d0f8998386e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.036Z",
+   "finalUrl": "https://grow.google/ai-professional/"
+  },
+  {
+   "kind": "badge",
+   "target": "vision",
+   "title": "Microsoft Learn: Azure AI Vision",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=azure%20ai%20vision",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "d25987bee4ed",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.156Z"
+  },
+  {
+   "kind": "badge",
+   "target": "vision",
+   "title": "Amazon Rekognition docs",
+   "url": "https://docs.aws.amazon.com/rekognition/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "3cac0af7a37f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.202Z"
+  },
+  {
+   "kind": "badge",
+   "target": "vision",
+   "title": "OpenAI docs: Images and vision",
+   "url": "https://platform.openai.com/docs/guides/images-vision",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "6ab189c97a9e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.330Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/images-vision"
+  },
+  {
+   "kind": "badge",
+   "target": "speech",
+   "title": "Azure AI Speech docs",
+   "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "2fc238fed6dc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.133Z"
+  },
+  {
+   "kind": "badge",
+   "target": "speech",
+   "title": "Amazon Transcribe docs",
+   "url": "https://docs.aws.amazon.com/transcribe/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "db4d9cdcdbe3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.264Z"
+  },
+  {
+   "kind": "badge",
+   "target": "speech",
+   "title": "OpenAI docs: Text to speech",
+   "url": "https://platform.openai.com/docs/guides/text-to-speech",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "b35dde666d76",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.376Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/text-to-speech"
+  },
+  {
+   "kind": "badge",
+   "target": "genmedia",
+   "title": "OpenAI docs: Image generation",
+   "url": "https://platform.openai.com/docs/guides/image-generation",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "0d7072a3d46b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.322Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/image-generation"
+  },
+  {
+   "kind": "badge",
+   "target": "genmedia",
+   "title": "Amazon Bedrock: image generation models",
+   "url": "https://aws.amazon.com/bedrock/",
+   "note": "Free docs",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "42b116d8caae",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.271Z"
+  },
+  {
+   "kind": "badge",
+   "target": "multimodal",
+   "title": "OpenAI docs: Images and vision",
+   "url": "https://platform.openai.com/docs/guides/images-vision",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "da0fa780d2c9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.329Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/images-vision"
+  },
+  {
+   "kind": "badge",
+   "target": "multimodal",
+   "title": "Claude docs: Vision",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/vision",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "uid": "e9b6c2786a14",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.370Z",
+   "finalUrl": "https://platform.claude.com/docs/en/build-with-claude/vision"
+  },
+  {
+   "kind": "badge",
+   "target": "multimodal",
+   "title": "Gemini API docs",
+   "url": "https://ai.google.dev/gemini-api/docs",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "aed9854b2e88",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 310,
+   "checkedAt": "2026-10-14T02:55:21.964Z",
+   "history": [
+    {
+     "at": "2026-10-14T02:55:21.964Z",
+     "change": "link broken → ok (HTTP 310)"
+    }
+   ]
+  },
+  {
+   "kind": "badge",
+   "target": "recsys",
+   "title": "Google Recommendation Systems course",
+   "url": "https://developers.google.com/machine-learning/recommendation",
+   "note": "Free course",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "115aa9532029",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.761Z"
+  },
+  {
+   "kind": "badge",
+   "target": "recsys",
+   "title": "Amazon Personalize docs",
+   "url": "https://docs.aws.amazon.com/personalize/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "0af3f9f46c5b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:17.355Z"
+  },
+  {
+   "kind": "badge",
+   "target": "timeseries",
+   "title": "Microsoft Learn: forecasting modules",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=forecasting",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "c405f1c3c012",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.362Z"
+  },
+  {
+   "kind": "badge",
+   "target": "robotics",
+   "title": "Hugging Face LeRobot",
+   "url": "https://github.com/huggingface/lerobot",
+   "note": "Free, open-source",
+   "extra": {
+    "issuer": "hf",
+    "paid": false
+   },
+   "uid": "72243848aa06",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.620Z"
+  },
+  {
+   "kind": "badge",
+   "target": "robotics",
+   "title": "AWS Skill Builder: robotics and IoT courses",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free courses",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "f78812e328f8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.407Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Microsoft Learn: Embrace responsible AI principles",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=responsible%20AI%20principles",
+   "note": "Free module",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "1bef80544f4d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.419Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ethics",
+   "title": "AWS Responsible AI resources",
+   "url": "https://aws.amazon.com/ai/responsible-ai/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "3487f2b5b45e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.309Z"
+  },
+  {
+   "kind": "badge",
+   "target": "safety",
+   "title": "Microsoft Learn: AI security modules",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=AI%20security",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "a21d8472a98c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.410Z"
+  },
+  {
+   "kind": "badge",
+   "target": "safety",
+   "title": "AWS Securing Agent Identities Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/",
+   "note": "Free microcredential badge",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "85a64762b97d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.338Z"
+  },
+  {
+   "kind": "badge",
+   "target": "safety",
+   "title": "OpenAI docs: Safety best practices",
+   "url": "https://platform.openai.com/docs/guides/safety-best-practices",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "e952f03ce908",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.510Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/safety-best-practices"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-law",
+   "title": "Microsoft Responsible AI Standard",
+   "url": "https://www.microsoft.com/en-us/ai/responsible-ai",
+   "note": "Free",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "46505867ac5c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:21.077Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-law",
+   "title": "IAPP AIGP certification",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "Paid exam",
+   "extra": {
+    "issuer": "other",
+    "paid": true
+   },
+   "uid": "a3e127516184",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.690Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-business",
+   "title": "AWS Skill Builder: Generative AI for executives",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free course",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "a0490fbaddaf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.558Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-business",
+   "title": "Microsoft Learn: AI for business leaders",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=AI%20business%20leaders",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "ff7e07beac40",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.327Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-business",
+   "title": "OpenAI Academy: Applied AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free completion certificate (not a formal OpenAI Certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "33d59cf1c511",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.796Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-business",
+   "title": "AB-100: Agentic AI Business Solutions Architect",
+   "url": "https://learn.microsoft.com/credentials/",
+   "note": "Paid exam",
+   "extra": {
+    "issuer": "ms",
+    "paid": true
+   },
+   "uid": "8f3377d8887d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.489Z",
+   "finalUrl": "https://learn.microsoft.com/en-us/credentials/"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-product",
+   "title": "Google People + AI Guidebook",
+   "url": "https://pair.withgoogle.com/guidebook/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "1d7023ff355e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.376Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ai-product",
+   "title": "Microsoft HAX Toolkit",
+   "url": "https://www.microsoft.com/en-us/haxtoolkit/",
+   "note": "Free guidelines",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "7928fea4e031",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.500Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-health",
+   "title": "AWS Skill Builder: healthcare and life sciences courses",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free courses",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "2100f37ee683",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.496Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-health",
+   "title": "Microsoft Learn: AI in healthcare",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=healthcare%20AI",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "8119e676a9a2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.513Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-finance",
+   "title": "AWS Skill Builder: financial services courses",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free courses",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "cdca1b4e1d69",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.519Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-finance",
+   "title": "Microsoft Learn: AI in financial services",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=financial%20services%20AI",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "6c0514d5df15",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.583Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-legal",
+   "title": "Anthropic Academy: AI Fluency",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "uid": "d0a76a080977",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.557Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-legal",
+   "title": "OpenAI Academy: AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free badge (not a formal certification)",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "943c254239a6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.764Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-legal",
+   "title": "IAPP AIGP",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "$649/$799 exam",
+   "extra": {
+    "issuer": "other",
+    "paid": true
+   },
+   "uid": "509a5da0e08c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.002Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-education",
+   "title": "Google: Generative AI for Educators",
+   "url": "https://grow.google/ai-for-educators/",
+   "note": "Free",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "2f0ce859e3cb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.527Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-education",
+   "title": "Anthropic: AI Fluency for Educators",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "uid": "b324c5f34fdf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.703Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-education",
+   "title": "Microsoft Learn: AI for educators",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=AI%20educators",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "2d158aaaed10",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.753Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-retail",
+   "title": "Google Skills: retail and recommendations labs",
+   "url": "https://www.skills.google/",
+   "note": "Free badges",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "7842bea9cfb3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:21.339Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-retail",
+   "title": "Amazon Personalize docs",
+   "url": "https://docs.aws.amazon.com/personalize/",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "dd135a25fdaf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.646Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-manufacturing",
+   "title": "AWS Skill Builder: industrial and IoT courses",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free courses",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "ea658857c4eb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.864Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-manufacturing",
+   "title": "Microsoft Learn: manufacturing AI",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=manufacturing%20AI",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "4c86d44d84aa",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.705Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-agriculture",
+   "title": "Microsoft FarmVibes.AI",
+   "url": "https://github.com/microsoft/farmvibes-ai",
+   "note": "Free, open-source",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "5f202faef016",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.065Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-agriculture",
+   "title": "Kaggle Computer Vision",
+   "url": "https://www.kaggle.com/learn/computer-vision",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   },
+   "uid": "7b5924e3600a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.889Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-marketing",
+   "title": "OpenAI Academy: Applied AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "openai",
+    "paid": false
+   },
+   "uid": "67b7e54877a6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.238Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-marketing",
+   "title": "Google Cloud Generative AI Leader",
+   "url": "https://cloud.google.com/learn/certification/generative-ai-leader",
+   "note": "$99 exam",
+   "extra": {
+    "issuer": "google",
+    "paid": true
+   },
+   "uid": "2ef2233dcf94",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:21.159Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-hr",
+   "title": "Microsoft Learn: responsible AI",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=responsible%20AI",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "060f88b48dd7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.816Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-hr",
+   "title": "IAPP AIGP",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "$649/$799 exam",
+   "extra": {
+    "issuer": "other",
+    "paid": true
+   },
+   "uid": "06988aca720a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.113Z"
+  },
+  {
+   "kind": "badge",
+   "target": "ind-gov",
+   "title": "AWS Skill Builder: public sector courses",
+   "url": "https://skillbuilder.aws/",
+   "note": "Free courses",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "9d0552e08994",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.052Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mlops",
+   "title": "Microsoft AI-300 learning path",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
+   "note": "Free path + practice test",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "0f96ea60add1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.887Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mlops",
+   "title": "Google Skills: Vertex AI MLOps badges",
+   "url": "https://www.skills.google/",
+   "note": "Free badges",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "bc77efcca0cf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:21.230Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mlops",
+   "title": "AWS MLOps Demonstrated",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/microcredentials-from-aws-are-now-free-heres-why-that-matters/",
+   "note": "Free microcredential",
+   "extra": {
+    "issuer": "aws",
+    "paid": false
+   },
+   "uid": "d6dc9a8e8fe6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.885Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mlops",
+   "title": "Certified Kubernetes Administrator (CKA)",
+   "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
+   "note": "$445 exam",
+   "extra": {
+    "issuer": "other",
+    "paid": true
+   },
+   "uid": "c154e87a95a8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.337Z"
+  },
+  {
+   "kind": "badge",
+   "target": "mlops",
+   "title": "AWS ML Engineer – Associate (MLA-C02)",
+   "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+   "note": "$150 exam (beta Oct 2026)",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "a2e02a853dda",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.971Z"
+  },
+  {
+   "kind": "badge",
+   "target": "data-eng",
+   "title": "Databricks Data Engineer Associate",
+   "url": "https://www.databricks.com/learn/certification",
+   "note": "$200 exam",
+   "extra": {
+    "issuer": "other",
+    "paid": true
+   },
+   "uid": "6d08091a1ec8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.045Z",
+   "finalUrl": "https://www.databricks.com/learn/training/certification"
+  },
+  {
+   "kind": "badge",
+   "target": "data-eng",
+   "title": "AWS Certified Data Engineer – Associate",
+   "url": "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+   "note": "$150 exam",
+   "extra": {
+    "issuer": "aws",
+    "paid": true
+   },
+   "uid": "b06ae7548439",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:19.944Z"
+  },
+  {
+   "kind": "badge",
+   "target": "nlp",
+   "title": "NVIDIA NCA-GENL",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "note": "$125 exam",
+   "extra": {
+    "issuer": "other",
+    "paid": true
+   },
+   "uid": "866b1c15a222",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.112Z"
+  },
+  {
+   "kind": "badge",
+   "target": "xai",
+   "title": "Microsoft Learn: responsible AI dashboard",
+   "url": "https://learn.microsoft.com/en-us/training/browse/?terms=responsible%20AI%20dashboard",
+   "note": "Free modules",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "uid": "d89193431677",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.128Z"
+  },
+  {
+   "kind": "badge",
+   "target": "edge-ai",
+   "title": "Google AI Edge docs",
+   "url": "https://ai.google.dev/edge",
+   "note": "Free guide",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "uid": "af8cb6bcea51",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 310,
+   "checkedAt": "2026-10-14T02:55:20.955Z",
+   "history": [
+    {
+     "at": "2026-10-14T02:55:20.955Z",
+     "change": "link broken → ok (HTTP 310)"
+    }
+   ]
+  },
+  {
+   "kind": "badge",
+   "target": "ai-chips",
+   "title": "NVIDIA NCA-AIIO",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "note": "$125 exam",
+   "extra": {
+    "issuer": "other",
+    "paid": true
+   },
+   "uid": "53ef6fadf4a2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.228Z"
+  },
+  {
+   "kind": "repo",
+   "target": "certs",
+   "title": "microsoft/generative-ai-for-beginners",
+   "url": "https://github.com/microsoft/generative-ai-for-beginners",
+   "note": "Free curriculum",
+   "uid": "e535638d47f7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.513Z"
+  },
+  {
+   "kind": "repo",
+   "target": "certs",
+   "title": "microsoft/ai-agents-for-beginners",
+   "url": "https://github.com/microsoft/ai-agents-for-beginners",
+   "note": "Free curriculum",
+   "uid": "acf8661caf0b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.505Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "AWS Certified AI Practitioner (AIF-C01)",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "Live · $100 · Best beginner pick",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "be799247b7fd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.193Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "AWS ML Engineer – Associate (MLA-C02)",
+   "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+   "note": "Beta · $150 · Replaces MLA-C01 (ended Sept 28, 2026)",
+   "extra": {
+    "status": "Beta"
+   },
+   "uid": "c6ad70773157",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.174Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "AWS Generative AI Developer – Professional (AIP-C01)",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "Live · $300 · Capstone for Bedrock builders",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "8c6916ab3244",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.207Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "AWS ML – Specialty (MLS-C01)",
+   "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/",
+   "note": "Retired · — · Retired after Mar 31, 2026",
+   "extra": {
+    "status": "Retired"
+   },
+   "uid": "0f52d906aa56",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.285Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Microsoft Azure AI Fundamentals (AI-901)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+   "note": "Live · ~$99 · Replaces AI-900",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "74a77b8d7f78",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.305Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Microsoft Azure AI Apps and Agents Developer (AI-103)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "Live · ~$165 · Replaces AI-102 (retired June 30, 2026)",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "04611508da9c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.336Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Microsoft Machine Learning Operations Engineer (AI-300)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
+   "note": "Live · ~$165 · Replaces DP-100 (retired June 1, 2026)",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "07a799796329",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.292Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Microsoft Agentic AI Business Solutions Architect (AB-100)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/",
+   "note": "Live · ~$165 · Expert level",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "b532e72b2bc0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.394Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Microsoft Multi-Agent AI Solutions Expert (AI-500)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-500/",
+   "note": "Beta · Verify · Status unconfirmed",
+   "extra": {
+    "status": "Beta"
+   },
+   "uid": "026200dee1de",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.503Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Microsoft AI Business Professional (AB-730)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/",
+   "note": "Live · Verify · For business users",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "9ee18210df93",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.364Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Google Cloud Generative AI Leader",
+   "url": "https://cloud.google.com/learn/certification/generative-ai-leader",
+   "note": "Live · $99 · Non-technical leaders",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "4a0c93ac2e2d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:21.193Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Google Cloud Professional ML Engineer (PMLE)",
+   "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+   "note": "Live · $200 · ML engineers",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "f737ded0c29e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:21.411Z",
+   "finalUrl": "https://cloud.google.com/learn/certification/machine-learning-engineer?hl=id"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "NVIDIA Generative AI LLMs Associate (NCA-GENL)",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "note": "Live · $125 · Valid 2 years",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "19ebde744339",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.450Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Databricks Generative AI Engineer Associate",
+   "url": "https://www.databricks.com/learn/certification",
+   "note": "Live · $200 · Lakehouse GenAI",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "7d6ff7df8098",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.675Z",
+   "finalUrl": "https://www.databricks.com/learn/training/certification"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Certified Kubernetes Administrator (CKA)",
+   "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
+   "note": "Live · $445 · MLOps foundation",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "65a76bb9a218",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.574Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "IAPP AI Governance Professional (AIGP)",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "Live · $649 / $799 · Member / non-member",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "1c0e82c389eb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:21.218Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "OpenAI Certifications",
+   "url": "https://academy.openai.com/",
+   "note": "Invite-only · Not published · Enterprise & Edu pilots only",
+   "extra": {
+    "status": "Invite-only"
+   },
+   "uid": "7749ef78f3eb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.629Z"
+  },
+  {
+   "kind": "link",
+   "target": "cert-board",
+   "title": "Anthropic Academy certificates",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Live · Free · Free course certificates",
+   "extra": {
+    "status": "Live"
+   },
+   "uid": "b143b6a13db3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:20.687Z"
+  },
+  {
+   "uid": "a7002e183b24",
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "freeCodeCamp: Machine Learning with Python",
+   "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+   "note": "Free certification",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.632Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "8dbfb1e8f02c",
+   "kind": "badge",
+   "target": "llm",
+   "title": "Google: Introduction to Large Language Models",
+   "url": "https://www.cloudskillsboost.google/course_templates/539",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:12.251Z",
+   "finalUrl": "https://www.skills.google/course_templates/539",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "d8f2a448c687",
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Microsoft Learn: Fundamentals of Responsible Generative AI",
+   "url": "https://learn.microsoft.com/en-us/training/modules/responsible-generative-ai/",
+   "note": "Free trophy",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.751Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "91c7a7d78c77",
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Linux Foundation: Ethics in AI and Big Data (LFS112)",
+   "url": "https://training.linuxfoundation.org/training/ethics-in-ai-and-big-data/",
+   "note": "Free course + badge",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "rejected",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "broken",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:58:45.468Z",
+     "change": "rejected"
+    }
+   ],
+   "http": 404,
+   "checkedAt": "2026-10-14T02:59:09.527Z"
+  },
+  {
+   "uid": "ff863efd92ac",
+   "kind": "badge",
+   "target": "agentic-eng",
+   "title": "Anthropic: Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.755Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "e717ec9f43f8",
+   "kind": "badge",
+   "target": "llm",
+   "title": "Anthropic: Building with the Claude API",
+   "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.972Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "9ff522d968e8",
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "Anthropic: AI Fluency – Framework & Foundations",
+   "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.730Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "908f948a1c7e",
+   "kind": "badge",
+   "target": "agents",
+   "title": "Kaggle: 5-Day AI Agents Intensive",
+   "url": "https://www.kaggle.com/learn-guide/5-day-agents",
+   "note": "Free badge (Google + Kaggle)",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.694Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "ad1ebca4123e",
+   "kind": "badge",
+   "target": "llm",
+   "title": "Kaggle: 5-Day Gen AI Intensive",
+   "url": "https://www.kaggle.com/learn-guide/5-day-genai",
+   "note": "Free (Google + Kaggle)",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:11.916Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "uid": "bcafc8aed995",
+   "kind": "badge",
+   "target": "data-eng",
+   "title": "Data Engineering Zoomcamp certificate",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "note": "Free certificate (project-graded)",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.758Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.758Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.664Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.312Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:12.093Z",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  }
+ ]
+}

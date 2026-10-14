@@ -1,0 +1,833 @@
+{
+ "agent": "level-1",
+ "name": "Level 1 · Foundations agent",
+ "updatedAt": "2026-10-14T02:59:29.774Z",
+ "total": 52,
+ "byStatus": {
+  "site": 46,
+  "added": 6
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "ai-intro",
+   "title": "Elements of AI",
+   "url": "https://www.elementsofai.com/",
+   "note": "Free, beginner-friendly, certificate",
+   "uid": "93726675e4fc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.062Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-intro",
+   "title": "AI For Everyone (Andrew Ng)",
+   "url": "https://www.coursera.org/learn/ai-for-everyone",
+   "note": "Free to audit on Coursera",
+   "uid": "887015091197",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.491Z"
+  },
+  {
+   "kind": "course",
+   "target": "ai-intro",
+   "title": "Google: Introduction to Generative AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/536",
+   "note": "Free, 45 minutes, badge",
+   "uid": "a25a8330bbbf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:44.148Z",
+   "finalUrl": "https://www.skills.google/course_templates/536"
+  },
+  {
+   "kind": "paid",
+   "target": "ai-intro",
+   "title": "Google AI Essentials",
+   "url": "https://grow.google/ai-essentials/",
+   "note": "Coursera subscription, Google certificate",
+   "uid": "012b403e2279",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.475Z"
+  },
+  {
+   "kind": "video",
+   "target": "ai-intro",
+   "title": "What is AI? (beginner explainer)",
+   "url": "https://www.youtube.com/results?search_query=what%20is%20artificial%20intelligence%20explained%20for%20beginners",
+   "extra": {
+    "search": "what is artificial intelligence explained for beginners"
+   },
+   "uid": "89cdb72b1e4e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "python",
+   "title": "Kaggle Learn: Python",
+   "url": "https://www.kaggle.com/learn/python",
+   "note": "Free, hands-on, certificate",
+   "uid": "aded6a3204a3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.649Z"
+  },
+  {
+   "kind": "course",
+   "target": "python",
+   "title": "Harvard CS50P",
+   "url": "https://cs50.harvard.edu/python/",
+   "note": "Free, full course",
+   "uid": "51fafb91ca90",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.522Z"
+  },
+  {
+   "kind": "course",
+   "target": "python",
+   "title": "Microsoft Learn: Python for beginners",
+   "url": "https://learn.microsoft.com/en-us/training/paths/beginner-python/",
+   "note": "Free path",
+   "uid": "5ed8aceb7c93",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.490Z"
+  },
+  {
+   "kind": "course",
+   "target": "python",
+   "title": "Google Colab",
+   "url": "https://colab.research.google.com/",
+   "note": "Free notebooks in the browser",
+   "uid": "9728e7e4741b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.484Z"
+  },
+  {
+   "kind": "paid",
+   "target": "python",
+   "title": "Python for Everybody (Univ. of Michigan)",
+   "url": "https://www.coursera.org/specializations/python",
+   "note": "Coursera certificate",
+   "uid": "09f03930cc26",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.774Z"
+  },
+  {
+   "kind": "video",
+   "target": "python",
+   "title": "Python full course for beginners",
+   "url": "https://www.youtube.com/results?search_query=python%20full%20course%20for%20beginners%20freecodecamp",
+   "extra": {
+    "search": "python full course for beginners freecodecamp"
+   },
+   "uid": "b807dc06abd6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "math",
+   "title": "3Blue1Brown: Essence of Linear Algebra",
+   "url": "https://www.3blue1brown.com/topics/linear-algebra",
+   "note": "Visual, free",
+   "uid": "c51ade219cf4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.812Z",
+   "finalUrl": "https://www.3blue1brown.com/?topic=linear-algebra"
+  },
+  {
+   "kind": "course",
+   "target": "math",
+   "title": "Khan Academy: Statistics & probability",
+   "url": "https://www.khanacademy.org/math/statistics-probability",
+   "note": "Free",
+   "uid": "842565ec037a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.672Z"
+  },
+  {
+   "kind": "course",
+   "target": "math",
+   "title": "Mathematics for Machine Learning (free book)",
+   "url": "https://mml-book.github.io/",
+   "note": "Free PDF",
+   "uid": "e1f8440f9e01",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.458Z"
+  },
+  {
+   "kind": "course",
+   "target": "math",
+   "title": "StatQuest",
+   "url": "https://www.youtube.com/@statquest",
+   "note": "Free videos",
+   "uid": "20d67cb96e77",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.851Z"
+  },
+  {
+   "kind": "paid",
+   "target": "math",
+   "title": "Mathematics for ML and Data Science (DeepLearning.AI)",
+   "url": "https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science",
+   "note": "Coursera certificate",
+   "uid": "1c5da91ce80e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.463Z"
+  },
+  {
+   "kind": "video",
+   "target": "math",
+   "title": "Essence of linear algebra",
+   "url": "https://www.youtube.com/results?search_query=3blue1brown%20essence%20of%20linear%20algebra",
+   "extra": {
+    "search": "3blue1brown essence of linear algebra"
+   },
+   "uid": "3fad1e81b999",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "data",
+   "title": "Kaggle Learn: Pandas",
+   "url": "https://www.kaggle.com/learn/pandas",
+   "note": "Free, certificate",
+   "uid": "6dd76e902361",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.668Z"
+  },
+  {
+   "kind": "course",
+   "target": "data",
+   "title": "Kaggle Learn: Data Cleaning",
+   "url": "https://www.kaggle.com/learn/data-cleaning",
+   "note": "Free, certificate",
+   "uid": "fef0dc03e698",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.646Z"
+  },
+  {
+   "kind": "course",
+   "target": "data",
+   "title": "Kaggle Learn: Intro to SQL",
+   "url": "https://www.kaggle.com/learn/intro-to-sql",
+   "note": "Free, certificate",
+   "uid": "4902c8e3f469",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.744Z"
+  },
+  {
+   "kind": "course",
+   "target": "data",
+   "title": "Microsoft: Data Science for Beginners",
+   "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+   "note": "Free 20-lesson curriculum",
+   "uid": "026ba2af9aed",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.988Z"
+  },
+  {
+   "kind": "paid",
+   "target": "data",
+   "title": "Google Data Analytics Professional Certificate",
+   "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+   "note": "Coursera certificate",
+   "uid": "f12d6178fcc3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.362Z"
+  },
+  {
+   "kind": "video",
+   "target": "data",
+   "title": "Pandas tutorial for beginners",
+   "url": "https://www.youtube.com/results?search_query=pandas%20tutorial%20for%20beginners",
+   "extra": {
+    "search": "pandas tutorial for beginners"
+   },
+   "uid": "a82335631751",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ml-basics",
+   "title": "Google Machine Learning Crash Course",
+   "url": "https://developers.google.com/machine-learning/crash-course",
+   "note": "Free, interactive",
+   "uid": "7f03ba4b1f72",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.762Z"
+  },
+  {
+   "kind": "course",
+   "target": "ml-basics",
+   "title": "Kaggle Learn: Intro to Machine Learning",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "note": "Free, certificate",
+   "uid": "60e2b0d999f7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.794Z"
+  },
+  {
+   "kind": "course",
+   "target": "ml-basics",
+   "title": "Microsoft: ML for Beginners",
+   "url": "https://github.com/microsoft/ML-For-Beginners",
+   "note": "Free 26-lesson curriculum",
+   "uid": "a24805a23e4e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.069Z"
+  },
+  {
+   "kind": "course",
+   "target": "ml-basics",
+   "title": "scikit-learn: Getting started",
+   "url": "https://scikit-learn.org/stable/getting_started.html",
+   "note": "Free docs",
+   "uid": "2c3e6c991e0d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:42.761Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ml-basics",
+   "title": "Machine Learning Specialization (Andrew Ng)",
+   "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+   "note": "Coursera certificate",
+   "uid": "0ceb23ceb914",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.157Z"
+  },
+  {
+   "kind": "video",
+   "target": "ml-basics",
+   "title": "StatQuest machine learning",
+   "url": "https://www.youtube.com/results?search_query=statquest%20machine%20learning%20playlist",
+   "extra": {
+    "search": "statquest machine learning playlist"
+   },
+   "uid": "8cfa43501d51",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "fast.ai: Practical Deep Learning",
+   "url": "https://course.fast.ai/",
+   "note": "Free, project-first",
+   "uid": "a821e137d1b7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.035Z"
+  },
+  {
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "MIT 6.S191 Introduction to Deep Learning",
+   "url": "https://introtodeeplearning.com/",
+   "note": "Free lectures + labs",
+   "uid": "35af9ae66c3f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.030Z"
+  },
+  {
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "Dive into Deep Learning (free book)",
+   "url": "https://d2l.ai/",
+   "note": "Free, with code",
+   "uid": "6053345322f3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.000Z"
+  },
+  {
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "PyTorch tutorials",
+   "url": "https://pytorch.org/tutorials/",
+   "note": "Free docs",
+   "uid": "f2e0a31e495d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.646Z",
+   "finalUrl": "https://docs.pytorch.org/tutorials/"
+  },
+  {
+   "kind": "paid",
+   "target": "neural-nets",
+   "title": "Deep Learning Specialization (DeepLearning.AI)",
+   "url": "https://www.coursera.org/specializations/deep-learning",
+   "note": "Coursera certificate",
+   "uid": "bd01ab327300",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.264Z"
+  },
+  {
+   "kind": "video",
+   "target": "neural-nets",
+   "title": "3Blue1Brown neural networks",
+   "url": "https://www.youtube.com/results?search_query=3blue1brown%20neural%20networks",
+   "extra": {
+    "search": "3blue1brown neural networks"
+   },
+   "uid": "d17f6ff8aceb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "ai-intro",
+   "title": "microsoft/AI-For-Beginners",
+   "url": "https://github.com/microsoft/AI-For-Beginners",
+   "note": "12-week free AI curriculum",
+   "uid": "a9b70f3fc6dc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.227Z"
+  },
+  {
+   "kind": "repo",
+   "target": "python",
+   "title": "TheAlgorithms/Python",
+   "url": "https://github.com/TheAlgorithms/Python",
+   "note": "Classic algorithms in Python",
+   "uid": "7320dca3554a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.251Z"
+  },
+  {
+   "kind": "repo",
+   "target": "python",
+   "title": "jakevdp/PythonDataScienceHandbook",
+   "url": "https://github.com/jakevdp/PythonDataScienceHandbook",
+   "note": "Free book as notebooks",
+   "uid": "e58f22c64d4b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.275Z"
+  },
+  {
+   "kind": "repo",
+   "target": "math",
+   "title": "mml-book/mml-book.github.io",
+   "url": "https://github.com/mml-book/mml-book.github.io",
+   "note": "Mathematics for ML book",
+   "uid": "49e6e75b9a96",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.314Z"
+  },
+  {
+   "kind": "repo",
+   "target": "data",
+   "title": "microsoft/Data-Science-For-Beginners",
+   "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+   "note": "20 lessons",
+   "uid": "d7f74182772e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.369Z"
+  },
+  {
+   "kind": "repo",
+   "target": "data",
+   "title": "pandas-dev/pandas",
+   "url": "https://github.com/pandas-dev/pandas",
+   "note": "Data analysis library",
+   "uid": "6e759b1fafc5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.450Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ml-basics",
+   "title": "microsoft/ML-For-Beginners",
+   "url": "https://github.com/microsoft/ML-For-Beginners",
+   "note": "26 lessons",
+   "uid": "8be9849b59c4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.507Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ml-basics",
+   "title": "scikit-learn/scikit-learn",
+   "url": "https://github.com/scikit-learn/scikit-learn",
+   "note": "Classic ML library",
+   "uid": "af16571329c7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.521Z"
+  },
+  {
+   "kind": "repo",
+   "target": "neural-nets",
+   "title": "pytorch/pytorch",
+   "url": "https://github.com/pytorch/pytorch",
+   "note": "Deep learning framework",
+   "uid": "a0f18a295316",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.490Z"
+  },
+  {
+   "kind": "repo",
+   "target": "neural-nets",
+   "title": "fastai/fastbook",
+   "url": "https://github.com/fastai/fastbook",
+   "note": "fast.ai book as notebooks",
+   "uid": "1eadbaa108ed",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.531Z"
+  },
+  {
+   "kind": "repo",
+   "target": "neural-nets",
+   "title": "d2l-ai/d2l-en",
+   "url": "https://github.com/d2l-ai/d2l-en",
+   "note": "Dive into Deep Learning",
+   "uid": "9fd299ea80e3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:43.667Z"
+  },
+  {
+   "uid": "087c92966f69",
+   "kind": "course",
+   "target": "python",
+   "title": "Google's Python Class",
+   "url": "https://developers.google.com/edu/python",
+   "note": "Google · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.677Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.677Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.643Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.295Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:55.924Z",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "uid": "739912ae9753",
+   "kind": "course",
+   "target": "math",
+   "title": "Seeing Theory: visual probability",
+   "url": "https://seeing-theory.brown.edu/",
+   "note": "Brown University · Free, interactive",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.677Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.677Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.643Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.295Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:55.880Z",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "uid": "ed53cb48f463",
+   "kind": "course",
+   "target": "data",
+   "title": "freeCodeCamp: Data Analysis with Python",
+   "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+   "note": "freeCodeCamp · Free certification",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.677Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.677Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.643Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.295Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.170Z",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "uid": "aa9ca3b71baf",
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "TensorFlow Playground",
+   "url": "https://playground.tensorflow.org/",
+   "note": "Play with a neural net in your browser · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.677Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.677Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.643Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.295Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:55.956Z",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "uid": "82c8df604103",
+   "kind": "video",
+   "target": "neural-nets",
+   "title": "Neural networks (3Blue1Brown series)",
+   "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+   "note": "3Blue1Brown · visual intro",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.678Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.678Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.643Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.295Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:55.858Z",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "uid": "75444060e996",
+   "kind": "repo",
+   "target": "neural-nets",
+   "title": "karpathy/micrograd",
+   "url": "https://github.com/karpathy/micrograd",
+   "note": "Tiny autograd engine to learn backprop",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.678Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.678Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.643Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.295Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.106Z",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  }
+ ]
+}

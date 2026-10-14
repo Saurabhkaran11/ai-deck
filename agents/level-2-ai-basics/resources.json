@@ -1,0 +1,725 @@
+{
+ "agent": "level-2",
+ "name": "Level 2 · AI basics agent",
+ "updatedAt": "2026-10-14T02:59:29.777Z",
+ "total": 44,
+ "byStatus": {
+  "site": 38,
+  "added": 6
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "agents",
+   "title": "Anthropic · Building effective agents",
+   "url": "https://www.anthropic.com/engineering/building-effective-agents",
+   "note": "Canonical guide",
+   "uid": "a51b33e0ddb6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.436Z"
+  },
+  {
+   "kind": "course",
+   "target": "agents",
+   "title": "Hugging Face Agents Course",
+   "url": "https://huggingface.co/learn/agents-course",
+   "note": "Free, project-based",
+   "uid": "dac7fbcbcad1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.491Z",
+   "finalUrl": "https://huggingface.co/learn/agents-course/unit0/introduction"
+  },
+  {
+   "kind": "course",
+   "target": "agents",
+   "title": "Microsoft · AI Agents for Beginners",
+   "url": "https://github.com/microsoft/ai-agents-for-beginners",
+   "note": "Free lessons + code",
+   "uid": "35a28ababd7b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.683Z"
+  },
+  {
+   "kind": "paid",
+   "target": "agents",
+   "title": "DeepLearning.AI · Agentic AI (Andrew Ng)",
+   "url": "https://www.deeplearning.ai/courses/agentic-ai/",
+   "note": "Best structured course",
+   "uid": "35d3dca98075",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.750Z"
+  },
+  {
+   "kind": "video",
+   "target": "agents",
+   "title": "AI agents explained",
+   "url": "https://www.youtube.com/results?search_query=how%20AI%20agents%20work%20explained",
+   "extra": {
+    "search": "how AI agents work explained"
+   },
+   "uid": "817071046baa",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "context",
+   "title": "Anthropic · Effective context engineering",
+   "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+   "note": "Core reading",
+   "uid": "cc09ad8bd7c5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.402Z"
+  },
+  {
+   "kind": "course",
+   "target": "context",
+   "title": "Anthropic prompt engineering docs",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+   "note": "Techniques",
+   "uid": "514f9c31efd6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.562Z",
+   "finalUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"
+  },
+  {
+   "kind": "course",
+   "target": "context",
+   "title": "LangChain · Context engineering for agents",
+   "url": "https://blog.langchain.com/context-engineering-for-agents/",
+   "note": "Patterns",
+   "uid": "23242ccd8439",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.620Z",
+   "finalUrl": "https://www.langchain.com/blog/context-engineering-for-agents"
+  },
+  {
+   "kind": "paid",
+   "target": "context",
+   "title": "Book · AI Engineering (Chip Huyen)",
+   "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+   "note": "Best overall reference",
+   "uid": "24db1c398876",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.488Z"
+  },
+  {
+   "kind": "video",
+   "target": "context",
+   "title": "Context engineering",
+   "url": "https://www.youtube.com/results?search_query=context%20engineering%20LLM%20agents",
+   "extra": {
+    "search": "context engineering LLM agents"
+   },
+   "uid": "a5286a843a1e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "llm",
+   "title": "Karpathy · Neural Networks: Zero to Hero",
+   "url": "https://karpathy.ai/zero-to-hero.html",
+   "note": "Build GPT from scratch",
+   "uid": "3cdf2dcb8265",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.570Z"
+  },
+  {
+   "kind": "course",
+   "target": "llm",
+   "title": "3Blue1Brown · Neural networks",
+   "url": "https://www.3blue1brown.com/topics/neural-networks",
+   "note": "Visual intuition",
+   "uid": "3322380c6793",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.752Z",
+   "finalUrl": "https://www.3blue1brown.com/?topic=neural-networks"
+  },
+  {
+   "kind": "course",
+   "target": "llm",
+   "title": "Hugging Face LLM Course",
+   "url": "https://huggingface.co/learn/llm-course",
+   "note": "Free",
+   "uid": "3be924df1448",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.552Z",
+   "finalUrl": "https://huggingface.co/learn/llm-course/chapter1/1"
+  },
+  {
+   "kind": "paid",
+   "target": "llm",
+   "title": "Coursera · Deep Learning Specialization",
+   "url": "https://www.coursera.org/specializations/deep-learning",
+   "note": "Paid certificate",
+   "uid": "ae175b46ed75",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.958Z"
+  },
+  {
+   "kind": "video",
+   "target": "llm",
+   "title": "Karpathy · Deep dive into LLMs",
+   "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+   "uid": "68307be151cd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.974Z"
+  },
+  {
+   "kind": "course",
+   "target": "chat",
+   "title": "Hugging Face chat templates",
+   "url": "https://huggingface.co/docs/transformers/chat_templating",
+   "note": "How chat format works",
+   "uid": "119b1d1162a2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.481Z"
+  },
+  {
+   "kind": "course",
+   "target": "chat",
+   "title": "Claude API docs",
+   "url": "https://docs.claude.com/",
+   "note": "Messages API",
+   "uid": "483bb3950e71",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.698Z",
+   "finalUrl": "https://platform.claude.com/docs/en/home"
+  },
+  {
+   "kind": "course",
+   "target": "chat",
+   "title": "DeepLearning.AI · Prompt Engineering for Developers",
+   "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+   "note": "Free short course",
+   "uid": "fbecd45cf357",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.950Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/chatgpt-prompt-eng"
+  },
+  {
+   "kind": "paid",
+   "target": "chat",
+   "title": "Coursera · Generative AI courses",
+   "url": "https://www.coursera.org/courses?query=generative%20ai",
+   "note": "Paid certificates",
+   "uid": "437e42903627",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.083Z"
+  },
+  {
+   "kind": "video",
+   "target": "chat",
+   "title": "Build a chatbot",
+   "url": "https://www.youtube.com/results?search_query=build%20AI%20chatbot%20tutorial",
+   "extra": {
+    "search": "build AI chatbot tutorial"
+   },
+   "uid": "f1919257b705",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "prompting",
+   "title": "Learn Prompting",
+   "url": "https://learnprompting.org/",
+   "note": "Free, beginner to advanced",
+   "uid": "a0a4915341cc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.822Z"
+  },
+  {
+   "kind": "course",
+   "target": "prompting",
+   "title": "Anthropic prompt engineering tutorial",
+   "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+   "note": "Free, interactive",
+   "uid": "567080e897d1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.802Z"
+  },
+  {
+   "kind": "course",
+   "target": "prompting",
+   "title": "Prompt Engineering Guide",
+   "url": "https://www.promptingguide.ai/",
+   "note": "Free reference",
+   "uid": "9a0dbe97ac13",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.863Z"
+  },
+  {
+   "kind": "course",
+   "target": "prompting",
+   "title": "OpenAI Academy",
+   "url": "https://academy.openai.com/",
+   "note": "Free courses",
+   "uid": "288de0b3ec3f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.903Z"
+  },
+  {
+   "kind": "paid",
+   "target": "prompting",
+   "title": "Google Prompting Essentials",
+   "url": "https://grow.google/prompting-essentials/",
+   "note": "Coursera, Google certificate",
+   "uid": "0a136b638175",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.674Z",
+   "finalUrl": "https://grow.google/ai-professional/"
+  },
+  {
+   "kind": "video",
+   "target": "prompting",
+   "title": "Prompting tips for beginners",
+   "url": "https://www.youtube.com/results?search_query=prompt%20engineering%20for%20beginners%20everyday%20work",
+   "extra": {
+    "search": "prompt engineering for beginners everyday work"
+   },
+   "uid": "7c89ddc46782",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.491Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "agents",
+   "title": "openai/openai-agents-python",
+   "url": "https://github.com/openai/openai-agents-python",
+   "note": "Agents SDK · ~30k★",
+   "uid": "aefe883c3695",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.008Z"
+  },
+  {
+   "kind": "repo",
+   "target": "agents",
+   "title": "huggingface/smolagents",
+   "url": "https://github.com/huggingface/smolagents",
+   "note": "Minimal code agents · ~30k★",
+   "uid": "5ae6b037f21d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:46.901Z"
+  },
+  {
+   "kind": "repo",
+   "target": "agents",
+   "title": "microsoft/ai-agents-for-beginners",
+   "url": "https://github.com/microsoft/ai-agents-for-beginners",
+   "note": "Lessons + code",
+   "uid": "d978ad5f8aa4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.042Z"
+  },
+  {
+   "kind": "repo",
+   "target": "context",
+   "title": "stanfordnlp/dspy",
+   "url": "https://github.com/stanfordnlp/dspy",
+   "note": "Programming, not prompting · ~39k★",
+   "uid": "02c5ae3b7221",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.012Z"
+  },
+  {
+   "kind": "repo",
+   "target": "context",
+   "title": "openai/openai-cookbook",
+   "url": "https://github.com/openai/openai-cookbook",
+   "note": "Recipes · ~77k★",
+   "uid": "0b8bd58a3604",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.005Z"
+  },
+  {
+   "kind": "repo",
+   "target": "llm",
+   "title": "karpathy/nanoGPT",
+   "url": "https://github.com/karpathy/nanoGPT",
+   "note": "Minimal GPT training · ~64k★",
+   "uid": "33ef551f3810",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.107Z"
+  },
+  {
+   "kind": "repo",
+   "target": "llm",
+   "title": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "note": "Model library",
+   "uid": "f22611ceb9eb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.118Z"
+  },
+  {
+   "kind": "repo",
+   "target": "llm",
+   "title": "microsoft/generative-ai-for-beginners",
+   "url": "https://github.com/microsoft/generative-ai-for-beginners",
+   "note": "21 lessons",
+   "uid": "fff31e7d0ade",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.504Z"
+  },
+  {
+   "kind": "repo",
+   "target": "chat",
+   "title": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "note": "Self-hosted chat UI",
+   "uid": "a2a7c59d3555",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.290Z"
+  },
+  {
+   "kind": "repo",
+   "target": "chat",
+   "title": "ollama/ollama",
+   "url": "https://github.com/ollama/ollama",
+   "note": "Local models · ~183k★",
+   "uid": "cc257082e4ef",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.289Z"
+  },
+  {
+   "kind": "repo",
+   "target": "prompting",
+   "title": "dair-ai/Prompt-Engineering-Guide",
+   "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+   "note": "Guides and papers",
+   "uid": "966cb089b8c9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.285Z"
+  },
+  {
+   "kind": "repo",
+   "target": "prompting",
+   "title": "anthropics/prompt-eng-interactive-tutorial",
+   "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+   "note": "Interactive lessons",
+   "uid": "6fc7525f1c75",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.222Z"
+  },
+  {
+   "uid": "da3b0c2963ba",
+   "kind": "course",
+   "target": "llm",
+   "title": "Transformer Explainer",
+   "url": "https://poloclub.github.io/transformer-explainer/",
+   "note": "Georgia Tech · interactive, free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.690Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.690Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.646Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.297Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.375Z",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "uid": "b3a7ba32c591",
+   "kind": "course",
+   "target": "llm",
+   "title": "LLM Visualization",
+   "url": "https://bbycroft.net/llm",
+   "note": "3D walk-through of a GPT · free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.690Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.690Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.646Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.297Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.588Z",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "uid": "bd6583767194",
+   "kind": "repo",
+   "target": "llm",
+   "title": "rasbt/LLMs-from-scratch",
+   "url": "https://github.com/rasbt/LLMs-from-scratch",
+   "note": "Build a GPT step by step · ~70k★",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.690Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.690Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.646Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.297Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.557Z",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "uid": "737b66aecf8e",
+   "kind": "repo",
+   "target": "llm",
+   "title": "mlabonne/llm-course",
+   "url": "https://github.com/mlabonne/llm-course",
+   "note": "Roadmaps + notebooks · ~60k★",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.690Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.690Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.646Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.297Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.518Z",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "uid": "e76e1823b743",
+   "kind": "paid",
+   "target": "llm",
+   "title": "Build a Large Language Model (From Scratch)",
+   "url": "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+   "note": "Sebastian Raschka · Manning book",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.690Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.690Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.646Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.297Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.458Z",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "uid": "66cdfe4845e2",
+   "kind": "course",
+   "target": "chat",
+   "title": "One Useful Thing",
+   "url": "https://www.oneusefulthing.org/",
+   "note": "Ethan Mollick · free newsletter on using AI well",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.690Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.690Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.646Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.297Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.416Z",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  }
+ ]
+}

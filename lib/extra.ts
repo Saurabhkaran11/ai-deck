@@ -1,5 +1,6 @@
 import { MORE_BADGES, MORE_NOTICES, MORE_REPOS } from "./more";
 import { MORE2_BADGES, MORE2_NOTICES, MORE2_REPOS } from "./more2";
+import { ADDITIONS, appendUnique, mergeRecord } from "./agent-merge";
 /* Vendor badges, open-source projects and the AI Tools catalogue.
    Verified October 2026. Re-check prices and links each quarter. */
 
@@ -33,7 +34,7 @@ const ACADEMY = "https://academy.openai.com/";
 const ANTH = "https://anthropic.skilljar.com/";
 const OA_NOTE = "Free completion certificate (not a formal OpenAI Certification)";
 
-export const BADGES: Record<string, Badge[]> = {
+const BADGES_SITE: Record<string, Badge[]> = {
   mcp: [
     ["ms", "Applied Skills: Integrate MCP tools with agents in Microsoft Foundry", "https://learn.microsoft.com/en-us/credentials/applied-skills/integrate-model-context-protocol-tools-with-agents-in-microsoft-foundry/", "Free credential"],
     ["aws", "AWS Agentic AI Demonstrated", AGENTIC, "Free microcredential badge"],
@@ -180,7 +181,7 @@ export const BADGES: Record<string, Badge[]> = {
   ...MORE2_BADGES,
 };
 
-export const REPOS: Record<string, Repo[]> = {
+const REPOS_SITE: Record<string, Repo[]> = {
   mcp: [["modelcontextprotocol/servers", "https://github.com/modelcontextprotocol/servers", "Reference servers · ~91k★"], ["modelcontextprotocol/python-sdk", "https://github.com/modelcontextprotocol/python-sdk", "Official Python SDK · ~25k★"], ["microsoft/mcp-for-beginners", "https://github.com/microsoft/mcp-for-beginners", "Cross-language curriculum"]],
   agents: [["openai/openai-agents-python", "https://github.com/openai/openai-agents-python", "Agents SDK · ~30k★"], ["huggingface/smolagents", "https://github.com/huggingface/smolagents", "Minimal code agents · ~30k★"], ["microsoft/ai-agents-for-beginners", "https://github.com/microsoft/ai-agents-for-beginners", "Lessons + code"]],
   context: [["stanfordnlp/dspy", "https://github.com/stanfordnlp/dspy", "Programming, not prompting · ~39k★"], ["openai/openai-cookbook", "https://github.com/openai/openai-cookbook", "Recipes · ~77k★"]],
@@ -205,6 +206,10 @@ export const REPOS: Record<string, Repo[]> = {
   ...MORE2_REPOS,
 };
 
+/* Hand-written lists plus anything approved by the resource agents. */
+export const BADGES: Record<string, Badge[]> = mergeRecord(BADGES_SITE, ADDITIONS.badges, (b) => b[2]);
+export const REPOS: Record<string, Repo[]> = mergeRecord(REPOS_SITE, ADDITIONS.repos, (r) => r[1]);
+
 export const NOTICES: Record<string, string> = {
   certs: "Retired, so skip these: AWS ML Specialty (MLS-C01, retired Mar 2026) and MLA-C01 (ended Sept 28, 2026; MLA-C02 now in beta); Microsoft AI-102 (now AI-103), AI-900 (now AI-901) and DP-100 (now AI-300); Applied Skills APL-3031 and APL-3022. OpenAI Certified is invite-only for ChatGPT Enterprise and Edu workspaces; OpenAI Academy badges are free but are not formal certifications. Google Cloud Skills Boost is now called Google Skills.",
   rag: "The Applied Skill “Implement knowledge mining with Azure AI Search” (APL-3022) is retired.",
@@ -217,7 +222,7 @@ export const NOTICES: Record<string, string> = {
 /* ---------------- AI Tools catalogue ---------------- */
 type ToolGroup = { id: string; key: string; post: string; summary: string; tools: Tool[] };
 
-export const TOOL_GROUPS: ToolGroup[] = [
+const TOOL_GROUPS_SITE: ToolGroup[] = [
   { id: "t-chat", key: "Chat Assistants", post: "& Model APIs", summary: "General-purpose assistants and the model APIs behind them.", tools: [
     ["Claude", "https://claude.ai", "Free · Pro $20 · Max $100/$200", "freemium", false, "Anthropic assistant; Claude Code on paid plans"],
     ["ChatGPT", "https://chatgpt.com", "Free · Go ~$8 · Plus $20 · Pro $200", "freemium", false, "OpenAI assistant with agent mode and Codex"],
@@ -392,3 +397,5 @@ export const TOOL_GROUPS: ToolGroup[] = [
     ["AgentCore Browser", "https://aws.amazon.com/bedrock/agentcore/", "Paid (usage)", "paid", true, "Sandboxed agent browser"],
   ]},
 ];
+
+export const TOOL_GROUPS: ToolGroup[] = TOOL_GROUPS_SITE.map((g) => ({ ...g, tools: appendUnique(g.tools, ADDITIONS.tools[g.id], (t) => t[1]) }));

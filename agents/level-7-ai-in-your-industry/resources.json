@@ -1,0 +1,1239 @@
+{
+ "agent": "level-7",
+ "name": "Level 7 · AI in your industry agent",
+ "updatedAt": "2026-10-14T02:59:29.781Z",
+ "total": 77,
+ "byStatus": {
+  "site": 68,
+  "added": 9
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "ind-health",
+   "title": "FDA: AI-Enabled Medical Devices",
+   "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/artificial-intelligence-enabled-medical-devices",
+   "note": "Official list and guidance",
+   "uid": "eae516c0ada4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "blocked",
+   "http": 401,
+   "checkedAt": "2026-10-14T02:50:55.624Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-health",
+   "title": "MONAI tutorials",
+   "url": "https://github.com/Project-MONAI/tutorials",
+   "note": "Free, medical imaging AI",
+   "uid": "24509a458ca0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.686Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-health",
+   "title": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free, certificates",
+   "uid": "14f89b39c0d9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.541Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-health",
+   "title": "AI in Healthcare Specialization (Stanford)",
+   "url": "https://www.coursera.org/specializations/ai-healthcare",
+   "note": "Coursera certificate",
+   "uid": "f30145969be6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.721Z"
+  },
+  {
+   "kind": "video",
+   "target": "ind-health",
+   "title": "Stanford AIMI talks",
+   "url": "https://www.youtube.com/results?search_query=Stanford%20AIMI%20AI%20in%20medicine",
+   "extra": {
+    "search": "Stanford AIMI AI in medicine"
+   },
+   "uid": "2c458188dc29",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-finance",
+   "title": "FINRA Regulatory Notice 24-09",
+   "url": "https://www.finra.org/rules-guidance/notices/24-09",
+   "note": "Free, GenAI rules for firms",
+   "uid": "7961cec4f5d3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:50:55.578Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-finance",
+   "title": "Kaggle: IEEE-CIS Fraud Detection",
+   "url": "https://www.kaggle.com/c/ieee-fraud-detection",
+   "note": "Free dataset",
+   "uid": "30d707d94e72",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.572Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-finance",
+   "title": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Free, certificates",
+   "uid": "23ddcd76688c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.590Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-finance",
+   "title": "CFA Institute: Data Science for Investment Professionals",
+   "url": "https://www.cfainstitute.org/about/press-releases/2023/data-science-certificate",
+   "note": "Paid certificate",
+   "uid": "29701c3bceca",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.710Z",
+   "finalUrl": "https://www.cfainstitute.org/about/press-room/2023/data-science-certificate"
+  },
+  {
+   "kind": "video",
+   "target": "ind-finance",
+   "title": "AI in banking explained",
+   "url": "https://www.youtube.com/results?search_query=AI%20in%20banking%20fraud%20detection%20explained",
+   "extra": {
+    "search": "AI in banking fraud detection explained"
+   },
+   "uid": "2d4e040d26de",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-legal",
+   "title": "ABA Formal Opinion 512 (full text)",
+   "url": "https://www.mcle.org/ePrograms/2250081P01/1--aba-formal-opinion-512.pdf",
+   "note": "Free PDF",
+   "uid": "862849116208",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.552Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-legal",
+   "title": "Anthropic Academy: AI Fluency",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "uid": "ff8d7ef5b9ff",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.647Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-legal",
+   "title": "OpenAI Academy",
+   "url": "https://academy.openai.com/",
+   "note": "Free courses, badges",
+   "uid": "ebb1e8bcd06f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.839Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-legal",
+   "title": "IAPP AI Governance Professional (AIGP)",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "$649 member / $799 non-member",
+   "uid": "3c2d388bd9b9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.762Z"
+  },
+  {
+   "kind": "video",
+   "target": "ind-legal",
+   "title": "Stanford CodeX",
+   "url": "https://www.youtube.com/results?search_query=Stanford%20CodeX%20legal%20AI",
+   "extra": {
+    "search": "Stanford CodeX legal AI"
+   },
+   "uid": "91e33dd11b36",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-education",
+   "title": "Google: Generative AI for Educators",
+   "url": "https://grow.google/ai-for-educators/",
+   "note": "Free, with MIT RAISE",
+   "uid": "d3f112a65e3d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.381Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-education",
+   "title": "Code.org AI curriculum",
+   "url": "https://code.org/ai",
+   "note": "Free",
+   "uid": "7b6ea1fc63a6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.713Z",
+   "finalUrl": "https://code.org/en-US/artificial-intelligence"
+  },
+  {
+   "kind": "course",
+   "target": "ind-education",
+   "title": "Anthropic: AI Fluency for Educators",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Free certificate",
+   "uid": "9c1036824156",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.771Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-education",
+   "title": "ChatGPT Foundations for Teachers (Coursera)",
+   "url": "https://www.coursera.org/learn/chatgpt-foundations-for-teachers",
+   "note": "Free to audit",
+   "uid": "47473fc159ee",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.583Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-education",
+   "title": "Microsoft AB-730: AI Business Professional",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/",
+   "note": "Paid exam",
+   "uid": "ed97ea1c1f7e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.502Z"
+  },
+  {
+   "kind": "video",
+   "target": "ind-education",
+   "title": "Khan Academy: Khanmigo",
+   "url": "https://www.youtube.com/results?search_query=Khanmigo%20Khan%20Academy%20AI%20tutor",
+   "extra": {
+    "search": "Khanmigo Khan Academy AI tutor"
+   },
+   "uid": "09fba2648d2d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-retail",
+   "title": "Google: Recommendation Systems",
+   "url": "https://developers.google.com/machine-learning/recommendation",
+   "note": "Free",
+   "uid": "5e446fb6afbf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.852Z",
+   "finalUrl": "https://developers.google.com/machine-learning/recommendation?hl=fa"
+  },
+  {
+   "kind": "course",
+   "target": "ind-retail",
+   "title": "Kaggle Learn: Time Series",
+   "url": "https://www.kaggle.com/learn/time-series",
+   "note": "Free certificate",
+   "uid": "d0c19964040c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.822Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-retail",
+   "title": "Forecasting: Principles and Practice",
+   "url": "https://otexts.com/fpp3/",
+   "note": "Free book",
+   "uid": "5acb643379f5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 202,
+   "checkedAt": "2026-10-14T02:50:55.765Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-retail",
+   "title": "Google Skills",
+   "url": "https://www.skills.google/",
+   "note": "Free badges and labs",
+   "uid": "6977b1833ef7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.696Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-retail",
+   "title": "Google Cloud Professional Machine Learning Engineer",
+   "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+   "note": "$200 exam",
+   "uid": "d124c3a4eb39",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.791Z",
+   "finalUrl": "https://cloud.google.com/learn/certification/machine-learning-engineer?hl=fr"
+  },
+  {
+   "kind": "video",
+   "target": "ind-retail",
+   "title": "Nixtla forecasting",
+   "url": "https://www.youtube.com/results?search_query=Nixtla%20time%20series%20forecasting",
+   "extra": {
+    "search": "Nixtla time series forecasting"
+   },
+   "uid": "bf243ca4223f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-manufacturing",
+   "title": "anomalib (defect detection)",
+   "url": "https://github.com/openvinotoolkit/anomalib",
+   "note": "Free library",
+   "uid": "0a7cd2e48045",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.128Z",
+   "finalUrl": "https://github.com/open-edge-platform/anomalib"
+  },
+  {
+   "kind": "course",
+   "target": "ind-manufacturing",
+   "title": "NVIDIA Deep Learning Institute",
+   "url": "https://www.nvidia.com/en-us/training/",
+   "note": "Some free courses",
+   "uid": "7677307a1845",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.767Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-manufacturing",
+   "title": "HarvardX TinyML (edX)",
+   "url": "https://www.edx.org/certificates/professional-certificate/harvardx-tiny-machine-learning",
+   "note": "Free to audit",
+   "uid": "7ba306d9e6df",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.913Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-manufacturing",
+   "title": "MITx MicroMasters in Supply Chain Management",
+   "url": "https://www.edx.org/masters/micromasters/mitx-supply-chain-management",
+   "note": "Paid credential",
+   "uid": "04a086319f65",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.120Z",
+   "finalUrl": "https://www.edx.org/learn/supply-chain-design-related-courses"
+  },
+  {
+   "kind": "video",
+   "target": "ind-manufacturing",
+   "title": "NVIDIA Developer",
+   "url": "https://www.youtube.com/results?search_query=NVIDIA%20industrial%20AI%20inspection",
+   "extra": {
+    "search": "NVIDIA industrial AI inspection"
+   },
+   "uid": "f7a5e343e89a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-agriculture",
+   "title": "Microsoft FarmVibes.AI",
+   "url": "https://github.com/microsoft/farmvibes-ai",
+   "note": "Free, open-source",
+   "uid": "668e2f7fe207",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.188Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-agriculture",
+   "title": "NASA ARSET trainings",
+   "url": "https://appliedsciences.nasa.gov/arset",
+   "note": "Free",
+   "uid": "f0e86a451e5e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.219Z",
+   "finalUrl": "https://science.nasa.gov/earth-science/earth-action/"
+  },
+  {
+   "kind": "course",
+   "target": "ind-agriculture",
+   "title": "Kaggle Learn: Computer Vision",
+   "url": "https://www.kaggle.com/learn/computer-vision",
+   "note": "Free certificate",
+   "uid": "3be772ad90c1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.964Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-agriculture",
+   "title": "DeepLearning.AI: AI for Good Specialization",
+   "url": "https://www.coursera.org/specializations/ai-for-good",
+   "note": "Coursera certificate",
+   "uid": "6527a48711b1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.586Z"
+  },
+  {
+   "kind": "video",
+   "target": "ind-agriculture",
+   "title": "NASA ARSET",
+   "url": "https://www.youtube.com/results?search_query=NASA%20ARSET%20agriculture%20remote%20sensing",
+   "extra": {
+    "search": "NASA ARSET agriculture remote sensing"
+   },
+   "uid": "63a8b3a82d7a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-marketing",
+   "title": "Google Skillshop: AI-powered ads",
+   "url": "https://skillshop.withgoogle.com/",
+   "note": "Free certifications",
+   "uid": "e59f2b6c7bc9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.122Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-marketing",
+   "title": "HubSpot Academy",
+   "url": "https://academy.hubspot.com/",
+   "note": "Free certificates",
+   "uid": "619b43401e58",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.102Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-marketing",
+   "title": "Google Meridian (marketing mix model)",
+   "url": "https://github.com/google/meridian",
+   "note": "Free, open-source",
+   "uid": "9d198caf411e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.212Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-marketing",
+   "title": "OpenAI Academy",
+   "url": "https://academy.openai.com/",
+   "note": "Free courses, badges",
+   "uid": "3ecdb8ed3b6d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.375Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-marketing",
+   "title": "Google Cloud Generative AI Leader",
+   "url": "https://cloud.google.com/learn/certification/generative-ai-leader",
+   "note": "$99 exam",
+   "uid": "f502b3cb4a06",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.844Z",
+   "finalUrl": "https://cloud.google.com/learn/certification/generative-ai-leader?hl=pt-br"
+  },
+  {
+   "kind": "video",
+   "target": "ind-marketing",
+   "title": "HubSpot Marketing",
+   "url": "https://www.youtube.com/results?search_query=HubSpot%20AI%20marketing",
+   "extra": {
+    "search": "HubSpot AI marketing"
+   },
+   "uid": "a5f58f10da97",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-hr",
+   "title": "NIST AI Risk Management Framework",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "note": "Free",
+   "uid": "ebe085c1ec53",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:55.970Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-hr",
+   "title": "IBM AI Fairness 360",
+   "url": "https://github.com/Trusted-AI/AIF360",
+   "note": "Free toolkit",
+   "uid": "651071b3afa8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.374Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-hr",
+   "title": "NYC Local Law 144 (AEDT)",
+   "url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+   "note": "Official guidance",
+   "uid": "4a0cacd24e60",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.344Z"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-hr",
+   "title": "IAPP AI Governance Professional (AIGP)",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "$649 member / $799 non-member",
+   "uid": "a8f9dd3159bf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.563Z"
+  },
+  {
+   "kind": "video",
+   "target": "ind-hr",
+   "title": "AI in recruiting explained",
+   "url": "https://www.youtube.com/results?search_query=AI%20in%20recruiting%20bias%20explained",
+   "extra": {
+    "search": "AI in recruiting bias explained"
+   },
+   "uid": "fff3bd147a10",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "ind-gov",
+   "title": "Elements of AI",
+   "url": "https://www.elementsofai.com/",
+   "note": "Free certificate",
+   "uid": "16dc941cc00d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.818Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-gov",
+   "title": "NIST AI Risk Management Framework",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "note": "Free",
+   "uid": "efc790d727c2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.234Z"
+  },
+  {
+   "kind": "course",
+   "target": "ind-gov",
+   "title": "Apolitical Government AI Campus",
+   "url": "https://apolitical.co/",
+   "note": "Free courses",
+   "uid": "ac8ad181cb88",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.473Z",
+   "finalUrl": "https://apolitical.co/en"
+  },
+  {
+   "kind": "paid",
+   "target": "ind-gov",
+   "title": "IAPP AI Governance Professional (AIGP)",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "$649 member / $799 non-member",
+   "uid": "abb1302e4d68",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.712Z"
+  },
+  {
+   "kind": "video",
+   "target": "ind-gov",
+   "title": "AI in government",
+   "url": "https://www.youtube.com/results?search_query=AI%20in%20government%20public%20sector%20examples",
+   "extra": {
+    "search": "AI in government public sector examples"
+   },
+   "uid": "96e259bed39d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.492Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-health",
+   "title": "Project-MONAI/MONAI",
+   "url": "https://github.com/Project-MONAI/MONAI",
+   "note": "Medical imaging AI",
+   "uid": "0f1824ad2030",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.557Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-health",
+   "title": "MIMIC-IV (PhysioNet)",
+   "url": "https://physionet.org/content/mimiciv/",
+   "note": "Clinical data (credentialed)",
+   "uid": "325fb16ae450",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:58.632Z",
+   "finalUrl": "https://physionet.org/content/mimiciv/3.1/"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-finance",
+   "title": "microsoft/qlib",
+   "url": "https://github.com/microsoft/qlib",
+   "note": "Quant investment platform",
+   "uid": "6f90e4fb0fb5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.714Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-finance",
+   "title": "AI4Finance-Foundation/FinGPT",
+   "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+   "note": "Finance LLMs",
+   "uid": "dd8a6c416fc4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.647Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-legal",
+   "title": "HazyResearch/legalbench",
+   "url": "https://github.com/HazyResearch/legalbench",
+   "note": "Legal reasoning benchmark",
+   "uid": "5d0745fe8232",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.748Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-legal",
+   "title": "TheAtticusProject/cuad",
+   "url": "https://github.com/TheAtticusProject/cuad",
+   "note": "Contract clause dataset",
+   "uid": "6422a82187bf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.793Z",
+   "finalUrl": "https://github.com/The-Atticus-Project/cuad"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-education",
+   "title": "CAHLR/OATutor",
+   "url": "https://github.com/CAHLR/OATutor",
+   "note": "Open adaptive tutor",
+   "uid": "b6e09c5a23fd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.787Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-retail",
+   "title": "recommenders-team/recommenders",
+   "url": "https://github.com/recommenders-team/recommenders",
+   "note": "Recommendation examples",
+   "uid": "7aae7a696a32",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.830Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-retail",
+   "title": "Nixtla/statsforecast",
+   "url": "https://github.com/Nixtla/statsforecast",
+   "note": "Fast forecasting",
+   "uid": "9e3a849210e7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.967Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-manufacturing",
+   "title": "openvinotoolkit/anomalib",
+   "url": "https://github.com/openvinotoolkit/anomalib",
+   "note": "Anomaly detection",
+   "uid": "2efe5d118ef8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:57.096Z",
+   "finalUrl": "https://github.com/open-edge-platform/anomalib"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-agriculture",
+   "title": "microsoft/farmvibes-ai",
+   "url": "https://github.com/microsoft/farmvibes-ai",
+   "note": "Geospatial farm AI",
+   "uid": "4292638209f0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.698Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-marketing",
+   "title": "google/meridian",
+   "url": "https://github.com/google/meridian",
+   "note": "Marketing mix modelling",
+   "uid": "55500f206d25",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.627Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-marketing",
+   "title": "facebookexperimental/Robyn",
+   "url": "https://github.com/facebookexperimental/Robyn",
+   "note": "Marketing mix modelling",
+   "uid": "7be555411904",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:57.098Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-hr",
+   "title": "Trusted-AI/AIF360",
+   "url": "https://github.com/Trusted-AI/AIF360",
+   "note": "Fairness toolkit",
+   "uid": "2188c0706e00",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:56.984Z"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-hr",
+   "title": "fairlearn/fairlearn",
+   "url": "https://github.com/fairlearn/fairlearn",
+   "note": "Fairness assessment",
+   "uid": "12242b9a26e7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:57.007Z"
+  },
+  {
+   "uid": "f6273c24e816",
+   "kind": "course",
+   "target": "ind-health",
+   "title": "Ethics and governance of AI for health",
+   "url": "https://www.who.int/publications/i/item/9789240029200",
+   "note": "WHO · Free guidance",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.143Z",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "27eac9d5f9e5",
+   "kind": "course",
+   "target": "ind-finance",
+   "title": "Machine Learning for Trading",
+   "url": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+   "note": "Georgia Tech · Udacity, free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.457Z",
+   "finalUrl": "https://www.udacity.com/course/ai-trading-strategies--nd881",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "0ba6966a6201",
+   "kind": "repo",
+   "target": "ind-finance",
+   "title": "AI4Finance-Foundation/FinRL",
+   "url": "https://github.com/AI4Finance-Foundation/FinRL",
+   "note": "Reinforcement learning for trading",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.389Z",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "3faea78154f7",
+   "kind": "course",
+   "target": "ind-education",
+   "title": "Guidance for generative AI in education and research",
+   "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+   "note": "UNESCO · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.646Z",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "7bc87b18f505",
+   "kind": "course",
+   "target": "ind-education",
+   "title": "AI 101 for Teachers",
+   "url": "https://code.org/ai/pl/101",
+   "note": "Code.org · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.501Z",
+   "finalUrl": "https://code.org/en-US/professional-learning/artificial-intelligence-101",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "ad714b2ed6cb",
+   "kind": "course",
+   "target": "ind-retail",
+   "title": "H&M personalised fashion recommendations",
+   "url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations",
+   "note": "Kaggle · Free dataset + notebooks",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.291Z",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "2d33f5849db7",
+   "kind": "course",
+   "target": "ind-marketing",
+   "title": "Semrush Academy",
+   "url": "https://www.semrush.com/academy/",
+   "note": "Semrush · Free SEO/marketing courses",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.164Z",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "3f6fe500bfbb",
+   "kind": "course",
+   "target": "ind-gov",
+   "title": "AI Playbook for the UK Government",
+   "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government",
+   "note": "GOV.UK · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.766Z",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "uid": "7b1b889d7974",
+   "kind": "course",
+   "target": "ind-gov",
+   "title": "GSA AI Center of Excellence",
+   "url": "https://coe.gsa.gov/",
+   "note": "US GSA · Free guides",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.727Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.727Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.656Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.305Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:01.541Z",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  }
+ ]
+}

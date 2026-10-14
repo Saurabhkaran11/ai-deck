@@ -1,3 +1,4 @@
+import { ADDITIONS, appendUnique } from "./agent-merge";
 /* Plain-English layer: levels, simple explanations and a jargon buster.
    Written for people with no technical background. */
 
@@ -99,7 +100,7 @@ export const PLAIN: Record<string, Plain> = {
     why: "You can build projects much faster, even with limited coding experience." },
 };
 
-export const GLOSSARY: [string, string][] = [
+const GLOSSARY_SITE: [string, string][] = [
   ["AI model", "The trained \"brain\" that produces answers. ChatGPT and Claude are apps built on AI models."],
   ["LLM", "Large language model: an AI model trained on huge amounts of text so it can read and write."],
   ["Prompt", "The message or instructions you type to an AI."],
@@ -129,3 +130,5 @@ export const GLOSSARY: [string, string][] = [
 ];
 
 export const KIND_PLAIN = { oss: "Free · open-source", free: "Free", freemium: "Free to start", paid: "Paid" } as const;
+
+export const GLOSSARY: [string, string][] = appendUnique(GLOSSARY_SITE, ADDITIONS.glossary, (g) => g[0]);

@@ -1,3 +1,4 @@
+import { ADDITIONS, appendUnique } from "./agent-merge";
 /* Real-world AI project ideas that can become a business.
    Each one lists the problem, the build, who pays, tools, launch channels and what to watch out for. */
 
@@ -52,7 +53,7 @@ const L = {
   beehiiv: ["beehiiv", "https://www.beehiiv.com/"] as Link,
 };
 
-export const PROJECTS: Project[] = [
+const PROJECTS_SITE: Project[] = [
   /* ---------- Browser extensions ---------- */
   { id: "summariser-ext", title: "One-click summariser for emails and web pages", cat: "Browser extensions", level: "Beginner", mvp: "1–2 weeks", cost: "$0–20",
     problem: "People lose hours reading long emails, articles and reports just to find the key points.",
@@ -383,4 +384,6 @@ export const PROJECTS: Project[] = [
 ];
 
 /** Projects that use a given AI Deck topic. */
+export const PROJECTS: Project[] = appendUnique(PROJECTS_SITE, ADDITIONS.projects, (p) => p.id);
+
 export const projectsFor = (topicId: string) => PROJECTS.filter((p) => p.topics.includes(topicId));

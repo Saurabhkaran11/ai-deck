@@ -1,0 +1,786 @@
+{
+ "agent": "level-3",
+ "name": "Level 3 · Make AI work for you agent",
+ "updatedAt": "2026-10-14T02:59:29.778Z",
+ "total": 47,
+ "byStatus": {
+  "site": 40,
+  "added": 7
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "mcp",
+   "title": "MCP official docs",
+   "url": "https://modelcontextprotocol.io/introduction",
+   "note": "Spec, SDKs, tutorials",
+   "uid": "ce18d6b3696a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.488Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.884Z",
+   "finalUrl": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro"
+  },
+  {
+   "kind": "course",
+   "target": "mcp",
+   "title": "Hugging Face MCP Course",
+   "url": "https://huggingface.co/learn/mcp-course",
+   "note": "Free, hands-on",
+   "uid": "bae1cedfe30c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.920Z",
+   "finalUrl": "https://huggingface.co/learn/mcp-course/unit0/introduction"
+  },
+  {
+   "kind": "course",
+   "target": "mcp",
+   "title": "MCP servers on GitHub",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "note": "Reference implementations",
+   "uid": "5f07300106ea",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.844Z"
+  },
+  {
+   "kind": "course",
+   "target": "mcp",
+   "title": "DeepLearning.AI · MCP with Anthropic",
+   "url": "https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/",
+   "note": "Free short course",
+   "uid": "d3c96332d981",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.006Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic"
+  },
+  {
+   "kind": "paid",
+   "target": "mcp",
+   "title": "Coursera · Generative AI with LLMs",
+   "url": "https://www.coursera.org/learn/generative-ai-with-llms",
+   "note": "Paid certificate track",
+   "uid": "48f9401d1c8b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.315Z"
+  },
+  {
+   "kind": "video",
+   "target": "mcp",
+   "title": "MCP explained",
+   "url": "https://www.youtube.com/results?search_query=Model%20Context%20Protocol%20explained",
+   "extra": {
+    "search": "Model Context Protocol explained"
+   },
+   "uid": "1fc10717d468",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "patterns",
+   "title": "Anthropic · Building effective agents",
+   "url": "https://www.anthropic.com/engineering/building-effective-agents",
+   "note": "Pattern catalogue",
+   "uid": "69cb81bddd2d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.637Z"
+  },
+  {
+   "kind": "course",
+   "target": "patterns",
+   "title": "OpenAI · Practical guide to building agents",
+   "url": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf",
+   "note": "PDF guide",
+   "uid": "f215bac60a54",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.733Z"
+  },
+  {
+   "kind": "paid",
+   "target": "patterns",
+   "title": "DeepLearning.AI · Agentic AI",
+   "url": "https://www.deeplearning.ai/courses/agentic-ai/",
+   "note": "Reflection, tool use, planning",
+   "uid": "d00c031aafc4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.783Z"
+  },
+  {
+   "kind": "video",
+   "target": "patterns",
+   "title": "Agentic design patterns",
+   "url": "https://www.youtube.com/results?search_query=agentic%20design%20patterns%20Andrew%20Ng",
+   "extra": {
+    "search": "agentic design patterns Andrew Ng"
+   },
+   "uid": "7352ed506b19",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "rag",
+   "title": "LangChain RAG tutorial",
+   "url": "https://python.langchain.com/docs/tutorials/rag/",
+   "note": "Step by step",
+   "uid": "5a768e8e75e6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.126Z",
+   "finalUrl": "https://docs.langchain.com/oss/python/deepagents/rag"
+  },
+  {
+   "kind": "course",
+   "target": "rag",
+   "title": "Pinecone · What is RAG",
+   "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+   "note": "Concepts",
+   "uid": "5a067a3cf554",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.960Z"
+  },
+  {
+   "kind": "course",
+   "target": "rag",
+   "title": "Anthropic · Contextual retrieval",
+   "url": "https://www.anthropic.com/news/contextual-retrieval",
+   "note": "Better retrieval",
+   "uid": "ba4f0a9e6ccd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.804Z",
+   "finalUrl": "https://www.anthropic.com/engineering/contextual-retrieval"
+  },
+  {
+   "kind": "paid",
+   "target": "rag",
+   "title": "DeepLearning.AI · RAG course",
+   "url": "https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/",
+   "note": "Full RAG course",
+   "uid": "77df1918f8c9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.977Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/retrieval-augmented-generation"
+  },
+  {
+   "kind": "video",
+   "target": "rag",
+   "title": "RAG from scratch",
+   "url": "https://www.youtube.com/results?search_query=RAG%20from%20scratch%20LangChain",
+   "extra": {
+    "search": "RAG from scratch LangChain"
+   },
+   "uid": "51585dce819a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "memory",
+   "title": "LangGraph memory concepts",
+   "url": "https://langchain-ai.github.io/langgraph/concepts/memory/",
+   "note": "State + memory",
+   "uid": "4de47c5e2cd9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.771Z"
+  },
+  {
+   "kind": "course",
+   "target": "memory",
+   "title": "Letta (MemGPT) docs",
+   "url": "https://docs.letta.com/",
+   "note": "Stateful agents",
+   "uid": "5ae09017edae",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.841Z"
+  },
+  {
+   "kind": "course",
+   "target": "memory",
+   "title": "DeepLearning.AI · LLMs as Operating Systems",
+   "url": "https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memory/",
+   "note": "Free short course",
+   "uid": "176f723cd74c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.085Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/llms-as-operating-systems-agent-memory"
+  },
+  {
+   "kind": "paid",
+   "target": "memory",
+   "title": "Book · AI Engineering (Chip Huyen)",
+   "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+   "note": "Memory & RAG chapters",
+   "uid": "e481cce015c2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.710Z"
+  },
+  {
+   "kind": "video",
+   "target": "memory",
+   "title": "Agent memory",
+   "url": "https://www.youtube.com/results?search_query=AI%20agent%20long%20term%20memory",
+   "extra": {
+    "search": "AI agent long term memory"
+   },
+   "uid": "342d3a40f1f9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "design",
+   "title": "OpenAI · Practical guide to building agents",
+   "url": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf",
+   "note": "Design guide",
+   "uid": "2f6acef33393",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.785Z"
+  },
+  {
+   "kind": "course",
+   "target": "design",
+   "title": "Anthropic · Writing tools for agents",
+   "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+   "note": "Tool design",
+   "uid": "268a32057cb8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:47.809Z"
+  },
+  {
+   "kind": "course",
+   "target": "design",
+   "title": "Claude docs",
+   "url": "https://docs.claude.com/",
+   "note": "Agent SDK & tool use",
+   "uid": "b79a2291778b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.078Z",
+   "finalUrl": "https://platform.claude.com/docs/en/home"
+  },
+  {
+   "kind": "paid",
+   "target": "design",
+   "title": "Maven AI engineering courses",
+   "url": "https://maven.com/",
+   "note": "Cohort courses",
+   "uid": "70dd2aab3727",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.001Z"
+  },
+  {
+   "kind": "video",
+   "target": "design",
+   "title": "Design AI agents",
+   "url": "https://www.youtube.com/results?search_query=how%20to%20design%20AI%20agents",
+   "extra": {
+    "search": "how to design AI agents"
+   },
+   "uid": "93e26bd4745a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "mcp",
+   "title": "modelcontextprotocol/servers",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "note": "Reference servers · ~91k★",
+   "uid": "e1a68a985444",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.129Z"
+  },
+  {
+   "kind": "repo",
+   "target": "mcp",
+   "title": "modelcontextprotocol/python-sdk",
+   "url": "https://github.com/modelcontextprotocol/python-sdk",
+   "note": "Official Python SDK · ~25k★",
+   "uid": "69d917a84d55",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.162Z"
+  },
+  {
+   "kind": "repo",
+   "target": "mcp",
+   "title": "microsoft/mcp-for-beginners",
+   "url": "https://github.com/microsoft/mcp-for-beginners",
+   "note": "Cross-language curriculum",
+   "uid": "c29e46255604",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.205Z"
+  },
+  {
+   "kind": "repo",
+   "target": "patterns",
+   "title": "langchain-ai/langgraph",
+   "url": "https://github.com/langchain-ai/langgraph",
+   "note": "Stateful graph agents · ~43k★",
+   "uid": "bc5c85cfd540",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.182Z"
+  },
+  {
+   "kind": "repo",
+   "target": "patterns",
+   "title": "crewAIInc/crewAI",
+   "url": "https://github.com/crewAIInc/crewAI",
+   "note": "Role-based crews · ~60k★",
+   "uid": "db52ce65ff6f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.268Z"
+  },
+  {
+   "kind": "repo",
+   "target": "patterns",
+   "title": "microsoft/agent-framework",
+   "url": "https://github.com/microsoft/agent-framework",
+   "note": "AutoGen + Semantic Kernel successor",
+   "uid": "9be3ca7c86a1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.232Z"
+  },
+  {
+   "kind": "repo",
+   "target": "rag",
+   "title": "run-llama/llama_index",
+   "url": "https://github.com/run-llama/llama_index",
+   "note": "Data framework · ~53k★",
+   "uid": "95e8ec4f5b56",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.239Z"
+  },
+  {
+   "kind": "repo",
+   "target": "rag",
+   "title": "langgenius/dify",
+   "url": "https://github.com/langgenius/dify",
+   "note": "RAG/agent platform · ~158k★",
+   "uid": "40704c426287",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.428Z"
+  },
+  {
+   "kind": "repo",
+   "target": "rag",
+   "title": "deepset-ai/haystack",
+   "url": "https://github.com/deepset-ai/haystack",
+   "note": "Production pipelines",
+   "uid": "443248918d80",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.354Z"
+  },
+  {
+   "kind": "repo",
+   "target": "memory",
+   "title": "mem0ai/mem0",
+   "url": "https://github.com/mem0ai/mem0",
+   "note": "Memory layer · ~67k★",
+   "uid": "f77d0f282c78",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.319Z"
+  },
+  {
+   "kind": "repo",
+   "target": "memory",
+   "title": "letta-ai/letta",
+   "url": "https://github.com/letta-ai/letta",
+   "note": "Stateful agents (ex-MemGPT)",
+   "uid": "f531d16ce397",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.366Z"
+  },
+  {
+   "kind": "repo",
+   "target": "memory",
+   "title": "langchain-ai/langgraph",
+   "url": "https://github.com/langchain-ai/langgraph",
+   "note": "Checkpointers",
+   "uid": "e73bc77c21f0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.404Z"
+  },
+  {
+   "kind": "repo",
+   "target": "design",
+   "title": "pydantic/pydantic-ai",
+   "url": "https://github.com/pydantic/pydantic-ai",
+   "note": "Type-safe agents",
+   "uid": "46fff0adce5c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.512Z"
+  },
+  {
+   "kind": "repo",
+   "target": "design",
+   "title": "strands-agents/sdk-python",
+   "url": "https://github.com/strands-agents/sdk-python",
+   "note": "AWS model-driven agents",
+   "uid": "00c2acb60327",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.669Z",
+   "finalUrl": "https://github.com/strands-agents/harness-sdk"
+  },
+  {
+   "kind": "repo",
+   "target": "design",
+   "title": "openai/openai-agents-python",
+   "url": "https://github.com/openai/openai-agents-python",
+   "note": "Guardrails + tracing",
+   "uid": "9fe16ebaf796",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.427Z"
+  },
+  {
+   "uid": "6da615147bfb",
+   "kind": "course",
+   "target": "rag",
+   "title": "Building and Evaluating Advanced RAG",
+   "url": "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/",
+   "note": "DeepLearning.AI · Free short course",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.698Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.698Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.649Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.298Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.107Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/building-evaluating-advanced-rag",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "uid": "5a22dc62c0c5",
+   "kind": "repo",
+   "target": "rag",
+   "title": "NirDiamant/RAG_Techniques",
+   "url": "https://github.com/NirDiamant/RAG_Techniques",
+   "note": "30+ RAG techniques as notebooks",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.698Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.698Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.649Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.298Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.996Z",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "uid": "f40693804ae4",
+   "kind": "repo",
+   "target": "rag",
+   "title": "infiniflow/ragflow",
+   "url": "https://github.com/infiniflow/ragflow",
+   "note": "Open-source RAG engine",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.698Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.698Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.649Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.298Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.061Z",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "uid": "b0b971ad11c5",
+   "kind": "repo",
+   "target": "memory",
+   "title": "getzep/graphiti",
+   "url": "https://github.com/getzep/graphiti",
+   "note": "Temporal knowledge-graph memory",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.698Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.698Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.649Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.298Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.964Z",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "uid": "ce180cc8c77c",
+   "kind": "repo",
+   "target": "mcp",
+   "title": "punkpeye/awesome-mcp-servers",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "note": "Curated list of MCP servers",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.698Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.698Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.649Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.298Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.927Z",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "uid": "34c7cc56fb1f",
+   "kind": "repo",
+   "target": "patterns",
+   "title": "anthropics/anthropic-cookbook",
+   "url": "https://github.com/anthropics/anthropic-cookbook",
+   "note": "Agent patterns + recipes",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.698Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.698Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.649Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.298Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.101Z",
+   "finalUrl": "https://github.com/anthropics/claude-cookbooks",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "uid": "501f318c718e",
+   "kind": "repo",
+   "target": "design",
+   "title": "humanlayer/12-factor-agents",
+   "url": "https://github.com/humanlayer/12-factor-agents",
+   "note": "Principles for reliable agents",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.698Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.698Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.649Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.298Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:56.931Z",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  }
+ ]
+}

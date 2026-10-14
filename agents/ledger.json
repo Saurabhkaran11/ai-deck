@@ -1,0 +1,1036 @@
+{
+ "createdAt": "2026-10-14T02:50:22.499Z",
+ "updatedAt": "2026-10-14T03:01:54.156Z",
+ "totals": {
+  "indexed": 1207,
+  "fetched": 1225,
+  "researched": 123,
+  "approved": 122,
+  "rejected": 1,
+  "added": 122,
+  "updated": 11
+ },
+ "agents": {
+  "level-1": {
+   "indexed": 46,
+   "fetched": 46,
+   "researched": 6,
+   "approved": 6,
+   "rejected": 0,
+   "added": 6,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.296Z"
+  },
+  "level-2": {
+   "indexed": 38,
+   "fetched": 40,
+   "researched": 6,
+   "approved": 6,
+   "rejected": 0,
+   "added": 6,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.298Z"
+  },
+  "level-3": {
+   "indexed": 40,
+   "fetched": 42,
+   "researched": 7,
+   "approved": 7,
+   "rejected": 0,
+   "added": 7,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.299Z"
+  },
+  "level-4": {
+   "indexed": 50,
+   "fetched": 51,
+   "researched": 7,
+   "approved": 7,
+   "rejected": 0,
+   "added": 7,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.302Z"
+  },
+  "level-5": {
+   "indexed": 51,
+   "fetched": 50,
+   "researched": 6,
+   "approved": 6,
+   "rejected": 0,
+   "added": 6,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.303Z"
+  },
+  "level-6": {
+   "indexed": 32,
+   "fetched": 33,
+   "researched": 5,
+   "approved": 5,
+   "rejected": 0,
+   "added": 5,
+   "updated": 1,
+   "lastRun": "2026-10-14T02:59:18.304Z"
+  },
+  "level-7": {
+   "indexed": 68,
+   "fetched": 67,
+   "researched": 9,
+   "approved": 9,
+   "rejected": 0,
+   "added": 9,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.306Z"
+  },
+  "level-8": {
+   "indexed": 95,
+   "fetched": 94,
+   "researched": 8,
+   "approved": 8,
+   "rejected": 0,
+   "added": 8,
+   "updated": 1,
+   "lastRun": "2026-10-14T02:59:18.307Z"
+  },
+  "level-9": {
+   "indexed": 32,
+   "fetched": 33,
+   "researched": 5,
+   "approved": 5,
+   "rejected": 0,
+   "added": 5,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.308Z"
+  },
+  "tools": {
+   "indexed": 145,
+   "fetched": 181,
+   "researched": 23,
+   "approved": 23,
+   "rejected": 0,
+   "added": 23,
+   "updated": 4,
+   "lastRun": "2026-10-14T02:59:18.311Z"
+  },
+  "certificates": {
+   "indexed": 258,
+   "fetched": 275,
+   "researched": 10,
+   "approved": 9,
+   "rejected": 1,
+   "added": 9,
+   "updated": 2,
+   "lastRun": "2026-10-14T02:59:18.314Z"
+  },
+  "careers": {
+   "indexed": 114,
+   "fetched": 124,
+   "researched": 10,
+   "approved": 10,
+   "rejected": 0,
+   "added": 10,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.318Z"
+  },
+  "projects": {
+   "indexed": 212,
+   "fetched": 189,
+   "researched": 3,
+   "approved": 3,
+   "rejected": 0,
+   "added": 3,
+   "updated": 3,
+   "lastRun": "2026-10-14T03:01:54.156Z"
+  },
+  "glossary": {
+   "indexed": 26,
+   "fetched": 0,
+   "researched": 18,
+   "approved": 18,
+   "rejected": 0,
+   "added": 18,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.323Z"
+  }
+ },
+ "runs": [
+  {
+   "at": "2026-10-14T02:50:22.499Z",
+   "agent": "level-1",
+   "command": "sync",
+   "counts": {
+    "indexed": 46
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.500Z",
+   "agent": "level-2",
+   "command": "sync",
+   "counts": {
+    "indexed": 38
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.500Z",
+   "agent": "level-3",
+   "command": "sync",
+   "counts": {
+    "indexed": 40
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.501Z",
+   "agent": "level-4",
+   "command": "sync",
+   "counts": {
+    "indexed": 50
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.501Z",
+   "agent": "level-5",
+   "command": "sync",
+   "counts": {
+    "indexed": 51
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.502Z",
+   "agent": "level-6",
+   "command": "sync",
+   "counts": {
+    "indexed": 32
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.504Z",
+   "agent": "level-7",
+   "command": "sync",
+   "counts": {
+    "indexed": 68
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.504Z",
+   "agent": "level-8",
+   "command": "sync",
+   "counts": {
+    "indexed": 95
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.505Z",
+   "agent": "level-9",
+   "command": "sync",
+   "counts": {
+    "indexed": 32
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.506Z",
+   "agent": "tools",
+   "command": "sync",
+   "counts": {
+    "indexed": 145
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.507Z",
+   "agent": "certificates",
+   "command": "sync",
+   "counts": {
+    "indexed": 258
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.507Z",
+   "agent": "careers",
+   "command": "sync",
+   "counts": {
+    "indexed": 114
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.508Z",
+   "agent": "projects",
+   "command": "sync",
+   "counts": {
+    "indexed": 194
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:22.508Z",
+   "agent": "glossary",
+   "command": "sync",
+   "counts": {
+    "indexed": 26
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:46.252Z",
+   "agent": "level-1",
+   "command": "check",
+   "counts": {
+    "fetched": 40,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:47.505Z",
+   "agent": "level-2",
+   "command": "check",
+   "counts": {
+    "fetched": 34,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:48.670Z",
+   "agent": "level-3",
+   "command": "check",
+   "counts": {
+    "fetched": 35,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:50.838Z",
+   "agent": "level-4",
+   "command": "check",
+   "counts": {
+    "fetched": 44,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:52.670Z",
+   "agent": "level-5",
+   "command": "check",
+   "counts": {
+    "fetched": 44,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:55.265Z",
+   "agent": "level-6",
+   "command": "check",
+   "counts": {
+    "fetched": 27,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:50:58.633Z",
+   "agent": "level-7",
+   "command": "check",
+   "counts": {
+    "fetched": 58,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:51:03.538Z",
+   "agent": "level-8",
+   "command": "check",
+   "counts": {
+    "fetched": 83,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:51:04.488Z",
+   "agent": "level-9",
+   "command": "check",
+   "counts": {
+    "fetched": 28,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:51:13.972Z",
+   "agent": "tools",
+   "command": "check",
+   "counts": {
+    "fetched": 145,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:51:23.396Z",
+   "agent": "certificates",
+   "command": "check",
+   "counts": {
+    "fetched": 257,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:51:26.371Z",
+   "agent": "careers",
+   "command": "check",
+   "counts": {
+    "fetched": 114,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:51:32.968Z",
+   "agent": "projects",
+   "command": "check",
+   "counts": {
+    "fetched": 162,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:53:24.948Z",
+   "agent": "level-8",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:53:35.262Z",
+   "agent": "tools",
+   "command": "check",
+   "counts": {
+    "fetched": 3,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:53:43.419Z",
+   "agent": "certificates",
+   "command": "check",
+   "counts": {
+    "fetched": 2,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:53:52.009Z",
+   "agent": "projects",
+   "command": "check",
+   "counts": {
+    "fetched": 3,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:54:33.755Z",
+   "agent": "level-8",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:54:45.260Z",
+   "agent": "tools",
+   "command": "check",
+   "counts": {
+    "fetched": 3,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:54:53.646Z",
+   "agent": "certificates",
+   "command": "check",
+   "counts": {
+    "fetched": 2,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:55:02.231Z",
+   "agent": "projects",
+   "command": "check",
+   "counts": {
+    "fetched": 3,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:55:16.433Z",
+   "agent": "level-8",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 1
+   }
+  },
+  {
+   "at": "2026-10-14T02:55:19.342Z",
+   "agent": "tools",
+   "command": "check",
+   "counts": {
+    "fetched": 3,
+    "updated": 2
+   }
+  },
+  {
+   "at": "2026-10-14T02:55:21.966Z",
+   "agent": "certificates",
+   "command": "check",
+   "counts": {
+    "fetched": 2,
+    "updated": 2
+   }
+  },
+  {
+   "at": "2026-10-14T02:55:24.000Z",
+   "agent": "projects",
+   "command": "check",
+   "counts": {
+    "fetched": 3,
+    "updated": 3
+   }
+  },
+  {
+   "at": "2026-10-14T02:57:45.679Z",
+   "agent": "level-1",
+   "command": "research",
+   "counts": {
+    "researched": 6
+   },
+   "detail": "import 2026-10-13-initial.json: 6 new, 9 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.691Z",
+   "agent": "level-2",
+   "command": "research",
+   "counts": {
+    "researched": 6
+   },
+   "detail": "import 2026-10-13-initial.json: 6 new, 8 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.699Z",
+   "agent": "level-3",
+   "command": "research",
+   "counts": {
+    "researched": 7
+   },
+   "detail": "import 2026-10-13-initial.json: 7 new, 6 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.707Z",
+   "agent": "level-4",
+   "command": "research",
+   "counts": {
+    "researched": 7
+   },
+   "detail": "import 2026-10-13-initial.json: 7 new, 8 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.714Z",
+   "agent": "level-5",
+   "command": "research",
+   "counts": {
+    "researched": 6
+   },
+   "detail": "import 2026-10-13-initial.json: 6 new, 12 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.721Z",
+   "agent": "level-6",
+   "command": "research",
+   "counts": {
+    "researched": 5
+   },
+   "detail": "import 2026-10-13-initial.json: 5 new, 7 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.728Z",
+   "agent": "level-7",
+   "command": "research",
+   "counts": {
+    "researched": 9
+   },
+   "detail": "import 2026-10-13-initial.json: 9 new, 6 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.736Z",
+   "agent": "level-8",
+   "command": "research",
+   "counts": {
+    "researched": 8
+   },
+   "detail": "import 2026-10-13-initial.json: 8 new, 18 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.743Z",
+   "agent": "level-9",
+   "command": "research",
+   "counts": {
+    "researched": 5
+   },
+   "detail": "import 2026-10-13-initial.json: 5 new, 4 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.751Z",
+   "agent": "tools",
+   "command": "research",
+   "counts": {
+    "researched": 23
+   },
+   "detail": "import 2026-10-13-initial.json: 23 new, 1 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.760Z",
+   "agent": "certificates",
+   "command": "research",
+   "counts": {
+    "researched": 10
+   },
+   "detail": "import 2026-10-13-initial.json: 10 new, 5 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.769Z",
+   "agent": "careers",
+   "command": "research",
+   "counts": {
+    "researched": 10
+   },
+   "detail": "import 2026-10-13-initial.json: 10 new, 12 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.775Z",
+   "agent": "glossary",
+   "command": "research",
+   "counts": {
+    "researched": 18
+   },
+   "detail": "import 2026-10-13-initial.json: 18 new, 0 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:45.783Z",
+   "agent": "projects",
+   "command": "research",
+   "counts": {
+    "researched": 3
+   },
+   "detail": "import 2026-10-13-initial.json: 3 new, 0 skipped"
+  },
+  {
+   "at": "2026-10-14T02:57:56.171Z",
+   "agent": "level-1",
+   "command": "check",
+   "counts": {
+    "fetched": 6,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:57:56.590Z",
+   "agent": "level-2",
+   "command": "check",
+   "counts": {
+    "fetched": 6,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:57:57.108Z",
+   "agent": "level-3",
+   "command": "check",
+   "counts": {
+    "fetched": 7,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:57:57.555Z",
+   "agent": "level-4",
+   "command": "check",
+   "counts": {
+    "fetched": 7,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:57:59.527Z",
+   "agent": "level-5",
+   "command": "check",
+   "counts": {
+    "fetched": 6,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:01.026Z",
+   "agent": "level-6",
+   "command": "check",
+   "counts": {
+    "fetched": 5,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:01.767Z",
+   "agent": "level-7",
+   "command": "check",
+   "counts": {
+    "fetched": 9,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:02.385Z",
+   "agent": "level-8",
+   "command": "check",
+   "counts": {
+    "fetched": 8,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:02.951Z",
+   "agent": "level-9",
+   "command": "check",
+   "counts": {
+    "fetched": 5,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:11.387Z",
+   "agent": "tools",
+   "command": "check",
+   "counts": {
+    "fetched": 23,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:13.046Z",
+   "agent": "certificates",
+   "command": "check",
+   "counts": {
+    "fetched": 10,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:14.362Z",
+   "agent": "careers",
+   "command": "check",
+   "counts": {
+    "fetched": 10,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:42.182Z",
+   "agent": "level-6",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 1
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:44.633Z",
+   "agent": "tools",
+   "command": "check",
+   "counts": {
+    "fetched": 2,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:44.906Z",
+   "agent": "certificates",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:58:45.470Z",
+   "agent": "certificates",
+   "command": "reject",
+   "counts": {
+    "rejected": 1
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:09.200Z",
+   "agent": "tools",
+   "command": "check",
+   "counts": {
+    "fetched": 2,
+    "updated": 2
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:09.529Z",
+   "agent": "certificates",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.645Z",
+   "agent": "level-1",
+   "command": "approve",
+   "counts": {
+    "approved": 6
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.648Z",
+   "agent": "level-2",
+   "command": "approve",
+   "counts": {
+    "approved": 6
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.650Z",
+   "agent": "level-3",
+   "command": "approve",
+   "counts": {
+    "approved": 7
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.651Z",
+   "agent": "level-4",
+   "command": "approve",
+   "counts": {
+    "approved": 7
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.653Z",
+   "agent": "level-5",
+   "command": "approve",
+   "counts": {
+    "approved": 6
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.654Z",
+   "agent": "level-6",
+   "command": "approve",
+   "counts": {
+    "approved": 5
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.657Z",
+   "agent": "level-7",
+   "command": "approve",
+   "counts": {
+    "approved": 9
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.658Z",
+   "agent": "level-8",
+   "command": "approve",
+   "counts": {
+    "approved": 8
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.660Z",
+   "agent": "level-9",
+   "command": "approve",
+   "counts": {
+    "approved": 5
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.663Z",
+   "agent": "tools",
+   "command": "approve",
+   "counts": {
+    "approved": 23
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.667Z",
+   "agent": "certificates",
+   "command": "approve",
+   "counts": {
+    "approved": 9
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.669Z",
+   "agent": "careers",
+   "command": "approve",
+   "counts": {
+    "approved": 10
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.672Z",
+   "agent": "projects",
+   "command": "approve",
+   "counts": {
+    "approved": 3
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.674Z",
+   "agent": "glossary",
+   "command": "approve",
+   "counts": {
+    "approved": 18
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:18.296Z",
+   "agent": "level-1",
+   "command": "apply",
+   "counts": {
+    "added": 6
+   },
+   "detail": "6 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.298Z",
+   "agent": "level-2",
+   "command": "apply",
+   "counts": {
+    "added": 6
+   },
+   "detail": "6 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.299Z",
+   "agent": "level-3",
+   "command": "apply",
+   "counts": {
+    "added": 7
+   },
+   "detail": "7 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.302Z",
+   "agent": "level-4",
+   "command": "apply",
+   "counts": {
+    "added": 7
+   },
+   "detail": "7 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.303Z",
+   "agent": "level-5",
+   "command": "apply",
+   "counts": {
+    "added": 6
+   },
+   "detail": "6 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.304Z",
+   "agent": "level-6",
+   "command": "apply",
+   "counts": {
+    "added": 5
+   },
+   "detail": "5 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.306Z",
+   "agent": "level-7",
+   "command": "apply",
+   "counts": {
+    "added": 9
+   },
+   "detail": "9 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.307Z",
+   "agent": "level-8",
+   "command": "apply",
+   "counts": {
+    "added": 8
+   },
+   "detail": "8 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.308Z",
+   "agent": "level-9",
+   "command": "apply",
+   "counts": {
+    "added": 5
+   },
+   "detail": "5 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.311Z",
+   "agent": "tools",
+   "command": "apply",
+   "counts": {
+    "added": 23
+   },
+   "detail": "23 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.314Z",
+   "agent": "certificates",
+   "command": "apply",
+   "counts": {
+    "added": 9
+   },
+   "detail": "9 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.318Z",
+   "agent": "careers",
+   "command": "apply",
+   "counts": {
+    "added": 10
+   },
+   "detail": "10 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.321Z",
+   "agent": "projects",
+   "command": "apply",
+   "counts": {
+    "added": 3
+   },
+   "detail": "3 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.323Z",
+   "agent": "glossary",
+   "command": "apply",
+   "counts": {
+    "added": 18
+   },
+   "detail": "18 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:29.791Z",
+   "agent": "projects",
+   "command": "sync",
+   "counts": {
+    "indexed": 18
+   }
+  },
+  {
+   "at": "2026-10-14T03:01:54.156Z",
+   "agent": "projects",
+   "command": "check",
+   "counts": {
+    "fetched": 18,
+    "updated": 0
+   }
+  }
+ ]
+}

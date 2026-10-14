@@ -1,0 +1,925 @@
+{
+ "agent": "level-4",
+ "name": "Level 4 · Build AI apps agent",
+ "updatedAt": "2026-10-14T02:59:29.779Z",
+ "total": 57,
+ "byStatus": {
+  "site": 50,
+  "added": 7
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "scale",
+   "title": "System Design Newsletter (Neo Kim)",
+   "url": "https://newsletter.systemdesign.one/",
+   "note": "Map author's newsletter",
+   "uid": "a78c1c487736",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.017Z"
+  },
+  {
+   "kind": "course",
+   "target": "scale",
+   "title": "vLLM docs",
+   "url": "https://docs.vllm.ai/",
+   "note": "High-throughput serving",
+   "uid": "c78e49083526",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.088Z",
+   "finalUrl": "https://docs.vllm.ai/en/latest/"
+  },
+  {
+   "kind": "course",
+   "target": "scale",
+   "title": "Full Stack Deep Learning",
+   "url": "https://fullstackdeeplearning.com/",
+   "note": "LLM bootcamp material",
+   "uid": "6b1582479dbc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.138Z"
+  },
+  {
+   "kind": "paid",
+   "target": "scale",
+   "title": "Book · Designing Machine Learning Systems",
+   "url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
+   "note": "Production ML",
+   "uid": "0b996ba23b1c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.777Z"
+  },
+  {
+   "kind": "video",
+   "target": "scale",
+   "title": "Scale LLM apps",
+   "url": "https://www.youtube.com/results?search_query=scaling%20LLM%20applications%20production",
+   "extra": {
+    "search": "scaling LLM applications production"
+   },
+   "uid": "7246994bbe43",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "evals",
+   "title": "Hamel Husain · Your AI product needs evals",
+   "url": "https://hamel.dev/blog/posts/evals/",
+   "note": "Must-read",
+   "uid": "724e5186e5ab",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.969Z"
+  },
+  {
+   "kind": "course",
+   "target": "evals",
+   "title": "OpenAI evals guide",
+   "url": "https://platform.openai.com/docs/guides/evals",
+   "note": "How-to",
+   "uid": "02079f2e8762",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.030Z",
+   "finalUrl": "https://developers.openai.com/api/docs/guides/evals"
+  },
+  {
+   "kind": "course",
+   "target": "evals",
+   "title": "Promptfoo",
+   "url": "https://www.promptfoo.dev/docs/intro/",
+   "note": "Open-source eval tool",
+   "uid": "1b833b71b522",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.067Z"
+  },
+  {
+   "kind": "paid",
+   "target": "evals",
+   "title": "Maven · AI Evals for Engineers & PMs",
+   "url": "https://maven.com/parlance-labs/evals",
+   "note": "Best paid course",
+   "uid": "a2b982c01c1a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.883Z"
+  },
+  {
+   "kind": "video",
+   "target": "evals",
+   "title": "LLM evals",
+   "url": "https://www.youtube.com/results?search_query=LLM%20evaluation%20tutorial",
+   "extra": {
+    "search": "LLM evaluation tutorial"
+   },
+   "uid": "2322b91d5ffb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "finetune",
+   "title": "Unsloth docs + notebooks",
+   "url": "https://docs.unsloth.ai/",
+   "note": "Fast free fine-tuning",
+   "uid": "a314e05bf429",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.469Z",
+   "finalUrl": "https://unsloth.ai/docs"
+  },
+  {
+   "kind": "course",
+   "target": "finetune",
+   "title": "Hugging Face PEFT",
+   "url": "https://huggingface.co/docs/peft/index",
+   "note": "LoRA library",
+   "uid": "8f55b3b2f311",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.887Z"
+  },
+  {
+   "kind": "course",
+   "target": "finetune",
+   "title": "DeepLearning.AI · Finetuning LLMs",
+   "url": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/",
+   "note": "Free short course",
+   "uid": "539626d82e46",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.154Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/finetuning-large-language-models"
+  },
+  {
+   "kind": "paid",
+   "target": "finetune",
+   "title": "Coursera · Generative AI with LLMs",
+   "url": "https://www.coursera.org/learn/generative-ai-with-llms",
+   "note": "Covers PEFT + RLHF",
+   "uid": "f5c2ff99dc58",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.719Z"
+  },
+  {
+   "kind": "video",
+   "target": "finetune",
+   "title": "Fine-tune with LoRA",
+   "url": "https://www.youtube.com/results?search_query=fine%20tune%20LLM%20LoRA%20unsloth%20tutorial",
+   "extra": {
+    "search": "fine tune LLM LoRA unsloth tutorial"
+   },
+   "uid": "37b5e8be4c2c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "multiagent",
+   "title": "Anthropic · Multi-agent research system",
+   "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+   "note": "Real-world lessons",
+   "uid": "828e7d431eb6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.854Z"
+  },
+  {
+   "kind": "course",
+   "target": "multiagent",
+   "title": "Microsoft AutoGen",
+   "url": "https://microsoft.github.io/autogen/",
+   "note": "Framework docs",
+   "uid": "9c12c61afb39",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.012Z"
+  },
+  {
+   "kind": "course",
+   "target": "multiagent",
+   "title": "DeepLearning.AI · Multi AI Agent Systems with crewAI",
+   "url": "https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/",
+   "note": "Free short course",
+   "uid": "b9ab7a761f3c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.211Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai"
+  },
+  {
+   "kind": "paid",
+   "target": "multiagent",
+   "title": "DeepLearning.AI · Agentic AI",
+   "url": "https://www.deeplearning.ai/courses/agentic-ai/",
+   "note": "Multi-agent module",
+   "uid": "bfd6bac1ac2c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.936Z"
+  },
+  {
+   "kind": "video",
+   "target": "multiagent",
+   "title": "Multi-agent systems",
+   "url": "https://www.youtube.com/results?search_query=multi%20agent%20system%20tutorial%20LangGraph",
+   "extra": {
+    "search": "multi agent system tutorial LangGraph"
+   },
+   "uid": "9b15de27f228",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "vectordb",
+   "title": "Pinecone · What is a vector database",
+   "url": "https://www.pinecone.io/learn/vector-database/",
+   "note": "Concepts",
+   "uid": "4d754fe3f2ec",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:48.954Z"
+  },
+  {
+   "kind": "course",
+   "target": "vectordb",
+   "title": "pgvector",
+   "url": "https://github.com/pgvector/pgvector",
+   "note": "Postgres extension",
+   "uid": "f7f69397d887",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.288Z"
+  },
+  {
+   "kind": "course",
+   "target": "vectordb",
+   "title": "DeepLearning.AI · Vector Databases",
+   "url": "https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/",
+   "note": "Free short course",
+   "uid": "a99a5dccb343",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.290Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/vector-databases-embeddings-applications"
+  },
+  {
+   "kind": "paid",
+   "target": "vectordb",
+   "title": "Coursera · Vector DB courses",
+   "url": "https://www.coursera.org/search?query=vector%20database",
+   "note": "Paid certificates",
+   "uid": "874add53cb2f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.744Z"
+  },
+  {
+   "kind": "video",
+   "target": "vectordb",
+   "title": "Vector databases explained",
+   "url": "https://www.youtube.com/results?search_query=vector%20database%20explained",
+   "extra": {
+    "search": "vector database explained"
+   },
+   "uid": "a37ee0f31fe9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "a2a",
+   "title": "A2A protocol site",
+   "url": "https://a2a-protocol.org/",
+   "note": "Spec + docs",
+   "uid": "eedfd72d6adf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.274Z"
+  },
+  {
+   "kind": "course",
+   "target": "a2a",
+   "title": "A2A on GitHub",
+   "url": "https://github.com/a2aproject/A2A",
+   "note": "Samples",
+   "uid": "65c3d4b416e0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.371Z"
+  },
+  {
+   "kind": "course",
+   "target": "a2a",
+   "title": "Google Developers Blog · A2A",
+   "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+   "note": "Announcement",
+   "uid": "fdfbae5dc7b7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.702Z"
+  },
+  {
+   "kind": "paid",
+   "target": "a2a",
+   "title": "Google Cloud training",
+   "url": "https://cloud.google.com/learn/training",
+   "note": "Paid certs",
+   "uid": "9885b5c3d539",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.168Z"
+  },
+  {
+   "kind": "video",
+   "target": "a2a",
+   "title": "A2A protocol",
+   "url": "https://www.youtube.com/results?search_query=Google%20A2A%20protocol%20explained",
+   "extra": {
+    "search": "Google A2A protocol explained"
+   },
+   "uid": "87ed359ef0f1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "scale",
+   "title": "BerriAI/litellm",
+   "url": "https://github.com/BerriAI/litellm",
+   "note": "LLM gateway · ~61k★",
+   "uid": "d62f681d3b33",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.461Z"
+  },
+  {
+   "kind": "repo",
+   "target": "scale",
+   "title": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "note": "High-throughput serving · ~94k★",
+   "uid": "6f1555324be4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.419Z"
+  },
+  {
+   "kind": "repo",
+   "target": "scale",
+   "title": "langfuse/langfuse",
+   "url": "https://github.com/langfuse/langfuse",
+   "note": "Observability · ~36k★",
+   "uid": "188dd1049a1e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:50.837Z"
+  },
+  {
+   "kind": "repo",
+   "target": "evals",
+   "title": "openai/evals",
+   "url": "https://github.com/openai/evals",
+   "note": "Eval framework · ~20k★",
+   "uid": "9e3655b520d4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.429Z"
+  },
+  {
+   "kind": "repo",
+   "target": "evals",
+   "title": "promptfoo/promptfoo",
+   "url": "https://github.com/promptfoo/promptfoo",
+   "note": "Evals & red-teaming",
+   "uid": "629608c5549b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.616Z"
+  },
+  {
+   "kind": "repo",
+   "target": "evals",
+   "title": "confident-ai/deepeval",
+   "url": "https://github.com/confident-ai/deepeval",
+   "note": "Pytest-style metrics",
+   "uid": "93d1b397ca73",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.529Z"
+  },
+  {
+   "kind": "repo",
+   "target": "evals",
+   "title": "explodinggradients/ragas",
+   "url": "https://github.com/explodinggradients/ragas",
+   "note": "RAG metrics",
+   "uid": "18f5ed60adc4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.740Z",
+   "finalUrl": "https://github.com/vibrantlabsai/ragas"
+  },
+  {
+   "kind": "repo",
+   "target": "finetune",
+   "title": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "note": "Fast LoRA/QLoRA · ~78k★",
+   "uid": "81c6ae574efb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.594Z"
+  },
+  {
+   "kind": "repo",
+   "target": "finetune",
+   "title": "hiyouga/LLaMA-Factory",
+   "url": "https://github.com/hiyouga/LLaMA-Factory",
+   "note": "Unified UI/CLI · ~75k★",
+   "uid": "67b69e515d3a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.835Z",
+   "finalUrl": "https://github.com/hiyouga/LlamaFactory"
+  },
+  {
+   "kind": "repo",
+   "target": "finetune",
+   "title": "huggingface/trl",
+   "url": "https://github.com/huggingface/trl",
+   "note": "SFT / DPO / GRPO",
+   "uid": "aa284c5783be",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.700Z"
+  },
+  {
+   "kind": "repo",
+   "target": "multiagent",
+   "title": "crewAIInc/crewAI",
+   "url": "https://github.com/crewAIInc/crewAI",
+   "note": "Role-based crews · ~60k★",
+   "uid": "26eee7c4140e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.689Z"
+  },
+  {
+   "kind": "repo",
+   "target": "multiagent",
+   "title": "microsoft/agent-framework",
+   "url": "https://github.com/microsoft/agent-framework",
+   "note": "Multi-agent orchestration",
+   "uid": "0f95f43eeff2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.741Z"
+  },
+  {
+   "kind": "repo",
+   "target": "multiagent",
+   "title": "google/adk-python",
+   "url": "https://github.com/google/adk-python",
+   "note": "Agent Development Kit",
+   "uid": "3f9e32d6b097",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.870Z"
+  },
+  {
+   "kind": "repo",
+   "target": "multiagent",
+   "title": "microsoft/autogen",
+   "url": "https://github.com/microsoft/autogen",
+   "note": "Maintenance mode: migrate to Agent Framework",
+   "uid": "32796ab228d5",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.803Z"
+  },
+  {
+   "kind": "repo",
+   "target": "vectordb",
+   "title": "facebookresearch/faiss",
+   "url": "https://github.com/facebookresearch/faiss",
+   "note": "Similarity search · ~41k★",
+   "uid": "1645c5d57d17",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.859Z"
+  },
+  {
+   "kind": "repo",
+   "target": "vectordb",
+   "title": "milvus-io/milvus",
+   "url": "https://github.com/milvus-io/milvus",
+   "note": "Billion-scale vectors",
+   "uid": "ac1c7312c5b4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.854Z"
+  },
+  {
+   "kind": "repo",
+   "target": "vectordb",
+   "title": "qdrant/qdrant",
+   "url": "https://github.com/qdrant/qdrant",
+   "note": "Rust vector engine",
+   "uid": "a5ce580b4b48",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:49.922Z"
+  },
+  {
+   "kind": "repo",
+   "target": "vectordb",
+   "title": "pgvector/pgvector",
+   "url": "https://github.com/pgvector/pgvector",
+   "note": "Vectors in Postgres",
+   "uid": "ac4fca99680d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:50.022Z"
+  },
+  {
+   "kind": "repo",
+   "target": "a2a",
+   "title": "a2aproject/A2A",
+   "url": "https://github.com/a2aproject/A2A",
+   "note": "Spec, v1.0 · ~26k★",
+   "uid": "45a21eec787a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:50.049Z"
+  },
+  {
+   "kind": "repo",
+   "target": "a2a",
+   "title": "a2aproject/a2a-python",
+   "url": "https://github.com/a2aproject/a2a-python",
+   "note": "Python SDK",
+   "uid": "d42dc25cbec8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:50:50.058Z"
+  },
+  {
+   "uid": "f603d2fdf892",
+   "kind": "course",
+   "target": "vectordb",
+   "title": "Pinecone Learn",
+   "url": "https://www.pinecone.io/learn/",
+   "note": "Free guides on embeddings and search",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.706Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.706Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.650Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.302Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.474Z",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "uid": "895d62e9a839",
+   "kind": "course",
+   "target": "evals",
+   "title": "Evaluating AI Agents",
+   "url": "https://www.deeplearning.ai/short-courses/evaluating-ai-agents/",
+   "note": "DeepLearning.AI · Free short course",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.706Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.706Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.650Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.302Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.449Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/evaluating-ai-agents",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "uid": "a2ba68f8dbe1",
+   "kind": "repo",
+   "target": "evals",
+   "title": "EleutherAI/lm-evaluation-harness",
+   "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+   "note": "Standard benchmark runner",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.706Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.706Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.650Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.302Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.554Z",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "uid": "e263817bf594",
+   "kind": "repo",
+   "target": "finetune",
+   "title": "huggingface/peft",
+   "url": "https://github.com/huggingface/peft",
+   "note": "LoRA and other efficient fine-tuning",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.706Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.706Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.650Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.302Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.432Z",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "uid": "fd83bfe1379a",
+   "kind": "repo",
+   "target": "multiagent",
+   "title": "camel-ai/camel",
+   "url": "https://github.com/camel-ai/camel",
+   "note": "Multi-agent research framework",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.707Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.707Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.650Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.302Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.543Z",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "uid": "9551bc58bb06",
+   "kind": "course",
+   "target": "scale",
+   "title": "LLM Bootcamp",
+   "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+   "note": "Full Stack Deep Learning · Free lectures",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.707Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.707Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.650Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.302Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.506Z",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "uid": "ebf809957b9b",
+   "kind": "course",
+   "target": "scale",
+   "title": "Prompt caching guide",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-caching",
+   "note": "Anthropic docs · cut cost and latency",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.707Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.707Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.650Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.302Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:57:57.437Z",
+   "finalUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  }
+ ]
+}

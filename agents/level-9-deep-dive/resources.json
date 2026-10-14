@@ -1,0 +1,610 @@
+{
+ "agent": "level-9",
+ "name": "Level 9 · Deep dive agent",
+ "updatedAt": "2026-10-14T02:59:29.783Z",
+ "total": 37,
+ "byStatus": {
+  "site": 32,
+  "added": 5
+ },
+ "resources": [
+  {
+   "kind": "course",
+   "target": "rl",
+   "title": "Hugging Face Deep RL Course",
+   "url": "https://huggingface.co/learn/deep-rl-course",
+   "note": "Free, hands-on",
+   "uid": "99aa6e7895cd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.752Z",
+   "finalUrl": "https://huggingface.co/learn/deep-rl-course/unit0/introduction"
+  },
+  {
+   "kind": "course",
+   "target": "rl",
+   "title": "OpenAI Spinning Up",
+   "url": "https://spinningup.openai.com/",
+   "note": "Deep RL intro",
+   "uid": "6372da5c2b0f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.094Z",
+   "finalUrl": "https://spinningup.openai.com/en/latest/"
+  },
+  {
+   "kind": "course",
+   "target": "rl",
+   "title": "Sutton & Barto (free book)",
+   "url": "http://incompleteideas.net/book/the-book-2nd.html",
+   "note": "The RL textbook",
+   "uid": "6bcabf2dc26d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.768Z"
+  },
+  {
+   "kind": "course",
+   "target": "rl",
+   "title": "Hugging Face · RLHF explained",
+   "url": "https://huggingface.co/blog/rlhf",
+   "note": "Blog",
+   "uid": "cd40e038a786",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.716Z"
+  },
+  {
+   "kind": "paid",
+   "target": "rl",
+   "title": "Coursera · Reinforcement Learning Specialization",
+   "url": "https://www.coursera.org/specializations/reinforcement-learning",
+   "note": "U. Alberta",
+   "uid": "950013c9f78f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.049Z"
+  },
+  {
+   "kind": "video",
+   "target": "rl",
+   "title": "David Silver RL lectures",
+   "url": "https://www.youtube.com/results?search_query=David%20Silver%20reinforcement%20learning%20lecture",
+   "extra": {
+    "search": "David Silver reinforcement learning lecture"
+   },
+   "uid": "8bad3a4ae460",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "hnsw",
+   "title": "Pinecone · HNSW explained",
+   "url": "https://www.pinecone.io/learn/series/faiss/hnsw/",
+   "note": "Visual guide",
+   "uid": "6e70df4bd821",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.487Z"
+  },
+  {
+   "kind": "course",
+   "target": "hnsw",
+   "title": "HNSW paper (arXiv)",
+   "url": "https://arxiv.org/abs/1603.09320",
+   "note": "Original paper",
+   "uid": "2d70b05aa610",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.644Z"
+  },
+  {
+   "kind": "course",
+   "target": "hnsw",
+   "title": "FAISS",
+   "url": "https://github.com/facebookresearch/faiss",
+   "note": "Library",
+   "uid": "13aec07d6e6b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.950Z"
+  },
+  {
+   "kind": "paid",
+   "target": "hnsw",
+   "title": "Book · AI Engineering (Chip Huyen)",
+   "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+   "note": "Retrieval chapter",
+   "uid": "ac56c3772104",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.686Z"
+  },
+  {
+   "kind": "video",
+   "target": "hnsw",
+   "title": "HNSW explained",
+   "url": "https://www.youtube.com/results?search_query=HNSW%20algorithm%20explained",
+   "extra": {
+    "search": "HNSW algorithm explained"
+   },
+   "uid": "8dbc4604377b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.489Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "infra",
+   "title": "Ollama",
+   "url": "https://ollama.com/",
+   "note": "Run models locally",
+   "uid": "448536446cab",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.754Z"
+  },
+  {
+   "kind": "course",
+   "target": "infra",
+   "title": "NVIDIA Deep Learning Institute",
+   "url": "https://www.nvidia.com/en-us/training/",
+   "note": "Some free courses",
+   "uid": "97f5184b9092",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.694Z"
+  },
+  {
+   "kind": "course",
+   "target": "infra",
+   "title": "Microsoft Learn · AI training",
+   "url": "https://learn.microsoft.com/en-us/training/",
+   "note": "Free modules",
+   "uid": "acab69f6376e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.744Z"
+  },
+  {
+   "kind": "paid",
+   "target": "infra",
+   "title": "Microsoft AI-103: Azure AI Apps and Agents Developer",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "~US$165 exam (replaced AI-102)",
+   "uid": "58dd066d390a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.824Z"
+  },
+  {
+   "kind": "video",
+   "target": "infra",
+   "title": "AI infrastructure",
+   "url": "https://www.youtube.com/results?search_query=AI%20infrastructure%20explained%20GPUs%20inference",
+   "extra": {
+    "search": "AI infrastructure explained GPUs inference"
+   },
+   "uid": "daee312f9ba3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "course",
+   "target": "agentic-eng",
+   "title": "Claude Code docs",
+   "url": "https://docs.claude.com/en/docs/claude-code/overview",
+   "note": "Coding agent",
+   "uid": "06ceefa97bfa",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.847Z",
+   "finalUrl": "https://code.claude.com/docs/en/overview"
+  },
+  {
+   "kind": "course",
+   "target": "agentic-eng",
+   "title": "Anthropic · Claude Code best practices",
+   "url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+   "note": "Workflows",
+   "uid": "03e355274ebb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.779Z",
+   "finalUrl": "https://code.claude.com/docs/en/best-practices"
+  },
+  {
+   "kind": "paid",
+   "target": "agentic-eng",
+   "title": "Maven AI engineering cohorts",
+   "url": "https://maven.com/",
+   "note": "Paid cohorts",
+   "uid": "ec2bfec55521",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.735Z"
+  },
+  {
+   "kind": "video",
+   "target": "agentic-eng",
+   "title": "Coding agents",
+   "url": "https://www.youtube.com/results?search_query=Claude%20Code%20tutorial",
+   "extra": {
+    "search": "Claude Code tutorial"
+   },
+   "uid": "b4e03df9a3bf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.490Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "repo",
+   "target": "rl",
+   "title": "huggingface/trl",
+   "url": "https://github.com/huggingface/trl",
+   "note": "RLHF, DPO, GRPO",
+   "uid": "25268e3c09f1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.035Z"
+  },
+  {
+   "kind": "repo",
+   "target": "rl",
+   "title": "volcengine/verl",
+   "url": "https://github.com/volcengine/verl",
+   "note": "RL for LLMs",
+   "uid": "6f163a05664b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.183Z",
+   "finalUrl": "https://github.com/verl-project/verl"
+  },
+  {
+   "kind": "repo",
+   "target": "hnsw",
+   "title": "nmslib/hnswlib",
+   "url": "https://github.com/nmslib/hnswlib",
+   "note": "Header-only HNSW",
+   "uid": "0a69418a8285",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.121Z"
+  },
+  {
+   "kind": "repo",
+   "target": "hnsw",
+   "title": "facebookresearch/faiss",
+   "url": "https://github.com/facebookresearch/faiss",
+   "note": "IndexHNSW",
+   "uid": "bee3104c1e9b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.073Z"
+  },
+  {
+   "kind": "repo",
+   "target": "hnsw",
+   "title": "HNSW paper (arXiv)",
+   "url": "https://arxiv.org/abs/1603.09320",
+   "note": "Malkov & Yashunin",
+   "uid": "06727dbf5d40",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:03.797Z"
+  },
+  {
+   "kind": "repo",
+   "target": "infra",
+   "title": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "note": "Serving · ~94k★",
+   "uid": "6ca2082071f0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.104Z"
+  },
+  {
+   "kind": "repo",
+   "target": "infra",
+   "title": "sgl-project/sglang",
+   "url": "https://github.com/sgl-project/sglang",
+   "note": "RadixAttention serving · ~37k★",
+   "uid": "914c831856cb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.494Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.110Z"
+  },
+  {
+   "kind": "repo",
+   "target": "infra",
+   "title": "ggml-org/llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "note": "Local inference · ~131k★",
+   "uid": "3439aca7d4f2",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.233Z"
+  },
+  {
+   "kind": "repo",
+   "target": "infra",
+   "title": "kserve/kserve",
+   "url": "https://github.com/kserve/kserve",
+   "note": "Kubernetes serving",
+   "uid": "32d74a7777dc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.167Z"
+  },
+  {
+   "kind": "repo",
+   "target": "agentic-eng",
+   "title": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "note": "Claude Code · ~150k★",
+   "uid": "100fa6db4253",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.133Z"
+  },
+  {
+   "kind": "repo",
+   "target": "agentic-eng",
+   "title": "openai/codex",
+   "url": "https://github.com/openai/codex",
+   "note": "Codex CLI · ~129k★",
+   "uid": "fe4c584ae78f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.219Z"
+  },
+  {
+   "kind": "repo",
+   "target": "agentic-eng",
+   "title": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "note": "Gemini CLI · ~107k★",
+   "uid": "e3c0b68d3024",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.495Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:04.200Z"
+  },
+  {
+   "uid": "3d17b8ac1b35",
+   "kind": "repo",
+   "target": "rl",
+   "title": "DLR-RM/stable-baselines3",
+   "url": "https://github.com/DLR-RM/stable-baselines3",
+   "note": "Reliable RL algorithms",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.742Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.742Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.659Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.307Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:02.738Z",
+   "addedAt": "2026-10-14T02:59:18.307Z"
+  },
+  {
+   "uid": "690cf034e370",
+   "kind": "repo",
+   "target": "rl",
+   "title": "Farama-Foundation/Gymnasium",
+   "url": "https://github.com/Farama-Foundation/Gymnasium",
+   "note": "Standard RL environments",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.742Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.742Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.659Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.307Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:02.714Z",
+   "addedAt": "2026-10-14T02:59:18.307Z"
+  },
+  {
+   "uid": "77454466b4cf",
+   "kind": "repo",
+   "target": "hnsw",
+   "title": "unum-cloud/usearch",
+   "url": "https://github.com/unum-cloud/usearch",
+   "note": "Fast single-file vector search",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.742Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.742Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.659Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.307Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:02.830Z",
+   "addedAt": "2026-10-14T02:59:18.307Z"
+  },
+  {
+   "uid": "26137d166379",
+   "kind": "course",
+   "target": "infra",
+   "title": "The Ultra-Scale Playbook",
+   "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
+   "note": "Hugging Face · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.742Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.742Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.659Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.308Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:02.573Z",
+   "addedAt": "2026-10-14T02:59:18.308Z"
+  },
+  {
+   "uid": "043b745edcfe",
+   "kind": "course",
+   "target": "agentic-eng",
+   "title": "Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "note": "Anthropic Academy · Free certificate",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.742Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.742Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.659Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.308Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:02.949Z",
+   "addedAt": "2026-10-14T02:59:18.308Z"
+  }
+ ]
+}

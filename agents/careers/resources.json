@@ -1,0 +1,2535 @@
+{
+ "agent": "careers",
+ "name": "Careers agent",
+ "updatedAt": "2026-10-14T02:59:29.788Z",
+ "total": 124,
+ "byStatus": {
+  "site": 114,
+  "added": 10
+ },
+ "resources": [
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "Python for Everybody",
+   "url": "https://www.py4e.com/",
+   "note": "Dr. Chuck (py4e) · Free",
+   "extra": {
+    "provider": "Dr. Chuck (py4e)",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "0fb778ebf7eb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.730Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "Building with the Claude API + MCP courses",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "f10d2befbd2f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.610Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "Agents and Workflows",
+   "url": "https://academy.openai.com/",
+   "note": "OpenAI Academy · Free",
+   "extra": {
+    "provider": "OpenAI Academy",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "bcd1bcbd9d04",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.559Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "Agents Course + MCP Course",
+   "url": "https://huggingface.co/learn",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "64e4756a63ce",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.479Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "RAG, agents and evals short courses",
+   "url": "https://www.deeplearning.ai/short-courses/",
+   "note": "DeepLearning.AI · Free",
+   "extra": {
+    "provider": "DeepLearning.AI",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "0bdc80c8c8fc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.041Z",
+   "finalUrl": "https://www.deeplearning.ai/courses"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "LLM Zoomcamp",
+   "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+   "note": "DataTalksClub · Free",
+   "extra": {
+    "provider": "DataTalksClub",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "7a96470bf590",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.891Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "OWASP Top 10 for LLM Apps",
+   "url": "https://genai.owasp.org/llm-top-10/",
+   "note": "OWASP · Free",
+   "extra": {
+    "provider": "OWASP",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "b3f121591151",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.557Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "Generative AI with LLMs",
+   "url": "https://www.coursera.org/learn/generative-ai-with-llms",
+   "note": "DeepLearning.AI + AWS (Coursera) · Paid",
+   "extra": {
+    "provider": "DeepLearning.AI + AWS (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "d5e01d463ab4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.108Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "AWS AIP-C01 or Microsoft AI-103",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "AWS / Microsoft · $300 / ~$165",
+   "extra": {
+    "provider": "AWS / Microsoft",
+    "cost": "$300 / ~$165",
+    "cert": "Certification"
+   },
+   "uid": "fa297a08cd79",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.480Z"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Machine Learning Crash Course",
+   "url": "https://developers.google.com/machine-learning/crash-course",
+   "note": "Google · Free",
+   "extra": {
+    "provider": "Google",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "ddf7bb3c61a1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.462Z",
+   "finalUrl": "https://developers.google.com/machine-learning/crash-course?hl=pl"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Intro & Intermediate ML, Feature Engineering",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Kaggle Learn · Free",
+   "extra": {
+    "provider": "Kaggle Learn",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "673cf4b9e8f7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.695Z"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Machine Learning Specialization",
+   "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+   "note": "Stanford + DeepLearning.AI (Coursera) · Paid (audit options)",
+   "extra": {
+    "provider": "Stanford + DeepLearning.AI (Coursera)",
+    "cost": "Paid (audit options)",
+    "cert": "Paid certificate"
+   },
+   "uid": "d4b548a34131",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.963Z"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Practical Deep Learning for Coders",
+   "url": "https://course.fast.ai/",
+   "note": "fast.ai · Free",
+   "extra": {
+    "provider": "fast.ai",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "c1704ec9ca7f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.523Z"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Neural Networks: Zero to Hero",
+   "url": "https://karpathy.ai/zero-to-hero.html",
+   "note": "Andrej Karpathy · Free",
+   "extra": {
+    "provider": "Andrej Karpathy",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "dda1f6553916",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.586Z"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "LLM Course (fine-tuning)",
+   "url": "https://huggingface.co/learn",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "455f63c0189d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.509Z"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Made With ML",
+   "url": "https://madewithml.com/",
+   "note": "Goku Mohandas · Free",
+   "extra": {
+    "provider": "Goku Mohandas",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "508d1ac40aeb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.578Z"
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Google Professional ML Engineer or AWS MLA-C02",
+   "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+   "note": "Google / AWS · $200 / $150",
+   "extra": {
+    "provider": "Google / AWS",
+    "cost": "$200 / $150",
+    "cert": "Certification"
+   },
+   "uid": "9c2a0a8b847c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.218Z"
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "Intro to Linux (LFS101) + Intro to Kubernetes (LFS158)",
+   "url": "https://training.linuxfoundation.org/",
+   "note": "Linux Foundation · Free",
+   "extra": {
+    "provider": "Linux Foundation",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "58835cf8a20a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.736Z"
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "MLOps Zoomcamp",
+   "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+   "note": "DataTalksClub · Free",
+   "extra": {
+    "provider": "DataTalksClub",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "e93bec9d29ff",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.885Z"
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "AI-300 learning path + practice test",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
+   "note": "Microsoft Learn · Free",
+   "extra": {
+    "provider": "Microsoft Learn",
+    "cost": "Free",
+    "cert": "Practice test"
+   },
+   "uid": "f0e555222618",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.644Z"
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "Vertex AI MLOps skill badges",
+   "url": "https://www.skills.google/",
+   "note": "Google Skills · Free tier",
+   "extra": {
+    "provider": "Google Skills",
+    "cost": "Free tier",
+    "cert": "Free badge"
+   },
+   "uid": "5912149bff32",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.459Z"
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "ML Engineer exam prep",
+   "url": "https://skillbuilder.aws/",
+   "note": "AWS Skill Builder · Free tier",
+   "extra": {
+    "provider": "AWS Skill Builder",
+    "cost": "Free tier",
+    "cert": "—"
+   },
+   "uid": "ef5be1c3735f",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.883Z"
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "Machine Learning in Production",
+   "url": "https://www.coursera.org/learn/introduction-to-machine-learning-in-production",
+   "note": "DeepLearning.AI (Coursera) · Paid",
+   "extra": {
+    "provider": "DeepLearning.AI (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "561c641a9c49",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.642Z"
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "Certified Kubernetes Administrator (CKA)",
+   "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
+   "note": "Linux Foundation / CNCF · $445",
+   "extra": {
+    "provider": "Linux Foundation / CNCF",
+    "cost": "$445",
+    "cert": "Certification"
+   },
+   "uid": "fb9181b48aaa",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.691Z"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "1565a3abe5df",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.811Z"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "GitHub Copilot learning paths",
+   "url": "https://learn.microsoft.com/en-us/training/github/",
+   "note": "Microsoft Learn · Free",
+   "extra": {
+    "provider": "Microsoft Learn",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "c4e25dd58924",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.773Z"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "Codex and agentic coding",
+   "url": "https://academy.openai.com/",
+   "note": "OpenAI Academy · Free",
+   "extra": {
+    "provider": "OpenAI Academy",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "9c2c23aeb7ac",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.832Z"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "Gemini Code Assist skill badges",
+   "url": "https://www.skills.google/",
+   "note": "Google Skills · Free tier",
+   "extra": {
+    "provider": "Google Skills",
+    "cost": "Free tier",
+    "cert": "Free badge"
+   },
+   "uid": "1a3aa9c0b202",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.305Z"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "Coding-agent short courses",
+   "url": "https://www.deeplearning.ai/short-courses/",
+   "note": "DeepLearning.AI · Free",
+   "extra": {
+    "provider": "DeepLearning.AI",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "7fb834f8d97b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.502Z",
+   "finalUrl": "https://www.deeplearning.ai/courses"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "OWASP Top 10 for LLM Apps",
+   "url": "https://genai.owasp.org/llm-top-10/",
+   "note": "OWASP · Free",
+   "extra": {
+    "provider": "OWASP",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "f2d382fae18c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.834Z"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "GitHub Copilot certification (GH-300)",
+   "url": "https://learn.microsoft.com/en-us/credentials/",
+   "note": "GitHub / Microsoft · Paid (~$99, verify)",
+   "extra": {
+    "provider": "GitHub / Microsoft",
+    "cost": "Paid (~$99, verify)",
+    "cert": "Certification"
+   },
+   "uid": "9ade72fbb7af",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:23.901Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Python, Pandas, SQL, Data Visualization",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Kaggle Learn · Free",
+   "extra": {
+    "provider": "Kaggle Learn",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "904937a8c980",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.080Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Data Analysis with Python",
+   "url": "https://www.freecodecamp.org/learn/",
+   "note": "freeCodeCamp · Free",
+   "extra": {
+    "provider": "freeCodeCamp",
+    "cost": "Free",
+    "cert": "Free certification"
+   },
+   "uid": "0251e6e5703a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.106Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "An Introduction to Statistical Learning (ISLP)",
+   "url": "https://www.statlearning.com/",
+   "note": "James, Witten, Hastie, Tibshirani · Free",
+   "extra": {
+    "provider": "James, Witten, Hastie, Tibshirani",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "94baefe700ea",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.199Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Machine Learning Crash Course",
+   "url": "https://developers.google.com/machine-learning/crash-course",
+   "note": "Google · Free",
+   "extra": {
+    "provider": "Google",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "3add0a408a82",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.333Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Trustworthy Online Controlled Experiments",
+   "url": "https://experimentguide.com/",
+   "note": "Kohavi et al. · Paid book",
+   "extra": {
+    "provider": "Kohavi et al.",
+    "cost": "Paid book",
+    "cert": "—"
+   },
+   "uid": "25b7c6d5ab7e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.564Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "IBM Data Science Professional Certificate",
+   "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+   "note": "IBM (Coursera) · Paid",
+   "extra": {
+    "provider": "IBM (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "192f87665311",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.397Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Databricks ML Associate or Google PMLE",
+   "url": "https://www.databricks.com/learn/certification",
+   "note": "Databricks / Google · $200",
+   "extra": {
+    "provider": "Databricks / Google",
+    "cost": "$200",
+    "cert": "Certification"
+   },
+   "uid": "fd91b2701f84",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.082Z",
+   "finalUrl": "https://www.databricks.com/learn/training/certification"
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "Intro + Advanced SQL",
+   "url": "https://www.kaggle.com/learn",
+   "note": "Kaggle Learn · Free",
+   "extra": {
+    "provider": "Kaggle Learn",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "4318f4068c4d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.239Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "Data Engineering Zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "note": "DataTalksClub · Free",
+   "extra": {
+    "provider": "DataTalksClub",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "1469bae9c853",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.497Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "dbt Fundamentals",
+   "url": "https://learn.getdbt.com/",
+   "note": "dbt Labs · Free",
+   "extra": {
+    "provider": "dbt Labs",
+    "cost": "Free",
+    "cert": "Badge"
+   },
+   "uid": "75706a7bd992",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.347Z",
+   "finalUrl": "https://learn.getdbt.com/catalog"
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "Fundamentals + GenAI Fundamentals",
+   "url": "https://www.databricks.com/learn/training",
+   "note": "Databricks · Free",
+   "extra": {
+    "provider": "Databricks",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "ff4db25528ef",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.313Z",
+   "finalUrl": "https://www.databricks.com/learn/training/home"
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "LLM Zoomcamp",
+   "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+   "note": "DataTalksClub · Free",
+   "extra": {
+    "provider": "DataTalksClub",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "c854205009f9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.484Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "Data Engineering Professional Certificate",
+   "url": "https://www.coursera.org/professional-certificates/data-engineering",
+   "note": "DeepLearning.AI + AWS (Coursera) · Paid",
+   "extra": {
+    "provider": "DeepLearning.AI + AWS (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "8d0eaae8d12e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.621Z"
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "Databricks Data Engineer Associate or AWS Data Engineer Associate",
+   "url": "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+   "note": "Databricks / AWS · $200 / $150",
+   "extra": {
+    "provider": "Databricks / AWS",
+    "cost": "$200 / $150",
+    "cert": "Certification"
+   },
+   "uid": "f1888e4aeffd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.335Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "AI for Everyone",
+   "url": "https://www.coursera.org/learn/ai-for-everyone",
+   "note": "DeepLearning.AI (Coursera) · Free to audit",
+   "extra": {
+    "provider": "DeepLearning.AI (Coursera)",
+    "cost": "Free to audit",
+    "cert": "Paid certificate"
+   },
+   "uid": "74cb5e0b79aa",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.882Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "AI Fluency",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "167b8c5b0b40",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.476Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "AI Foundations + Applied AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "OpenAI Academy · Free",
+   "extra": {
+    "provider": "OpenAI Academy",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "9eaec646108e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.412Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "Introduction to Generative AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/536",
+   "note": "Google Skills · Free",
+   "extra": {
+    "provider": "Google Skills",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "d25b4b6060d3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.833Z",
+   "finalUrl": "https://www.skills.google/course_templates/536"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "Evals short courses",
+   "url": "https://www.deeplearning.ai/short-courses/",
+   "note": "DeepLearning.AI · Free",
+   "extra": {
+    "provider": "DeepLearning.AI",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "08ebdfadf6fe",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.907Z",
+   "finalUrl": "https://www.deeplearning.ai/courses"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "NIST AI RMF Playbook",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "note": "NIST · Free",
+   "extra": {
+    "provider": "NIST",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "eb477adf4f63",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.439Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "Google Generative AI Leader or AWS AIF-C01",
+   "url": "https://cloud.google.com/learn/certification/generative-ai-leader",
+   "note": "Google / AWS · $99 / $100",
+   "extra": {
+    "provider": "Google / AWS",
+    "cost": "$99 / $100",
+    "cert": "Certification"
+   },
+   "uid": "e3187a223f0a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.004Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "AI Product Management Specialization",
+   "url": "https://www.coursera.org/specializations/ai-product-management-duke",
+   "note": "Duke (Coursera) · Paid",
+   "extra": {
+    "provider": "Duke (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "6f797b1a8a87",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.865Z"
+  },
+  {
+   "kind": "step",
+   "target": "solutions-architect",
+   "title": "Cloud Practitioner Essentials + GenAI learning plans",
+   "url": "https://skillbuilder.aws/",
+   "note": "AWS Skill Builder · Free",
+   "extra": {
+    "provider": "AWS Skill Builder",
+    "cost": "Free",
+    "cert": "Some free badges"
+   },
+   "uid": "759da42579e0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.706Z"
+  },
+  {
+   "kind": "step",
+   "target": "solutions-architect",
+   "title": "AI-901 learning path",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+   "note": "Microsoft Learn · Free",
+   "extra": {
+    "provider": "Microsoft Learn",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "afafe4c95855",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.555Z"
+  },
+  {
+   "kind": "step",
+   "target": "solutions-architect",
+   "title": "GenAI / Vertex AI skill badges",
+   "url": "https://www.skills.google/",
+   "note": "Google Skills · Free tier",
+   "extra": {
+    "provider": "Google Skills",
+    "cost": "Free tier",
+    "cert": "Free badge"
+   },
+   "uid": "42afa34b86df",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.594Z"
+  },
+  {
+   "kind": "step",
+   "target": "solutions-architect",
+   "title": "Claude with Amazon Bedrock / Vertex AI",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "353d7230a4e1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.638Z"
+  },
+  {
+   "kind": "step",
+   "target": "solutions-architect",
+   "title": "AWS AIF-C01 or Microsoft AI-901",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "AWS / Microsoft · $100 / ~$99",
+   "extra": {
+    "provider": "AWS / Microsoft",
+    "cost": "$100 / ~$99",
+    "cert": "Certification"
+   },
+   "uid": "1311eb90728b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.557Z"
+  },
+  {
+   "kind": "step",
+   "target": "solutions-architect",
+   "title": "AWS Solutions Architect – Associate",
+   "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+   "note": "AWS · $150",
+   "extra": {
+    "provider": "AWS",
+    "cost": "$150",
+    "cert": "Certification"
+   },
+   "uid": "90676d066e66",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.588Z"
+  },
+  {
+   "kind": "step",
+   "target": "solutions-architect",
+   "title": "AWS AIP-C01, or Microsoft AI-103 → AB-100",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/",
+   "note": "AWS / Microsoft · $300 / ~$165 each",
+   "extra": {
+    "provider": "AWS / Microsoft",
+    "cost": "$300 / ~$165 each",
+    "cert": "Certification"
+   },
+   "uid": "8b52b94ccf8c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.649Z"
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "Claude 101 + AI Fluency",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "df86268a3711",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.794Z"
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "AI Foundations",
+   "url": "https://academy.openai.com/",
+   "note": "OpenAI Academy · Free",
+   "extra": {
+    "provider": "OpenAI Academy",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "165418cadb04",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.715Z"
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "Prompt engineering interactive tutorial",
+   "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+   "note": "Anthropic · Free",
+   "extra": {
+    "provider": "Anthropic",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "7ec2bda89388",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.962Z"
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "ChatGPT Prompt Engineering for Developers",
+   "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+   "note": "DeepLearning.AI · Free",
+   "extra": {
+    "provider": "DeepLearning.AI",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "975a3bdbe1d4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.949Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/chatgpt-prompt-eng"
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "Learn Prompting",
+   "url": "https://learnprompting.org/",
+   "note": "Learn Prompting · Free",
+   "extra": {
+    "provider": "Learn Prompting",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "f79bae7b6014",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.871Z"
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "Google Prompting Essentials",
+   "url": "https://grow.google/prompting-essentials/",
+   "note": "Google (Coursera) · Paid",
+   "extra": {
+    "provider": "Google (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "5058a1d727db",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.704Z",
+   "finalUrl": "https://grow.google/ai-professional/"
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "AWS AIF-C01 or Microsoft AB-730",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "AWS / Microsoft · $100 / verify",
+   "extra": {
+    "provider": "AWS / Microsoft",
+    "cost": "$100 / verify",
+    "cert": "Certification"
+   },
+   "uid": "f51120d47200",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.760Z"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "Mathematics for Machine Learning (book)",
+   "url": "https://mml-book.github.io/",
+   "note": "Deisenroth et al. · Free",
+   "extra": {
+    "provider": "Deisenroth et al.",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "0ab1756a2867",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.833Z"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "CS229 Machine Learning",
+   "url": "https://cs229.stanford.edu/",
+   "note": "Stanford · Free",
+   "extra": {
+    "provider": "Stanford",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "a1353dd75272",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.083Z"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "Understanding Deep Learning (book)",
+   "url": "https://udlbook.github.io/udlbook/",
+   "note": "Simon Prince · Free",
+   "extra": {
+    "provider": "Simon Prince",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "6ae8c6d5164e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.071Z"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "Deep Learning (book)",
+   "url": "https://www.deeplearningbook.org/",
+   "note": "Goodfellow, Bengio, Courville · Free",
+   "extra": {
+    "provider": "Goodfellow, Bengio, Courville",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "1095a257c5fe",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.019Z"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "CS336 Language Modeling from Scratch",
+   "url": "https://stanford-cs336.github.io/",
+   "note": "Stanford · Free",
+   "extra": {
+    "provider": "Stanford",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "3fbaade859bd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.236Z",
+   "finalUrl": "http://cs336.stanford.edu/"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "Neural Networks: Zero to Hero",
+   "url": "https://karpathy.ai/zero-to-hero.html",
+   "note": "Andrej Karpathy · Free",
+   "extra": {
+    "provider": "Andrej Karpathy",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "41dd119dd6d4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.007Z"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "Reproduce a paper, then submit to a workshop",
+   "url": "https://arxiv.org/",
+   "note": "arXiv · Free",
+   "extra": {
+    "provider": "arXiv",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "ceb1b2a62c13",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:24.947Z"
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "Computer Vision",
+   "url": "https://www.kaggle.com/learn/computer-vision",
+   "note": "Kaggle Learn · Free",
+   "extra": {
+    "provider": "Kaggle Learn",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "d6be2daec4a1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.157Z"
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "CS231n",
+   "url": "https://cs231n.github.io/",
+   "note": "Stanford · Free",
+   "extra": {
+    "provider": "Stanford",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "263868e5b301",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.013Z"
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "Computer Vision Course",
+   "url": "https://huggingface.co/learn/computer-vision-course",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "50f519efc6dc",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.146Z",
+   "finalUrl": "https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome"
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "OpenCV free courses",
+   "url": "https://opencv.org/university/",
+   "note": "OpenCV University · Free",
+   "extra": {
+    "provider": "OpenCV University",
+    "cost": "Free",
+    "cert": "Some free certificates"
+   },
+   "uid": "ac0164c1e2df",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.105Z"
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "Getting Started with AI on Jetson Nano",
+   "url": "https://www.nvidia.com/en-us/training/",
+   "note": "NVIDIA DLI · Free",
+   "extra": {
+    "provider": "NVIDIA DLI",
+    "cost": "Free",
+    "cert": "Certificate"
+   },
+   "uid": "21846f49fda3",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.061Z"
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "Ultralytics YOLO docs",
+   "url": "https://docs.ultralytics.com/",
+   "note": "Ultralytics · Free",
+   "extra": {
+    "provider": "Ultralytics",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "ae258303177d",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.281Z"
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "NVIDIA NCA-GENM or Google PMLE",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "note": "NVIDIA / Google · $125 / $200",
+   "extra": {
+    "provider": "NVIDIA / Google",
+    "cost": "$125 / $200",
+    "cert": "Certification"
+   },
+   "uid": "e809f4a17b59",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.130Z"
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "Advanced NLP with spaCy",
+   "url": "https://course.spacy.io/",
+   "note": "Explosion · Free",
+   "extra": {
+    "provider": "Explosion",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "aea3a6c4edbb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.551Z",
+   "finalUrl": "https://course.spacy.io/en/"
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "LLM Course + Audio Course",
+   "url": "https://huggingface.co/learn",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "87747bb75c73",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.086Z"
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "CS224N",
+   "url": "https://web.stanford.edu/class/cs224n/",
+   "note": "Stanford · Free",
+   "extra": {
+    "provider": "Stanford",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "e89d4844903c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.275Z"
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "Rasa docs",
+   "url": "https://rasa.com/docs/",
+   "note": "Rasa · Free",
+   "extra": {
+    "provider": "Rasa",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "0e9dceb3a733",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.375Z"
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "API + MCP courses",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "c81a9d778106",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.241Z"
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "NLP Specialization",
+   "url": "https://www.coursera.org/specializations/natural-language-processing",
+   "note": "DeepLearning.AI (Coursera) · Paid",
+   "extra": {
+    "provider": "DeepLearning.AI (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "e8d81c2c8129",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.590Z"
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "NVIDIA NCA-GENL or Microsoft AI-103",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "note": "NVIDIA / Microsoft · $125 / ~$165",
+   "extra": {
+    "provider": "NVIDIA / Microsoft",
+    "cost": "$125 / ~$165",
+    "cert": "Certification"
+   },
+   "uid": "33ef15a5695a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.231Z"
+  },
+  {
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "AI Safety / AI Governance courses",
+   "url": "https://bluedot.org/",
+   "note": "BlueDot Impact · Free",
+   "extra": {
+    "provider": "BlueDot Impact",
+    "cost": "Free",
+    "cert": "Certificate"
+   },
+   "uid": "fe38a194a732",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.533Z"
+  },
+  {
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "AI RMF + Generative AI Profile",
+   "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+   "note": "NIST · Free",
+   "extra": {
+    "provider": "NIST",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "7641593ba6cd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.261Z"
+  },
+  {
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "EU AI Act resources",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+   "note": "European Commission · Free",
+   "extra": {
+    "provider": "European Commission",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "cf446b29b11c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.499Z"
+  },
+  {
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "AIGP Body of Knowledge v2.1",
+   "url": "https://iapp.org/certify/aigp/",
+   "note": "IAPP · Free",
+   "extra": {
+    "provider": "IAPP",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "894970207940",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.723Z"
+  },
+  {
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "ARENA (technical alignment)",
+   "url": "https://www.arena.education/",
+   "note": "ARENA · Free",
+   "extra": {
+    "provider": "ARENA",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "5542dcc3b442",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.546Z"
+  },
+  {
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "ISO/IEC 42001 Lead Implementer / Auditor",
+   "url": "https://www.iso.org/standard/81230.html",
+   "note": "PECB, BSI and others · Paid (varies)",
+   "extra": {
+    "provider": "PECB, BSI and others",
+    "cost": "Paid (varies)",
+    "cert": "Certification"
+   },
+   "uid": "a1e50b726681",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "blocked",
+   "http": 403,
+   "checkedAt": "2026-10-14T02:51:25.457Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "Web LLM attacks labs",
+   "url": "https://portswigger.net/web-security/llm-attacks",
+   "note": "PortSwigger · Free",
+   "extra": {
+    "provider": "PortSwigger",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "d7396210a31e",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:26.217Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "Gandalf prompt-injection game",
+   "url": "https://gandalf.lakera.ai/",
+   "note": "Lakera · Free",
+   "extra": {
+    "provider": "Lakera",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "0d850dd805ed",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.656Z",
+   "finalUrl": "https://play.lakera.ai/agent-breaker"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "OWASP GenAI Security Project",
+   "url": "https://genai.owasp.org/",
+   "note": "OWASP · Free",
+   "extra": {
+    "provider": "OWASP",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "f4cb3a793aea",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.389Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "MITRE ATLAS",
+   "url": "https://atlas.mitre.org/",
+   "note": "MITRE · Free",
+   "extra": {
+    "provider": "MITRE",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "dd97579c89e1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.487Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "garak / PyRIT / promptfoo",
+   "url": "https://github.com/NVIDIA/garak",
+   "note": "NVIDIA / Microsoft / promptfoo · Free",
+   "extra": {
+    "provider": "NVIDIA / Microsoft / promptfoo",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "6a1c9795ec64",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.768Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "Red Teaming LLM Applications",
+   "url": "https://www.deeplearning.ai/short-courses/red-teaming-llm-applications/",
+   "note": "DeepLearning.AI · Free",
+   "extra": {
+    "provider": "DeepLearning.AI",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "95a0730e2769",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.741Z",
+   "finalUrl": "https://www.deeplearning.ai/courses/red-teaming-llm-applications"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "Microsoft cloud & AI security certification",
+   "url": "https://learn.microsoft.com/en-us/credentials/",
+   "note": "Microsoft · ~$165 (verify status)",
+   "extra": {
+    "provider": "Microsoft",
+    "cost": "~$165 (verify status)",
+    "cert": "Certification"
+   },
+   "uid": "f4ae75d18c9b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.503Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "Elements of AI",
+   "url": "https://www.elementsofai.com/",
+   "note": "University of Helsinki · Free",
+   "extra": {
+    "provider": "University of Helsinki",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "aa4851d1c0ac",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.835Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "AI Foundations (~70 min)",
+   "url": "https://academy.openai.com/",
+   "note": "OpenAI Academy · Free",
+   "extra": {
+    "provider": "OpenAI Academy",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "42e7dcecacd9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.620Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "Claude 101 + AI Fluency",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "0f6330134737",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.650Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "Introduction to Generative AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/536",
+   "note": "Google Skills · Free",
+   "extra": {
+    "provider": "Google Skills",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "f3ddfab5450c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:26.260Z",
+   "finalUrl": "https://www.skills.google/course_templates/536"
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "AI Fundamentals",
+   "url": "https://skillsbuild.org/",
+   "note": "IBM SkillsBuild · Free",
+   "extra": {
+    "provider": "IBM SkillsBuild",
+    "cost": "Free",
+    "cert": "Free badge"
+   },
+   "uid": "225ca7d66dae",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.647Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "Google AI Essentials",
+   "url": "https://grow.google/ai-essentials/",
+   "note": "Google (Coursera) · Paid",
+   "extra": {
+    "provider": "Google (Coursera)",
+    "cost": "Paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "5744fac834ef",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.589Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "AWS AIF-C01 or Microsoft AB-730",
+   "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+   "note": "AWS / Microsoft · $100 / verify",
+   "extra": {
+    "provider": "AWS / Microsoft",
+    "cost": "$100 / verify",
+    "cert": "Certification"
+   },
+   "uid": "222a92092761",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.630Z"
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "ROS 2 docs and tutorials",
+   "url": "https://docs.ros.org/",
+   "note": "Open Robotics · Free",
+   "extra": {
+    "provider": "Open Robotics",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "a08f8fd31186",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.729Z"
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "Deep RL Course",
+   "url": "https://huggingface.co/learn/deep-rl-course",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "2dcb5fb6cbb7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.845Z",
+   "finalUrl": "https://huggingface.co/learn/deep-rl-course/unit0/introduction"
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "LeRobot",
+   "url": "https://github.com/huggingface/lerobot",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "e8fc94e8aa56",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:26.041Z"
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "Robotic Manipulation (6.4210)",
+   "url": "https://manipulation.csail.mit.edu/",
+   "note": "MIT · Free",
+   "extra": {
+    "provider": "MIT",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "07fc1afea313",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.858Z"
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "Modern Robotics",
+   "url": "https://www.coursera.org/specializations/modernrobotics",
+   "note": "Northwestern (Coursera) · Audit / paid",
+   "extra": {
+    "provider": "Northwestern (Coursera)",
+    "cost": "Audit / paid",
+    "cert": "Paid certificate"
+   },
+   "uid": "ec6b714089d0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:26.370Z"
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "Isaac Sim robotics courses",
+   "url": "https://www.nvidia.com/en-us/training/",
+   "note": "NVIDIA DLI · Some free",
+   "extra": {
+    "provider": "NVIDIA DLI",
+    "cost": "Some free",
+    "cert": "Certificate"
+   },
+   "uid": "399f101b08a4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.497Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T02:51:25.677Z"
+  },
+  {
+   "uid": "ae733ba90869",
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "LLM Bootcamp",
+   "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+   "note": "Full Stack Deep Learning · Free",
+   "extra": {
+    "provider": "Full Stack Deep Learning",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.337Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "85e111cd85bd",
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "Building with the Claude API",
+   "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Certificate"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.450Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "fc89f01f0e88",
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Machine Learning in Production",
+   "url": "https://www.coursera.org/learn/introduction-to-machine-learning-in-production",
+   "note": "DeepLearning.AI · Coursera · Free audit · paid cert",
+   "extra": {
+    "provider": "DeepLearning.AI · Coursera",
+    "cost": "Free audit · paid cert",
+    "cert": "Certificate (paid)"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:14.360Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "b46fe1eb213e",
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Intro to Machine Learning",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "note": "Kaggle Learn · Free",
+   "extra": {
+    "provider": "Kaggle Learn",
+    "cost": "Free",
+    "cert": "Certificate"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.327Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "72b373f0eb39",
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "People + AI Guidebook",
+   "url": "https://pair.withgoogle.com/guidebook/",
+   "note": "Google PAIR · Free",
+   "extra": {
+    "provider": "Google PAIR",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.229Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "6776062ec779",
+   "kind": "step",
+   "target": "researcher",
+   "title": "CS224N: NLP with Deep Learning",
+   "url": "https://web.stanford.edu/class/cs224n/",
+   "note": "Stanford · Free",
+   "extra": {
+    "provider": "Stanford",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.284Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "57b26bc6a61c",
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "Ethics of AI",
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "note": "University of Helsinki · Free",
+   "extra": {
+    "provider": "University of Helsinki",
+    "cost": "Free",
+    "cert": "Certificate"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.993Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "7bce271511ba",
+   "kind": "step",
+   "target": "ai-security",
+   "title": "OWASP Top 10 for LLM Applications",
+   "url": "https://genai.owasp.org/llm-top-10/",
+   "note": "OWASP · Free",
+   "extra": {
+    "provider": "OWASP",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.288Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "751a1a0747e0",
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "AI Fluency: Framework & Foundations",
+   "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Certificate"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.638Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "uid": "a402dd8ba04e",
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "ROS 2 tutorials",
+   "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+   "note": "Open Robotics · Free",
+   "extra": {
+    "provider": "Open Robotics",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.768Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.768Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.668Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.315Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T02:58:13.454Z",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  }
+ ]
+}

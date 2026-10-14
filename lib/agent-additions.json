@@ -1,0 +1,1083 @@
+{
+ "generatedAt": "2026-10-14T02:59:18.295Z",
+ "count": 122,
+ "topics": {
+  "python": {
+   "free": [
+    [
+     "Google's Python Class",
+     "https://developers.google.com/edu/python",
+     "Google · Free"
+    ]
+   ]
+  },
+  "math": {
+   "free": [
+    [
+     "Seeing Theory: visual probability",
+     "https://seeing-theory.brown.edu/",
+     "Brown University · Free, interactive"
+    ]
+   ]
+  },
+  "data": {
+   "free": [
+    [
+     "freeCodeCamp: Data Analysis with Python",
+     "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+     "freeCodeCamp · Free certification"
+    ]
+   ]
+  },
+  "neural-nets": {
+   "free": [
+    [
+     "TensorFlow Playground",
+     "https://playground.tensorflow.org/",
+     "Play with a neural net in your browser · Free"
+    ]
+   ],
+   "yt": [
+    [
+     "Neural networks (3Blue1Brown series)",
+     "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+     "3Blue1Brown · visual intro"
+    ]
+   ]
+  },
+  "llm": {
+   "free": [
+    [
+     "Transformer Explainer",
+     "https://poloclub.github.io/transformer-explainer/",
+     "Georgia Tech · interactive, free"
+    ],
+    [
+     "LLM Visualization",
+     "https://bbycroft.net/llm",
+     "3D walk-through of a GPT · free"
+    ]
+   ],
+   "paid": [
+    [
+     "Build a Large Language Model (From Scratch)",
+     "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+     "Sebastian Raschka · Manning book"
+    ]
+   ]
+  },
+  "chat": {
+   "free": [
+    [
+     "One Useful Thing",
+     "https://www.oneusefulthing.org/",
+     "Ethan Mollick · free newsletter on using AI well"
+    ]
+   ]
+  },
+  "rag": {
+   "free": [
+    [
+     "Building and Evaluating Advanced RAG",
+     "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/",
+     "DeepLearning.AI · Free short course"
+    ]
+   ]
+  },
+  "vectordb": {
+   "free": [
+    [
+     "Pinecone Learn",
+     "https://www.pinecone.io/learn/",
+     "Free guides on embeddings and search"
+    ]
+   ]
+  },
+  "evals": {
+   "free": [
+    [
+     "Evaluating AI Agents",
+     "https://www.deeplearning.ai/short-courses/evaluating-ai-agents/",
+     "DeepLearning.AI · Free short course"
+    ]
+   ]
+  },
+  "scale": {
+   "free": [
+    [
+     "LLM Bootcamp",
+     "https://fullstackdeeplearning.com/llm-bootcamp/",
+     "Full Stack Deep Learning · Free lectures"
+    ],
+    [
+     "Prompt caching guide",
+     "https://docs.claude.com/en/docs/build-with-claude/prompt-caching",
+     "Anthropic docs · cut cost and latency"
+    ]
+   ]
+  },
+  "genmedia": {
+   "free": [
+    [
+     "The Illustrated Stable Diffusion",
+     "https://jalammar.github.io/illustrated-stable-diffusion/",
+     "Jay Alammar · Free visual explainer"
+    ]
+   ]
+  },
+  "multimodal": {
+   "free": [
+    [
+     "Multimodal RAG: Chat with Videos",
+     "https://www.deeplearning.ai/short-courses/multimodal-rag-chat-with-videos/",
+     "DeepLearning.AI · Free short course"
+    ],
+    [
+     "Gemini API: image understanding",
+     "https://ai.google.dev/gemini-api/docs/image-understanding",
+     "Google · Free docs"
+    ]
+   ]
+  },
+  "robotics": {
+   "free": [
+    [
+     "ROS 2 tutorials",
+     "https://docs.ros.org/en/jazzy/Tutorials.html",
+     "Open Robotics · Free"
+    ]
+   ]
+  },
+  "ethics": {
+   "free": [
+    [
+     "Practical Data Ethics",
+     "https://ethics.fast.ai/",
+     "fast.ai · Free"
+    ]
+   ]
+  },
+  "ai-law": {
+   "free": [
+    [
+     "OECD.AI Policy Observatory",
+     "https://oecd.ai/",
+     "OECD · Free policy tracker"
+    ]
+   ]
+  },
+  "ai-business": {
+   "free": [
+    [
+     "AI Index Report",
+     "https://hai.stanford.edu/ai-index",
+     "Stanford HAI · Free annual data"
+    ],
+    [
+     "The state of AI",
+     "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+     "McKinsey · Free survey"
+    ]
+   ]
+  },
+  "ai-product": {
+   "free": [
+    [
+     "Guidelines for Human-AI Interaction",
+     "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
+     "Microsoft Research · Free"
+    ]
+   ]
+  },
+  "ind-health": {
+   "free": [
+    [
+     "Ethics and governance of AI for health",
+     "https://www.who.int/publications/i/item/9789240029200",
+     "WHO · Free guidance"
+    ]
+   ]
+  },
+  "ind-finance": {
+   "free": [
+    [
+     "Machine Learning for Trading",
+     "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+     "Georgia Tech · Udacity, free"
+    ]
+   ]
+  },
+  "ind-education": {
+   "free": [
+    [
+     "Guidance for generative AI in education and research",
+     "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+     "UNESCO · Free"
+    ],
+    [
+     "AI 101 for Teachers",
+     "https://code.org/ai/pl/101",
+     "Code.org · Free"
+    ]
+   ]
+  },
+  "ind-retail": {
+   "free": [
+    [
+     "H&M personalised fashion recommendations",
+     "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations",
+     "Kaggle · Free dataset + notebooks"
+    ]
+   ]
+  },
+  "ind-marketing": {
+   "free": [
+    [
+     "Semrush Academy",
+     "https://www.semrush.com/academy/",
+     "Semrush · Free SEO/marketing courses"
+    ]
+   ]
+  },
+  "ind-gov": {
+   "free": [
+    [
+     "AI Playbook for the UK Government",
+     "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government",
+     "GOV.UK · Free"
+    ],
+    [
+     "GSA AI Center of Excellence",
+     "https://coe.gsa.gov/",
+     "US GSA · Free guides"
+    ]
+   ]
+  },
+  "nlp": {
+   "free": [
+    [
+     "Speech and Language Processing (3rd ed. draft)",
+     "https://web.stanford.edu/~jurafsky/slp3/",
+     "Jurafsky & Martin · Free book"
+    ]
+   ]
+  },
+  "gnn": {
+   "free": [
+    [
+     "A Gentle Introduction to Graph Neural Networks",
+     "https://distill.pub/2021/gnn-intro/",
+     "Distill · Free"
+    ]
+   ]
+  },
+  "edge-ai": {
+   "free": [
+    [
+     "Edge Impulse docs",
+     "https://docs.edgeimpulse.com/",
+     "Edge Impulse · Free tier + tutorials"
+    ]
+   ]
+  },
+  "ai-chips": {
+   "free": [
+    [
+     "GPU Glossary",
+     "https://modal.com/gpu-glossary",
+     "Modal · Free"
+    ]
+   ]
+  },
+  "quantum-ml": {
+   "free": [
+    [
+     "PennyLane Codebook",
+     "https://pennylane.ai/codebook",
+     "Xanadu · Free"
+    ]
+   ]
+  },
+  "papers": {
+   "free": [
+    [
+     "alphaXiv",
+     "https://www.alphaxiv.org/",
+     "Discuss arXiv papers · Free"
+    ]
+   ],
+   "yt": [
+    [
+     "Two Minute Papers",
+     "https://www.youtube.com/@TwoMinutePapers",
+     "Short research highlights"
+    ]
+   ]
+  },
+  "infra": {
+   "free": [
+    [
+     "The Ultra-Scale Playbook",
+     "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
+     "Hugging Face · Free"
+    ]
+   ]
+  },
+  "agentic-eng": {
+   "free": [
+    [
+     "Claude Code in Action",
+     "https://anthropic.skilljar.com/claude-code-in-action",
+     "Anthropic Academy · Free certificate"
+    ]
+   ]
+  }
+ },
+ "repos": {
+  "neural-nets": [
+   [
+    "karpathy/micrograd",
+    "https://github.com/karpathy/micrograd",
+    "Tiny autograd engine to learn backprop"
+   ]
+  ],
+  "llm": [
+   [
+    "rasbt/LLMs-from-scratch",
+    "https://github.com/rasbt/LLMs-from-scratch",
+    "Build a GPT step by step · ~70k★"
+   ],
+   [
+    "mlabonne/llm-course",
+    "https://github.com/mlabonne/llm-course",
+    "Roadmaps + notebooks · ~60k★"
+   ]
+  ],
+  "rag": [
+   [
+    "NirDiamant/RAG_Techniques",
+    "https://github.com/NirDiamant/RAG_Techniques",
+    "30+ RAG techniques as notebooks"
+   ],
+   [
+    "infiniflow/ragflow",
+    "https://github.com/infiniflow/ragflow",
+    "Open-source RAG engine"
+   ]
+  ],
+  "memory": [
+   [
+    "getzep/graphiti",
+    "https://github.com/getzep/graphiti",
+    "Temporal knowledge-graph memory"
+   ]
+  ],
+  "mcp": [
+   [
+    "punkpeye/awesome-mcp-servers",
+    "https://github.com/punkpeye/awesome-mcp-servers",
+    "Curated list of MCP servers"
+   ]
+  ],
+  "patterns": [
+   [
+    "anthropics/anthropic-cookbook",
+    "https://github.com/anthropics/anthropic-cookbook",
+    "Agent patterns + recipes"
+   ]
+  ],
+  "design": [
+   [
+    "humanlayer/12-factor-agents",
+    "https://github.com/humanlayer/12-factor-agents",
+    "Principles for reliable agents"
+   ]
+  ],
+  "evals": [
+   [
+    "EleutherAI/lm-evaluation-harness",
+    "https://github.com/EleutherAI/lm-evaluation-harness",
+    "Standard benchmark runner"
+   ]
+  ],
+  "finetune": [
+   [
+    "huggingface/peft",
+    "https://github.com/huggingface/peft",
+    "LoRA and other efficient fine-tuning"
+   ]
+  ],
+  "multiagent": [
+   [
+    "camel-ai/camel",
+    "https://github.com/camel-ai/camel",
+    "Multi-agent research framework"
+   ]
+  ],
+  "vision": [
+   [
+    "roboflow/supervision",
+    "https://github.com/roboflow/supervision",
+    "Reusable computer-vision tools"
+   ]
+  ],
+  "speech": [
+   [
+    "SYSTRAN/faster-whisper",
+    "https://github.com/SYSTRAN/faster-whisper",
+    "Fast Whisper transcription"
+   ]
+  ],
+  "ind-finance": [
+   [
+    "AI4Finance-Foundation/FinRL",
+    "https://github.com/AI4Finance-Foundation/FinRL",
+    "Reinforcement learning for trading"
+   ]
+  ],
+  "edge-ai": [
+   [
+    "ml-explore/mlx",
+    "https://github.com/ml-explore/mlx",
+    "Apple-silicon ML framework"
+   ]
+  ],
+  "rl": [
+   [
+    "DLR-RM/stable-baselines3",
+    "https://github.com/DLR-RM/stable-baselines3",
+    "Reliable RL algorithms"
+   ],
+   [
+    "Farama-Foundation/Gymnasium",
+    "https://github.com/Farama-Foundation/Gymnasium",
+    "Standard RL environments"
+   ]
+  ],
+  "hnsw": [
+   [
+    "unum-cloud/usearch",
+    "https://github.com/unum-cloud/usearch",
+    "Fast single-file vector search"
+   ]
+  ]
+ },
+ "badges": {
+  "ml-basics": [
+   [
+    "other",
+    "freeCodeCamp: Machine Learning with Python",
+    "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+    "Free certification",
+    false
+   ]
+  ],
+  "llm": [
+   [
+    "google",
+    "Google: Introduction to Large Language Models",
+    "https://www.cloudskillsboost.google/course_templates/539",
+    "Free badge",
+    false
+   ],
+   [
+    "anthropic",
+    "Anthropic: Building with the Claude API",
+    "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+    "Free certificate",
+    false
+   ],
+   [
+    "google",
+    "Kaggle: 5-Day Gen AI Intensive",
+    "https://www.kaggle.com/learn-guide/5-day-genai",
+    "Free (Google + Kaggle)",
+    false
+   ]
+  ],
+  "ethics": [
+   [
+    "ms",
+    "Microsoft Learn: Fundamentals of Responsible Generative AI",
+    "https://learn.microsoft.com/en-us/training/modules/responsible-generative-ai/",
+    "Free trophy",
+    false
+   ]
+  ],
+  "agentic-eng": [
+   [
+    "anthropic",
+    "Anthropic: Claude Code in Action",
+    "https://anthropic.skilljar.com/claude-code-in-action",
+    "Free certificate",
+    false
+   ]
+  ],
+  "ai-intro": [
+   [
+    "anthropic",
+    "Anthropic: AI Fluency – Framework & Foundations",
+    "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+    "Free certificate",
+    false
+   ]
+  ],
+  "agents": [
+   [
+    "google",
+    "Kaggle: 5-Day AI Agents Intensive",
+    "https://www.kaggle.com/learn-guide/5-day-agents",
+    "Free badge (Google + Kaggle)",
+    false
+   ]
+  ],
+  "data-eng": [
+   [
+    "other",
+    "Data Engineering Zoomcamp certificate",
+    "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "Free certificate (project-graded)",
+    false
+   ]
+  ]
+ },
+ "tools": {
+  "t-chat": [
+   [
+    "Kimi",
+    "https://www.kimi.com",
+    "Free",
+    "free",
+    true,
+    "Moonshot AI assistant with long context"
+   ],
+   [
+    "Poe",
+    "https://poe.com",
+    "Freemium",
+    "freemium",
+    false,
+    "Many models in one app"
+   ]
+  ],
+  "t-models": [
+   [
+    "Phi",
+    "https://azure.microsoft.com/en-us/products/phi",
+    "Open (MIT)",
+    "oss",
+    false,
+    "Microsoft small language models"
+   ],
+   [
+    "OLMo",
+    "https://allenai.org/olmo",
+    "Open (Apache 2.0)",
+    "oss",
+    false,
+    "Fully open models, data and code from Ai2"
+   ],
+   [
+    "Kimi K2",
+    "https://github.com/MoonshotAI/Kimi-K2",
+    "Open weights",
+    "oss",
+    true,
+    "Large open MoE model for agents"
+   ]
+  ],
+  "t-coding": [
+   [
+    "Continue",
+    "https://www.continue.dev",
+    "Open-source",
+    "oss",
+    false,
+    "Open AI coding assistant for VS Code and JetBrains"
+   ],
+   [
+    "Tabnine",
+    "https://www.tabnine.com",
+    "Paid",
+    "paid",
+    false,
+    "Private, enterprise code assistant"
+   ]
+  ],
+  "t-frameworks": [
+   [
+    "Vercel AI SDK",
+    "https://ai-sdk.dev",
+    "Open-source",
+    "oss",
+    false,
+    "TypeScript toolkit for AI apps and agents"
+   ]
+  ],
+  "t-protocols": [
+   [
+    "MCP Inspector",
+    "https://github.com/modelcontextprotocol/inspector",
+    "Open-source",
+    "oss",
+    false,
+    "Test and debug MCP servers"
+   ],
+   [
+    "Glama MCP directory",
+    "https://glama.ai/mcp/servers",
+    "Free",
+    "free",
+    false,
+    "Searchable directory of MCP servers"
+   ]
+  ],
+  "t-automation": [
+   [
+    "Activepieces",
+    "https://www.activepieces.com",
+    "Open-source · Cloud from free",
+    "oss",
+    false,
+    "Open-source Zapier alternative with AI steps"
+   ],
+   [
+    "Lindy",
+    "https://www.lindy.ai",
+    "Freemium",
+    "freemium",
+    true,
+    "No-code AI assistants for email, calls and CRM"
+   ]
+  ],
+  "t-vector": [
+   [
+    "Vespa",
+    "https://vespa.ai",
+    "Open-source + cloud",
+    "oss",
+    false,
+    "Search and vector engine at scale"
+   ]
+  ],
+  "t-evals": [
+   [
+    "Opik",
+    "https://github.com/comet-ml/opik",
+    "Open-source",
+    "oss",
+    true,
+    "LLM tracing and evaluation by Comet"
+   ]
+  ],
+  "t-finetune": [
+   [
+    "OpenPipe",
+    "https://openpipe.ai",
+    "Paid",
+    "paid",
+    false,
+    "Fine-tune smaller models from your logs"
+   ]
+  ],
+  "t-inference": [
+   [
+    "Jan",
+    "https://jan.ai",
+    "Open-source",
+    "oss",
+    false,
+    "Offline ChatGPT-style desktop app"
+   ]
+  ],
+  "t-cloud": [
+   [
+    "Replicate",
+    "https://replicate.com",
+    "Pay per use",
+    "paid",
+    false,
+    "Run open models with an API"
+   ],
+   [
+    "RunPod",
+    "https://www.runpod.io",
+    "Pay per use",
+    "paid",
+    false,
+    "On-demand GPUs and serverless"
+   ]
+  ],
+  "t-media": [
+   [
+    "HeyGen",
+    "https://www.heygen.com",
+    "Freemium",
+    "freemium",
+    false,
+    "AI avatar videos and translation"
+   ],
+   [
+    "Krea",
+    "https://www.krea.ai",
+    "Freemium",
+    "freemium",
+    false,
+    "Real-time image and video generation"
+   ]
+  ],
+  "t-productivity": [
+   [
+    "Fathom",
+    "https://www.fathom.ai",
+    "Free · paid teams",
+    "freemium",
+    false,
+    "Free AI meeting recorder and notes"
+   ]
+  ],
+  "t-browser": [
+   [
+    "Stagehand",
+    "https://www.stagehand.dev",
+    "Open-source",
+    "oss",
+    true,
+    "AI browser automation SDK by Browserbase"
+   ],
+   [
+    "Dia",
+    "https://www.diabrowser.com",
+    "Free",
+    "free",
+    true,
+    "AI-first browser from The Browser Company"
+   ]
+  ]
+ },
+ "glossary": [
+  [
+   "Temperature",
+   "A setting that controls how creative or predictable an AI's answers are. Low = safe and consistent, high = more varied."
+  ],
+  [
+   "Inference",
+   "Using a trained AI model to get an answer. Every time you send a prompt, the model runs inference."
+  ],
+  [
+   "Parameters",
+   "The millions or billions of numbers inside a model that it learned during training. More parameters usually means a bigger, more capable model."
+  ],
+  [
+   "Reasoning model",
+   "An AI model that \"thinks\" step by step before answering, which helps with maths, code and planning but takes longer."
+  ],
+  [
+   "Transformer",
+   "The design behind almost all modern language models. It lets the model look at every word in a sentence at once to understand context."
+  ],
+  [
+   "System prompt",
+   "Hidden instructions given to an AI before your message, setting its role, tone and rules."
+  ],
+  [
+   "Few-shot prompting",
+   "Showing the AI a few examples of what you want inside your prompt so it copies the pattern."
+  ],
+  [
+   "Guardrails",
+   "Rules and checks around an AI app that block unsafe, off-topic or wrong outputs."
+  ],
+  [
+   "Benchmark",
+   "A standard test used to compare AI models, like an exam everyone takes."
+  ],
+  [
+   "Overfitting",
+   "When a model memorises its training examples instead of learning general patterns, so it does badly on new data."
+  ],
+  [
+   "Quantization",
+   "Shrinking a model by storing its numbers with less precision, so it runs faster on smaller computers with a small quality loss."
+  ],
+  [
+   "Distillation",
+   "Training a small, cheap model to copy the answers of a big model."
+  ],
+  [
+   "Grounding",
+   "Making an AI base its answer on specific trusted sources (like your documents) instead of only its memory."
+  ],
+  [
+   "Knowledge cutoff",
+   "The date after which a model has no training data, so it doesn't know about later events unless given search or documents."
+  ],
+  [
+   "Human in the loop",
+   "A setup where a person reviews or approves the AI's work before it takes effect."
+  ],
+  [
+   "Deepfake",
+   "A fake image, video or voice made with AI to look or sound like a real person."
+  ],
+  [
+   "Synthetic data",
+   "Artificial data created by computers or AI, used to train or test models when real data is scarce or private."
+  ],
+  [
+   "AGI",
+   "Artificial general intelligence: a hypothetical AI that can learn and do almost any intellectual task a person can."
+  ]
+ ],
+ "steps": {
+  "ai-engineer": [
+   [
+    "LLM Bootcamp",
+    "Full Stack Deep Learning",
+    "https://fullstackdeeplearning.com/llm-bootcamp/",
+    "Free",
+    "—"
+   ],
+   [
+    "Building with the Claude API",
+    "Anthropic Academy",
+    "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+    "Free",
+    "Certificate"
+   ]
+  ],
+  "ml-engineer": [
+   [
+    "Machine Learning in Production",
+    "DeepLearning.AI · Coursera",
+    "https://www.coursera.org/learn/introduction-to-machine-learning-in-production",
+    "Free audit · paid cert",
+    "Certificate (paid)"
+   ]
+  ],
+  "data-scientist": [
+   [
+    "Intro to Machine Learning",
+    "Kaggle Learn",
+    "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "Free",
+    "Certificate"
+   ]
+  ],
+  "ai-pm": [
+   [
+    "People + AI Guidebook",
+    "Google PAIR",
+    "https://pair.withgoogle.com/guidebook/",
+    "Free",
+    "—"
+   ]
+  ],
+  "researcher": [
+   [
+    "CS224N: NLP with Deep Learning",
+    "Stanford",
+    "https://web.stanford.edu/class/cs224n/",
+    "Free",
+    "—"
+   ]
+  ],
+  "responsible-ai": [
+   [
+    "Ethics of AI",
+    "University of Helsinki",
+    "https://ethics-of-ai.mooc.fi/",
+    "Free",
+    "Certificate"
+   ]
+  ],
+  "ai-security": [
+   [
+    "OWASP Top 10 for LLM Applications",
+    "OWASP",
+    "https://genai.owasp.org/llm-top-10/",
+    "Free",
+    "—"
+   ]
+  ],
+  "ai-literacy": [
+   [
+    "AI Fluency: Framework & Foundations",
+    "Anthropic Academy",
+    "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+    "Free",
+    "Certificate"
+   ]
+  ],
+  "robotics-engineer": [
+   [
+    "ROS 2 tutorials",
+    "Open Robotics",
+    "https://docs.ros.org/en/jazzy/Tutorials.html",
+    "Free",
+    "—"
+   ]
+  ]
+ },
+ "projects": [
+  {
+   "id": "study-cards",
+   "title": "AI course-notes and flashcard builder for students",
+   "cat": "Education & services",
+   "level": "Beginner",
+   "mvp": "1–2 weeks",
+   "cost": "$0–20",
+   "problem": "Students record lectures and download slides but never turn them into revision material before exams.",
+   "solution": "Upload a lecture recording, slides or PDF and get clean notes, a one-page summary and spaced-repetition flashcards that export to Anki.",
+   "customer": "University and exam-prep students; tutors who resell it to their classes.",
+   "revenue": "Freemium: 3 uploads a month free, $6/month student plan; bulk licences for tutoring centres.",
+   "steps": [
+    "Accept PDF, slides and audio uploads",
+    "Transcribe audio with Whisper",
+    "Generate notes and question–answer cards with an LLM",
+    "Export to Anki (.apkg) and CSV",
+    "Add a shared class deck and payments"
+   ],
+   "tools": [
+    [
+     "OpenAI Whisper",
+     "https://github.com/openai/whisper"
+    ],
+    [
+     "Claude API",
+     "https://docs.claude.com/"
+    ],
+    [
+     "genanki (Anki export)",
+     "https://github.com/kerrickstaley/genanki"
+    ],
+    [
+     "Supabase",
+     "https://supabase.com/"
+    ]
+   ],
+   "topics": [
+    "speech",
+    "prompting",
+    "rag"
+   ],
+   "launch": [
+    [
+     "Product Hunt",
+     "https://www.producthunt.com/"
+    ],
+    [
+     "r/GetStudying",
+     "https://www.reddit.com/r/GetStudying/"
+    ]
+   ],
+   "watch": "Respect lecture copyright: only process material the student is allowed to use, and never publish shared decks publicly by default."
+  },
+  {
+   "id": "a11y-audit",
+   "title": "AI accessibility checker for small-business websites",
+   "cat": "Tools & SaaS",
+   "level": "Intermediate",
+   "mvp": "3–4 weeks",
+   "cost": "$20–50/month",
+   "problem": "Accessibility laws (ADA in the US, the European Accessibility Act from June 2025) put small businesses at legal risk, but audits are expensive.",
+   "solution": "Scan a website with an open-source checker, then use AI to explain each issue in plain English, suggest fixed code and write missing alt text.",
+   "customer": "Small businesses, web agencies and freelance web designers.",
+   "revenue": "$29–99/month per site with monthly re-scans; white-label reports for agencies.",
+   "steps": [
+    "Run axe-core on each page with Playwright",
+    "Group issues by severity",
+    "Ask an LLM for plain-English explanations and code fixes",
+    "Generate alt text for images with a vision model",
+    "Email a monthly PDF report"
+   ],
+   "tools": [
+    [
+     "axe-core",
+     "https://github.com/dequelabs/axe-core"
+    ],
+    [
+     "Playwright",
+     "https://playwright.dev/"
+    ],
+    [
+     "Claude API",
+     "https://docs.claude.com/"
+    ],
+    [
+     "Stripe",
+     "https://stripe.com/"
+    ]
+   ],
+   "topics": [
+    "vision",
+    "prompting",
+    "evals"
+   ],
+   "launch": [
+    [
+     "Indie Hackers",
+     "https://www.indiehackers.com/"
+    ],
+    [
+     "Product Hunt",
+     "https://www.producthunt.com/"
+    ]
+   ],
+   "watch": "Automated scans catch only part of accessibility problems; say so clearly and never promise legal compliance."
+  },
+  {
+   "id": "grant-finder",
+   "title": "Grant and tender finder with AI-drafted applications",
+   "cat": "Automation",
+   "level": "Intermediate",
+   "mvp": "3 weeks",
+   "cost": "$20–50/month",
+   "problem": "Non-profits and small firms miss grants and public tenders because finding and writing applications takes days.",
+   "solution": "Watch public grant and tender portals, match new calls to each client's profile, and draft a first-pass application from their past documents.",
+   "customer": "Non-profits, research groups and small businesses bidding for public contracts.",
+   "revenue": "$49–199/month subscription, or a success fee for done-for-you applications.",
+   "steps": [
+    "Pull new calls from open portals (Grants.gov, TED for EU tenders)",
+    "Score each call against a client profile with embeddings",
+    "Send a weekly shortlist by email",
+    "Draft answers from the client's past applications (RAG)",
+    "Add a review-and-export step for Word/PDF"
+   ],
+   "tools": [
+    [
+     "Grants.gov API",
+     "https://www.grants.gov/api"
+    ],
+    [
+     "TED (EU tenders)",
+     "https://ted.europa.eu/"
+    ],
+    [
+     "n8n",
+     "https://n8n.io/"
+    ],
+    [
+     "LlamaIndex",
+     "https://docs.llamaindex.ai/"
+    ]
+   ],
+   "topics": [
+    "rag",
+    "agents",
+    "vectordb"
+   ],
+   "launch": [
+    [
+     "LinkedIn",
+     "https://www.linkedin.com/"
+    ],
+    [
+     "Indie Hackers",
+     "https://www.indiehackers.com/"
+    ]
+   ],
+   "watch": "A person must review every application before it is submitted; never let the AI invent facts or figures."
+  }
+ ]
+}

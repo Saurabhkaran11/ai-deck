@@ -1,0 +1,2052 @@
+{
+ "_about": "Initial research batch, 2026-10-13. Resources not previously on AI Deck. Imported with: npm run agents -- import agents/research-batches/2026-10-13-initial.json",
+ "level-1": [
+  {
+   "kind": "course",
+   "target": "python",
+   "title": "Python for Everybody (py4e)",
+   "url": "https://www.py4e.com/",
+   "note": "Dr. Chuck · Free book, videos and exercises"
+  },
+  {
+   "kind": "course",
+   "target": "python",
+   "title": "Google's Python Class",
+   "url": "https://developers.google.com/edu/python",
+   "note": "Google · Free"
+  },
+  {
+   "kind": "video",
+   "target": "python",
+   "title": "Learn Python – Full Course for Beginners",
+   "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+   "note": "freeCodeCamp · 4.5 h"
+  },
+  {
+   "kind": "course",
+   "target": "math",
+   "title": "Mathematics for Machine Learning (free book)",
+   "url": "https://mml-book.github.io/",
+   "note": "Deisenroth, Faisal, Ong · Free PDF"
+  },
+  {
+   "kind": "course",
+   "target": "math",
+   "title": "Seeing Theory: visual probability",
+   "url": "https://seeing-theory.brown.edu/",
+   "note": "Brown University · Free, interactive"
+  },
+  {
+   "kind": "video",
+   "target": "math",
+   "title": "Essence of Linear Algebra",
+   "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+   "note": "3Blue1Brown · 16 short videos"
+  },
+  {
+   "kind": "repo",
+   "target": "data",
+   "title": "jakevdp/PythonDataScienceHandbook",
+   "url": "https://github.com/jakevdp/PythonDataScienceHandbook",
+   "note": "Free book as notebooks · ~45k★"
+  },
+  {
+   "kind": "course",
+   "target": "data",
+   "title": "freeCodeCamp: Data Analysis with Python",
+   "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+   "note": "freeCodeCamp · Free certification"
+  },
+  {
+   "kind": "repo",
+   "target": "ml-basics",
+   "title": "microsoft/ML-For-Beginners",
+   "url": "https://github.com/microsoft/ML-For-Beginners",
+   "note": "12-week curriculum · ~70k★"
+  },
+  {
+   "kind": "video",
+   "target": "ml-basics",
+   "title": "StatQuest with Josh Starmer",
+   "url": "https://www.youtube.com/@statquest",
+   "note": "Clear ML and stats explainers"
+  },
+  {
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "Dive into Deep Learning (d2l.ai)",
+   "url": "https://d2l.ai/",
+   "note": "Free interactive book with code"
+  },
+  {
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "Neural Networks: Zero to Hero",
+   "url": "https://karpathy.ai/zero-to-hero.html",
+   "note": "Andrej Karpathy · Free"
+  },
+  {
+   "kind": "course",
+   "target": "neural-nets",
+   "title": "TensorFlow Playground",
+   "url": "https://playground.tensorflow.org/",
+   "note": "Play with a neural net in your browser · Free"
+  },
+  {
+   "kind": "video",
+   "target": "neural-nets",
+   "title": "Neural networks (3Blue1Brown series)",
+   "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+   "note": "3Blue1Brown · visual intro"
+  },
+  {
+   "kind": "repo",
+   "target": "neural-nets",
+   "title": "karpathy/micrograd",
+   "url": "https://github.com/karpathy/micrograd",
+   "note": "Tiny autograd engine to learn backprop"
+  }
+ ],
+ "level-2": [
+  {
+   "kind": "repo",
+   "target": "prompting",
+   "title": "anthropics/prompt-eng-interactive-tutorial",
+   "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+   "note": "Anthropic's hands-on prompting course"
+  },
+  {
+   "kind": "course",
+   "target": "prompting",
+   "title": "Learn Prompting",
+   "url": "https://learnprompting.org/",
+   "note": "Free open course"
+  },
+  {
+   "kind": "video",
+   "target": "llm",
+   "title": "Intro to Large Language Models",
+   "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+   "note": "Andrej Karpathy · 1 h"
+  },
+  {
+   "kind": "video",
+   "target": "llm",
+   "title": "Deep Dive into LLMs like ChatGPT",
+   "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+   "note": "Andrej Karpathy · 3.5 h"
+  },
+  {
+   "kind": "course",
+   "target": "llm",
+   "title": "Transformer Explainer",
+   "url": "https://poloclub.github.io/transformer-explainer/",
+   "note": "Georgia Tech · interactive, free"
+  },
+  {
+   "kind": "course",
+   "target": "llm",
+   "title": "LLM Visualization",
+   "url": "https://bbycroft.net/llm",
+   "note": "3D walk-through of a GPT · free"
+  },
+  {
+   "kind": "repo",
+   "target": "llm",
+   "title": "rasbt/LLMs-from-scratch",
+   "url": "https://github.com/rasbt/LLMs-from-scratch",
+   "note": "Build a GPT step by step · ~70k★"
+  },
+  {
+   "kind": "repo",
+   "target": "llm",
+   "title": "mlabonne/llm-course",
+   "url": "https://github.com/mlabonne/llm-course",
+   "note": "Roadmaps + notebooks · ~60k★"
+  },
+  {
+   "kind": "paid",
+   "target": "llm",
+   "title": "Build a Large Language Model (From Scratch)",
+   "url": "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+   "note": "Sebastian Raschka · Manning book"
+  },
+  {
+   "kind": "course",
+   "target": "context",
+   "title": "Effective context engineering for AI agents",
+   "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+   "note": "Anthropic Engineering · Free"
+  },
+  {
+   "kind": "course",
+   "target": "agents",
+   "title": "Building effective agents",
+   "url": "https://www.anthropic.com/engineering/building-effective-agents",
+   "note": "Anthropic Engineering · Free"
+  },
+  {
+   "kind": "course",
+   "target": "agents",
+   "title": "A practical guide to building agents (PDF)",
+   "url": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf",
+   "note": "OpenAI · Free"
+  },
+  {
+   "kind": "video",
+   "target": "chat",
+   "title": "How I use LLMs",
+   "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+   "note": "Andrej Karpathy · everyday use, 2 h"
+  },
+  {
+   "kind": "course",
+   "target": "chat",
+   "title": "One Useful Thing",
+   "url": "https://www.oneusefulthing.org/",
+   "note": "Ethan Mollick · free newsletter on using AI well"
+  }
+ ],
+ "level-3": [
+  {
+   "kind": "course",
+   "target": "rag",
+   "title": "Contextual Retrieval",
+   "url": "https://www.anthropic.com/news/contextual-retrieval",
+   "note": "Anthropic · Free"
+  },
+  {
+   "kind": "course",
+   "target": "rag",
+   "title": "Building and Evaluating Advanced RAG",
+   "url": "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "repo",
+   "target": "rag",
+   "title": "NirDiamant/RAG_Techniques",
+   "url": "https://github.com/NirDiamant/RAG_Techniques",
+   "note": "30+ RAG techniques as notebooks"
+  },
+  {
+   "kind": "repo",
+   "target": "rag",
+   "title": "infiniflow/ragflow",
+   "url": "https://github.com/infiniflow/ragflow",
+   "note": "Open-source RAG engine"
+  },
+  {
+   "kind": "course",
+   "target": "memory",
+   "title": "LLMs as Operating Systems: Agent Memory",
+   "url": "https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memory/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "repo",
+   "target": "memory",
+   "title": "getzep/graphiti",
+   "url": "https://github.com/getzep/graphiti",
+   "note": "Temporal knowledge-graph memory"
+  },
+  {
+   "kind": "course",
+   "target": "mcp",
+   "title": "MCP: Build Rich-Context AI Apps with Anthropic",
+   "url": "https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "repo",
+   "target": "mcp",
+   "title": "punkpeye/awesome-mcp-servers",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "note": "Curated list of MCP servers"
+  },
+  {
+   "kind": "repo",
+   "target": "patterns",
+   "title": "anthropics/anthropic-cookbook",
+   "url": "https://github.com/anthropics/anthropic-cookbook",
+   "note": "Agent patterns + recipes"
+  },
+  {
+   "kind": "course",
+   "target": "patterns",
+   "title": "Introduction to LangGraph",
+   "url": "https://academy.langchain.com/courses/intro-to-langgraph",
+   "note": "LangChain Academy · Free"
+  },
+  {
+   "kind": "course",
+   "target": "design",
+   "title": "People + AI Guidebook",
+   "url": "https://pair.withgoogle.com/guidebook/",
+   "note": "Google PAIR · Free"
+  },
+  {
+   "kind": "course",
+   "target": "design",
+   "title": "HAX Toolkit",
+   "url": "https://www.microsoft.com/en-us/haxtoolkit/",
+   "note": "Microsoft · Free human-AI design guidelines"
+  },
+  {
+   "kind": "repo",
+   "target": "design",
+   "title": "humanlayer/12-factor-agents",
+   "url": "https://github.com/humanlayer/12-factor-agents",
+   "note": "Principles for reliable agents"
+  }
+ ],
+ "level-4": [
+  {
+   "kind": "course",
+   "target": "vectordb",
+   "title": "Pinecone Learn",
+   "url": "https://www.pinecone.io/learn/",
+   "note": "Free guides on embeddings and search"
+  },
+  {
+   "kind": "course",
+   "target": "vectordb",
+   "title": "Vector Databases: from Embeddings to Applications",
+   "url": "https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "course",
+   "target": "evals",
+   "title": "Your AI Product Needs Evals",
+   "url": "https://hamel.dev/blog/posts/evals/",
+   "note": "Hamel Husain · Free"
+  },
+  {
+   "kind": "course",
+   "target": "evals",
+   "title": "Evaluating AI Agents",
+   "url": "https://www.deeplearning.ai/short-courses/evaluating-ai-agents/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "repo",
+   "target": "evals",
+   "title": "EleutherAI/lm-evaluation-harness",
+   "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+   "note": "Standard benchmark runner"
+  },
+  {
+   "kind": "course",
+   "target": "finetune",
+   "title": "Finetuning Large Language Models",
+   "url": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "course",
+   "target": "finetune",
+   "title": "Unsloth docs: fine-tuning guide",
+   "url": "https://docs.unsloth.ai/",
+   "note": "Unsloth · Free"
+  },
+  {
+   "kind": "repo",
+   "target": "finetune",
+   "title": "huggingface/peft",
+   "url": "https://github.com/huggingface/peft",
+   "note": "LoRA and other efficient fine-tuning"
+  },
+  {
+   "kind": "course",
+   "target": "multiagent",
+   "title": "How we built our multi-agent research system",
+   "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+   "note": "Anthropic Engineering · Free"
+  },
+  {
+   "kind": "course",
+   "target": "multiagent",
+   "title": "Multi AI Agent Systems with crewAI",
+   "url": "https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "repo",
+   "target": "multiagent",
+   "title": "camel-ai/camel",
+   "url": "https://github.com/camel-ai/camel",
+   "note": "Multi-agent research framework"
+  },
+  {
+   "kind": "course",
+   "target": "a2a",
+   "title": "A2A Protocol documentation",
+   "url": "https://a2a-protocol.org/",
+   "note": "Linux Foundation project · Free"
+  },
+  {
+   "kind": "course",
+   "target": "scale",
+   "title": "LLM Bootcamp",
+   "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+   "note": "Full Stack Deep Learning · Free lectures"
+  },
+  {
+   "kind": "course",
+   "target": "scale",
+   "title": "Prompt caching guide",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-caching",
+   "note": "Anthropic docs · cut cost and latency"
+  },
+  {
+   "kind": "paid",
+   "target": "scale",
+   "title": "AI Engineering (book)",
+   "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+   "note": "Chip Huyen · O'Reilly"
+  }
+ ],
+ "level-5": [
+  {
+   "kind": "course",
+   "target": "vision",
+   "title": "Stanford CS231n: Deep Learning for Computer Vision",
+   "url": "https://cs231n.github.io/",
+   "note": "Stanford · Free notes"
+  },
+  {
+   "kind": "repo",
+   "target": "vision",
+   "title": "ultralytics/ultralytics",
+   "url": "https://github.com/ultralytics/ultralytics",
+   "note": "YOLO detection and segmentation"
+  },
+  {
+   "kind": "repo",
+   "target": "vision",
+   "title": "roboflow/supervision",
+   "url": "https://github.com/roboflow/supervision",
+   "note": "Reusable computer-vision tools"
+  },
+  {
+   "kind": "repo",
+   "target": "speech",
+   "title": "SYSTRAN/faster-whisper",
+   "url": "https://github.com/SYSTRAN/faster-whisper",
+   "note": "Fast Whisper transcription"
+  },
+  {
+   "kind": "repo",
+   "target": "speech",
+   "title": "pipecat-ai/pipecat",
+   "url": "https://github.com/pipecat-ai/pipecat",
+   "note": "Build real-time voice agents"
+  },
+  {
+   "kind": "course",
+   "target": "genmedia",
+   "title": "The Illustrated Stable Diffusion",
+   "url": "https://jalammar.github.io/illustrated-stable-diffusion/",
+   "note": "Jay Alammar · Free visual explainer"
+  },
+  {
+   "kind": "repo",
+   "target": "genmedia",
+   "title": "comfyanonymous/ComfyUI",
+   "url": "https://github.com/comfyanonymous/ComfyUI",
+   "note": "Node-based image/video generation"
+  },
+  {
+   "kind": "repo",
+   "target": "genmedia",
+   "title": "huggingface/diffusers",
+   "url": "https://github.com/huggingface/diffusers",
+   "note": "Diffusion models library"
+  },
+  {
+   "kind": "course",
+   "target": "multimodal",
+   "title": "Multimodal RAG: Chat with Videos",
+   "url": "https://www.deeplearning.ai/short-courses/multimodal-rag-chat-with-videos/",
+   "note": "DeepLearning.AI · Free short course"
+  },
+  {
+   "kind": "course",
+   "target": "multimodal",
+   "title": "Gemini API: image understanding",
+   "url": "https://ai.google.dev/gemini-api/docs/image-understanding",
+   "note": "Google · Free docs"
+  },
+  {
+   "kind": "course",
+   "target": "recsys",
+   "title": "Recommendation Systems course",
+   "url": "https://developers.google.com/machine-learning/recommendation",
+   "note": "Google · Free"
+  },
+  {
+   "kind": "repo",
+   "target": "recsys",
+   "title": "recommenders-team/recommenders",
+   "url": "https://github.com/recommenders-team/recommenders",
+   "note": "Best-practice recommender notebooks"
+  },
+  {
+   "kind": "course",
+   "target": "timeseries",
+   "title": "Forecasting: Principles and Practice (3rd ed.)",
+   "url": "https://otexts.com/fpp3/",
+   "note": "Hyndman & Athanasopoulos · Free book"
+  },
+  {
+   "kind": "repo",
+   "target": "timeseries",
+   "title": "Nixtla/statsforecast",
+   "url": "https://github.com/Nixtla/statsforecast",
+   "note": "Fast statistical forecasting"
+  },
+  {
+   "kind": "repo",
+   "target": "timeseries",
+   "title": "amazon-science/chronos-forecasting",
+   "url": "https://github.com/amazon-science/chronos-forecasting",
+   "note": "Pretrained forecasting models"
+  },
+  {
+   "kind": "repo",
+   "target": "robotics",
+   "title": "huggingface/lerobot",
+   "url": "https://github.com/huggingface/lerobot",
+   "note": "Open robotics learning library"
+  },
+  {
+   "kind": "course",
+   "target": "robotics",
+   "title": "ROS 2 tutorials",
+   "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+   "note": "Open Robotics · Free"
+  },
+  {
+   "kind": "paid",
+   "target": "robotics",
+   "title": "Modern Robotics Specialization",
+   "url": "https://www.coursera.org/specializations/modernrobotics",
+   "note": "Northwestern · Coursera"
+  }
+ ],
+ "level-6": [
+  {
+   "kind": "course",
+   "target": "ethics",
+   "title": "Ethics of AI",
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "note": "University of Helsinki · Free MOOC"
+  },
+  {
+   "kind": "course",
+   "target": "ethics",
+   "title": "Practical Data Ethics",
+   "url": "https://ethics.fast.ai/",
+   "note": "fast.ai · Free"
+  },
+  {
+   "kind": "course",
+   "target": "safety",
+   "title": "OWASP Top 10 for LLM Applications",
+   "url": "https://genai.owasp.org/llm-top-10/",
+   "note": "OWASP · Free"
+  },
+  {
+   "kind": "course",
+   "target": "safety",
+   "title": "MITRE ATLAS",
+   "url": "https://atlas.mitre.org/",
+   "note": "Attack tactics against AI systems · Free"
+  },
+  {
+   "kind": "course",
+   "target": "safety",
+   "title": "Gandalf prompt-injection game",
+   "url": "https://gandalf.lakera.ai/",
+   "note": "Lakera · Free, learn by playing"
+  },
+  {
+   "kind": "repo",
+   "target": "safety",
+   "title": "NVIDIA/garak",
+   "url": "https://github.com/NVIDIA/garak",
+   "note": "LLM vulnerability scanner"
+  },
+  {
+   "kind": "course",
+   "target": "ai-law",
+   "title": "EU AI Act Explorer",
+   "url": "https://artificialintelligenceact.eu/ai-act-explorer/",
+   "note": "Future of Life Institute · Free"
+  },
+  {
+   "kind": "course",
+   "target": "ai-law",
+   "title": "OECD.AI Policy Observatory",
+   "url": "https://oecd.ai/",
+   "note": "OECD · Free policy tracker"
+  },
+  {
+   "kind": "course",
+   "target": "ai-business",
+   "title": "AI Index Report",
+   "url": "https://hai.stanford.edu/ai-index",
+   "note": "Stanford HAI · Free annual data"
+  },
+  {
+   "kind": "course",
+   "target": "ai-business",
+   "title": "The state of AI",
+   "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+   "note": "McKinsey · Free survey"
+  },
+  {
+   "kind": "course",
+   "target": "ai-product",
+   "title": "Guidelines for Human-AI Interaction",
+   "url": "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
+   "note": "Microsoft Research · Free"
+  },
+  {
+   "kind": "paid",
+   "target": "ai-product",
+   "title": "AI Product Management Specialization",
+   "url": "https://www.coursera.org/specializations/ai-product-management-duke",
+   "note": "Duke · Coursera"
+  }
+ ],
+ "level-7": [
+  {
+   "kind": "repo",
+   "target": "ind-health",
+   "title": "Project-MONAI/MONAI",
+   "url": "https://github.com/Project-MONAI/MONAI",
+   "note": "Medical imaging AI framework"
+  },
+  {
+   "kind": "course",
+   "target": "ind-health",
+   "title": "Ethics and governance of AI for health",
+   "url": "https://www.who.int/publications/i/item/9789240029200",
+   "note": "WHO · Free guidance"
+  },
+  {
+   "kind": "course",
+   "target": "ind-finance",
+   "title": "Machine Learning for Trading",
+   "url": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+   "note": "Georgia Tech · Udacity, free"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-finance",
+   "title": "microsoft/qlib",
+   "url": "https://github.com/microsoft/qlib",
+   "note": "AI quant investment platform"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-finance",
+   "title": "AI4Finance-Foundation/FinRL",
+   "url": "https://github.com/AI4Finance-Foundation/FinRL",
+   "note": "Reinforcement learning for trading"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-legal",
+   "title": "HazyResearch/legalbench",
+   "url": "https://github.com/HazyResearch/legalbench",
+   "note": "Benchmark of legal reasoning tasks"
+  },
+  {
+   "kind": "course",
+   "target": "ind-education",
+   "title": "Guidance for generative AI in education and research",
+   "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+   "note": "UNESCO · Free"
+  },
+  {
+   "kind": "course",
+   "target": "ind-education",
+   "title": "AI 101 for Teachers",
+   "url": "https://code.org/ai/pl/101",
+   "note": "Code.org · Free"
+  },
+  {
+   "kind": "course",
+   "target": "ind-retail",
+   "title": "H&M personalised fashion recommendations",
+   "url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations",
+   "note": "Kaggle · Free dataset + notebooks"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-manufacturing",
+   "title": "openvinotoolkit/anomalib",
+   "url": "https://github.com/openvinotoolkit/anomalib",
+   "note": "Visual defect/anomaly detection"
+  },
+  {
+   "kind": "repo",
+   "target": "ind-agriculture",
+   "title": "microsoft/farmvibes-ai",
+   "url": "https://github.com/microsoft/farmvibes-ai",
+   "note": "Geospatial AI for farming"
+  },
+  {
+   "kind": "course",
+   "target": "ind-marketing",
+   "title": "HubSpot Academy",
+   "url": "https://academy.hubspot.com/",
+   "note": "HubSpot · Free courses with certificates"
+  },
+  {
+   "kind": "course",
+   "target": "ind-marketing",
+   "title": "Semrush Academy",
+   "url": "https://www.semrush.com/academy/",
+   "note": "Semrush · Free SEO/marketing courses"
+  },
+  {
+   "kind": "course",
+   "target": "ind-gov",
+   "title": "AI Playbook for the UK Government",
+   "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government",
+   "note": "GOV.UK · Free"
+  },
+  {
+   "kind": "course",
+   "target": "ind-gov",
+   "title": "GSA AI Center of Excellence",
+   "url": "https://coe.gsa.gov/",
+   "note": "US GSA · Free guides"
+  }
+ ],
+ "level-8": [
+  {
+   "kind": "repo",
+   "target": "mlops",
+   "title": "DataTalksClub/mlops-zoomcamp",
+   "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+   "note": "Free course with certificate"
+  },
+  {
+   "kind": "repo",
+   "target": "mlops",
+   "title": "mlflow/mlflow",
+   "url": "https://github.com/mlflow/mlflow",
+   "note": "Experiment tracking + model registry"
+  },
+  {
+   "kind": "repo",
+   "target": "data-eng",
+   "title": "DataTalksClub/data-engineering-zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "note": "Free course with certificate"
+  },
+  {
+   "kind": "course",
+   "target": "data-eng",
+   "title": "dbt Learn",
+   "url": "https://learn.getdbt.com/",
+   "note": "dbt Labs · Free courses"
+  },
+  {
+   "kind": "course",
+   "target": "nlp",
+   "title": "Stanford CS224N: NLP with Deep Learning",
+   "url": "https://web.stanford.edu/class/cs224n/",
+   "note": "Stanford · Free materials"
+  },
+  {
+   "kind": "course",
+   "target": "nlp",
+   "title": "Advanced NLP with spaCy",
+   "url": "https://course.spacy.io/",
+   "note": "Explosion · Free"
+  },
+  {
+   "kind": "course",
+   "target": "nlp",
+   "title": "Speech and Language Processing (3rd ed. draft)",
+   "url": "https://web.stanford.edu/~jurafsky/slp3/",
+   "note": "Jurafsky & Martin · Free book"
+  },
+  {
+   "kind": "course",
+   "target": "xai",
+   "title": "Interpretable Machine Learning",
+   "url": "https://christophm.github.io/interpretable-ml-book/",
+   "note": "Christoph Molnar · Free book"
+  },
+  {
+   "kind": "repo",
+   "target": "xai",
+   "title": "shap/shap",
+   "url": "https://github.com/shap/shap",
+   "note": "Explain any model's predictions"
+  },
+  {
+   "kind": "course",
+   "target": "kg",
+   "title": "Neo4j GraphAcademy",
+   "url": "https://graphacademy.neo4j.com/",
+   "note": "Neo4j · Free courses with certificates"
+  },
+  {
+   "kind": "repo",
+   "target": "kg",
+   "title": "microsoft/graphrag",
+   "url": "https://github.com/microsoft/graphrag",
+   "note": "Graph-based RAG"
+  },
+  {
+   "kind": "course",
+   "target": "gnn",
+   "title": "A Gentle Introduction to Graph Neural Networks",
+   "url": "https://distill.pub/2021/gnn-intro/",
+   "note": "Distill · Free"
+  },
+  {
+   "kind": "course",
+   "target": "gnn",
+   "title": "Stanford CS224W: Machine Learning with Graphs",
+   "url": "https://web.stanford.edu/class/cs224w/",
+   "note": "Stanford · Free materials"
+  },
+  {
+   "kind": "repo",
+   "target": "synthetic",
+   "title": "sdv-dev/SDV",
+   "url": "https://github.com/sdv-dev/SDV",
+   "note": "Synthetic tabular data"
+  },
+  {
+   "kind": "repo",
+   "target": "synthetic",
+   "title": "argilla-io/distilabel",
+   "url": "https://github.com/argilla-io/distilabel",
+   "note": "Synthetic data for LLMs"
+  },
+  {
+   "kind": "repo",
+   "target": "privacy-ml",
+   "title": "adap/flower",
+   "url": "https://github.com/adap/flower",
+   "note": "Federated learning framework"
+  },
+  {
+   "kind": "repo",
+   "target": "privacy-ml",
+   "title": "pytorch/opacus",
+   "url": "https://github.com/pytorch/opacus",
+   "note": "Differential privacy for PyTorch"
+  },
+  {
+   "kind": "course",
+   "target": "edge-ai",
+   "title": "Edge Impulse docs",
+   "url": "https://docs.edgeimpulse.com/",
+   "note": "Edge Impulse · Free tier + tutorials"
+  },
+  {
+   "kind": "repo",
+   "target": "edge-ai",
+   "title": "ml-explore/mlx",
+   "url": "https://github.com/ml-explore/mlx",
+   "note": "Apple-silicon ML framework"
+  },
+  {
+   "kind": "course",
+   "target": "ai-chips",
+   "title": "GPU Glossary",
+   "url": "https://modal.com/gpu-glossary",
+   "note": "Modal · Free"
+  },
+  {
+   "kind": "course",
+   "target": "quantum-ml",
+   "title": "PennyLane Codebook",
+   "url": "https://pennylane.ai/codebook",
+   "note": "Xanadu · Free"
+  },
+  {
+   "kind": "course",
+   "target": "quantum-ml",
+   "title": "IBM Quantum Learning",
+   "url": "https://learning.quantum.ibm.com/",
+   "note": "IBM · Free courses + badges"
+  },
+  {
+   "kind": "course",
+   "target": "papers",
+   "title": "Hugging Face Daily Papers",
+   "url": "https://huggingface.co/papers",
+   "note": "Free, community-curated"
+  },
+  {
+   "kind": "course",
+   "target": "papers",
+   "title": "alphaXiv",
+   "url": "https://www.alphaxiv.org/",
+   "note": "Discuss arXiv papers · Free"
+  },
+  {
+   "kind": "video",
+   "target": "papers",
+   "title": "Yannic Kilcher",
+   "url": "https://www.youtube.com/@YannicKilcher",
+   "note": "Paper walk-throughs"
+  },
+  {
+   "kind": "video",
+   "target": "papers",
+   "title": "Two Minute Papers",
+   "url": "https://www.youtube.com/@TwoMinutePapers",
+   "note": "Short research highlights"
+  }
+ ],
+ "level-9": [
+  {
+   "kind": "course",
+   "target": "rl",
+   "title": "Spinning Up in Deep RL",
+   "url": "https://spinningup.openai.com/",
+   "note": "OpenAI · Free"
+  },
+  {
+   "kind": "repo",
+   "target": "rl",
+   "title": "DLR-RM/stable-baselines3",
+   "url": "https://github.com/DLR-RM/stable-baselines3",
+   "note": "Reliable RL algorithms"
+  },
+  {
+   "kind": "repo",
+   "target": "rl",
+   "title": "Farama-Foundation/Gymnasium",
+   "url": "https://github.com/Farama-Foundation/Gymnasium",
+   "note": "Standard RL environments"
+  },
+  {
+   "kind": "course",
+   "target": "hnsw",
+   "title": "HNSW explained",
+   "url": "https://www.pinecone.io/learn/series/faiss/hnsw/",
+   "note": "Pinecone · Free"
+  },
+  {
+   "kind": "repo",
+   "target": "hnsw",
+   "title": "unum-cloud/usearch",
+   "url": "https://github.com/unum-cloud/usearch",
+   "note": "Fast single-file vector search"
+  },
+  {
+   "kind": "course",
+   "target": "infra",
+   "title": "How to Scale Your Model",
+   "url": "https://jax-ml.github.io/scaling-book/",
+   "note": "Google DeepMind · Free book"
+  },
+  {
+   "kind": "course",
+   "target": "infra",
+   "title": "The Ultra-Scale Playbook",
+   "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
+   "note": "Hugging Face · Free"
+  },
+  {
+   "kind": "course",
+   "target": "agentic-eng",
+   "title": "Claude Code best practices",
+   "url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+   "note": "Anthropic Engineering · Free"
+  },
+  {
+   "kind": "course",
+   "target": "agentic-eng",
+   "title": "Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "note": "Anthropic Academy · Free certificate"
+  }
+ ],
+ "tools": [
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Kimi",
+   "url": "https://www.kimi.com",
+   "note": "Moonshot AI assistant with long context",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": true
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-chat",
+   "title": "Poe",
+   "url": "https://poe.com",
+   "note": "Many models in one app",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Phi",
+   "url": "https://azure.microsoft.com/en-us/products/phi",
+   "note": "Microsoft small language models",
+   "extra": {
+    "price": "Open (MIT)",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "OLMo",
+   "url": "https://allenai.org/olmo",
+   "note": "Fully open models, data and code from Ai2",
+   "extra": {
+    "price": "Open (Apache 2.0)",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-models",
+   "title": "Kimi K2",
+   "url": "https://github.com/MoonshotAI/Kimi-K2",
+   "note": "Large open MoE model for agents",
+   "extra": {
+    "price": "Open weights",
+    "toolKind": "oss",
+    "isNew": true
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Continue",
+   "url": "https://www.continue.dev",
+   "note": "Open AI coding assistant for VS Code and JetBrains",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-coding",
+   "title": "Tabnine",
+   "url": "https://www.tabnine.com",
+   "note": "Private, enterprise code assistant",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-frameworks",
+   "title": "Vercel AI SDK",
+   "url": "https://ai-sdk.dev",
+   "note": "TypeScript toolkit for AI apps and agents",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "MCP Inspector",
+   "url": "https://github.com/modelcontextprotocol/inspector",
+   "note": "Test and debug MCP servers",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-protocols",
+   "title": "Glama MCP directory",
+   "url": "https://glama.ai/mcp/servers",
+   "note": "Searchable directory of MCP servers",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Activepieces",
+   "url": "https://www.activepieces.com",
+   "note": "Open-source Zapier alternative with AI steps",
+   "extra": {
+    "price": "Open-source · Cloud from free",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-automation",
+   "title": "Lindy",
+   "url": "https://www.lindy.ai",
+   "note": "No-code AI assistants for email, calls and CRM",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": true
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-vector",
+   "title": "Vespa",
+   "url": "https://vespa.ai",
+   "note": "Search and vector engine at scale",
+   "extra": {
+    "price": "Open-source + cloud",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-evals",
+   "title": "Opik",
+   "url": "https://github.com/comet-ml/opik",
+   "note": "LLM tracing and evaluation by Comet",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-finetune",
+   "title": "OpenPipe",
+   "url": "https://openpipe.ai",
+   "note": "Fine-tune smaller models from your logs",
+   "extra": {
+    "price": "Paid",
+    "toolKind": "paid",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "Fireworks AI",
+   "url": "https://fireworks.ai",
+   "note": "Fast hosted open models",
+   "extra": {
+    "price": "Pay per token",
+    "toolKind": "paid",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-inference",
+   "title": "Jan",
+   "url": "https://jan.ai",
+   "note": "Offline ChatGPT-style desktop app",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "Replicate",
+   "url": "https://replicate.com",
+   "note": "Run open models with an API",
+   "extra": {
+    "price": "Pay per use",
+    "toolKind": "paid",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-cloud",
+   "title": "RunPod",
+   "url": "https://www.runpod.io",
+   "note": "On-demand GPUs and serverless",
+   "extra": {
+    "price": "Pay per use",
+    "toolKind": "paid",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "HeyGen",
+   "url": "https://www.heygen.com",
+   "note": "AI avatar videos and translation",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-media",
+   "title": "Krea",
+   "url": "https://www.krea.ai",
+   "note": "Real-time image and video generation",
+   "extra": {
+    "price": "Freemium",
+    "toolKind": "freemium",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-productivity",
+   "title": "Fathom",
+   "url": "https://www.fathom.ai",
+   "note": "Free AI meeting recorder and notes",
+   "extra": {
+    "price": "Free · paid teams",
+    "toolKind": "freemium",
+    "isNew": false
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Stagehand",
+   "url": "https://www.stagehand.dev",
+   "note": "AI browser automation SDK by Browserbase",
+   "extra": {
+    "price": "Open-source",
+    "toolKind": "oss",
+    "isNew": true
+   }
+  },
+  {
+   "kind": "tool",
+   "target": "t-browser",
+   "title": "Dia",
+   "url": "https://www.diabrowser.com",
+   "note": "AI-first browser from The Browser Company",
+   "extra": {
+    "price": "Free",
+    "toolKind": "free",
+    "isNew": true
+   }
+  }
+ ],
+ "certificates": [
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "Kaggle Learn: Intro to Machine Learning",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "ml-basics",
+   "title": "freeCodeCamp: Machine Learning with Python",
+   "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+   "note": "Free certification",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Google: Introduction to Large Language Models",
+   "url": "https://www.cloudskillsboost.google/course_templates/539",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Google: Introduction to Responsible AI",
+   "url": "https://www.cloudskillsboost.google/course_templates/554",
+   "note": "Free badge",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Microsoft Learn: Fundamentals of Responsible Generative AI",
+   "url": "https://learn.microsoft.com/en-us/training/modules/responsible-generative-ai/",
+   "note": "Free trophy",
+   "extra": {
+    "issuer": "ms",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "ethics",
+   "title": "Linux Foundation: Ethics in AI and Big Data (LFS112)",
+   "url": "https://training.linuxfoundation.org/training/ethics-in-ai-and-big-data/",
+   "note": "Free course + badge",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "agentic-eng",
+   "title": "Anthropic: Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Anthropic: Building with the Claude API",
+   "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "ai-intro",
+   "title": "Anthropic: AI Fluency – Framework & Foundations",
+   "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+   "note": "Free certificate",
+   "extra": {
+    "issuer": "anthropic",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "agents",
+   "title": "Kaggle: 5-Day AI Agents Intensive",
+   "url": "https://www.kaggle.com/learn-guide/5-day-agents",
+   "note": "Free badge (Google + Kaggle)",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "llm",
+   "title": "Kaggle: 5-Day Gen AI Intensive",
+   "url": "https://www.kaggle.com/learn-guide/5-day-genai",
+   "note": "Free (Google + Kaggle)",
+   "extra": {
+    "issuer": "google",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "mlops",
+   "title": "MLOps Zoomcamp certificate",
+   "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+   "note": "Free certificate (project-graded)",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "data-eng",
+   "title": "Data Engineering Zoomcamp certificate",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "note": "Free certificate (project-graded)",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "quantum-ml",
+   "title": "IBM Quantum Learning badges",
+   "url": "https://learning.quantum.ibm.com/",
+   "note": "Free badges",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   }
+  },
+  {
+   "kind": "badge",
+   "target": "kg",
+   "title": "Neo4j Certified Professional",
+   "url": "https://graphacademy.neo4j.com/certification/",
+   "note": "Free certification exam",
+   "extra": {
+    "issuer": "other",
+    "paid": false
+   }
+  }
+ ],
+ "careers": [
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "LLM Bootcamp",
+   "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+   "note": "Full Stack Deep Learning · Free",
+   "extra": {
+    "provider": "Full Stack Deep Learning",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "ai-engineer",
+   "title": "Building with the Claude API",
+   "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "ml-engineer",
+   "title": "Machine Learning in Production",
+   "url": "https://www.coursera.org/learn/introduction-to-machine-learning-in-production",
+   "note": "DeepLearning.AI · Coursera · Free audit · paid cert",
+   "extra": {
+    "provider": "DeepLearning.AI · Coursera",
+    "cost": "Free audit · paid cert",
+    "cert": "Certificate (paid)"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "mlops-engineer",
+   "title": "MLOps Zoomcamp",
+   "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+   "note": "DataTalks.Club · Free",
+   "extra": {
+    "provider": "DataTalks.Club",
+    "cost": "Free",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Intro to Machine Learning",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "note": "Kaggle Learn · Free",
+   "extra": {
+    "provider": "Kaggle Learn",
+    "cost": "Free",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "data-scientist",
+   "title": "Data Analysis with Python",
+   "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+   "note": "freeCodeCamp · Free",
+   "extra": {
+    "provider": "freeCodeCamp",
+    "cost": "Free",
+    "cert": "Certification"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "Data Engineering Zoomcamp",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "note": "DataTalks.Club · Free",
+   "extra": {
+    "provider": "DataTalks.Club",
+    "cost": "Free",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "data-engineer",
+   "title": "dbt Fundamentals",
+   "url": "https://learn.getdbt.com/",
+   "note": "dbt Labs · Free",
+   "extra": {
+    "provider": "dbt Labs",
+    "cost": "Free",
+    "cert": "Badge"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "People + AI Guidebook",
+   "url": "https://pair.withgoogle.com/guidebook/",
+   "note": "Google PAIR · Free",
+   "extra": {
+    "provider": "Google PAIR",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "ai-pm",
+   "title": "AI Product Management Specialization",
+   "url": "https://www.coursera.org/specializations/ai-product-management-duke",
+   "note": "Duke · Coursera · Paid",
+   "extra": {
+    "provider": "Duke · Coursera",
+    "cost": "Paid",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "prompt-engineer",
+   "title": "Prompt engineering interactive tutorial",
+   "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+   "note": "Anthropic · Free",
+   "extra": {
+    "provider": "Anthropic",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "Neural Networks: Zero to Hero",
+   "url": "https://karpathy.ai/zero-to-hero.html",
+   "note": "Andrej Karpathy · Free",
+   "extra": {
+    "provider": "Andrej Karpathy",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "CS224N: NLP with Deep Learning",
+   "url": "https://web.stanford.edu/class/cs224n/",
+   "note": "Stanford · Free",
+   "extra": {
+    "provider": "Stanford",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "cv-engineer",
+   "title": "CS231n: Deep Learning for Computer Vision",
+   "url": "https://cs231n.github.io/",
+   "note": "Stanford · Free",
+   "extra": {
+    "provider": "Stanford",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "nlp-engineer",
+   "title": "Advanced NLP with spaCy",
+   "url": "https://course.spacy.io/",
+   "note": "Explosion · Free",
+   "extra": {
+    "provider": "Explosion",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "responsible-ai",
+   "title": "Ethics of AI",
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "note": "University of Helsinki · Free",
+   "extra": {
+    "provider": "University of Helsinki",
+    "cost": "Free",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "OWASP Top 10 for LLM Applications",
+   "url": "https://genai.owasp.org/llm-top-10/",
+   "note": "OWASP · Free",
+   "extra": {
+    "provider": "OWASP",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "Gandalf prompt-injection challenges",
+   "url": "https://gandalf.lakera.ai/",
+   "note": "Lakera · Free",
+   "extra": {
+    "provider": "Lakera",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "ai-literacy",
+   "title": "AI Fluency: Framework & Foundations",
+   "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Certificate"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "ROS 2 tutorials",
+   "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+   "note": "Open Robotics · Free",
+   "extra": {
+    "provider": "Open Robotics",
+    "cost": "Free",
+    "cert": "—"
+   }
+  },
+  {
+   "kind": "step",
+   "target": "robotics-engineer",
+   "title": "LeRobot",
+   "url": "https://github.com/huggingface/lerobot",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "—"
+   }
+  }
+ ],
+ "glossary": [
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Temperature",
+   "note": "A setting that controls how creative or predictable an AI's answers are. Low = safe and consistent, high = more varied.",
+   "extra": {
+    "definition": "A setting that controls how creative or predictable an AI's answers are. Low = safe and consistent, high = more varied."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Inference",
+   "note": "Using a trained AI model to get an answer. Every time you send a prompt, the model runs inference.",
+   "extra": {
+    "definition": "Using a trained AI model to get an answer. Every time you send a prompt, the model runs inference."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Parameters",
+   "note": "The millions or billions of numbers inside a model that it learned during training. More parameters usually means a bigger, more capable model.",
+   "extra": {
+    "definition": "The millions or billions of numbers inside a model that it learned during training. More parameters usually means a bigger, more capable model."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Reasoning model",
+   "note": "An AI model that \"thinks\" step by step before answering, which helps with maths, code and planning but takes longer.",
+   "extra": {
+    "definition": "An AI model that \"thinks\" step by step before answering, which helps with maths, code and planning but takes longer."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Transformer",
+   "note": "The design behind almost all modern language models. It lets the model look at every word in a sentence at once to understand context.",
+   "extra": {
+    "definition": "The design behind almost all modern language models. It lets the model look at every word in a sentence at once to understand context."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "System prompt",
+   "note": "Hidden instructions given to an AI before your message, setting its role, tone and rules.",
+   "extra": {
+    "definition": "Hidden instructions given to an AI before your message, setting its role, tone and rules."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Few-shot prompting",
+   "note": "Showing the AI a few examples of what you want inside your prompt so it copies the pattern.",
+   "extra": {
+    "definition": "Showing the AI a few examples of what you want inside your prompt so it copies the pattern."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Guardrails",
+   "note": "Rules and checks around an AI app that block unsafe, off-topic or wrong outputs.",
+   "extra": {
+    "definition": "Rules and checks around an AI app that block unsafe, off-topic or wrong outputs."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Benchmark",
+   "note": "A standard test used to compare AI models, like an exam everyone takes.",
+   "extra": {
+    "definition": "A standard test used to compare AI models, like an exam everyone takes."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Overfitting",
+   "note": "When a model memorises its training examples instead of learning general patterns, so it does badly on new data.",
+   "extra": {
+    "definition": "When a model memorises its training examples instead of learning general patterns, so it does badly on new data."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Quantization",
+   "note": "Shrinking a model by storing its numbers with less precision, so it runs faster on smaller computers with a small quality loss.",
+   "extra": {
+    "definition": "Shrinking a model by storing its numbers with less precision, so it runs faster on smaller computers with a small quality loss."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Distillation",
+   "note": "Training a small, cheap model to copy the answers of a big model.",
+   "extra": {
+    "definition": "Training a small, cheap model to copy the answers of a big model."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Grounding",
+   "note": "Making an AI base its answer on specific trusted sources (like your documents) instead of only its memory.",
+   "extra": {
+    "definition": "Making an AI base its answer on specific trusted sources (like your documents) instead of only its memory."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Knowledge cutoff",
+   "note": "The date after which a model has no training data, so it doesn't know about later events unless given search or documents.",
+   "extra": {
+    "definition": "The date after which a model has no training data, so it doesn't know about later events unless given search or documents."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Human in the loop",
+   "note": "A setup where a person reviews or approves the AI's work before it takes effect.",
+   "extra": {
+    "definition": "A setup where a person reviews or approves the AI's work before it takes effect."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Deepfake",
+   "note": "A fake image, video or voice made with AI to look or sound like a real person.",
+   "extra": {
+    "definition": "A fake image, video or voice made with AI to look or sound like a real person."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Synthetic data",
+   "note": "Artificial data created by computers or AI, used to train or test models when real data is scarce or private.",
+   "extra": {
+    "definition": "Artificial data created by computers or AI, used to train or test models when real data is scarce or private."
+   }
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "AGI",
+   "note": "Artificial general intelligence: a hypothetical AI that can learn and do almost any intellectual task a person can.",
+   "extra": {
+    "definition": "Artificial general intelligence: a hypothetical AI that can learn and do almost any intellectual task a person can."
+   }
+  }
+ ],
+ "projects": [
+  {
+   "kind": "project",
+   "target": "projects",
+   "title": "AI course-notes and flashcard builder for students",
+   "note": "Education & services",
+   "extra": {
+    "project": {
+     "id": "study-cards",
+     "title": "AI course-notes and flashcard builder for students",
+     "cat": "Education & services",
+     "level": "Beginner",
+     "mvp": "1–2 weeks",
+     "cost": "$0–20",
+     "problem": "Students record lectures and download slides but never turn them into revision material before exams.",
+     "solution": "Upload a lecture recording, slides or PDF and get clean notes, a one-page summary and spaced-repetition flashcards that export to Anki.",
+     "customer": "University and exam-prep students; tutors who resell it to their classes.",
+     "revenue": "Freemium: 3 uploads a month free, $6/month student plan; bulk licences for tutoring centres.",
+     "steps": [
+      "Accept PDF, slides and audio uploads",
+      "Transcribe audio with Whisper",
+      "Generate notes and question–answer cards with an LLM",
+      "Export to Anki (.apkg) and CSV",
+      "Add a shared class deck and payments"
+     ],
+     "tools": [
+      [
+       "OpenAI Whisper",
+       "https://github.com/openai/whisper"
+      ],
+      [
+       "Claude API",
+       "https://docs.claude.com/"
+      ],
+      [
+       "genanki (Anki export)",
+       "https://github.com/kerrickstaley/genanki"
+      ],
+      [
+       "Supabase",
+       "https://supabase.com/"
+      ]
+     ],
+     "topics": [
+      "speech",
+      "prompting",
+      "rag"
+     ],
+     "launch": [
+      [
+       "Product Hunt",
+       "https://www.producthunt.com/"
+      ],
+      [
+       "r/GetStudying",
+       "https://www.reddit.com/r/GetStudying/"
+      ]
+     ],
+     "watch": "Respect lecture copyright: only process material the student is allowed to use, and never publish shared decks publicly by default."
+    }
+   }
+  },
+  {
+   "kind": "project",
+   "target": "projects",
+   "title": "AI accessibility checker for small-business websites",
+   "note": "Tools & SaaS",
+   "extra": {
+    "project": {
+     "id": "a11y-audit",
+     "title": "AI accessibility checker for small-business websites",
+     "cat": "Tools & SaaS",
+     "level": "Intermediate",
+     "mvp": "3–4 weeks",
+     "cost": "$20–50/month",
+     "problem": "Accessibility laws (ADA in the US, the European Accessibility Act from June 2025) put small businesses at legal risk, but audits are expensive.",
+     "solution": "Scan a website with an open-source checker, then use AI to explain each issue in plain English, suggest fixed code and write missing alt text.",
+     "customer": "Small businesses, web agencies and freelance web designers.",
+     "revenue": "$29–99/month per site with monthly re-scans; white-label reports for agencies.",
+     "steps": [
+      "Run axe-core on each page with Playwright",
+      "Group issues by severity",
+      "Ask an LLM for plain-English explanations and code fixes",
+      "Generate alt text for images with a vision model",
+      "Email a monthly PDF report"
+     ],
+     "tools": [
+      [
+       "axe-core",
+       "https://github.com/dequelabs/axe-core"
+      ],
+      [
+       "Playwright",
+       "https://playwright.dev/"
+      ],
+      [
+       "Claude API",
+       "https://docs.claude.com/"
+      ],
+      [
+       "Stripe",
+       "https://stripe.com/"
+      ]
+     ],
+     "topics": [
+      "vision",
+      "prompting",
+      "evals"
+     ],
+     "launch": [
+      [
+       "Indie Hackers",
+       "https://www.indiehackers.com/"
+      ],
+      [
+       "Product Hunt",
+       "https://www.producthunt.com/"
+      ]
+     ],
+     "watch": "Automated scans catch only part of accessibility problems; say so clearly and never promise legal compliance."
+    }
+   }
+  },
+  {
+   "kind": "project",
+   "target": "projects",
+   "title": "Grant and tender finder with AI-drafted applications",
+   "note": "Automation",
+   "extra": {
+    "project": {
+     "id": "grant-finder",
+     "title": "Grant and tender finder with AI-drafted applications",
+     "cat": "Automation",
+     "level": "Intermediate",
+     "mvp": "3 weeks",
+     "cost": "$20–50/month",
+     "problem": "Non-profits and small firms miss grants and public tenders because finding and writing applications takes days.",
+     "solution": "Watch public grant and tender portals, match new calls to each client's profile, and draft a first-pass application from their past documents.",
+     "customer": "Non-profits, research groups and small businesses bidding for public contracts.",
+     "revenue": "$49–199/month subscription, or a success fee for done-for-you applications.",
+     "steps": [
+      "Pull new calls from open portals (Grants.gov, TED for EU tenders)",
+      "Score each call against a client profile with embeddings",
+      "Send a weekly shortlist by email",
+      "Draft answers from the client's past applications (RAG)",
+      "Add a review-and-export step for Word/PDF"
+     ],
+     "tools": [
+      [
+       "Grants.gov API",
+       "https://www.grants.gov/api"
+      ],
+      [
+       "TED (EU tenders)",
+       "https://ted.europa.eu/"
+      ],
+      [
+       "n8n",
+       "https://n8n.io/"
+      ],
+      [
+       "LlamaIndex",
+       "https://docs.llamaindex.ai/"
+      ]
+     ],
+     "topics": [
+      "rag",
+      "agents",
+      "vectordb"
+     ],
+     "launch": [
+      [
+       "LinkedIn",
+       "https://www.linkedin.com/"
+      ],
+      [
+       "Indie Hackers",
+       "https://www.indiehackers.com/"
+      ]
+     ],
+     "watch": "A person must review every application before it is submitted; never let the AI invent facts or figures."
+    }
+   }
+  }
+ ]
+}

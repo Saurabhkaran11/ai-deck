@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Figtree, JetBrains_Mono } from "next/font/google";
+import Link from "next/link";
 import Nav from "@/components/Nav";
 import { StoreProvider } from "@/lib/store";
 import "./globals.css";
@@ -24,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Nav />
           <main className="page">{children}</main>
           <footer className="foot">
-            <p>AI Deck · Free resources first, paid options second. Links and prices last checked Oct 2026.</p>
+            <p>AI Deck · Free resources first, paid options second. Links and prices last checked Oct 2026. <Link href="/tracker">Resource tracker</Link></p>
           </footer>
         </StoreProvider>
       </body>

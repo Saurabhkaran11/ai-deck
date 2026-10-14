@@ -1,0 +1,1808 @@
+{
+ "generatedAt": "2026-10-14T03:02:57.111Z",
+ "totals": {
+  "resources": 1330,
+  "onSite": 1329,
+  "fetched": 1225,
+  "researched": 123,
+  "approved": 122,
+  "rejected": 1,
+  "added": 122,
+  "updated": 11,
+  "pending": 0,
+  "ok": 1137,
+  "blocked": 53,
+  "broken": 0,
+  "unchecked": 0
+ },
+ "agents": [
+  {
+   "id": "level-1",
+   "name": "Level 1 · Foundations agent",
+   "scope": "level",
+   "targets": "6",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 52,
+   "onSite": 52,
+   "pending": 0,
+   "approved": 0,
+   "added": 6,
+   "rejected": 0,
+   "ok": 46,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 46,
+   "researched": 6,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.296Z"
+  },
+  {
+   "id": "level-2",
+   "name": "Level 2 · AI basics agent",
+   "scope": "level",
+   "targets": "5",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 44,
+   "onSite": 44,
+   "pending": 0,
+   "approved": 0,
+   "added": 6,
+   "rejected": 0,
+   "ok": 40,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 40,
+   "researched": 6,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "id": "level-3",
+   "name": "Level 3 · Make AI work for you agent",
+   "scope": "level",
+   "targets": "5",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 47,
+   "onSite": 47,
+   "pending": 0,
+   "approved": 0,
+   "added": 7,
+   "rejected": 0,
+   "ok": 42,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 42,
+   "researched": 7,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.299Z"
+  },
+  {
+   "id": "level-4",
+   "name": "Level 4 · Build AI apps agent",
+   "scope": "level",
+   "targets": "6",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 57,
+   "onSite": 57,
+   "pending": 0,
+   "approved": 0,
+   "added": 7,
+   "rejected": 0,
+   "ok": 51,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 51,
+   "researched": 7,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "id": "level-5",
+   "name": "Level 5 · More AI fields agent",
+   "scope": "level",
+   "targets": "7",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 57,
+   "onSite": 57,
+   "pending": 0,
+   "approved": 0,
+   "added": 6,
+   "rejected": 0,
+   "ok": 50,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 50,
+   "researched": 6,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "id": "level-6",
+   "name": "Level 6 · Responsible AI & business agent",
+   "scope": "level",
+   "targets": "5",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 37,
+   "onSite": 37,
+   "pending": 0,
+   "approved": 0,
+   "added": 5,
+   "rejected": 0,
+   "ok": 31,
+   "blocked": 1,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 33,
+   "researched": 5,
+   "updated": 1,
+   "lastRun": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "id": "level-7",
+   "name": "Level 7 · AI in your industry agent",
+   "scope": "level",
+   "targets": "10",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 77,
+   "onSite": 77,
+   "pending": 0,
+   "approved": 0,
+   "added": 9,
+   "rejected": 0,
+   "ok": 65,
+   "blocked": 2,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 67,
+   "researched": 9,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "id": "level-8",
+   "name": "Level 8 · Specialist topics agent",
+   "scope": "level",
+   "targets": "12",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 103,
+   "onSite": 103,
+   "pending": 0,
+   "approved": 0,
+   "added": 8,
+   "rejected": 0,
+   "ok": 90,
+   "blocked": 1,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 94,
+   "researched": 8,
+   "updated": 1,
+   "lastRun": "2026-10-14T02:59:18.307Z"
+  },
+  {
+   "id": "level-9",
+   "name": "Level 9 · Deep dive agent",
+   "scope": "level",
+   "targets": "4",
+   "kinds": [
+    "course",
+    "paid",
+    "video",
+    "repo"
+   ],
+   "total": 37,
+   "onSite": 37,
+   "pending": 0,
+   "approved": 0,
+   "added": 5,
+   "rejected": 0,
+   "ok": 33,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 33,
+   "researched": 5,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.308Z"
+  },
+  {
+   "id": "tools",
+   "name": "AI Tools agent",
+   "scope": "feature",
+   "targets": "14",
+   "kinds": [
+    "tool"
+   ],
+   "total": 168,
+   "onSite": 168,
+   "pending": 0,
+   "approved": 0,
+   "added": 23,
+   "rejected": 0,
+   "ok": 151,
+   "blocked": 17,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 181,
+   "researched": 23,
+   "updated": 4,
+   "lastRun": "2026-10-14T02:59:18.311Z"
+  },
+  {
+   "id": "certificates",
+   "name": "Certificates agent",
+   "scope": "feature",
+   "targets": "all topics",
+   "kinds": [
+    "badge"
+   ],
+   "total": 268,
+   "onSite": 267,
+   "pending": 0,
+   "approved": 0,
+   "added": 9,
+   "rejected": 1,
+   "ok": 266,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 275,
+   "researched": 10,
+   "updated": 2,
+   "lastRun": "2026-10-14T02:59:18.314Z"
+  },
+  {
+   "id": "careers",
+   "name": "Careers agent",
+   "scope": "feature",
+   "targets": "16",
+   "kinds": [
+    "step"
+   ],
+   "total": 124,
+   "onSite": 124,
+   "pending": 0,
+   "approved": 0,
+   "added": 10,
+   "rejected": 0,
+   "ok": 123,
+   "blocked": 1,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 124,
+   "researched": 10,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.318Z"
+  },
+  {
+   "id": "projects",
+   "name": "Projects agent",
+   "scope": "feature",
+   "targets": "1",
+   "kinds": [
+    "project"
+   ],
+   "total": 215,
+   "onSite": 215,
+   "pending": 0,
+   "approved": 0,
+   "added": 3,
+   "rejected": 0,
+   "ok": 149,
+   "blocked": 31,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 189,
+   "researched": 3,
+   "updated": 3,
+   "lastRun": "2026-10-14T03:01:54.156Z"
+  },
+  {
+   "id": "glossary",
+   "name": "Glossary agent",
+   "scope": "feature",
+   "targets": "1",
+   "kinds": [
+    "glossary"
+   ],
+   "total": 44,
+   "onSite": 44,
+   "pending": 0,
+   "approved": 0,
+   "added": 18,
+   "rejected": 0,
+   "ok": 0,
+   "blocked": 0,
+   "broken": 0,
+   "unchecked": 0,
+   "fetched": 0,
+   "researched": 18,
+   "updated": 0,
+   "lastRun": "2026-10-14T02:59:18.323Z"
+  }
+ ],
+ "recent": [
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Temperature",
+   "url": null,
+   "note": "A setting that controls how creative or predictable an AI's answers are. Low = safe and consistent, high = more varied.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Inference",
+   "url": null,
+   "note": "Using a trained AI model to get an answer. Every time you send a prompt, the model runs inference.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Parameters",
+   "url": null,
+   "note": "The millions or billions of numbers inside a model that it learned during training. More parameters usually means a bigger, more capable model.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Reasoning model",
+   "url": null,
+   "note": "An AI model that \"thinks\" step by step before answering, which helps with maths, code and planning but takes longer.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Transformer",
+   "url": null,
+   "note": "The design behind almost all modern language models. It lets the model look at every word in a sentence at once to understand context.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "System prompt",
+   "url": null,
+   "note": "Hidden instructions given to an AI before your message, setting its role, tone and rules.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Few-shot prompting",
+   "url": null,
+   "note": "Showing the AI a few examples of what you want inside your prompt so it copies the pattern.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Guardrails",
+   "url": null,
+   "note": "Rules and checks around an AI app that block unsafe, off-topic or wrong outputs.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Benchmark",
+   "url": null,
+   "note": "A standard test used to compare AI models, like an exam everyone takes.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Overfitting",
+   "url": null,
+   "note": "When a model memorises its training examples instead of learning general patterns, so it does badly on new data.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Quantization",
+   "url": null,
+   "note": "Shrinking a model by storing its numbers with less precision, so it runs faster on smaller computers with a small quality loss.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Distillation",
+   "url": null,
+   "note": "Training a small, cheap model to copy the answers of a big model.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Grounding",
+   "url": null,
+   "note": "Making an AI base its answer on specific trusted sources (like your documents) instead of only its memory.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Knowledge cutoff",
+   "url": null,
+   "note": "The date after which a model has no training data, so it doesn't know about later events unless given search or documents.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Human in the loop",
+   "url": null,
+   "note": "A setup where a person reviews or approves the AI's work before it takes effect.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Deepfake",
+   "url": null,
+   "note": "A fake image, video or voice made with AI to look or sound like a real person.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Synthetic data",
+   "url": null,
+   "note": "Artificial data created by computers or AI, used to train or test models when real data is scarce or private.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "AGI",
+   "url": null,
+   "note": "Artificial general intelligence: a hypothetical AI that can learn and do almost any intellectual task a person can.",
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "agent": "projects",
+   "kind": "project",
+   "target": "projects",
+   "targetName": "projects",
+   "title": "AI course-notes and flashcard builder for students",
+   "url": null,
+   "note": "Education & services",
+   "addedAt": "2026-10-14T02:59:18.320Z"
+  },
+  {
+   "agent": "projects",
+   "kind": "project",
+   "target": "projects",
+   "targetName": "projects",
+   "title": "AI accessibility checker for small-business websites",
+   "url": null,
+   "note": "Tools & SaaS",
+   "addedAt": "2026-10-14T02:59:18.320Z"
+  },
+  {
+   "agent": "projects",
+   "kind": "project",
+   "target": "projects",
+   "targetName": "projects",
+   "title": "Grant and tender finder with AI-drafted applications",
+   "url": null,
+   "note": "Automation",
+   "addedAt": "2026-10-14T02:59:18.320Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "ai-engineer",
+   "targetName": "AI Engineer (LLM / GenAI apps)",
+   "title": "LLM Bootcamp",
+   "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+   "note": "Full Stack Deep Learning · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "ai-engineer",
+   "targetName": "AI Engineer (LLM / GenAI apps)",
+   "title": "Building with the Claude API",
+   "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+   "note": "Anthropic Academy · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "ml-engineer",
+   "targetName": "Machine Learning Engineer",
+   "title": "Machine Learning in Production",
+   "url": "https://www.coursera.org/learn/introduction-to-machine-learning-in-production",
+   "note": "DeepLearning.AI · Coursera · Free audit · paid cert",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "data-scientist",
+   "targetName": "Data Scientist",
+   "title": "Intro to Machine Learning",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "note": "Kaggle Learn · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "ai-pm",
+   "targetName": "AI Product Manager",
+   "title": "People + AI Guidebook",
+   "url": "https://pair.withgoogle.com/guidebook/",
+   "note": "Google PAIR · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "researcher",
+   "targetName": "AI Researcher / Research Scientist",
+   "title": "CS224N: NLP with Deep Learning",
+   "url": "https://web.stanford.edu/class/cs224n/",
+   "note": "Stanford · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "responsible-ai",
+   "targetName": "Responsible AI & AI Governance Specialist",
+   "title": "Ethics of AI",
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "note": "University of Helsinki · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "ai-security",
+   "targetName": "AI Security Engineer (red-teaming)",
+   "title": "OWASP Top 10 for LLM Applications",
+   "url": "https://genai.owasp.org/llm-top-10/",
+   "note": "OWASP · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "ai-literacy",
+   "targetName": "AI for non-technical professionals",
+   "title": "AI Fluency: Framework & Foundations",
+   "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+   "note": "Anthropic Academy · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "robotics-engineer",
+   "targetName": "Robotics / Embodied AI Engineer",
+   "title": "ROS 2 tutorials",
+   "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+   "note": "Open Robotics · Free",
+   "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "ml-basics",
+   "targetName": "How machines learn from examples",
+   "title": "freeCodeCamp: Machine Learning with Python",
+   "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+   "note": "Free certification",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "Google: Introduction to Large Language Models",
+   "url": "https://www.cloudskillsboost.google/course_templates/539",
+   "note": "Free badge",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "ethics",
+   "targetName": "Using AI fairly and responsibly",
+   "title": "Microsoft Learn: Fundamentals of Responsible Generative AI",
+   "url": "https://learn.microsoft.com/en-us/training/modules/responsible-generative-ai/",
+   "note": "Free trophy",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "agentic-eng",
+   "targetName": "Building software with AI coding agents",
+   "title": "Anthropic: Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "note": "Free certificate",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "Anthropic: Building with the Claude API",
+   "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+   "note": "Free certificate",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "ai-intro",
+   "targetName": "What AI actually is",
+   "title": "Anthropic: AI Fluency – Framework & Foundations",
+   "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+   "note": "Free certificate",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "agents",
+   "targetName": "AI that takes action",
+   "title": "Kaggle: 5-Day AI Agents Intensive",
+   "url": "https://www.kaggle.com/learn-guide/5-day-agents",
+   "note": "Free badge (Google + Kaggle)",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "Kaggle: 5-Day Gen AI Intensive",
+   "url": "https://www.kaggle.com/learn-guide/5-day-genai",
+   "note": "Free (Google + Kaggle)",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "certificates",
+   "kind": "badge",
+   "target": "data-eng",
+   "targetName": "Data pipelines for AI",
+   "title": "Data Engineering Zoomcamp certificate",
+   "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+   "note": "Free certificate (project-graded)",
+   "addedAt": "2026-10-14T02:59:18.312Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-chat",
+   "targetName": "Chat Assistants & Model APIs",
+   "title": "Kimi",
+   "url": "https://www.kimi.com",
+   "note": "Moonshot AI assistant with long context",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-chat",
+   "targetName": "Chat Assistants & Model APIs",
+   "title": "Poe",
+   "url": "https://poe.com",
+   "note": "Many models in one app",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-models",
+   "targetName": "Open-Weight Models & Hubs",
+   "title": "Phi",
+   "url": "https://azure.microsoft.com/en-us/products/phi",
+   "note": "Microsoft small language models",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-models",
+   "targetName": "Open-Weight Models & Hubs",
+   "title": "OLMo",
+   "url": "https://allenai.org/olmo",
+   "note": "Fully open models, data and code from Ai2",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-models",
+   "targetName": "Open-Weight Models & Hubs",
+   "title": "Kimi K2",
+   "url": "https://github.com/MoonshotAI/Kimi-K2",
+   "note": "Large open MoE model for agents",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-coding",
+   "targetName": "AI Coding Tools & Agents",
+   "title": "Continue",
+   "url": "https://www.continue.dev",
+   "note": "Open AI coding assistant for VS Code and JetBrains",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-coding",
+   "targetName": "AI Coding Tools & Agents",
+   "title": "Tabnine",
+   "url": "https://www.tabnine.com",
+   "note": "Private, enterprise code assistant",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-frameworks",
+   "targetName": "Agent Frameworks & SDKs",
+   "title": "Vercel AI SDK",
+   "url": "https://ai-sdk.dev",
+   "note": "TypeScript toolkit for AI apps and agents",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-protocols",
+   "targetName": "Protocols & MCP Ecosystem",
+   "title": "MCP Inspector",
+   "url": "https://github.com/modelcontextprotocol/inspector",
+   "note": "Test and debug MCP servers",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-protocols",
+   "targetName": "Protocols & MCP Ecosystem",
+   "title": "Glama MCP directory",
+   "url": "https://glama.ai/mcp/servers",
+   "note": "Searchable directory of MCP servers",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-automation",
+   "targetName": "Automation & No-Code Agents",
+   "title": "Activepieces",
+   "url": "https://www.activepieces.com",
+   "note": "Open-source Zapier alternative with AI steps",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-automation",
+   "targetName": "Automation & No-Code Agents",
+   "title": "Lindy",
+   "url": "https://www.lindy.ai",
+   "note": "No-code AI assistants for email, calls and CRM",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-vector",
+   "targetName": "RAG & Vector Databases",
+   "title": "Vespa",
+   "url": "https://vespa.ai",
+   "note": "Search and vector engine at scale",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-evals",
+   "targetName": "Evals & Observability",
+   "title": "Opik",
+   "url": "https://github.com/comet-ml/opik",
+   "note": "LLM tracing and evaluation by Comet",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-finetune",
+   "targetName": "Fine-Tuning & Training",
+   "title": "OpenPipe",
+   "url": "https://openpipe.ai",
+   "note": "Fine-tune smaller models from your logs",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-inference",
+   "targetName": "Inference & Local LLMs",
+   "title": "Jan",
+   "url": "https://jan.ai",
+   "note": "Offline ChatGPT-style desktop app",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-cloud",
+   "targetName": "Cloud AI Platforms",
+   "title": "Replicate",
+   "url": "https://replicate.com",
+   "note": "Run open models with an API",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-cloud",
+   "targetName": "Cloud AI Platforms",
+   "title": "RunPod",
+   "url": "https://www.runpod.io",
+   "note": "On-demand GPUs and serverless",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-media",
+   "targetName": "Image, Video & Voice",
+   "title": "HeyGen",
+   "url": "https://www.heygen.com",
+   "note": "AI avatar videos and translation",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-media",
+   "targetName": "Image, Video & Voice",
+   "title": "Krea",
+   "url": "https://www.krea.ai",
+   "note": "Real-time image and video generation",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-productivity",
+   "targetName": "Productivity & Research",
+   "title": "Fathom",
+   "url": "https://www.fathom.ai",
+   "note": "Free AI meeting recorder and notes",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-browser",
+   "targetName": "Browser & Computer-Use Agents",
+   "title": "Stagehand",
+   "url": "https://www.stagehand.dev",
+   "note": "AI browser automation SDK by Browserbase",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "tools",
+   "kind": "tool",
+   "target": "t-browser",
+   "targetName": "Browser & Computer-Use Agents",
+   "title": "Dia",
+   "url": "https://www.diabrowser.com",
+   "note": "AI-first browser from The Browser Company",
+   "addedAt": "2026-10-14T02:59:18.309Z"
+  },
+  {
+   "agent": "level-9",
+   "kind": "course",
+   "target": "infra",
+   "targetName": "The computers behind AI",
+   "title": "The Ultra-Scale Playbook",
+   "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
+   "note": "Hugging Face · Free",
+   "addedAt": "2026-10-14T02:59:18.308Z"
+  },
+  {
+   "agent": "level-9",
+   "kind": "course",
+   "target": "agentic-eng",
+   "targetName": "Building software with AI coding agents",
+   "title": "Claude Code in Action",
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "note": "Anthropic Academy · Free certificate",
+   "addedAt": "2026-10-14T02:59:18.308Z"
+  },
+  {
+   "agent": "level-9",
+   "kind": "repo",
+   "target": "rl",
+   "targetName": "Learning by trial and error",
+   "title": "DLR-RM/stable-baselines3",
+   "url": "https://github.com/DLR-RM/stable-baselines3",
+   "note": "Reliable RL algorithms",
+   "addedAt": "2026-10-14T02:59:18.307Z"
+  },
+  {
+   "agent": "level-9",
+   "kind": "repo",
+   "target": "rl",
+   "targetName": "Learning by trial and error",
+   "title": "Farama-Foundation/Gymnasium",
+   "url": "https://github.com/Farama-Foundation/Gymnasium",
+   "note": "Standard RL environments",
+   "addedAt": "2026-10-14T02:59:18.307Z"
+  },
+  {
+   "agent": "level-9",
+   "kind": "repo",
+   "target": "hnsw",
+   "targetName": "How fast AI search works",
+   "title": "unum-cloud/usearch",
+   "url": "https://github.com/unum-cloud/usearch",
+   "note": "Fast single-file vector search",
+   "addedAt": "2026-10-14T02:59:18.307Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "course",
+   "target": "nlp",
+   "targetName": "Understanding text with classic NLP",
+   "title": "Speech and Language Processing (3rd ed. draft)",
+   "url": "https://web.stanford.edu/~jurafsky/slp3/",
+   "note": "Jurafsky & Martin · Free book",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "course",
+   "target": "gnn",
+   "targetName": "AI that learns from networks",
+   "title": "A Gentle Introduction to Graph Neural Networks",
+   "url": "https://distill.pub/2021/gnn-intro/",
+   "note": "Distill · Free",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "course",
+   "target": "edge-ai",
+   "targetName": "AI on phones and small devices",
+   "title": "Edge Impulse docs",
+   "url": "https://docs.edgeimpulse.com/",
+   "note": "Edge Impulse · Free tier + tutorials",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "repo",
+   "target": "edge-ai",
+   "targetName": "AI on phones and small devices",
+   "title": "ml-explore/mlx",
+   "url": "https://github.com/ml-explore/mlx",
+   "note": "Apple-silicon ML framework",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "course",
+   "target": "ai-chips",
+   "targetName": "The chips that power AI",
+   "title": "GPU Glossary",
+   "url": "https://modal.com/gpu-glossary",
+   "note": "Modal · Free",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "course",
+   "target": "quantum-ml",
+   "targetName": "Quantum computing and AI",
+   "title": "PennyLane Codebook",
+   "url": "https://pennylane.ai/codebook",
+   "note": "Xanadu · Free",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "course",
+   "target": "papers",
+   "targetName": "Reading AI research papers",
+   "title": "alphaXiv",
+   "url": "https://www.alphaxiv.org/",
+   "note": "Discuss arXiv papers · Free",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-8",
+   "kind": "video",
+   "target": "papers",
+   "targetName": "Reading AI research papers",
+   "title": "Two Minute Papers",
+   "url": "https://www.youtube.com/@TwoMinutePapers",
+   "note": "Short research highlights",
+   "addedAt": "2026-10-14T02:59:18.306Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-health",
+   "targetName": "AI in healthcare",
+   "title": "Ethics and governance of AI for health",
+   "url": "https://www.who.int/publications/i/item/9789240029200",
+   "note": "WHO · Free guidance",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-finance",
+   "targetName": "AI in finance and banking",
+   "title": "Machine Learning for Trading",
+   "url": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+   "note": "Georgia Tech · Udacity, free",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "repo",
+   "target": "ind-finance",
+   "targetName": "AI in finance and banking",
+   "title": "AI4Finance-Foundation/FinRL",
+   "url": "https://github.com/AI4Finance-Foundation/FinRL",
+   "note": "Reinforcement learning for trading",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-education",
+   "targetName": "AI in education",
+   "title": "Guidance for generative AI in education and research",
+   "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+   "note": "UNESCO · Free",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-education",
+   "targetName": "AI in education",
+   "title": "AI 101 for Teachers",
+   "url": "https://code.org/ai/pl/101",
+   "note": "Code.org · Free",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-retail",
+   "targetName": "AI in retail and online shopping",
+   "title": "H&M personalised fashion recommendations",
+   "url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations",
+   "note": "Kaggle · Free dataset + notebooks",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-marketing",
+   "targetName": "AI in marketing and sales",
+   "title": "Semrush Academy",
+   "url": "https://www.semrush.com/academy/",
+   "note": "Semrush · Free SEO/marketing courses",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-gov",
+   "targetName": "AI in government",
+   "title": "AI Playbook for the UK Government",
+   "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government",
+   "note": "GOV.UK · Free",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-7",
+   "kind": "course",
+   "target": "ind-gov",
+   "targetName": "AI in government",
+   "title": "GSA AI Center of Excellence",
+   "url": "https://coe.gsa.gov/",
+   "note": "US GSA · Free guides",
+   "addedAt": "2026-10-14T02:59:18.305Z"
+  },
+  {
+   "agent": "level-6",
+   "kind": "course",
+   "target": "ethics",
+   "targetName": "Using AI fairly and responsibly",
+   "title": "Practical Data Ethics",
+   "url": "https://ethics.fast.ai/",
+   "note": "fast.ai · Free",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "agent": "level-6",
+   "kind": "course",
+   "target": "ai-law",
+   "targetName": "The rules and laws for AI",
+   "title": "OECD.AI Policy Observatory",
+   "url": "https://oecd.ai/",
+   "note": "OECD · Free policy tracker",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "agent": "level-6",
+   "kind": "course",
+   "target": "ai-business",
+   "targetName": "Using AI to grow a business",
+   "title": "AI Index Report",
+   "url": "https://hai.stanford.edu/ai-index",
+   "note": "Stanford HAI · Free annual data",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "agent": "level-6",
+   "kind": "course",
+   "target": "ai-business",
+   "targetName": "Using AI to grow a business",
+   "title": "The state of AI",
+   "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+   "note": "McKinsey · Free survey",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "agent": "level-6",
+   "kind": "course",
+   "target": "ai-product",
+   "targetName": "Designing AI products people trust",
+   "title": "Guidelines for Human-AI Interaction",
+   "url": "https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/",
+   "note": "Microsoft Research · Free",
+   "addedAt": "2026-10-14T02:59:18.304Z"
+  },
+  {
+   "agent": "level-5",
+   "kind": "repo",
+   "target": "vision",
+   "targetName": "AI that can see",
+   "title": "roboflow/supervision",
+   "url": "https://github.com/roboflow/supervision",
+   "note": "Reusable computer-vision tools",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "agent": "level-5",
+   "kind": "repo",
+   "target": "speech",
+   "targetName": "AI that listens and talks",
+   "title": "SYSTRAN/faster-whisper",
+   "url": "https://github.com/SYSTRAN/faster-whisper",
+   "note": "Fast Whisper transcription",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "agent": "level-5",
+   "kind": "course",
+   "target": "genmedia",
+   "targetName": "How AI makes images and video",
+   "title": "The Illustrated Stable Diffusion",
+   "url": "https://jalammar.github.io/illustrated-stable-diffusion/",
+   "note": "Jay Alammar · Free visual explainer",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "agent": "level-5",
+   "kind": "course",
+   "target": "multimodal",
+   "targetName": "AI that understands photos, audio and text together",
+   "title": "Multimodal RAG: Chat with Videos",
+   "url": "https://www.deeplearning.ai/short-courses/multimodal-rag-chat-with-videos/",
+   "note": "DeepLearning.AI · Free short course",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "agent": "level-5",
+   "kind": "course",
+   "target": "multimodal",
+   "targetName": "AI that understands photos, audio and text together",
+   "title": "Gemini API: image understanding",
+   "url": "https://ai.google.dev/gemini-api/docs/image-understanding",
+   "note": "Google · Free docs",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "agent": "level-5",
+   "kind": "course",
+   "target": "robotics",
+   "targetName": "AI in robots",
+   "title": "ROS 2 tutorials",
+   "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+   "note": "Open Robotics · Free",
+   "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "agent": "level-4",
+   "kind": "course",
+   "target": "vectordb",
+   "targetName": "Searching by meaning",
+   "title": "Pinecone Learn",
+   "url": "https://www.pinecone.io/learn/",
+   "note": "Free guides on embeddings and search",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "agent": "level-4",
+   "kind": "course",
+   "target": "evals",
+   "targetName": "Testing whether your AI is good",
+   "title": "Evaluating AI Agents",
+   "url": "https://www.deeplearning.ai/short-courses/evaluating-ai-agents/",
+   "note": "DeepLearning.AI · Free short course",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "agent": "level-4",
+   "kind": "repo",
+   "target": "evals",
+   "targetName": "Testing whether your AI is good",
+   "title": "EleutherAI/lm-evaluation-harness",
+   "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+   "note": "Standard benchmark runner",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "agent": "level-4",
+   "kind": "repo",
+   "target": "finetune",
+   "targetName": "Teaching a model your style",
+   "title": "huggingface/peft",
+   "url": "https://github.com/huggingface/peft",
+   "note": "LoRA and other efficient fine-tuning",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "agent": "level-4",
+   "kind": "repo",
+   "target": "multiagent",
+   "targetName": "Teams of AI agents",
+   "title": "camel-ai/camel",
+   "url": "https://github.com/camel-ai/camel",
+   "note": "Multi-agent research framework",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "agent": "level-4",
+   "kind": "course",
+   "target": "scale",
+   "targetName": "Running AI for lots of users",
+   "title": "LLM Bootcamp",
+   "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+   "note": "Full Stack Deep Learning · Free lectures",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "agent": "level-4",
+   "kind": "course",
+   "target": "scale",
+   "targetName": "Running AI for lots of users",
+   "title": "Prompt caching guide",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-caching",
+   "note": "Anthropic docs · cut cost and latency",
+   "addedAt": "2026-10-14T02:59:18.302Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "course",
+   "target": "rag",
+   "targetName": "Letting AI read your documents",
+   "title": "Building and Evaluating Advanced RAG",
+   "url": "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/",
+   "note": "DeepLearning.AI · Free short course",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "repo",
+   "target": "rag",
+   "targetName": "Letting AI read your documents",
+   "title": "NirDiamant/RAG_Techniques",
+   "url": "https://github.com/NirDiamant/RAG_Techniques",
+   "note": "30+ RAG techniques as notebooks",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "repo",
+   "target": "rag",
+   "targetName": "Letting AI read your documents",
+   "title": "infiniflow/ragflow",
+   "url": "https://github.com/infiniflow/ragflow",
+   "note": "Open-source RAG engine",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "repo",
+   "target": "memory",
+   "targetName": "Helping AI remember",
+   "title": "getzep/graphiti",
+   "url": "https://github.com/getzep/graphiti",
+   "note": "Temporal knowledge-graph memory",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "repo",
+   "target": "mcp",
+   "targetName": "Plugging AI into your apps",
+   "title": "punkpeye/awesome-mcp-servers",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "note": "Curated list of MCP servers",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "repo",
+   "target": "patterns",
+   "targetName": "Ready-made AI workflows",
+   "title": "anthropics/anthropic-cookbook",
+   "url": "https://github.com/anthropics/anthropic-cookbook",
+   "note": "Agent patterns + recipes",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "repo",
+   "target": "design",
+   "targetName": "Planning your own AI agent",
+   "title": "humanlayer/12-factor-agents",
+   "url": "https://github.com/humanlayer/12-factor-agents",
+   "note": "Principles for reliable agents",
+   "addedAt": "2026-10-14T02:59:18.298Z"
+  },
+  {
+   "agent": "level-2",
+   "kind": "course",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "Transformer Explainer",
+   "url": "https://poloclub.github.io/transformer-explainer/",
+   "note": "Georgia Tech · interactive, free",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "agent": "level-2",
+   "kind": "course",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "LLM Visualization",
+   "url": "https://bbycroft.net/llm",
+   "note": "3D walk-through of a GPT · free",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "agent": "level-2",
+   "kind": "repo",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "rasbt/LLMs-from-scratch",
+   "url": "https://github.com/rasbt/LLMs-from-scratch",
+   "note": "Build a GPT step by step · ~70k★",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "agent": "level-2",
+   "kind": "repo",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "mlabonne/llm-course",
+   "url": "https://github.com/mlabonne/llm-course",
+   "note": "Roadmaps + notebooks · ~60k★",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "agent": "level-2",
+   "kind": "paid",
+   "target": "llm",
+   "targetName": "What's inside an AI model",
+   "title": "Build a Large Language Model (From Scratch)",
+   "url": "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+   "note": "Sebastian Raschka · Manning book",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "agent": "level-2",
+   "kind": "course",
+   "target": "chat",
+   "targetName": "How AI chatbots work",
+   "title": "One Useful Thing",
+   "url": "https://www.oneusefulthing.org/",
+   "note": "Ethan Mollick · free newsletter on using AI well",
+   "addedAt": "2026-10-14T02:59:18.297Z"
+  },
+  {
+   "agent": "level-1",
+   "kind": "course",
+   "target": "python",
+   "targetName": "Python, the language of AI",
+   "title": "Google's Python Class",
+   "url": "https://developers.google.com/edu/python",
+   "note": "Google · Free",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "agent": "level-1",
+   "kind": "course",
+   "target": "math",
+   "targetName": "Just enough maths for AI",
+   "title": "Seeing Theory: visual probability",
+   "url": "https://seeing-theory.brown.edu/",
+   "note": "Brown University · Free, interactive",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "agent": "level-1",
+   "kind": "course",
+   "target": "data",
+   "targetName": "Working with data",
+   "title": "freeCodeCamp: Data Analysis with Python",
+   "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+   "note": "freeCodeCamp · Free certification",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "agent": "level-1",
+   "kind": "course",
+   "target": "neural-nets",
+   "targetName": "Neural networks and deep learning",
+   "title": "TensorFlow Playground",
+   "url": "https://playground.tensorflow.org/",
+   "note": "Play with a neural net in your browser · Free",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "agent": "level-1",
+   "kind": "video",
+   "target": "neural-nets",
+   "targetName": "Neural networks and deep learning",
+   "title": "Neural networks (3Blue1Brown series)",
+   "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+   "note": "3Blue1Brown · visual intro",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  },
+  {
+   "agent": "level-1",
+   "kind": "repo",
+   "target": "neural-nets",
+   "targetName": "Neural networks and deep learning",
+   "title": "karpathy/micrograd",
+   "url": "https://github.com/karpathy/micrograd",
+   "note": "Tiny autograd engine to learn backprop",
+   "addedAt": "2026-10-14T02:59:18.295Z"
+  }
+ ],
+ "runs": [
+  {
+   "at": "2026-10-14T03:01:54.156Z",
+   "agent": "projects",
+   "command": "check",
+   "counts": {
+    "fetched": 18,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:29.791Z",
+   "agent": "projects",
+   "command": "sync",
+   "counts": {
+    "indexed": 18
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:18.323Z",
+   "agent": "glossary",
+   "command": "apply",
+   "counts": {
+    "added": 18
+   },
+   "detail": "18 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.321Z",
+   "agent": "projects",
+   "command": "apply",
+   "counts": {
+    "added": 3
+   },
+   "detail": "3 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.318Z",
+   "agent": "careers",
+   "command": "apply",
+   "counts": {
+    "added": 10
+   },
+   "detail": "10 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.314Z",
+   "agent": "certificates",
+   "command": "apply",
+   "counts": {
+    "added": 9
+   },
+   "detail": "9 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.311Z",
+   "agent": "tools",
+   "command": "apply",
+   "counts": {
+    "added": 23
+   },
+   "detail": "23 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.308Z",
+   "agent": "level-9",
+   "command": "apply",
+   "counts": {
+    "added": 5
+   },
+   "detail": "5 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.307Z",
+   "agent": "level-8",
+   "command": "apply",
+   "counts": {
+    "added": 8
+   },
+   "detail": "8 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.306Z",
+   "agent": "level-7",
+   "command": "apply",
+   "counts": {
+    "added": 9
+   },
+   "detail": "9 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.304Z",
+   "agent": "level-6",
+   "command": "apply",
+   "counts": {
+    "added": 5
+   },
+   "detail": "5 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.303Z",
+   "agent": "level-5",
+   "command": "apply",
+   "counts": {
+    "added": 6
+   },
+   "detail": "6 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.302Z",
+   "agent": "level-4",
+   "command": "apply",
+   "counts": {
+    "added": 7
+   },
+   "detail": "7 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.299Z",
+   "agent": "level-3",
+   "command": "apply",
+   "counts": {
+    "added": 7
+   },
+   "detail": "7 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.298Z",
+   "agent": "level-2",
+   "command": "apply",
+   "counts": {
+    "added": 6
+   },
+   "detail": "6 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:18.296Z",
+   "agent": "level-1",
+   "command": "apply",
+   "counts": {
+    "added": 6
+   },
+   "detail": "6 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T02:59:17.674Z",
+   "agent": "glossary",
+   "command": "approve",
+   "counts": {
+    "approved": 18
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.672Z",
+   "agent": "projects",
+   "command": "approve",
+   "counts": {
+    "approved": 3
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.669Z",
+   "agent": "careers",
+   "command": "approve",
+   "counts": {
+    "approved": 10
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.667Z",
+   "agent": "certificates",
+   "command": "approve",
+   "counts": {
+    "approved": 9
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.663Z",
+   "agent": "tools",
+   "command": "approve",
+   "counts": {
+    "approved": 23
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.660Z",
+   "agent": "level-9",
+   "command": "approve",
+   "counts": {
+    "approved": 5
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.658Z",
+   "agent": "level-8",
+   "command": "approve",
+   "counts": {
+    "approved": 8
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.657Z",
+   "agent": "level-7",
+   "command": "approve",
+   "counts": {
+    "approved": 9
+   }
+  },
+  {
+   "at": "2026-10-14T02:59:17.654Z",
+   "agent": "level-6",
+   "command": "approve",
+   "counts": {
+    "approved": 5
+   }
+  }
+ ]
+}

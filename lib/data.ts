@@ -1,4 +1,5 @@
 import { TOOL_GROUPS, Tool } from "./extra";
+import { withAgentTopics } from "./agent-merge";
 import { MORE_TOPICS } from "./more";
 import { MORE2_TOPICS } from "./more2";
 export type Line = { id: string; name: string; c: string };
@@ -220,4 +221,5 @@ const toolTopics: Topic[] = TOOL_GROUPS.map((g) => ({
   concepts: [], path: [], free: [], paid: [], certs: [], yt: [], biz: ["", "", ""], tools: g.tools,
 }));
 
-export const TOPICS: Topic[] = BASE.filter((t) => t.id !== "tools").concat(toolTopics, MORE_TOPICS, MORE2_TOPICS);
+/* Agent-approved resources are appended on top (see lib/agent-merge.ts). */
+export const TOPICS: Topic[] = withAgentTopics(BASE.filter((t) => t.id !== "tools").concat(toolTopics, MORE_TOPICS, MORE2_TOPICS));

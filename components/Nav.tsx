@@ -11,6 +11,7 @@ const ITEMS = [
   { href: "/tools", label: "AI Tools", icon: Icon.tools },
   { href: "/certificates", label: "Certificates", icon: Icon.cert },
   { href: "/notes", label: "My Notes", icon: Icon.notes },
+  { href: "/tracker", label: "Tracker", icon: Icon.tracker, desktopOnly: true },
 ];
 
 export default function Nav() {
@@ -35,7 +36,7 @@ export default function Nav() {
         </div>
       </header>
       <nav className="tabbar" aria-label="Main">
-        {ITEMS.filter((it) => it.href !== "/").map((it) => (
+        {ITEMS.filter((it) => it.href !== "/" && !("desktopOnly" in it)).map((it) => (
           <Link key={it.href} href={it.href} className={active(it.href) ? "on" : ""} aria-current={active(it.href) ? "page" : undefined}>
             {it.icon}
             <span>{it.label}</span>

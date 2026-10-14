@@ -1,0 +1,898 @@
+{
+ "agent": "glossary",
+ "name": "Glossary agent",
+ "updatedAt": "2026-10-14T02:59:29.791Z",
+ "total": 44,
+ "byStatus": {
+  "site": 26,
+  "added": 18
+ },
+ "resources": [
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "AI model",
+   "note": "The trained \"brain\" that produces answers. ChatGPT and Claude are apps built on AI models.",
+   "extra": {
+    "definition": "The trained \"brain\" that produces answers. ChatGPT and Claude are apps built on AI models."
+   },
+   "uid": "8b5e16585831",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "LLM",
+   "note": "Large language model: an AI model trained on huge amounts of text so it can read and write.",
+   "extra": {
+    "definition": "Large language model: an AI model trained on huge amounts of text so it can read and write."
+   },
+   "uid": "3a5d9edd77ca",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Prompt",
+   "note": "The message or instructions you type to an AI.",
+   "extra": {
+    "definition": "The message or instructions you type to an AI."
+   },
+   "uid": "4a4bb7ce1f11",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Token",
+   "note": "A small chunk of text (roughly ¾ of a word). AI reads, writes and charges by tokens.",
+   "extra": {
+    "definition": "A small chunk of text (roughly ¾ of a word). AI reads, writes and charges by tokens."
+   },
+   "uid": "be41630c8aa6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Context window",
+   "note": "How much text an AI can look at in one go, like its short-term working memory.",
+   "extra": {
+    "definition": "How much text an AI can look at in one go, like its short-term working memory."
+   },
+   "uid": "03bf2a721630",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Hallucination",
+   "note": "When an AI states something false with confidence. Always check important facts.",
+   "extra": {
+    "definition": "When an AI states something false with confidence. Always check important facts."
+   },
+   "uid": "60cfb3fdf592",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Agent",
+   "note": "An AI that can use tools and take steps on its own to finish a task.",
+   "extra": {
+    "definition": "An AI that can use tools and take steps on its own to finish a task."
+   },
+   "uid": "ea6df3e3c9e1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "RAG",
+   "note": "Retrieval-augmented generation: the AI looks up your documents before answering.",
+   "extra": {
+    "definition": "Retrieval-augmented generation: the AI looks up your documents before answering."
+   },
+   "uid": "5306454678b0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Embedding",
+   "note": "A list of numbers that captures the meaning of a piece of text, so computers can compare meanings.",
+   "extra": {
+    "definition": "A list of numbers that captures the meaning of a piece of text, so computers can compare meanings."
+   },
+   "uid": "7ae05ee18bd9",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Vector database",
+   "note": "A database built to store embeddings and find similar meanings quickly.",
+   "extra": {
+    "definition": "A database built to store embeddings and find similar meanings quickly."
+   },
+   "uid": "89eb4bc222b6",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "MCP",
+   "note": "Model Context Protocol: a standard way to connect AI assistants to apps and data.",
+   "extra": {
+    "definition": "Model Context Protocol: a standard way to connect AI assistants to apps and data."
+   },
+   "uid": "f17b048d292c",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "A2A",
+   "note": "Agent2Agent: a standard way for AI agents from different companies to work together.",
+   "extra": {
+    "definition": "Agent2Agent: a standard way for AI agents from different companies to work together."
+   },
+   "uid": "3d50a904ec29",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Fine-tuning",
+   "note": "Extra training on your own examples to specialise an existing model.",
+   "extra": {
+    "definition": "Extra training on your own examples to specialise an existing model."
+   },
+   "uid": "8271390ac625",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Open-source",
+   "note": "Software whose code is public and free to use, change and share.",
+   "extra": {
+    "definition": "Software whose code is public and free to use, change and share."
+   },
+   "uid": "822773f4e1c8",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "API",
+   "note": "A way for one program to talk to another. Developers use APIs to add AI to their apps.",
+   "extra": {
+    "definition": "A way for one program to talk to another. Developers use APIs to add AI to their apps."
+   },
+   "uid": "54f93feb6f41",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "GPU",
+   "note": "A powerful chip that does the heavy maths needed to train and run AI models.",
+   "extra": {
+    "definition": "A powerful chip that does the heavy maths needed to train and run AI models."
+   },
+   "uid": "21da8bae7db7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Eval",
+   "note": "A test that checks how well an AI performs on a set of example questions.",
+   "extra": {
+    "definition": "A test that checks how well an AI performs on a set of example questions."
+   },
+   "uid": "5d71be575231",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Open-weight model",
+   "note": "An AI model you can download and run yourself, such as Llama or Gemma.",
+   "extra": {
+    "definition": "An AI model you can download and run yourself, such as Llama or Gemma."
+   },
+   "uid": "fa6e245d5d56",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Machine learning",
+   "note": "Teaching computers to make predictions by learning from examples instead of fixed rules.",
+   "extra": {
+    "definition": "Teaching computers to make predictions by learning from examples instead of fixed rules."
+   },
+   "uid": "8279145c41f4",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Neural network",
+   "note": "Layers of simple maths units that together learn patterns, loosely inspired by the brain.",
+   "extra": {
+    "definition": "Layers of simple maths units that together learn patterns, loosely inspired by the brain."
+   },
+   "uid": "eb7d9722bce1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Training data",
+   "note": "The examples a model learns from. Its quality decides how good the model is.",
+   "extra": {
+    "definition": "The examples a model learns from. Its quality decides how good the model is."
+   },
+   "uid": "228a925561bf",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Bias",
+   "note": "When an AI treats some people or cases unfairly, usually because of skewed training data.",
+   "extra": {
+    "definition": "When an AI treats some people or cases unfairly, usually because of skewed training data."
+   },
+   "uid": "7e3f98182921",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Prompt injection",
+   "note": "Hidden instructions in a web page or file that trick an AI into doing something it shouldn't.",
+   "extra": {
+    "definition": "Hidden instructions in a web page or file that trick an AI into doing something it shouldn't."
+   },
+   "uid": "6eb94779fceb",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Diffusion model",
+   "note": "The kind of AI behind most image and video generators. It turns random noise into a picture step by step.",
+   "extra": {
+    "definition": "The kind of AI behind most image and video generators. It turns random noise into a picture step by step."
+   },
+   "uid": "2faa43f1b4da",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Computer vision",
+   "note": "AI that understands images and video.",
+   "extra": {
+    "definition": "AI that understands images and video."
+   },
+   "uid": "130cef703230",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Multimodal",
+   "note": "An AI that works with more than one kind of input, like text plus images or audio.",
+   "extra": {
+    "definition": "An AI that works with more than one kind of input, like text plus images or audio."
+   },
+   "uid": "a7fddd40e34a",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T02:50:22.496Z",
+   "linkState": "unchecked"
+  },
+  {
+   "uid": "872e486eae5a",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Temperature",
+   "note": "A setting that controls how creative or predictable an AI's answers are. Low = safe and consistent, high = more varied.",
+   "extra": {
+    "definition": "A setting that controls how creative or predictable an AI's answers are. Low = safe and consistent, high = more varied."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "186a09574d4a",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Inference",
+   "note": "Using a trained AI model to get an answer. Every time you send a prompt, the model runs inference.",
+   "extra": {
+    "definition": "Using a trained AI model to get an answer. Every time you send a prompt, the model runs inference."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "9496b2923d2f",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Parameters",
+   "note": "The millions or billions of numbers inside a model that it learned during training. More parameters usually means a bigger, more capable model.",
+   "extra": {
+    "definition": "The millions or billions of numbers inside a model that it learned during training. More parameters usually means a bigger, more capable model."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "ddc81aae5c15",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Reasoning model",
+   "note": "An AI model that \"thinks\" step by step before answering, which helps with maths, code and planning but takes longer.",
+   "extra": {
+    "definition": "An AI model that \"thinks\" step by step before answering, which helps with maths, code and planning but takes longer."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "d9800a22cee5",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Transformer",
+   "note": "The design behind almost all modern language models. It lets the model look at every word in a sentence at once to understand context.",
+   "extra": {
+    "definition": "The design behind almost all modern language models. It lets the model look at every word in a sentence at once to understand context."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "0adc93e9eca0",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "System prompt",
+   "note": "Hidden instructions given to an AI before your message, setting its role, tone and rules.",
+   "extra": {
+    "definition": "Hidden instructions given to an AI before your message, setting its role, tone and rules."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "2303027e5282",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Few-shot prompting",
+   "note": "Showing the AI a few examples of what you want inside your prompt so it copies the pattern.",
+   "extra": {
+    "definition": "Showing the AI a few examples of what you want inside your prompt so it copies the pattern."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "85b3ec4dcfe0",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Guardrails",
+   "note": "Rules and checks around an AI app that block unsafe, off-topic or wrong outputs.",
+   "extra": {
+    "definition": "Rules and checks around an AI app that block unsafe, off-topic or wrong outputs."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "d444eb163d56",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Benchmark",
+   "note": "A standard test used to compare AI models, like an exam everyone takes.",
+   "extra": {
+    "definition": "A standard test used to compare AI models, like an exam everyone takes."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "250cfbbc8168",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Overfitting",
+   "note": "When a model memorises its training examples instead of learning general patterns, so it does badly on new data.",
+   "extra": {
+    "definition": "When a model memorises its training examples instead of learning general patterns, so it does badly on new data."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "08747e463e93",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Quantization",
+   "note": "Shrinking a model by storing its numbers with less precision, so it runs faster on smaller computers with a small quality loss.",
+   "extra": {
+    "definition": "Shrinking a model by storing its numbers with less precision, so it runs faster on smaller computers with a small quality loss."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "63813e1a42be",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Distillation",
+   "note": "Training a small, cheap model to copy the answers of a big model.",
+   "extra": {
+    "definition": "Training a small, cheap model to copy the answers of a big model."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "bf8ad5b31751",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Grounding",
+   "note": "Making an AI base its answer on specific trusted sources (like your documents) instead of only its memory.",
+   "extra": {
+    "definition": "Making an AI base its answer on specific trusted sources (like your documents) instead of only its memory."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "25493140825c",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Knowledge cutoff",
+   "note": "The date after which a model has no training data, so it doesn't know about later events unless given search or documents.",
+   "extra": {
+    "definition": "The date after which a model has no training data, so it doesn't know about later events unless given search or documents."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "ed70b11f693a",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Human in the loop",
+   "note": "A setup where a person reviews or approves the AI's work before it takes effect.",
+   "extra": {
+    "definition": "A setup where a person reviews or approves the AI's work before it takes effect."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "0cb9adb8e371",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Deepfake",
+   "note": "A fake image, video or voice made with AI to look or sound like a real person.",
+   "extra": {
+    "definition": "A fake image, video or voice made with AI to look or sound like a real person."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "132fdef4866a",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Synthetic data",
+   "note": "Artificial data created by computers or AI, used to train or test models when real data is scarce or private.",
+   "extra": {
+    "definition": "Artificial data created by computers or AI, used to train or test models when real data is scarce or private."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "76462c8836a2",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "AGI",
+   "note": "Artificial general intelligence: a hypothetical AI that can learn and do almost any intellectual task a person can.",
+   "extra": {
+    "definition": "Artificial general intelligence: a hypothetical AI that can learn and do almost any intellectual task a person can."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T02:57:45.774Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T02:57:45.774Z",
+     "change": "found via import 2026-10-13-initial.json"
+    },
+    {
+     "at": "2026-10-14T02:59:17.673Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T02:59:18.322Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T02:59:18.322Z"
+  }
+ ]
+}
