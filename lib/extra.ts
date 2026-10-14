@@ -1,7 +1,7 @@
 /* Vendor badges, open-source projects and the AI Tools catalogue.
    Verified October 2026. Re-check prices and links each quarter. */
 
-export type Issuer = "aws" | "ms" | "openai" | "hf" | "anthropic" | "google";
+export type Issuer = "aws" | "ms" | "openai" | "hf" | "anthropic" | "google" | "other";
 /** [issuer, title, url, note, paid?] */
 export type Badge = [Issuer, string, string, string, boolean?];
 /** [repo, url, note] */
@@ -11,7 +11,7 @@ export type ToolKind = "oss" | "free" | "freemium" | "paid";
 export type Tool = [string, string, string, ToolKind, boolean, string];
 
 export const ISSUERS: Record<Issuer, string> = {
-  aws: "AWS", ms: "Microsoft Learn", openai: "OpenAI", hf: "Hugging Face", anthropic: "Anthropic", google: "Google",
+  aws: "AWS", ms: "Microsoft Learn", openai: "OpenAI", hf: "Hugging Face", anthropic: "Anthropic", google: "Google", other: "Other",
 };
 
 export const LAST_VERIFIED = "Oct 2026";

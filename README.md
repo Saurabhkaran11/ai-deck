@@ -7,21 +7,25 @@ A glass-design learning deck built on the **AI Engineering Metro Map**. The left
 - Plain CSS (glassmorphism with `backdrop-filter`), fonts via `next/font/google`
 - Browser `localStorage` for your notes, links and custom learnings (no backend needed)
 
+## Pages
+- **Home** (`/`): what AI Deck is, where to start, how it works, AI words explained
+- **Learn** (`/learn`): 19 topics in 4 levels with progress tracking
+- **Topic** (`/learn/[id]`): plain-English explanation, then tabs for plan, free courses, certificates, videos, projects, earning ideas and your notes
+- **AI Tools** (`/tools`): 150+ tools with search and price filters
+- **Certificates** (`/certificates`): every free certificate and paid exam, by provider
+- **My Notes** (`/notes`): your notes, links and own topics
+- **Glossary** (`/glossary`): AI jargon in plain English
+
 ## Project structure
 ```
-app/
-  layout.tsx      fonts + metadata
-  page.tsx        renders <AIDeck />
-  globals.css     glass theme + layout
-components/
-  AIDeck.tsx      state, modals, toasts
-  Sidebar.tsx     metro-line navigator + search + "Add a learning"
-  Detail.tsx      topic detail, resources, "+" menu, user cards
-  Modal.tsx       reusable glass form modal
+app/                 one folder per page (Next.js App Router)
+components/          Home, LearnPath, TopicPage, ToolsBrowser, CertBrowser, NotesPage, Nav, Modal, Bits
 lib/
-  data.ts         all topics, links, certificates, business ideas
-  extra.ts        AWS / Microsoft Learn / OpenAI badges, open-source repos, AI Tools catalogue
-  storage.ts      persisted state hook + URL validation
+  plain.ts           levels, simple explanations, glossary  ← edit wording here
+  data.ts            topics: learning steps, courses, videos, business ideas
+  extra.ts           AWS / Microsoft / OpenAI badges, open-source repos, AI tools
+  catalog.ts         builds the certificate list
+  store.tsx          progress, notes and own topics (saved in the browser)
 ```
 
 ## Setup
@@ -48,12 +52,11 @@ npm start
 - **Vercel**: push the folder to GitHub, then import it at https://vercel.com/new. No configuration needed.
 - **Netlify**: https://app.netlify.com/start, build command `npm run build`.
 
-## Using the deck
-- Click any station on the left to open it on the right.
-- Search filters stations by title, summary and concepts.
-- **+ Add a learning** (bottom-left) creates your own topic on any line.
-- **+** next to "My cards" adds a **Note card** or a **Web link card** to the open topic.
-- Delete buttons ask for a second click to confirm.
+## Using AI Deck
+- Start on **Learn**, open a topic, read “In simple words”, then work through the tabs.
+- Press **Mark as complete** when you finish a topic; progress shows on Home and Learn.
+- Use the **My notes** tab on any topic, or the **My Notes** page, to save notes and links.
+- Notes and progress are stored in your browser only.
 
 ## Editing content
 Badges, open-source projects and the AI Tools catalogue live in `lib/extra.ts` (re-check prices and links every quarter).
