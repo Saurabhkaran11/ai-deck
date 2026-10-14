@@ -1,11 +1,11 @@
 {
  "agent": "glossary",
  "name": "Glossary agent",
- "updatedAt": "2026-10-14T02:59:29.791Z",
- "total": 44,
+ "updatedAt": "2026-10-14T04:17:07.637Z",
+ "total": 45,
  "byStatus": {
   "site": 26,
-  "added": 18
+  "added": 19
  },
  "resources": [
   {
@@ -893,6 +893,35 @@
     }
    ],
    "addedAt": "2026-10-14T02:59:18.322Z"
+  },
+  {
+   "uid": "807fe1a4aa19",
+   "kind": "glossary",
+   "target": "glossary",
+   "title": "Forward Deployed Engineer (FDE)",
+   "note": "An engineer who works directly with a customer to build and launch AI inside their business, using the customer's own data and systems.",
+   "extra": {
+    "definition": "An engineer who works directly with a customer to build and launch AI inside their business, using the customer's own data and systems."
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T04:15:59.334Z",
+   "linkState": "unchecked",
+   "history": [
+    {
+     "at": "2026-10-14T04:15:59.334Z",
+     "change": "found via import 2026-10-13-fde.json"
+    },
+    {
+     "at": "2026-10-14T04:16:01.829Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T04:16:02.416Z",
+     "change": "applied to website"
+    }
+   ],
+   "addedAt": "2026-10-14T04:16:02.416Z"
   }
  ]
 }

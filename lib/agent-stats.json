@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-10-14T03:02:57.111Z",
+ "generatedAt": "2026-10-14T04:17:08.195Z",
  "totals": {
-  "resources": 1330,
-  "onSite": 1329,
-  "fetched": 1225,
-  "researched": 123,
-  "approved": 122,
+  "resources": 1343,
+  "onSite": 1342,
+  "fetched": 1237,
+  "researched": 125,
+  "approved": 124,
   "rejected": 1,
-  "added": 122,
+  "added": 124,
   "updated": 11,
   "pending": 0,
-  "ok": 1137,
+  "ok": 1149,
   "blocked": 53,
   "broken": 0,
   "unchecked": 0
@@ -300,24 +300,24 @@
    "id": "careers",
    "name": "Careers agent",
    "scope": "feature",
-   "targets": "16",
+   "targets": "17",
    "kinds": [
     "step"
    ],
-   "total": 124,
-   "onSite": 124,
+   "total": 136,
+   "onSite": 136,
    "pending": 0,
    "approved": 0,
-   "added": 10,
+   "added": 11,
    "rejected": 0,
-   "ok": 123,
+   "ok": 135,
    "blocked": 1,
    "broken": 0,
    "unchecked": 0,
-   "fetched": 124,
-   "researched": 10,
+   "fetched": 136,
+   "researched": 11,
    "updated": 0,
-   "lastRun": "2026-10-14T02:59:18.318Z"
+   "lastRun": "2026-10-14T04:16:02.414Z"
   },
   {
    "id": "projects",
@@ -350,23 +350,43 @@
    "kinds": [
     "glossary"
    ],
-   "total": 44,
-   "onSite": 44,
+   "total": 45,
+   "onSite": 45,
    "pending": 0,
    "approved": 0,
-   "added": 18,
+   "added": 19,
    "rejected": 0,
    "ok": 0,
    "blocked": 0,
    "broken": 0,
    "unchecked": 0,
    "fetched": 0,
-   "researched": 18,
+   "researched": 19,
    "updated": 0,
-   "lastRun": "2026-10-14T02:59:18.323Z"
+   "lastRun": "2026-10-14T04:16:02.417Z"
   }
  ],
  "recent": [
+  {
+   "agent": "glossary",
+   "kind": "glossary",
+   "target": "glossary",
+   "targetName": "glossary",
+   "title": "Forward Deployed Engineer (FDE)",
+   "url": null,
+   "note": "An engineer who works directly with a customer to build and launch AI inside their business, using the customer's own data and systems.",
+   "addedAt": "2026-10-14T04:16:02.416Z"
+  },
+  {
+   "agent": "careers",
+   "kind": "step",
+   "target": "fde",
+   "targetName": "Forward Deployed Engineer (FDE)",
+   "title": "LLM Zoomcamp",
+   "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+   "note": "DataTalksClub · Free",
+   "addedAt": "2026-10-14T04:16:02.413Z"
+  },
   {
    "agent": "glossary",
    "kind": "glossary",
@@ -1590,6 +1610,75 @@
  ],
  "runs": [
   {
+   "at": "2026-10-14T04:16:02.417Z",
+   "agent": "glossary",
+   "command": "apply",
+   "counts": {
+    "added": 1
+   },
+   "detail": "1 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T04:16:02.414Z",
+   "agent": "careers",
+   "command": "apply",
+   "counts": {
+    "added": 1
+   },
+   "detail": "1 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T04:16:01.829Z",
+   "agent": "glossary",
+   "command": "approve",
+   "counts": {
+    "approved": 1
+   }
+  },
+  {
+   "at": "2026-10-14T04:16:01.828Z",
+   "agent": "careers",
+   "command": "approve",
+   "counts": {
+    "approved": 1
+   }
+  },
+  {
+   "at": "2026-10-14T04:16:01.281Z",
+   "agent": "careers",
+   "command": "check",
+   "counts": {
+    "fetched": 12,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T04:15:59.346Z",
+   "agent": "careers",
+   "command": "research",
+   "counts": {
+    "researched": 1
+   },
+   "detail": "import 2026-10-13-fde.json: 1 new, 0 skipped"
+  },
+  {
+   "at": "2026-10-14T04:15:59.336Z",
+   "agent": "glossary",
+   "command": "research",
+   "counts": {
+    "researched": 1
+   },
+   "detail": "import 2026-10-13-fde.json: 1 new, 0 skipped"
+  },
+  {
+   "at": "2026-10-14T04:15:58.778Z",
+   "agent": "careers",
+   "command": "sync",
+   "counts": {
+    "indexed": 11
+   }
+  },
+  {
    "at": "2026-10-14T03:01:54.156Z",
    "agent": "projects",
    "command": "check",
@@ -1738,70 +1827,6 @@
    "command": "approve",
    "counts": {
     "approved": 18
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.672Z",
-   "agent": "projects",
-   "command": "approve",
-   "counts": {
-    "approved": 3
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.669Z",
-   "agent": "careers",
-   "command": "approve",
-   "counts": {
-    "approved": 10
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.667Z",
-   "agent": "certificates",
-   "command": "approve",
-   "counts": {
-    "approved": 9
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.663Z",
-   "agent": "tools",
-   "command": "approve",
-   "counts": {
-    "approved": 23
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.660Z",
-   "agent": "level-9",
-   "command": "approve",
-   "counts": {
-    "approved": 5
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.658Z",
-   "agent": "level-8",
-   "command": "approve",
-   "counts": {
-    "approved": 8
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.657Z",
-   "agent": "level-7",
-   "command": "approve",
-   "counts": {
-    "approved": 9
-   }
-  },
-  {
-   "at": "2026-10-14T02:59:17.654Z",
-   "agent": "level-6",
-   "command": "approve",
-   "counts": {
-    "approved": 5
    }
   }
  ]

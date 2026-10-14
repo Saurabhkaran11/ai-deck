@@ -1,5 +1,5 @@
 import { ADDITIONS, appendUnique } from "./agent-merge";
-/* AI careers: 16 job tracks, a certification status board and career guidance.
+/* AI careers: 17 job tracks, a certification status board and career guidance.
    Prices are US list prices as of October 2026; some come from third-party trackers and are marked "verify". */
 
 /** [course, provider, url, cost, certificate] */
@@ -36,6 +36,29 @@ const TRACKS_SITE: Track[] = [
     certFree: "Hugging Face Agents course + Anthropic Academy certificates", certPaid: "AWS AIP-C01 ($300) or Microsoft AI-103 (~$165); NVIDIA NCA-GENL ($125) on a budget",
     projects: ["RAG assistant over public documents with a 100-question test set", "MCP server plus an agent that uses it", "Prompt-injection test suite with promptfoo"],
     topics: ["prompting", "rag", "agents", "mcp", "evals"] },
+  { id: "fde", role: "Forward Deployed Engineer (FDE)", group: "Build",
+    summary: "An engineer who works inside a customer's business to turn AI into something that actually runs there. Part software engineer, part solutions architect, part consultant: finds the real problem, builds the fix with the customer's data and systems, ships it to production and proves it works.",
+    day: ["Sit with customer teams to find the workflow worth automating", "Turn vague requests into a clear technical plan", "Connect AI models to the customer's data, APIs and tools (RAG, agents, MCP)", "Ship to production with logging, access control and cost limits", "Run evals and show results to stakeholders", "Feed product gaps back to the core engineering team"],
+    skills: ["Python and SQL", "APIs and data integration", "LLM apps: RAG, agents, MCP", "Evals", "Docker and cloud basics", "Security and reliability", "Customer discovery and clear writing"],
+    salary: "Advertised US base (Sept 2026): Anthropic $280K–$320K, OpenAI $185K–$300K plus equity, Palantir $125K–$200K plus equity. Average across all US employers is much lower (~$116K–$124K, ZipRecruiter Aug 2026).",
+    note: "One of the fastest-growing AI roles of 2026: OpenAI, Anthropic, Palantir, Scale AI and big consultancies are all hiring FDEs to get AI into production at customers.",
+    steps: [
+      ["CS50x: Introduction to Computer Science", "Harvard", "https://cs50.harvard.edu/x/", "Free", "Free certificate"],
+      ["The Missing Semester (command line, Git, tools)", "MIT", "https://missing.csail.mit.edu/", "Free", "—"],
+      ["SQLBolt + FastAPI tutorial (data and APIs)", "SQLBolt / FastAPI", "https://fastapi.tiangolo.com/tutorial/", "Free", "—"],
+      ["Docker get-started + Kubernetes Basics", "Docker / Kubernetes", "https://docs.docker.com/get-started/", "Free", "—"],
+      ["Building with the Claude API + MCP courses", "Anthropic Academy", ANTH, "Free", "Free certificate"],
+      ["Agents Course", "Hugging Face", "https://huggingface.co/learn/agents-course", "Free", "Free certificate"],
+      ["Building effective agents", "Anthropic Engineering", "https://www.anthropic.com/engineering/building-effective-agents", "Free", "—"],
+      ["LLM Zoomcamp", "DataTalksClub", "https://github.com/DataTalksClub/llm-zoomcamp", "Free", "Free certificate"],
+      ["OWASP Top 10 for LLM Apps + Web Security Academy", "OWASP / PortSwigger", "https://portswigger.net/web-security", "Free", "—"],
+      ["Technical Writing One", "Google", "https://developers.google.com/tech-writing/one", "Free", "—"],
+      ["The Mom Test (customer discovery)", "Rob Fitzpatrick", "https://www.momtestbook.com/", "Paid (book ~$15)", "—"],
+      ["AWS AIP-C01 or Microsoft AI-103", "AWS / Microsoft", "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/", "$300 / ~$165", "Certification"],
+    ],
+    certFree: "Anthropic Academy certificates + Hugging Face Agents course + CS50x", certPaid: "AWS AIP-C01 ($300) or Microsoft AI-103 (~$165); add the cloud your target customers use",
+    projects: ["End-to-end 'customer' build: pick a real small business, interview them, ship an AI workflow on their data, write up results", "Agent connected to a CRM or ticketing system via MCP, with access control and an audit log", "Deployment write-up: architecture diagram (C4), eval results, cost per request and failure handling"],
+    topics: ["agents", "rag", "mcp", "evals", "safety", "ai-business"] },
   { id: "ml-engineer", role: "Machine Learning Engineer", group: "Data & ML",
     summary: "Designs, trains and ships models (ranking, forecasting, vision, fine-tuned LLMs) and is responsible for how they perform in production.",
     day: ["Engineer features", "Train and tune models", "Run offline and online tests", "Write serving code", "Fine-tune and distil models"],

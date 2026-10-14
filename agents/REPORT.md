@@ -1,10 +1,10 @@
 # AI Deck resource agents: report
 
-Generated 2026-10-14T03:02:57.111Z
+Generated 2026-10-14T04:17:08.195Z
 
 | Resources tracked | On the site | URLs fetched | Researched | Added by agents | Updated | Pending review | Broken links |
 |---|---|---|---|---|---|---|---|
-| 1330 | 1329 | 1225 | 123 | 122 | 11 | 0 | 0 |
+| 1343 | 1342 | 1237 | 125 | 124 | 11 | 0 | 0 |
 
 | Agent | Targets | Resources | On site | Added | Pending | Fetched | Researched | Updated | OK / blocked / broken |
 |---|---|---|---|---|---|---|---|---|---|
@@ -19,8 +19,8 @@ Generated 2026-10-14T03:02:57.111Z
 | Level 9 · Deep dive agent | 4 | 37 | 37 | 5 | 0 | 33 | 5 | 0 | 33 / 0 / 0 |
 | AI Tools agent | 14 | 168 | 168 | 23 | 0 | 181 | 23 | 4 | 151 / 17 / 0 |
 | Certificates agent | all topics | 268 | 267 | 9 | 0 | 275 | 10 | 2 | 266 / 0 / 0 |
-| Careers agent | 16 | 124 | 124 | 10 | 0 | 124 | 10 | 0 | 123 / 1 / 0 |
+| Careers agent | 17 | 136 | 136 | 11 | 0 | 136 | 11 | 0 | 135 / 1 / 0 |
 | Projects agent | 1 | 215 | 215 | 3 | 0 | 189 | 3 | 3 | 149 / 31 / 0 |
-| Glossary agent | 1 | 44 | 44 | 18 | 0 | 0 | 18 | 0 | 0 / 0 / 0 |
+| Glossary agent | 1 | 45 | 45 | 19 | 0 | 0 | 19 | 0 | 0 / 0 / 0 |
 
 Fetched = URLs requested by `check`. Researched = new candidates found by `research`/`import`. Added = applied to the website. Updated = existing resources whose link state changed.

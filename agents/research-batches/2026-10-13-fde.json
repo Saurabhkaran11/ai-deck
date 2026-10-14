@@ -1,0 +1,9 @@
+{
+ "_about": "FDE track support, 2026-10-13. Import with: npm run agents -- import agents/research-batches/2026-10-13-fde.json",
+ "glossary": [
+  {"kind":"glossary","target":"glossary","title":"Forward Deployed Engineer (FDE)","note":"An engineer who works directly with a customer to build and launch AI inside their business, using the customer's own data and systems.","extra":{"definition":"An engineer who works directly with a customer to build and launch AI inside their business, using the customer's own data and systems."}}
+ ],
+ "careers": [
+  {"kind":"step","target":"fde","title":"LLM Zoomcamp","url":"https://github.com/DataTalksClub/llm-zoomcamp","note":"DataTalksClub · Free","extra":{"provider":"DataTalksClub","cost":"Free","cert":"Free certificate"}}
+ ]
+}

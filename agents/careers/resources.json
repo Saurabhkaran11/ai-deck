@@ -1,11 +1,11 @@
 {
  "agent": "careers",
  "name": "Careers agent",
- "updatedAt": "2026-10-14T02:59:29.788Z",
- "total": 124,
+ "updatedAt": "2026-10-14T04:17:07.636Z",
+ "total": 136,
  "byStatus": {
-  "site": 114,
-  "added": 10
+  "site": 125,
+  "added": 11
  },
  "resources": [
   {
@@ -2530,6 +2530,250 @@
    "http": 200,
    "checkedAt": "2026-10-14T02:58:13.454Z",
    "addedAt": "2026-10-14T02:59:18.315Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "CS50x: Introduction to Computer Science",
+   "url": "https://cs50.harvard.edu/x/",
+   "note": "Harvard · Free",
+   "extra": {
+    "provider": "Harvard",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "fe0ee2c71196",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.303Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "The Missing Semester (command line, Git, tools)",
+   "url": "https://missing.csail.mit.edu/",
+   "note": "MIT · Free",
+   "extra": {
+    "provider": "MIT",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "ad570f894d26",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.165Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "SQLBolt + FastAPI tutorial (data and APIs)",
+   "url": "https://fastapi.tiangolo.com/tutorial/",
+   "note": "SQLBolt / FastAPI · Free",
+   "extra": {
+    "provider": "SQLBolt / FastAPI",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "d8c6090e8497",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:01.265Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "Docker get-started + Kubernetes Basics",
+   "url": "https://docs.docker.com/get-started/",
+   "note": "Docker / Kubernetes · Free",
+   "extra": {
+    "provider": "Docker / Kubernetes",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "923014db2519",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.227Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "Building with the Claude API + MCP courses",
+   "url": "https://anthropic.skilljar.com/",
+   "note": "Anthropic Academy · Free",
+   "extra": {
+    "provider": "Anthropic Academy",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "30428818c0f1",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.656Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "Agents Course",
+   "url": "https://huggingface.co/learn/agents-course",
+   "note": "Hugging Face · Free",
+   "extra": {
+    "provider": "Hugging Face",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "uid": "770193cadf07",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.526Z",
+   "finalUrl": "https://huggingface.co/learn/agents-course/unit0/introduction"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "Building effective agents",
+   "url": "https://www.anthropic.com/engineering/building-effective-agents",
+   "note": "Anthropic Engineering · Free",
+   "extra": {
+    "provider": "Anthropic Engineering",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "b3ad523b30d7",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.359Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "OWASP Top 10 for LLM Apps + Web Security Academy",
+   "url": "https://portswigger.net/web-security",
+   "note": "OWASP / PortSwigger · Free",
+   "extra": {
+    "provider": "OWASP / PortSwigger",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "3a9fe7add331",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.706Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "Technical Writing One",
+   "url": "https://developers.google.com/tech-writing/one",
+   "note": "Google · Free",
+   "extra": {
+    "provider": "Google",
+    "cost": "Free",
+    "cert": "—"
+   },
+   "uid": "9d4639e5f602",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.463Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "The Mom Test (customer discovery)",
+   "url": "https://www.momtestbook.com/",
+   "note": "Rob Fitzpatrick · Paid (book ~$15)",
+   "extra": {
+    "provider": "Rob Fitzpatrick",
+    "cost": "Paid (book ~$15)",
+    "cert": "—"
+   },
+   "uid": "2ea9ce43b6db",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.624Z"
+  },
+  {
+   "kind": "step",
+   "target": "fde",
+   "title": "AWS AIP-C01 or Microsoft AI-103",
+   "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+   "note": "AWS / Microsoft · $300 / ~$165",
+   "extra": {
+    "provider": "AWS / Microsoft",
+    "cost": "$300 / ~$165",
+    "cert": "Certification"
+   },
+   "uid": "0b08c4528eb0",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T04:15:58.766Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:00.530Z"
+  },
+  {
+   "uid": "5ef416f532bc",
+   "kind": "step",
+   "target": "fde",
+   "title": "LLM Zoomcamp",
+   "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+   "note": "DataTalksClub · Free",
+   "extra": {
+    "provider": "DataTalksClub",
+    "cost": "Free",
+    "cert": "Free certificate"
+   },
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T04:15:59.345Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T04:15:59.345Z",
+     "change": "found via import 2026-10-13-fde.json"
+    },
+    {
+     "at": "2026-10-14T04:16:01.826Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T04:16:02.413Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T04:16:01.279Z",
+   "addedAt": "2026-10-14T04:16:02.413Z"
   }
  ]
 }

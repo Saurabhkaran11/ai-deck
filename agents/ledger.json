@@ -1,13 +1,13 @@
 {
  "createdAt": "2026-10-14T02:50:22.499Z",
- "updatedAt": "2026-10-14T03:01:54.156Z",
+ "updatedAt": "2026-10-14T04:16:02.417Z",
  "totals": {
-  "indexed": 1207,
-  "fetched": 1225,
-  "researched": 123,
-  "approved": 122,
+  "indexed": 1218,
+  "fetched": 1237,
+  "researched": 125,
+  "approved": 124,
   "rejected": 1,
-  "added": 122,
+  "added": 124,
   "updated": 11
  },
  "agents": {
@@ -122,14 +122,14 @@
    "lastRun": "2026-10-14T02:59:18.314Z"
   },
   "careers": {
-   "indexed": 114,
-   "fetched": 124,
-   "researched": 10,
-   "approved": 10,
+   "indexed": 125,
+   "fetched": 136,
+   "researched": 11,
+   "approved": 11,
    "rejected": 0,
-   "added": 10,
+   "added": 11,
    "updated": 0,
-   "lastRun": "2026-10-14T02:59:18.318Z"
+   "lastRun": "2026-10-14T04:16:02.414Z"
   },
   "projects": {
    "indexed": 212,
@@ -144,12 +144,12 @@
   "glossary": {
    "indexed": 26,
    "fetched": 0,
-   "researched": 18,
-   "approved": 18,
+   "researched": 19,
+   "approved": 19,
    "rejected": 0,
-   "added": 18,
+   "added": 19,
    "updated": 0,
-   "lastRun": "2026-10-14T02:59:18.323Z"
+   "lastRun": "2026-10-14T04:16:02.417Z"
   }
  },
  "runs": [
@@ -1031,6 +1031,75 @@
     "fetched": 18,
     "updated": 0
    }
+  },
+  {
+   "at": "2026-10-14T04:15:58.778Z",
+   "agent": "careers",
+   "command": "sync",
+   "counts": {
+    "indexed": 11
+   }
+  },
+  {
+   "at": "2026-10-14T04:15:59.336Z",
+   "agent": "glossary",
+   "command": "research",
+   "counts": {
+    "researched": 1
+   },
+   "detail": "import 2026-10-13-fde.json: 1 new, 0 skipped"
+  },
+  {
+   "at": "2026-10-14T04:15:59.346Z",
+   "agent": "careers",
+   "command": "research",
+   "counts": {
+    "researched": 1
+   },
+   "detail": "import 2026-10-13-fde.json: 1 new, 0 skipped"
+  },
+  {
+   "at": "2026-10-14T04:16:01.281Z",
+   "agent": "careers",
+   "command": "check",
+   "counts": {
+    "fetched": 12,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T04:16:01.828Z",
+   "agent": "careers",
+   "command": "approve",
+   "counts": {
+    "approved": 1
+   }
+  },
+  {
+   "at": "2026-10-14T04:16:01.829Z",
+   "agent": "glossary",
+   "command": "approve",
+   "counts": {
+    "approved": 1
+   }
+  },
+  {
+   "at": "2026-10-14T04:16:02.414Z",
+   "agent": "careers",
+   "command": "apply",
+   "counts": {
+    "added": 1
+   },
+   "detail": "1 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T04:16:02.417Z",
+   "agent": "glossary",
+   "command": "apply",
+   "counts": {
+    "added": 1
+   },
+   "detail": "1 resource(s) published to the site"
   }
  ]
 }

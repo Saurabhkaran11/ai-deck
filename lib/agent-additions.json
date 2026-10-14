@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-14T02:59:18.295Z",
- "count": 122,
+ "generatedAt": "2026-10-14T04:16:02.399Z",
+ "count": 124,
  "topics": {
   "python": {
    "free": [
@@ -827,6 +827,10 @@
   [
    "AGI",
    "Artificial general intelligence: a hypothetical AI that can learn and do almost any intellectual task a person can."
+  ],
+  [
+   "Forward Deployed Engineer (FDE)",
+   "An engineer who works directly with a customer to build and launch AI inside their business, using the customer's own data and systems."
   ]
  ],
  "steps": {
@@ -916,6 +920,15 @@
     "https://docs.ros.org/en/jazzy/Tutorials.html",
     "Free",
     "—"
+   ]
+  ],
+  "fde": [
+   [
+    "LLM Zoomcamp",
+    "DataTalksClub",
+    "https://github.com/DataTalksClub/llm-zoomcamp",
+    "Free",
+    "Free certificate"
    ]
   ]
  },
