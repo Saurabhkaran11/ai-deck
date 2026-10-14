@@ -107,7 +107,7 @@ const TRACKS_SITE: Track[] = [
       ["Gemini Code Assist skill badges", "Google Skills", "https://www.skills.google/", "Free tier", "Free badge"],
       ["Coding-agent short courses", "DeepLearning.AI", DLAI, "Free", "—"],
       ["OWASP Top 10 for LLM Apps", "OWASP", "https://genai.owasp.org/llm-top-10/", "Free", "—"],
-      ["GitHub Copilot certification (GH-300)", "GitHub / Microsoft", "https://learn.microsoft.com/en-us/credentials/", "Paid (~$99, verify)", "Certification"],
+      ["GitHub Copilot certification (GH-300)", "GitHub / Microsoft", "https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/", "Paid (price varies by country)", "Certification"],
     ],
     certFree: "Anthropic Claude Code in Action", certPaid: "GitHub Copilot GH-300; GH-600 Agentic AI Developer (beta)",
     projects: ["Open-source PR built with an agent, prompts documented", "Spec-first CLI tool with time-saved notes", "Repo template with agent context, CI and security scanning"],
@@ -133,7 +133,7 @@ const TRACKS_SITE: Track[] = [
     summary: "Builds the data platforms that feed analytics, model training and RAG.",
     day: ["Ingest data from many sources", "Model and clean data", "Orchestrate pipelines", "Run quality checks", "Build embedding pipelines"],
     skills: ["SQL", "Python", "Spark", "Airflow / dbt", "Streaming", "Data governance"],
-    salary: "See Levels.fyi data engineer filters; BLS has no exact category.",
+    salary: "Levels.fyi median total pay ~$159K (25th–75th: ~$117K–$225K), Oct 2026.",
     steps: [
       ["Intro + Advanced SQL", "Kaggle Learn", KAG, "Free", "Free certificate"],
       ["Data Engineering Zoomcamp", "DataTalksClub", "https://github.com/DataTalksClub/data-engineering-zoomcamp", "Free", "Free certificate"],
@@ -150,7 +150,7 @@ const TRACKS_SITE: Track[] = [
     summary: "Decides which AI products to build and why, sets quality bars and evals with engineers, and manages risk, cost and adoption.",
     day: ["Customer discovery", "Write specs with eval criteria", "Balance quality vs cost", "Run responsible-AI reviews", "Track adoption"],
     skills: ["Product sense", "AI literacy", "Eval design", "Experimentation", "Governance awareness"],
-    salary: "See Levels.fyi product manager filters.",
+    salary: "Levels.fyi US median total pay for product managers ~$230K (25th–75th: $169K–$330K), Oct 2026; AI PMs sit at the upper end.",
     steps: [
       ["AI for Everyone", "DeepLearning.AI (Coursera)", "https://www.coursera.org/learn/ai-for-everyone", "Free to audit", "Paid certificate"],
       ["AI Fluency", "Anthropic Academy", ANTH, "Free", "Free certificate"],
@@ -168,7 +168,7 @@ const TRACKS_SITE: Track[] = [
     summary: "Designs secure, scalable AI systems on AWS, Azure or Google Cloud: models, data stores, networking, identity and cost.",
     day: ["Draw reference architectures", "Build proofs of concept on Bedrock, Foundry or Vertex AI", "Run security reviews", "Estimate costs"],
     skills: ["One cloud in depth", "Identity & networking", "GenAI services", "RAG / agents"],
-    salary: "See Levels.fyi solutions architect filters.",
+    salary: "Levels.fyi US median total pay ~$218K (25th–75th: $170K–$280K), Oct 2026.",
     steps: [
       ["Cloud Practitioner Essentials + GenAI learning plans", "AWS Skill Builder", "https://skillbuilder.aws/", "Free", "Some free badges"],
       ["AI-901 learning path", "Microsoft Learn", "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/", "Free", "—"],
@@ -194,7 +194,7 @@ const TRACKS_SITE: Track[] = [
       ["ChatGPT Prompt Engineering for Developers", "DeepLearning.AI", "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/", "Free", "—"],
       ["Learn Prompting", "Learn Prompting", "https://learnprompting.org/", "Free", "—"],
       ["Google Prompting Essentials", "Google (Coursera)", "https://grow.google/prompting-essentials/", "Paid", "Paid certificate"],
-      ["AWS AIF-C01 or Microsoft AB-730", "AWS / Microsoft", "https://aws.amazon.com/certification/certified-ai-practitioner/", "$100 / verify", "Certification"],
+      ["AWS AIF-C01 or Microsoft AB-730", "AWS / Microsoft", "https://aws.amazon.com/certification/certified-ai-practitioner/", "$100 / price varies by country", "Certification"],
     ],
     certFree: "Anthropic AI Fluency + OpenAI Academy badge", certPaid: "AWS AIF-C01 ($100) or Microsoft AB-730",
     projects: ["Prompt library with before/after quality scores", "Team assistant with adoption metrics", "Human-reviewed content pipeline"],
@@ -212,6 +212,7 @@ const TRACKS_SITE: Track[] = [
       ["CS336 Language Modeling from Scratch", "Stanford", "https://stanford-cs336.github.io/", "Free", "—"],
       ["Neural Networks: Zero to Hero", "Andrej Karpathy", "https://karpathy.ai/zero-to-hero.html", "Free", "—"],
       ["Reproduce a paper, then submit to a workshop", "arXiv", "https://arxiv.org/", "Free", "—"],
+      ["NVIDIA Generative AI LLMs Professional (NCP-GENL)", "NVIDIA", "https://www.nvidia.com/en-us/learn/certification/", "$200 (optional)", "Certification"],
     ],
     certFree: "Publications matter far more than certificates", certPaid: "Optional: NVIDIA NCP-GENL ($200)",
     projects: ["Paper reproduction with ablations", "Workshop paper", "Small model trained from scratch with scaling plots"],
@@ -220,7 +221,7 @@ const TRACKS_SITE: Track[] = [
     summary: "Builds systems that understand images and video: detection, segmentation, tracking, OCR and vision-language models.",
     day: ["Label and curate image data", "Train detectors and segmenters", "Optimise for edge devices", "Measure accuracy and speed"],
     skills: ["Python", "PyTorch", "OpenCV", "CNNs & vision transformers", "Edge deployment"],
-    salary: "See Levels.fyi ML engineer filters.",
+    salary: "Paid like ML engineers: Levels.fyi US median ~$250K for ML/AI software engineers (25th–75th: $169K–$370K), Oct 2026.",
     steps: [
       ["Computer Vision", "Kaggle Learn", "https://www.kaggle.com/learn/computer-vision", "Free", "Free certificate"],
       ["CS231n", "Stanford", "https://cs231n.github.io/", "Free", "—"],
@@ -237,7 +238,7 @@ const TRACKS_SITE: Track[] = [
     summary: "Builds language systems such as classifiers, extractors, and chat and voice assistants, combining classic NLP, LLMs and speech.",
     day: ["Design conversation flows", "Build intent and entity models", "Ground answers in documents", "Measure latency and accuracy"],
     skills: ["Python", "spaCy / Transformers", "LLM APIs", "Speech", "Evaluation"],
-    salary: "See Levels.fyi ML engineer filters.",
+    salary: "Paid like ML engineers: Levels.fyi US median ~$250K for ML/AI software engineers (25th–75th: $169K–$370K), Oct 2026.",
     steps: [
       ["Advanced NLP with spaCy", "Explosion", "https://course.spacy.io/", "Free", "—"],
       ["LLM Course + Audio Course", "Hugging Face", HF, "Free", "Free certificate"],
@@ -279,7 +280,7 @@ const TRACKS_SITE: Track[] = [
       ["MITRE ATLAS", "MITRE", "https://atlas.mitre.org/", "Free", "—"],
       ["garak / PyRIT / promptfoo", "NVIDIA / Microsoft / promptfoo", "https://github.com/NVIDIA/garak", "Free", "—"],
       ["Red Teaming LLM Applications", "DeepLearning.AI", "https://www.deeplearning.ai/short-courses/red-teaming-llm-applications/", "Free", "—"],
-      ["Microsoft cloud & AI security certification", "Microsoft", "https://learn.microsoft.com/en-us/credentials/", "~$165 (verify status)", "Certification"],
+      ["SC-500: Cloud and AI Security Engineer", "Microsoft", "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500", "Price varies by country", "Certification"],
     ],
     certFree: "Lab completions and published red-team write-ups", certPaid: "Microsoft security certification (check current exam code)",
     projects: ["Red-team report on an open-source RAG app", "garak checks running in CI", "Threat model for an MCP agent"],
@@ -296,7 +297,7 @@ const TRACKS_SITE: Track[] = [
       ["Introduction to Generative AI", "Google Skills", "https://www.cloudskillsboost.google/course_templates/536", "Free", "Free badge"],
       ["AI Fundamentals", "IBM SkillsBuild", "https://skillsbuild.org/", "Free", "Free badge"],
       ["Google AI Essentials", "Google (Coursera)", "https://grow.google/ai-essentials/", "Paid", "Paid certificate"],
-      ["AWS AIF-C01 or Microsoft AB-730", "AWS / Microsoft", "https://aws.amazon.com/certification/certified-ai-practitioner/", "$100 / verify", "Certification"],
+      ["AWS AIF-C01 or Microsoft AB-730", "AWS / Microsoft", "https://aws.amazon.com/certification/certified-ai-practitioner/", "$100 / price varies by country", "Certification"],
     ],
     certFree: "Elements of AI + Anthropic + OpenAI Academy", certPaid: "AWS AIF-C01 ($100)",
     projects: ["Before/after of one workflow showing hours saved", "Team prompt playbook", "A custom GPT or Claude Project for your job"],
@@ -305,7 +306,7 @@ const TRACKS_SITE: Track[] = [
     summary: "Builds robots that perceive and act, combining control, simulation, vision and vision-language-action models.",
     day: ["Build simulation environments", "Train policies from demonstrations", "Integrate sensors", "Test on real hardware"],
     skills: ["Python / C++", "ROS 2", "Control", "Computer vision", "Reinforcement learning"],
-    salary: "See Levels.fyi robotics filters.",
+    salary: "Payscale US median base ~$100K (range $76K–$139K, May 2026); robotics ML roles at AI labs pay like ML engineers (Levels.fyi median ~$280K).",
     steps: [
       ["ROS 2 docs and tutorials", "Open Robotics", "https://docs.ros.org/", "Free", "—"],
       ["Deep RL Course", "Hugging Face", "https://huggingface.co/learn/deep-rl-course", "Free", "Free certificate"],
@@ -319,7 +320,16 @@ const TRACKS_SITE: Track[] = [
     topics: ["robotics", "rl", "vision", "edge-ai"] },
 ];
 
-export const TRACKS: Track[] = TRACKS_SITE.map((t) => ({ ...t, steps: appendUnique(t.steps, ADDITIONS.steps[t.id], (s) => s[2] + "|" + s[0]) }));
+/* Agent-added steps keep the "free first, paid last" order: free ones go before the track's closing paid block. */
+const isFreeStep = (s: Step) => /^free/i.test(s[3]);
+function mergeSteps(base: Step[], add: Step[] | undefined): Step[] {
+  const extra = appendUnique(base, add, (s) => s[2] + "|" + s[0]).slice(base.length);
+  if (!extra.length) return base;
+  let tail = base.length;
+  while (tail > 0 && !isFreeStep(base[tail - 1])) tail--;
+  return [...base.slice(0, tail), ...extra.filter(isFreeStep), ...base.slice(tail), ...extra.filter((s) => !isFreeStep(s))];
+}
+export const TRACKS: Track[] = TRACKS_SITE.map((t) => ({ ...t, steps: mergeSteps(t.steps, ADDITIONS.steps[t.id]) }));
 
 /** [name, code, status, price, url, note] */
 export type CertRow = [string, string, "Live" | "Beta" | "Retired" | "Invite-only", string, string, string];
@@ -332,8 +342,8 @@ export const CERT_BOARD: CertRow[] = [
   ["Microsoft Azure AI Apps and Agents Developer", "AI-103", "Live", "~$165", "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/", "Replaces AI-102 (retired June 30, 2026)"],
   ["Microsoft Machine Learning Operations Engineer", "AI-300", "Live", "~$165", "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300", "Replaces DP-100 (retired June 1, 2026)"],
   ["Microsoft Agentic AI Business Solutions Architect", "AB-100", "Live", "~$165", "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/", "Expert level"],
-  ["Microsoft Multi-Agent AI Solutions Expert", "AI-500", "Beta", "Verify", "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-500/", "Status unconfirmed"],
-  ["Microsoft AI Business Professional", "AB-730", "Live", "Verify", "https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/", "For business users"],
+  ["Microsoft Multi-Agent AI Solutions Expert", "AI-500", "Beta", "Varies by country", "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-500/", "Beta; due to go live Oct 2026"],
+  ["Microsoft AI Business Professional", "AB-730", "Live", "Varies by country", "https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/", "For business users; skills updated Oct 20, 2026"],
   ["Google Cloud Generative AI Leader", "—", "Live", "$99", "https://cloud.google.com/learn/certification/generative-ai-leader", "Non-technical leaders"],
   ["Google Cloud Professional ML Engineer", "PMLE", "Live", "$200", "https://cloud.google.com/learn/certification/machine-learning-engineer", "ML engineers"],
   ["NVIDIA Generative AI LLMs Associate", "NCA-GENL", "Live", "$125", "https://www.nvidia.com/en-us/learn/certification/", "Valid 2 years"],

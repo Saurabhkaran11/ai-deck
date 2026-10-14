@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-14T04:16:02.399Z",
- "count": 124,
+ "generatedAt": "2026-10-14T07:23:09.999Z",
+ "count": 127,
  "topics": {
   "python": {
    "free": [
@@ -84,6 +84,20 @@
     ]
    ]
   },
+  "patterns": {
+   "free": [
+    [
+     "AI agent orchestration patterns",
+     "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns",
+     "Microsoft Azure Architecture Center · Free"
+    ],
+    [
+     "LangGraph: workflows and agents",
+     "https://langchain-ai.github.io/langgraph/tutorials/workflows/",
+     "LangChain · Free tutorial with code"
+    ]
+   ]
+  },
   "vectordb": {
    "free": [
     [
@@ -145,6 +159,15 @@
      "ROS 2 tutorials",
      "https://docs.ros.org/en/jazzy/Tutorials.html",
      "Open Robotics · Free"
+    ]
+   ]
+  },
+  "recsys": {
+   "free": [
+    [
+     "System design for recommendations and search",
+     "https://eugeneyan.com/writing/system-design-for-discovery/",
+     "Eugene Yan · Free"
     ]
    ]
   },

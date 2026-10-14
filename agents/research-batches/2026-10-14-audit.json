@@ -1,0 +1,11 @@
+{
+ "_about": "Audit follow-up 2026-10-14: fill thin topics (patterns, recsys). Import with: npm run agents -- import agents/research-batches/2026-10-14-audit.json",
+ "level-3": [
+  {"kind":"course","target":"patterns","title":"AI agent orchestration patterns","url":"https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns","note":"Microsoft Azure Architecture Center · Free"},
+  {"kind":"course","target":"patterns","title":"LangGraph: workflows and agents","url":"https://langchain-ai.github.io/langgraph/tutorials/workflows/","note":"LangChain · Free tutorial with code"}
+ ],
+ "level-5": [
+  {"kind":"course","target":"recsys","title":"System design for recommendations and search","url":"https://eugeneyan.com/writing/system-design-for-discovery/","note":"Eugene Yan · Free"},
+  {"kind":"course","target":"recsys","title":"Recommender Systems Specialization","url":"https://www.coursera.org/specializations/recommender-systems","note":"University of Minnesota · Coursera, free to audit"}
+ ]
+}

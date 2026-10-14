@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-10-14T04:17:08.195Z",
+ "generatedAt": "2026-10-14T07:24:15.960Z",
  "totals": {
-  "resources": 1343,
-  "onSite": 1342,
-  "fetched": 1237,
-  "researched": 125,
-  "approved": 124,
+  "resources": 1349,
+  "onSite": 1348,
+  "fetched": 1243,
+  "researched": 128,
+  "approved": 127,
   "rejected": 1,
-  "added": 124,
+  "added": 127,
   "updated": 11,
   "pending": 0,
-  "ok": 1149,
+  "ok": 1155,
   "blocked": 53,
   "broken": 0,
   "unchecked": 0
@@ -79,20 +79,20 @@
     "video",
     "repo"
    ],
-   "total": 47,
-   "onSite": 47,
+   "total": 49,
+   "onSite": 49,
    "pending": 0,
    "approved": 0,
-   "added": 7,
+   "added": 9,
    "rejected": 0,
-   "ok": 42,
+   "ok": 44,
    "blocked": 0,
    "broken": 0,
    "unchecked": 0,
-   "fetched": 42,
-   "researched": 7,
+   "fetched": 44,
+   "researched": 9,
    "updated": 0,
-   "lastRun": "2026-10-14T02:59:18.299Z"
+   "lastRun": "2026-10-14T07:23:10.004Z"
   },
   {
    "id": "level-4",
@@ -131,20 +131,20 @@
     "video",
     "repo"
    ],
-   "total": 57,
-   "onSite": 57,
+   "total": 58,
+   "onSite": 58,
    "pending": 0,
    "approved": 0,
-   "added": 6,
+   "added": 7,
    "rejected": 0,
-   "ok": 50,
+   "ok": 51,
    "blocked": 0,
    "broken": 0,
    "unchecked": 0,
-   "fetched": 50,
-   "researched": 6,
+   "fetched": 51,
+   "researched": 7,
    "updated": 0,
-   "lastRun": "2026-10-14T02:59:18.303Z"
+   "lastRun": "2026-10-14T07:23:10.006Z"
   },
   {
    "id": "level-6",
@@ -304,20 +304,20 @@
    "kinds": [
     "step"
    ],
-   "total": 136,
-   "onSite": 136,
+   "total": 139,
+   "onSite": 139,
    "pending": 0,
    "approved": 0,
    "added": 11,
    "rejected": 0,
-   "ok": 135,
+   "ok": 138,
    "blocked": 1,
    "broken": 0,
    "unchecked": 0,
-   "fetched": 136,
+   "fetched": 139,
    "researched": 11,
    "updated": 0,
-   "lastRun": "2026-10-14T04:16:02.414Z"
+   "lastRun": "2026-10-14T07:24:15.368Z"
   },
   {
    "id": "projects",
@@ -367,6 +367,36 @@
   }
  ],
  "recent": [
+  {
+   "agent": "level-5",
+   "kind": "course",
+   "target": "recsys",
+   "targetName": "How recommendations work",
+   "title": "System design for recommendations and search",
+   "url": "https://eugeneyan.com/writing/system-design-for-discovery/",
+   "note": "Eugene Yan · Free",
+   "addedAt": "2026-10-14T07:23:10.005Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "course",
+   "target": "patterns",
+   "targetName": "Ready-made AI workflows",
+   "title": "AI agent orchestration patterns",
+   "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns",
+   "note": "Microsoft Azure Architecture Center · Free",
+   "addedAt": "2026-10-14T07:23:10.003Z"
+  },
+  {
+   "agent": "level-3",
+   "kind": "course",
+   "target": "patterns",
+   "targetName": "Ready-made AI workflows",
+   "title": "LangGraph: workflows and agents",
+   "url": "https://langchain-ai.github.io/langgraph/tutorials/workflows/",
+   "note": "LangChain · Free tutorial with code",
+   "addedAt": "2026-10-14T07:23:10.003Z"
+  },
   {
    "agent": "glossary",
    "kind": "glossary",
@@ -1610,6 +1640,110 @@
  ],
  "runs": [
   {
+   "at": "2026-10-14T07:24:15.368Z",
+   "agent": "careers",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T07:24:14.564Z",
+   "agent": "careers",
+   "command": "sync",
+   "counts": {
+    "indexed": 1
+   }
+  },
+  {
+   "at": "2026-10-14T07:23:10.991Z",
+   "agent": "careers",
+   "command": "check",
+   "counts": {
+    "fetched": 2,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T07:23:10.006Z",
+   "agent": "level-5",
+   "command": "apply",
+   "counts": {
+    "added": 1
+   },
+   "detail": "1 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T07:23:10.004Z",
+   "agent": "level-3",
+   "command": "apply",
+   "counts": {
+    "added": 2
+   },
+   "detail": "2 resource(s) published to the site"
+  },
+  {
+   "at": "2026-10-14T07:23:09.343Z",
+   "agent": "level-5",
+   "command": "approve",
+   "counts": {
+    "approved": 1
+   }
+  },
+  {
+   "at": "2026-10-14T07:23:09.341Z",
+   "agent": "level-3",
+   "command": "approve",
+   "counts": {
+    "approved": 2
+   }
+  },
+  {
+   "at": "2026-10-14T07:23:08.717Z",
+   "agent": "level-5",
+   "command": "check",
+   "counts": {
+    "fetched": 1,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T07:23:08.384Z",
+   "agent": "level-3",
+   "command": "check",
+   "counts": {
+    "fetched": 2,
+    "updated": 0
+   }
+  },
+  {
+   "at": "2026-10-14T07:23:07.353Z",
+   "agent": "level-5",
+   "command": "research",
+   "counts": {
+    "researched": 1
+   },
+   "detail": "import 2026-10-14-audit.json: 1 new, 1 skipped"
+  },
+  {
+   "at": "2026-10-14T07:23:07.343Z",
+   "agent": "level-3",
+   "command": "research",
+   "counts": {
+    "researched": 2
+   },
+   "detail": "import 2026-10-14-audit.json: 2 new, 0 skipped"
+  },
+  {
+   "at": "2026-10-14T07:23:06.742Z",
+   "agent": "careers",
+   "command": "sync",
+   "counts": {
+    "indexed": 2
+   }
+  },
+  {
    "at": "2026-10-14T04:16:02.417Z",
    "agent": "glossary",
    "command": "apply",
@@ -1721,113 +1855,6 @@
     "added": 10
    },
    "detail": "10 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.314Z",
-   "agent": "certificates",
-   "command": "apply",
-   "counts": {
-    "added": 9
-   },
-   "detail": "9 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.311Z",
-   "agent": "tools",
-   "command": "apply",
-   "counts": {
-    "added": 23
-   },
-   "detail": "23 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.308Z",
-   "agent": "level-9",
-   "command": "apply",
-   "counts": {
-    "added": 5
-   },
-   "detail": "5 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.307Z",
-   "agent": "level-8",
-   "command": "apply",
-   "counts": {
-    "added": 8
-   },
-   "detail": "8 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.306Z",
-   "agent": "level-7",
-   "command": "apply",
-   "counts": {
-    "added": 9
-   },
-   "detail": "9 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.304Z",
-   "agent": "level-6",
-   "command": "apply",
-   "counts": {
-    "added": 5
-   },
-   "detail": "5 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.303Z",
-   "agent": "level-5",
-   "command": "apply",
-   "counts": {
-    "added": 6
-   },
-   "detail": "6 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.302Z",
-   "agent": "level-4",
-   "command": "apply",
-   "counts": {
-    "added": 7
-   },
-   "detail": "7 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.299Z",
-   "agent": "level-3",
-   "command": "apply",
-   "counts": {
-    "added": 7
-   },
-   "detail": "7 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.298Z",
-   "agent": "level-2",
-   "command": "apply",
-   "counts": {
-    "added": 6
-   },
-   "detail": "6 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:18.296Z",
-   "agent": "level-1",
-   "command": "apply",
-   "counts": {
-    "added": 6
-   },
-   "detail": "6 resource(s) published to the site"
-  },
-  {
-   "at": "2026-10-14T02:59:17.674Z",
-   "agent": "glossary",
-   "command": "approve",
-   "counts": {
-    "approved": 18
-   }
   }
  ]
 }

@@ -67,7 +67,8 @@ export function screen(a: AgentConfig, list: Candidate[], known: Set<string>, ex
       c.kind !== "glossary" && c.kind !== "project" && !/^https:\/\//.test(c.url ?? "") ? "needs an https URL" :
       uids.has(uidFor(c)) ? "already in this agent's registry" :
       c.url && !reusable(c.kind) && known.has(normUrl(c.url)) ? "already on the site" :
-      titles.has(`${c.kind}|${c.target}|${c.title.toLowerCase()}`) ? "duplicate title" : "";
+      titles.has(`${c.kind}|${c.target}|${c.title.toLowerCase()}`) ? "duplicate title" :
+      similarTo(c, existing) ? `too similar to "${similarTo(c, existing)}"` : "";
     if (why) skipped.push(`${c?.title ?? "?"}: ${why}`);
     else {
       ok.push(c);
@@ -95,4 +96,23 @@ export async function askClaude(prompt: string, env: Record<string, string>): Pr
   if (!r.ok) throw new Error(`Claude API ${r.status}: ${(await r.text()).slice(0, 400)}`);
   const data = (await r.json()) as { content: { type: string; text?: string }[] };
   return data.content.filter((b) => b.type === "text").map((b) => b.text).join("\n");
+}
+
+/* Near-duplicate guard: same kind + target and mostly the same title words
+   (e.g. "ROS 2 tutorials" vs "ROS 2 docs and tutorials"). */
+const STOP = new Set(["the", "and", "for", "with", "course", "courses", "guide", "intro", "introduction", "free", "docs", "tutorial", "tutorials", "learn", "a", "an", "of", "to", "in", "on"]);
+const words = (t: string) => new Set(t.toLowerCase().replace(/[^a-z0-9+ ]/g, " ").split(/\s+/).filter((w) => w.length > 1 && !STOP.has(w)));
+export function similarTo(c: Candidate, existing: Entry[]): string | undefined {
+  const a = words(c.title);
+  if (a.size === 0) return undefined;
+  for (const e of existing) {
+    if (e.kind !== c.kind || e.target !== c.target || e.status === "rejected") continue;
+    const b = words(e.title);
+    if (!b.size) continue;
+    const inter = [...a].filter((w) => b.has(w)).length;
+    const jaccard = inter / (a.size + b.size - inter);
+    const contained = inter === Math.min(a.size, b.size) && Math.min(a.size, b.size) >= 3;
+    if (jaccard >= 0.75 || contained) return e.title;
+  }
+  return undefined;
 }

@@ -1,10 +1,10 @@
 {
  "agent": "careers",
  "name": "Careers agent",
- "updatedAt": "2026-10-14T04:17:07.636Z",
- "total": 136,
+ "updatedAt": "2026-10-14T07:24:15.366Z",
+ "total": 139,
  "byStatus": {
-  "site": 125,
+  "site": 128,
   "added": 11
  },
  "resources": [
@@ -2774,6 +2774,63 @@
    "http": 200,
    "checkedAt": "2026-10-14T04:16:01.279Z",
    "addedAt": "2026-10-14T04:16:02.413Z"
+  },
+  {
+   "kind": "step",
+   "target": "researcher",
+   "title": "NVIDIA Generative AI LLMs Professional (NCP-GENL)",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "note": "NVIDIA · $200 (optional)",
+   "extra": {
+    "provider": "NVIDIA",
+    "cost": "$200 (optional)",
+    "cert": "Certification"
+   },
+   "uid": "91fb7a53e4dd",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T07:23:06.725Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T07:23:10.989Z"
+  },
+  {
+   "kind": "step",
+   "target": "ai-security",
+   "title": "SC-500: Cloud and AI Security Engineer",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
+   "note": "Microsoft · Price varies by country",
+   "extra": {
+    "provider": "Microsoft",
+    "cost": "Price varies by country",
+    "cert": "Certification"
+   },
+   "uid": "92f281328557",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T07:23:06.726Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T07:23:10.789Z"
+  },
+  {
+   "kind": "step",
+   "target": "swe-ai",
+   "title": "GitHub Copilot certification (GH-300)",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/",
+   "note": "GitHub / Microsoft · Paid (price varies by country)",
+   "extra": {
+    "provider": "GitHub / Microsoft",
+    "cost": "Paid (price varies by country)",
+    "cert": "Certification"
+   },
+   "uid": "2599cdea4b0b",
+   "origin": "site",
+   "status": "site",
+   "firstSeen": "2026-10-14T07:24:14.546Z",
+   "linkState": "ok",
+   "http": 200,
+   "checkedAt": "2026-10-14T07:24:15.366Z"
   }
  ]
 }

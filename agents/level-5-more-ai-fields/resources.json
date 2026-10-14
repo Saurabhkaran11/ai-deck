@@ -1,11 +1,11 @@
 {
  "agent": "level-5",
  "name": "Level 5 · More AI fields agent",
- "updatedAt": "2026-10-14T04:17:07.631Z",
- "total": 57,
+ "updatedAt": "2026-10-14T07:24:14.552Z",
+ "total": 58,
  "byStatus": {
   "site": 51,
-  "added": 6
+  "added": 7
  },
  "resources": [
   {
@@ -908,6 +908,35 @@
    "http": 200,
    "checkedAt": "2026-10-14T02:57:57.798Z",
    "addedAt": "2026-10-14T02:59:18.303Z"
+  },
+  {
+   "uid": "93528882c278",
+   "kind": "course",
+   "target": "recsys",
+   "title": "System design for recommendations and search",
+   "url": "https://eugeneyan.com/writing/system-design-for-discovery/",
+   "note": "Eugene Yan · Free",
+   "origin": "research",
+   "status": "added",
+   "firstSeen": "2026-10-14T07:23:07.352Z",
+   "linkState": "ok",
+   "history": [
+    {
+     "at": "2026-10-14T07:23:07.352Z",
+     "change": "found via import 2026-10-14-audit.json"
+    },
+    {
+     "at": "2026-10-14T07:23:09.343Z",
+     "change": "approved"
+    },
+    {
+     "at": "2026-10-14T07:23:10.005Z",
+     "change": "applied to website"
+    }
+   ],
+   "http": 200,
+   "checkedAt": "2026-10-14T07:23:08.716Z",
+   "addedAt": "2026-10-14T07:23:10.005Z"
   }
  ]
 }
