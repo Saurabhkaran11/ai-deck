@@ -7,11 +7,13 @@ export function generateStaticParams() {
   return PATH_IDS.map((id) => ({ id }));
 }
 
-export function generateMetadata({ params }: { params: { id: string } }): Metadata {
-  const p = PLAIN[params.id];
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const p = PLAIN[id];
   return { title: p?.title ?? "Your topic", description: p?.simple };
 }
 
-export default function Page({ params }: { params: { id: string } }) {
-  return <TopicPage id={params.id} />;
+export default async function Page({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  return <TopicPage id={id} />;
 }

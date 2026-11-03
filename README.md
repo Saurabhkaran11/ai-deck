@@ -3,7 +3,7 @@
 A glass-design learning deck built on the **AI Engineering Metro Map**. The left pane lists every station grouped by metro line (plus a Tools & Certificates hub and your own learnings); the right pane shows the selected topic: summary, key concepts, learning path, free resources, best paid pick, free certificates, YouTube links, a business idea, and your own note and link cards.
 
 ## Tech stack
-- Next.js 14 (App Router) + React 18 + TypeScript
+- Next.js 16 (App Router) + React 19 + TypeScript
 - Plain CSS (glassmorphism with `backdrop-filter`), fonts via `next/font/google`
 - Browser `localStorage` for your notes, links and custom learnings (no backend needed)
 
@@ -39,7 +39,7 @@ agents/              14 resource agents (one per level + feature), each with age
 ```
 
 ## Setup
-1. Install Node.js 18.17 or newer (https://nodejs.org).
+1. Install Node.js 20.9 or newer (https://nodejs.org).
 2. Unzip the project and open a terminal in the `ai-deck` folder.
 3. Install dependencies:
    ```bash
@@ -58,9 +58,12 @@ npm run build
 npm start
 ```
 
-## Deploy (free)
-- **Vercel**: push the folder to GitHub, then import it at https://vercel.com/new. No configuration needed.
-- **Netlify**: https://app.netlify.com/start, build command `npm run build`.
+## Deploy
+Host: Vercel (free tier). Import the repo at https://vercel.com/new. It needs no environment variables, no database and no API keys.
+
+The site is static content. Notes and progress stay in the visitor's browser. Nothing here has been deployed from this repo yet, so the link is yours to add.
+
+The resource agents are a separate command-line tool for the owner. They are not part of the deployed site. Only `research` needs `ANTHROPIC_API_KEY` in `agents/.env`.
 
 ## Using AI Deck
 - Start on **Learn**, open a topic, read “In simple words”, then work through the tabs.
@@ -91,4 +94,4 @@ Full guide: [`agents/README.md`](agents/README.md).
 ## Next steps (optional upgrades)
 - Sync notes across devices with Supabase (free tier): https://supabase.com
 - Add sign-in with NextAuth / Auth.js: https://authjs.dev
-- Add progress tracking (mark stations as done) and export notes to Markdown.
+- Export notes to Markdown.
