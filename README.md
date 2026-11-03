@@ -16,7 +16,7 @@ A glass-design learning deck built on the **AI Engineering Metro Map**. The left
 - **AI Tools** (`/tools`): 150+ tools with search and price filters
 - **Certificates** (`/certificates`): every free certificate and paid exam, by provider
 - **My Notes** (`/notes`): your notes, links and own topics
-- **Glossary** (`/glossary`): 44 AI terms in plain English
+- **Glossary** (`/glossary`): 45 AI terms in plain English
 - **Resource tracker** (`/tracker`): what the 14 resource agents have fetched, researched and added
 
 ## Project structure
@@ -61,7 +61,7 @@ npm start
 ## Deploy
 Host: Vercel (free tier). Import the repo at https://vercel.com/new. It needs no environment variables, no database and no API keys.
 
-The site is static content. Notes and progress stay in the visitor's browser. Nothing here has been deployed from this repo yet, so the link is yours to add.
+The site is static content. Notes and progress stay in the visitor's browser.
 
 The resource agents are a separate command-line tool for the owner. They are not part of the deployed site. Only `research` needs `ANTHROPIC_API_KEY` in `agents/.env`.
 
